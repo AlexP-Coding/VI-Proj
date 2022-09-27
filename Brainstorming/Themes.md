@@ -1,0 +1,13 @@
+- Movie ge3res
+- Music ge3res
+- Movie services
+- Impact of wolf itroductio to yellowstoe
+- Mental illness
+- Grades MEPP vs pre-MEPP, student+teacher satisfaction
+- Minimum wage vs cost of living vs nr of children born vs use of contraceptives vs child support
+- Covid
+- Game analysis (videogame, actual game which we cann simulate to get various results)
+
+- Pokemon type/stats vs league winners
+- Videogame sales by genre, country, price, reviews...
+- Anime genre by country
