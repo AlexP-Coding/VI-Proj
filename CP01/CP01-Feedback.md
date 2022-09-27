@@ -1,3 +1,5 @@
+Nota expectável: > 15
+
 Pontos positivos:
 - Tema interessante
 - Forma de explorar interessante
