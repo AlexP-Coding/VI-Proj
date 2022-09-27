@@ -16,4 +16,4 @@ by an item in use``` -> ```How is a move's power influenced by the speed stat of
     - Does attribute X influence Y Stats?
     - Does X type influence Stats?
     - Do Pokémon with 2 Types have better Stats than single-type Pokémon?
-- Fazer primeiro o CP02 (data de entrega: 30 set 23h59) e depois sim fazer os improvements (data de entrega: 3 out 23h59)
+- Fazer primeiro o CP02 (data de entrega: 30 set 23h59) e depois sim fazer os improvements (data de entrega: 4 out 15h59)
