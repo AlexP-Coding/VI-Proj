@@ -1,0 +1,1 @@
+Safeness = Power * Accuracy (on percentage) * (PP/40);
