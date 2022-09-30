@@ -787,36 +787,36 @@ Zap Cannon,Electric,120,50,5,Special
 Zen Headbutt,Psychic,80,90,15,Physical
 Zing Zap,Electric,80,100,10,Physical
 Zippy Zap,Electric,50,100,15,Physical
-G-Max Vine Lash,Grass,NULL,101,10,
-G-Max Wildfire,Fire,NULL,101,10,
-G-Max Cannonade,Water,NULL,101,10,
-G-Max Befuddle,Bug,NULL,101,5,
-G-Max Volt Crash,Electric,NULL,101,10,
-G-Max Gold Rush,Normal,NULL,101,5,
-G-Max Chi Strike,Fighting,NULL,101,5,
-G-Max Terror,Ghost,NULL,101,10,
-G-Max Foam Burst,Water,NULL,101,5,
-G-Max Resonance,Ice,NULL,101,5,
-G-Max Cuddle,Normal,NULL,101,5,
-G-Max Replenish,Normal,NULL,101,5,
-G-Max Malodor,Poison,NULL,101,5,
-G-Max Meltdown,Steel,NULL,101,5,
-G-Max Drum Solo,Grass,NULL,101,5,
-G-Max Fireball,Fire,NULL,101,5,
-G-Max Hydrosnipe,Water,NULL,101,5,
-G-Max Wind Rage,Flying,NULL,101,10,
-G-Max Gravitas,Psychic,NULL,101,5,
-G-Max Stonesurge,Water,NULL,101,5,
-G-Max Volcalith,Rock,NULL,101,10,
-G-Max Tartness,Grass,NULL,101,10,
-G-Max Sweetness,Grass,NULL,101,10,
-G-Max Sandblast,Ground,NULL,101,5,
-G-Max Stun Shock,Electric,NULL,101,10,
-G-Max Centiferno,Fire,NULL,101,5,
-G-Max Smite,Fairy,NULL,101,5,
-G-Max Snooze,Dark,NULL,101,5,
-G-Max Finale,Fairy,NULL,101,5,
-G-Max Steelsurge,Steel,NULL,101,5,
-G-Max Depletion,Dragon,NULL,101,5,
-G-Max One Blow,Dark,NULL,101,5,
-G-Max Rapid Flow,Water,NULL,101,5,
+G-Max Vine Lash,Grass,NULL,101,10,NULL
+G-Max Wildfire,Fire,NULL,101,10,NULL
+G-Max Cannonade,Water,NULL,101,10,NULL
+G-Max Befuddle,Bug,NULL,101,5,NULL
+G-Max Volt Crash,Electric,NULL,101,10,NULL
+G-Max Gold Rush,Normal,NULL,101,5,NULL
+G-Max Chi Strike,Fighting,NULL,101,5,NULL
+G-Max Terror,Ghost,NULL,101,10,NULL
+G-Max Foam Burst,Water,NULL,101,5,NULL
+G-Max Resonance,Ice,NULL,101,5,NULL
+G-Max Cuddle,Normal,NULL,101,5,NULL
+G-Max Replenish,Normal,NULL,101,5,NULL
+G-Max Malodor,Poison,NULL,101,5,NULL
+G-Max Meltdown,Steel,NULL,101,5,NULL
+G-Max Drum Solo,Grass,NULL,101,5,NULL
+G-Max Fireball,Fire,NULL,101,5,NULL
+G-Max Hydrosnipe,Water,NULL,101,5,NULL
+G-Max Wind Rage,Flying,NULL,101,10,NULL
+G-Max Gravitas,Psychic,NULL,101,5,NULL
+G-Max Stonesurge,Water,NULL,101,5,NULL
+G-Max Volcalith,Rock,NULL,101,10,NULL
+G-Max Tartness,Grass,NULL,101,10,NULL
+G-Max Sweetness,Grass,NULL,101,10,NULL
+G-Max Sandblast,Ground,NULL,101,5,NULL
+G-Max Stun Shock,Electric,NULL,101,10,NULL
+G-Max Centiferno,Fire,NULL,101,5,NULL
+G-Max Smite,Fairy,NULL,101,5,NULL
+G-Max Snooze,Dark,NULL,101,5,NULL
+G-Max Finale,Fairy,NULL,101,5,NULL
+G-Max Steelsurge,Steel,NULL,101,5,NULL
+G-Max Depletion,Dragon,NULL,101,5,NULL
+G-Max One Blow,Dark,NULL,101,5,NULL
+G-Max Rapid Flow,Water,NULL,101,5,NULL
