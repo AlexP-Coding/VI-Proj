@@ -1,4 +1,4 @@
-Nota expectável: > 15
+Nota Inicial:  16.4
 
 Pontos positivos:
 - Tema interessante
