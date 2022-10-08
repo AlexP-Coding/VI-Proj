@@ -26,6 +26,8 @@ create table pkmn_move (
     "Probability (%)" float,
     constraint pk_move primary key("Move"),
     constraint fk_move_type foreign key("Type") references pkmn_type("Type")
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
 );
 
 create table pkmn_pokemon (
@@ -52,16 +54,24 @@ create table pkmn_pokemon (
     "Usage (%)" float,
     "Monthly Rank" varchar(255),
     constraint pk_pokemon primary key("Pokemon"),
-    constraint fk_pokemon_type1 foreign key("Type1") references pkmn_type("Type"),
+    constraint fk_pokemon_type1 foreign key("Type1") references pkmn_type("Type")
+        ON UPDATE CASCADE
+        ON DELETE CASCADE,
     constraint fk_pokemon_type2 foreign key("Type2") references pkmn_type("Type")
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
 );
 
 create table pkmn_move_may_learn (
     "Move" varchar(255),
     "Pokemon" varchar(255),
     constraint pk_move_may_learn primary key("Move", "Pokemon"),
-    constraint fk_move_may_learn_move foreign key("Move") references pkmn_move("Move"),
+    constraint fk_move_may_learn_move foreign key("Move") references pkmn_move("Move")
+        ON UPDATE CASCADE
+        ON DELETE CASCADE,
     constraint fk_move_may_learn_pokemon foreign key("Pokemon") references pkmn_pokemon("Pokemon")
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
 );
 
 create table pkmn_used_in_teams_with (
@@ -69,8 +79,12 @@ create table pkmn_used_in_teams_with (
     "Pokemon" varchar(255),
     "Teammate" varchar(255),
     constraint pk_used_in_teams_with primary key("Pokemon", "Teammate"),
-    constraint fk_used_in_teams_with_pokemon foreign key("Pokemon") references pkmn_pokemon("Pokemon"),
+    constraint fk_used_in_teams_with_pokemon foreign key("Pokemon") references pkmn_pokemon("Pokemon")
+        ON UPDATE CASCADE
+        ON DELETE CASCADE,
     constraint fk_used_in_teams_with_teammate foreign key("Teammate") references pkmn_pokemon("Pokemon")
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
 );
 
 create table pkmn_used_with_move (
@@ -79,6 +93,10 @@ create table pkmn_used_with_move (
     "Pokemon" varchar(255),
     "Name" varchar(255),
     constraint pk_used_with_move primary key("Move", "Pokemon"),
-    constraint fk_used_with_move_move foreign key("Move") references pkmn_move("Move"),
+    constraint fk_used_with_move_move foreign key("Move") references pkmn_move("Move")
+        ON UPDATE CASCADE
+        ON DELETE CASCADE,
     constraint fk_used_with_move_pokemon foreign key("Pokemon") references pkmn_pokemon("Pokemon")
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
 );

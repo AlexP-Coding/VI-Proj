@@ -242,7 +242,7 @@ INSERT INTO pkmn_move VALUES ('Focus Punch',3,'Fighting',150,100,20,'Physical','
 INSERT INTO pkmn_move VALUES ('Follow Me',3,'Normal',NULL,NULL,20,'Status','In Double Battle, the user takes all the attacks.',NULL);
 INSERT INTO pkmn_move VALUES ('Force Palm',4,'Fighting',60,100,10,'Physical','May paralyze opponent.',30);
 INSERT INTO pkmn_move VALUES ('Foresight',2,'Normal',NULL,NULL,40,'Status','Resets opponent''s Evasiveness, Normal-type and Fighting-type attacks can now hit Ghosts, and Ghost-type attacks hit Normal.',NULL);
-INSERT INTO pkmn_move VALUES ('Forest''S Curse',6,'Grass',NULL,100,20,'Status','Adds Grass type to opponent.',NULL);
+INSERT INTO pkmn_move VALUES ('Forest''s Curse',6,'Grass',NULL,100,20,'Status','Adds Grass type to opponent.',NULL);
 INSERT INTO pkmn_move VALUES ('Foul Play',5,'Dark',95,100,15,'Physical','Uses the opponent''s Attack stat.',NULL);
 INSERT INTO pkmn_move VALUES ('Freeze Dry',6,'Ice',70,100,20,'Special','May freeze opponent. Super-effective against Water types.',10);
 INSERT INTO pkmn_move VALUES ('Freeze Shock',5,'Ice',140,90,5,'Physical','Charges on first turn, attacks on second. May paralyze opponent.',30);
@@ -350,9 +350,9 @@ INSERT INTO pkmn_move VALUES ('Jump Kick',1,'Fighting',100,95,10,'Physical','If 
 INSERT INTO pkmn_move VALUES ('Jungle Healing',8,'Grass',NULL,NULL,10,'Status','Restores team''s HP and cures status conditions.',NULL);
 INSERT INTO pkmn_move VALUES ('Karate Chop',1,'Fighting',50,100,25,'Physical','High critical hit ratio.',NULL);
 INSERT INTO pkmn_move VALUES ('Kinesis',1,'Psychic',NULL,80,15,'Status','Lowers opponent''s Accuracy.',NULL);
-INSERT INTO pkmn_move VALUES ('King''S Shield',6,'Steel',NULL,NULL,10,'Status','Protects the user and lowers opponent''s Attack on contact.',NULL);
+INSERT INTO pkmn_move VALUES ('King''s Shield',6,'Steel',NULL,NULL,10,'Status','Protects the user and lowers opponent''s Attack on contact.',NULL);
 INSERT INTO pkmn_move VALUES ('Knock Off',3,'Dark',65,100,20,'Physical','Removes opponent''s held item for the rest of the battle.',NULL);
-INSERT INTO pkmn_move VALUES ('Land''S Wrath',6,'Ground',90,100,10,'Physical',NULL,NULL);
+INSERT INTO pkmn_move VALUES ('Land''s Wrath',6,'Ground',90,100,10,'Physical',NULL,NULL);
 INSERT INTO pkmn_move VALUES ('Laser Focus',7,'Normal',NULL,NULL,30,'Status','User''s next attack is guaranteed to result in a critical hit.',NULL);
 INSERT INTO pkmn_move VALUES ('Lash Out',8,'Dark',75,100,5,'Physical','Double power if stats were lowered during the turn.',NULL);
 INSERT INTO pkmn_move VALUES ('Last Resort',4,'Normal',140,100,5,'Physical','Can only be used after all other moves are used.',NULL);
@@ -452,7 +452,7 @@ INSERT INTO pkmn_move VALUES ('Mystical Fire',6,'Fire',75,100,10,'Special','Lowe
 INSERT INTO pkmn_move VALUES ('Nasty Plot',4,'Dark',NULL,NULL,20,'Status','Sharply raises user''s Special Attack.',NULL);
 INSERT INTO pkmn_move VALUES ('Natural Gift',4,'Normal',NULL,100,15,'Physical','Power and type depend on the user''s held berry.',NULL);
 INSERT INTO pkmn_move VALUES ('Nature Power',3,'Normal',NULL,NULL,20,'Status','Uses a certain move based on the current terrain.',NULL);
-INSERT INTO pkmn_move VALUES ('Nature''S Madness',7,'Fairy',NULL,90,10,'Special','Halves the foe''s HP.',NULL);
+INSERT INTO pkmn_move VALUES ('Nature''s Madness',7,'Fairy',NULL,90,10,'Special','Halves the foe''s HP.',NULL);
 INSERT INTO pkmn_move VALUES ('Needle Arm',3,'Grass',60,100,15,'Physical','May cause flinching.',30);
 INSERT INTO pkmn_move VALUES ('Night Daze',5,'Dark',85,95,10,'Special','May lower opponent''s Accuracy.',40);
 INSERT INTO pkmn_move VALUES ('Night Shade',1,'Ghost',NULL,100,15,'Special','Inflicts damage equal to user''s level.',NULL);
