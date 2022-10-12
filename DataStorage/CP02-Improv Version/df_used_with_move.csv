@@ -1,0 +1,3145 @@
+Move,Use Percentage,Pokemon,Monthly Move Use,Damage Class,Type1,Type2
+Behemoth Blade,99.996,Zacian Crowned Sword,1087.95648,Physical,Fairy,Steel
+Protect,98.672,Zacian Crowned Sword,1073.55136,Status,Fairy,Steel
+Protect,72.095,Regieleki,434.73285,Status,Electric,Electric
+Protect,47.379,Rillaboom,228.36678,Status,Grass,Grass
+Protect,71.432,Calyrex Shadow Rider,259.29816,Status,Psychic,Ghost
+Protect,18.17,Thundurus Incarnate Forme,63.9584,Status,Electric,Flying
+Protect,38.395,Landorus Therian Forme,141.67755,Status,Ground,Flying
+Protect,96.36,Gastrodon,381.5856,Status,Water,Ground
+Protect,83.021,Charizard,285.59224,Status,Fire,Flying
+Protect,87.546,Amoonguss,306.411,Status,Grass,Poison
+Protect,86.716,Indeedee Female,335.59092,Status,Normal,Psychic
+Protect,22.509,Whimsicott,95.66325,Status,Grass,Fairy
+Protect,50.254,Calyrex Ice Rider,147.74676,Status,Psychic,Ice
+Protect,72.217,Tornadus Incarnate Forme,137.93447,Status,Flying,Flying
+Protect,50.897,Zapdos,85.50696,Status,Electric,Flying
+Protect,6.683,Blastoise,6.54934,Status,Water,Water
+Protect,21.665,Venusaur,44.1966,Status,Grass,Poison
+Protect,81.649,Ferrothorn,106.96019,Status,Grass,Steel
+Protect,34.116,Urshifu Single Strike Style,42.645,Status,Fighting,Dark
+Protect,16.046,Shedinja,6.73932,Status,Bug,Ghost
+Protect,80.649,Torkoal,50.80887,Status,Fire,Fire
+Protect,63.421,Kingdra,23.46577,Status,Water,Dragon
+Protect,99.905,Weezing,42.95915,Status,Poison,Poison
+Protect,13.979,Entei,6.9895,Status,Fire,Fire
+Protect,67.535,White Kyurem,64.15825,Status,Dragon,Ice
+Protect,66.133,Tapu Fini,48.93842,Status,Water,Fairy
+Protect,41.898,Urshifu Rapid Strike Style,24.30084,Status,Water,Fighting
+Protect,8.373,Mimikyu,9.54522,Status,Ghost,Fairy
+Protect,10.11,Gothitelle,2.022,Status,Psychic,Psychic
+Protect,19.664,Seismitoad,11.60176,Status,Water,Ground
+Protect,38.355,Heat Rotom,16.49265,Status,Electric,Fire
+Protect,52.181,Eternatus,21.39421,Status,Poison,Dragon
+Protect,33.156,Regigigas,12.26772,Status,Normal,Normal
+Protect,7.227,Cinderace,3.25215,Status,Fire,Fire
+Protect,28.78,Togekiss,11.2242,Status,Fairy,Flying
+Protect,95.081,Coalossal,38.0324,Status,Fire,Rock
+Protect,15.463,Dragapult,8.35002,Status,Ghost,Dragon
+Protect,40.43,Comfey,21.8322,Status,Fairy,Fairy
+Protect,75.603,Lapras,46.11783,Status,Water,Ice
+Protect,11.105,Spectrier,2.10995,Status,Ghost,Ghost
+Protect,92.208,Zygarde Complete Forme,38.72736,Status,Ground,Dragon
+Protect,98.706,Mamoswine,15.79296,Status,Ice,Ground
+Protect,16.709,Barraskewda,6.18233,Status,Water,Water
+Protect,56.26,Celesteela,14.6276,Status,Flying,Steel
+Protect,31.412,Metagross,8.48124,Status,Psychic,Steel
+Protect,63.689,Araquanid,9.55335,Status,Bug,Water
+Protect,34.151,Pheromosa,9.90379,Status,Bug,Fighting
+Protect,29.617,Arcanine,6.81191,Status,Fire,Fire
+Protect,24.521,Zamazenta Crowned Shield,10.05361,Status,Fighting,Steel
+Protect,87.372,Clefairy,21.843,Status,Fairy,Fairy
+Protect,12.797,Suicune,3.58316,Status,Water,Water
+Protect,39.259,Landorus Incarnate Forme,9.02957,Status,Ground,Flying
+Protect,17.619,Dusk Mane Necrozma,8.63331,Status,Psychic,Steel
+Protect,28.23,Alcremie,5.0814,Status,Fairy,Fairy
+Protect,54.95,Tapu Koko,14.8365,Status,Electric,Fairy
+Protect,10.076,Hydreigon,1.30988,Status,Dark,Dragon
+Protect,5.447,Weavile,0.76258,Status,Dark,Ice
+Protect,15.987,Tsareena,4.15662,Status,Grass,Grass
+Protect,72.366,Glastrier,9.40758,Status,Ice,Ice
+Protect,45.752,Dracovish,14.64064,Status,Water,Dragon
+Protect,26.551,Regidrago,3.18612,Status,Dragon,Dragon
+Protect,55.975,Shuckle,3.91825,Status,Rock,Bug
+Protect,13.49,Galarian Zapdos,3.5074,Status,Fighting,Flying
+Protect,53.139,Volcarona,14.87892,Status,Fire,Bug
+Protect,16.243,Snorlax,2.92374,Status,Normal,Normal
+Protect,20.099,Stakataka,4.62277,Status,Steel,Rock
+Protect,61.679,Thundurus Therian Forme,5.55111,Status,Electric,Flying
+Protect,64.149,Galarian Moltres,22.45215,Status,Dark,Flying
+Protect,10.561,Talonflame,2.32342,Status,Fire,Flying
+Protect,28.812,Milotic,8.6436,Status,Water,Water
+Protect,23.569,Klinklang,208.34996,Status,Steel,Steel
+Protect,49.926,Inteleon,5.49186,Status,Water,Water
+Protect,85.435,Salamence,6.8348,Status,Flying,Dragon
+Protect,16.234,Hatterene,3.57148,Status,Psychic,Fairy
+Protect,61.313,Escavalier,5.51817,Status,Bug,Steel
+Protect,25.385,Wash Rotom,4.0616,Status,Electric,Water
+Protect,91.495,Politoed,6.40465,Status,Water,Water
+Protect,54.366,Ludicolo,8.69856,Status,Water,Grass
+Protect,13.688,Slowking,0.27376,Status,Water,Psychic
+Protect,86.11,Azumarill,7.7499,Status,Water,Fairy
+Protect,21.058,Galarian Articuno,2.94812,Status,Psychic,Flying
+Protect,70.131,Tyranitar,16.83144,Status,Rock,Dark
+Protect,39.686,Pikachu,5.15918,Status,Electric,Electric
+Protect,34.66,Alolan Ninetales,5.5456,Status,Ice,Fairy
+Protect,61.602,Alolan Marowak,9.85632,Status,Fire,Ghost
+Protect,23.582,Slowbro,0.94328,Status,Water,Psychic
+Protect,89.46,Giratina Origin Forme,14.3136,Status,Ghost,Dragon
+Protect,92.099,Pelipper,7.36792,Status,Water,Flying
+Protect,98.182,Galarian Weezing,7.85456,Status,Poison,Fairy
+Protect,34.467,Kingler,3.10203,Status,Water,Water
+Protect,5.918,Oranguru,1.00606,Status,Normal,Psychic
+Protect,79.896,Nihilego,5.59272,Status,Rock,Poison
+Protect,36.337,Gyarados,5.45055,Status,Water,Flying
+Protect,78.372,Garchomp,11.7558,Status,Ground,Dragon
+Protect,3.302,Heliolisk,0.26416,Status,Electric,Normal
+Protect,95.512,Tapu Bulu,1.91024,Status,Grass,Fairy
+Protect,70.513,Moltres,2.11539,Status,Fire,Flying
+Protect,55.764,Krookodile,6.13404,Status,Ground,Dark
+Protect,52.241,Excadrill,5.2241,Status,Ground,Steel
+Protect,25.828,Primarina,2.84108,Status,Water,Fairy
+Protect,31.68,Chandelure,2.8512,Status,Fire,Ghost
+Protect,7.983,Toxicroak,0.15966,Status,Poison,Fighting
+Protect,77.202,Dracozolt,6.17616,Status,Electric,Dragon
+Protect,12.192,Sceptile,0.6096,Status,Grass,Grass
+Protect,59.938,Pincurchin,5.39442,Status,Electric,Electric
+Protect,53.474,Centiskorch,6.41688,Status,Fire,Bug
+Protect,12.887,Greedent,0.12887,Status,Normal,Normal
+Protect,45.254,Porygon-Z,3.16778,Status,Normal,Normal
+Protect,16.718,Butterfree,2.67488,Status,Bug,Flying
+Protect,16.667,Lucario,1.50003,Status,Fighting,Steel
+Protect,39.933,Mudsdale,2.39598,Status,Ground,Ground
+Protect,74.909,Cherrim,5.99272,Status,Grass,Grass
+Protect,94.922,Exeggutor,2.84766,Status,Grass,Psychic
+Protect,36.205,Altaria,1.08615,Status,Flying,Dragon
+Protect,7.055,Klefki,0.35275,Status,Fairy,Steel
+Protect,38.745,Gigalith,1.5498,Status,Rock,Rock
+Protect,16.695,Riolu,2.17035,Status,Fighting,Fighting
+Protect,37.799,Mandibuzz,1.13397,Status,Dark,Flying
+Protect,88.577,Lurantis,3.54308,Status,Grass,Grass
+Protect,13.812,Dragonite,1.3812,Status,Flying,Dragon
+Protect,9.63,Darmanitan Standard Mode,0.2889,Status,Fire,Fire
+Protect,76.158,Cradily,8.37738,Status,Rock,Grass
+Protect,11.164,Scrafty,0.66984,Status,Fighting,Dark
+Protect,14.602,Aerodactyl,0.7301,Status,Rock,Flying
+Protect,82.275,Kabutops,3.291,Status,Water,Rock
+Protect,11.529,Articuno,0.46116,Status,Ice,Flying
+Protect,34.539,Blacephalon,3.10851,Status,Fire,Ghost
+Protect,27.218,Duraludon,2.17744,Status,Steel,Dragon
+Protect,5.38,Drednaw,0.2152,Status,Water,Rock
+Protect,63.329,Heatran,5.69961,Status,Fire,Steel
+Protect,89.806,Clefable,6.28642,Status,Fairy,Fairy
+Protect,77.286,Appletun,3.09144,Status,Grass,Dragon
+Protect,28.99,Bisharp,2.899,Status,Dark,Steel
+Protect,98.265,Registeel,2.94795,Status,Steel,Steel
+Protect,58.95,Rhyperior,5.3055,Status,Ground,Rock
+Protect,99.276,Stonjourner,2.97828,Status,Rock,Rock
+Protect,7.591,Leafeon,0.37955,Status,Grass,Grass
+Protect,20.232,Abomasnow,1.0116,Status,Grass,Ice
+Protect,50.219,Diggersby,0.50219,Status,Normal,Ground
+Protect,71.993,Giratina Altered Forme,6.47937,Status,Ghost,Dragon
+Protect,85.271,Swoobat,1.70542,Status,Psychic,Flying
+Protect,38,Vikavolt,1.14,Status,Bug,Electric
+Protect,52.899,Durant,2.11596,Status,Bug,Steel
+Protect,17.115,Cresselia,1.7115,Status,Psychic,Psychic
+Protect,93.21,Wishiwashi Solo Form,0.9321,Status,Water,Water
+Protect,45.108,Conkeldurr,4.5108,Status,Fighting,Fighting
+Protect,49.036,Boltund,0.98072,Status,Electric,Electric
+Protect,94.208,Terrakion,4.7104,Status,Rock,Fighting
+Protect,15.715,Cobalion,0.9429,Status,Fighting,Steel
+Protect,87.031,Black Kyurem,6.09217,Status,Dragon,Ice
+Protect,10.292,Mantine,0.30876,Status,Water,Flying
+Protect,73.416,Machamp,2.93664,Status,Fighting,Fighting
+Protect,16.916,Goodra,1.01496,Status,Dragon,Dragon
+Protect,64.083,Accelgor,4.48581,Status,Bug,Bug
+Protect,40.282,Xurkitree,1.61128,Status,Electric,Electric
+Protect,92.519,Tauros,2.77557,Status,Normal,Normal
+Protect,99.3,Garbodor,0.993,Status,Poison,Poison
+Protect,85.223,Luxray,1.70446,Status,Electric,Electric
+Protect,12.018,Dugtrio,0.36054,Status,Ground,Ground
+Protect,54.646,Mow Rotom,1.63938,Status,Electric,Grass
+Protect,24.122,Gengar,2.4122,Status,Ghost,Poison
+Protect,98.813,Glaceon,0.98813,Status,Ice,Ice
+Protect,39.458,Palossand,1.9729,Status,Ground,Ghost
+Protect,4.883,Espeon,0.14649,Status,Psychic,Psychic
+Protect,87.579,Tyrantrum,803.97522,Status,Rock,Dragon
+Protect,10.94,Cinccino,0.3282,Status,Normal,Normal
+Protect,87.442,Kommo-o,1.74884,Status,Dragon,Fighting
+Protect,60.618,Cloyster,1.21236,Status,Water,Ice
+Protect,78.281,Blaziken,4.69686,Status,Fire,Fighting
+Protect,13.994,Drampa,0.55976,Status,Normal,Dragon
+Protect,12.672,Grapploct,0,Status,Fighting,Fighting
+Protect,47.421,Zoroark,0,Status,Dark,Dark
+Protect,36.674,Lilligant,0,Status,Grass,Grass
+Protect,25.162,Clawitzer,0,Status,Water,Water
+Protect,6.573,Haxorus,0,Status,Dragon,Dragon
+Protect,38.417,Dhelmise,0,Status,Grass,Ghost
+Protect,11.221,Runerigus,0,Status,Ground,Ghost
+Protect,70.32,Braviary,0,Status,Normal,Flying
+Protect,67.304,Virizion,0,Status,Grass,Fighting
+Protect,73.459,Togetic,0,Status,Fairy,Flying
+Protect,40.703,Alolan Raichu,0,Status,Electric,Psychic
+Protect,25.439,Beartic,0,Status,Ice,Ice
+Protect,28.401,Copperajah,0,Status,Steel,Steel
+Protect,75.794,Flapple,0,Status,Grass,Dragon
+Protect,59.852,Sylveon,0,Status,Fairy,Fairy
+Protect,5.742,Slurpuff,0,Status,Fairy,Fairy
+Protect,81.742,Eiscue Ice Face,0,Status,Ice,Ice
+Protect,47.416,Hippowdon,0,Status,Ground,Ground
+Protect,53.21,Alakazam,0,Status,Psychic,Psychic
+Protect,54.673,Arctozolt,0,Status,Electric,Ice
+Protect,19.047,Starmie,0,Status,Water,Psychic
+Protect,10.422,Turtonator,0,Status,Fire,Dragon
+Protect,95.309,Sharpedo,0,Status,Water,Dark
+Protect,7.267,Salazzle,0,Status,Poison,Fire
+Protect,53.752,Ninetales,0,Status,Fire,Fire
+Protect,16.429,Sirfetch'd,0,Status,Fighting,Fighting
+Protect,12.22,Ribombee,0,Status,Bug,Fairy
+Protect,12.981,Charjabug,0,Status,Bug,Electric
+Protect,49.377,Toxtricity Low Key Form,0,Status,Electric,Poison
+Protect,90.257,Vaporeon,0,Status,Water,Water
+Protect,59.983,Mr. Mime,0,Status,Psychic,Fairy
+Protect,83.96,Magnezone,0,Status,Electric,Steel
+Protect,8.359,Gallade,0,Status,Psychic,Fighting
+Protect,4.948,Lopunny,0,Status,Normal,Normal
+Protect,58.104,Malamar,0,Status,Dark,Psychic
+Protect,17.716,Golisopod,0,Status,Bug,Water
+Protect,17.609,Golduck,0,Status,Water,Water
+Protect,83.578,Shiinotic,0,Status,Grass,Fairy
+Protect,72.383,Lycanroc Dusk Form,0,Status,Rock,Rock
+Protect,8.383,Unfezant,0,Status,Normal,Flying
+Protect,17.094,Perrserker,0,Status,Steel,Steel
+Protect,16.763,Galarian Slowbro,0,Status,Poison,Psychic
+Protect,75.251,Frost Rotom,0,Status,Electric,Ice
+Protect,90.387,Roserade,0,Status,Grass,Poison
+Protect,12.745,Tangrowth,0,Status,Grass,Grass
+Protect,79.327,Sandaconda,0,Status,Ground,Ground
+Protect,13.081,Polteageist,0,Status,Ghost,Ghost
+Protect,79.869,Tangela,0,Status,Grass,Grass
+Protect,30.138,Morpeko Full Belly Mode,0,Status,Electric,Dark
+Protect,6.521,Miltank,0,Status,Normal,Normal
+Protect,35.299,Crawdaunt,0,Status,Water,Dark
+Protect,53.783,Heracross,0,Status,Bug,Fighting
+Protect,78.948,Magneton,0,Status,Electric,Steel
+Protect,24.591,Stoutland,0,Status,Normal,Normal
+Protect,9.047,Noivern,0,Status,Flying,Dragon
+Protect,32.156,Jolteon,0,Status,Electric,Electric
+Protect,21.109,Cursola,0,Status,Ghost,Ghost
+Protect,42.911,Falinks,0,Status,Fighting,Fighting
+Protect,19.588,Dedenne,0,Status,Electric,Fairy
+Protect,77.894,Flygon,0,Status,Ground,Dragon
+Protect,25.085,Reuniclus,0,Status,Psychic,Psychic
+Protect,46.477,Drapion,0,Status,Dark,Poison
+Protect,33.522,Exploud,0,Status,Normal,Normal
+Protect,64.885,Wigglytuff,0,Status,Normal,Fairy
+Protect,8.494,Galarian Corsola,0,Status,Ghost,Ghost
+Protect,55.52,Vanilluxe,0,Status,Ice,Ice
+Protect,89.139,Seaking,0,Status,Water,Water
+Protect,3.754,Sigilyph,0,Status,Psychic,Flying
+Protect,25.005,Decidueye,0,Status,Grass,Ghost
+Protect,66.57,Galvantula,0,Status,Bug,Electric
+Protect,98.319,Arctovish,0,Status,Water,Ice
+Protect,25.923,Maractus,0,Status,Grass,Grass
+Protect,5.489,Orbeetle,0,Status,Bug,Psychic
+Protect,28.765,Passimian,0,Status,Fighting,Fighting
+Protect,35.81,Lycanroc Midday Form,0,Status,Rock,Rock
+Protect,9.791,Beheeyem,0,Status,Psychic,Psychic
+Protect,33.582,Marowak,0,Status,Ground,Ground
+Protect,85.918,Tentacruel,0,Status,Poison,Water
+Protect,92.448,Dragalge,0,Status,Poison,Dragon
+Protect,65.353,Flareon,0,Status,Fire,Fire
+Protect,86.025,Bewear,0,Status,Normal,Fighting
+Protect,52.899,Scyther,0,Status,Bug,Flying
+Protect,56.919,Alolan Sandslash,0,Status,Ice,Steel
+Protect,52.147,Poliwrath,0,Status,Water,Fighting
+Protect,54.432,Lycanroc Midnight Form,0,Status,Rock,Rock
+Protect,82.856,Golurk,0,Status,Ground,Ghost
+Protect,11.821,Lickilicky,0,Status,Normal,Normal
+Protect,95.162,Fan Rotom,0,Status,Electric,Flying
+Protect,15.894,Hitmonlee,0,Status,Fighting,Fighting
+Protect,70.405,Scolipede,0,Status,Bug,Poison
+Protect,12.438,Dunsparce,0,Status,Normal,Normal
+Protect,33.533,Sandslash,0,Status,Ground,Ground
+Protect,93.523,Steelix,0,Status,Ground,Steel
+Protect,87.569,Noctowl,0,Status,Normal,Flying
+Protect,99.994,Corsola,0,Status,Water,Rock
+Protect,99.479,Mime Jr.,0,Status,Psychic,Fairy
+Sacred Sword,84.154,Zacian Crowned Sword,915.59552,Physical,Fairy,Steel
+Sacred Sword,79.657,Kartana,93.99526,Physical,Grass,Steel
+Sacred Sword,6.292,Aegislash Shield Forme,0.6292,Physical,Steel,Ghost
+Sacred Sword,34.585,Terrakion,1.72925,Physical,Rock,Fighting
+Sacred Sword,11.15,Cobalion,0.669,Physical,Fighting,Steel
+Sacred Sword,23.068,Virizion,0,Physical,Grass,Fighting
+Play Rough,64.487,Zacian Crowned Sword,701.61856,Physical,Fairy,Steel
+Play Rough,41.47,Mimikyu,47.2758,Physical,Ghost,Fairy
+Play Rough,20.904,Azumarill,1.88136,Physical,Water,Fairy
+Play Rough,7.758,Klefki,0.3879,Physical,Fairy,Steel
+Play Rough,51.433,Beartic,0,Physical,Ice,Ice
+Play Rough,30.973,Copperajah,0,Physical,Steel,Steel
+Play Rough,2.978,Slurpuff,0,Physical,Fairy,Fairy
+Play Rough,6.996,Lopunny,0,Physical,Normal,Normal
+Play Rough,8.374,Lycanroc Dusk Form,0,Physical,Rock,Rock
+Play Rough,35.295,Perrserker,0,Physical,Steel,Steel
+Play Rough,67.263,Miltank,0,Physical,Normal,Normal
+Play Rough,26.219,Stoutland,0,Physical,Normal,Normal
+Play Rough,39.747,Lycanroc Midday Form,0,Physical,Rock,Rock
+Play Rough,56.621,Lycanroc Midnight Form,0,Physical,Rock,Rock
+Substitute,30.274,Zacian Crowned Sword,329.38112,Status,Fairy,Steel
+Substitute,41.087,Zygarde Complete Forme,17.25654,Status,Ground,Dragon
+Substitute,50.252,Landorus Incarnate Forme,11.55796,Status,Ground,Flying
+Substitute,28.355,Dracovish,9.0736,Status,Water,Dragon
+Substitute,69.009,Galarian Weezing,5.52072,Status,Poison,Fairy
+Substitute,28.799,Moltres,0.86397,Status,Fire,Flying
+Substitute,12.912,Pincurchin,1.16208,Status,Electric,Electric
+Substitute,10.04,Aegislash Shield Forme,1.004,Status,Steel,Ghost
+Substitute,9.63,Darmanitan Standard Mode,0.2889,Status,Fire,Fire
+Substitute,6.989,Heatran,0.62901,Status,Fire,Steel
+Substitute,84.634,Swoobat,1.69268,Status,Psychic,Flying
+Substitute,6.055,Accelgor,0.42385,Status,Bug,Bug
+Substitute,78.517,Manectric,2.35551,Status,Electric,Electric
+Substitute,35.652,Magneton,0,Status,Electric,Steel
+Substitute,9.566,Dedenne,0,Status,Electric,Fairy
+Substitute,14.445,Galarian Corsola,0,Status,Ghost,Ghost
+Substitute,9.016,Hitmonlee,0,Status,Fighting,Fighting
+Quick Attack,8.491,Zacian Crowned Sword,92.38208,Physical,Fairy,Steel
+Quick Attack,19.387,Leafeon,0.96935,Physical,Grass,Grass
+Quick Attack,66.087,Sylveon,0,Physical,Fairy,Fairy
+Quick Attack,4.634,Flareon,0,Physical,Fire,Fire
+Quick Attack,9.841,Scyther,0,Physical,Bug,Flying
+Fake Out,99.796,Incineroar,1121.70704,Physical,Fire,Dark
+Fake Out,15.003,Grimmsnarl,86.56731,Physical,Dark,Fairy
+Fake Out,97.616,Rillaboom,470.50912,Physical,Grass,Grass
+Fake Out,60.24,Blastoise,59.0352,Physical,Water,Water
+Fake Out,98.544,Raichu,91.64592,Physical,Electric,Electric
+Fake Out,60.813,Sableye,28.58211,Physical,Ghost,Dark
+Fake Out,93.331,Gothitelle,18.6662,Physical,Psychic,Psychic
+Fake Out,98.84,Mienshao,17.7912,Physical,Fighting,Fighting
+Fake Out,93.209,Liepard,14.91344,Physical,Dark,Dark
+Fake Out,97.093,Weavile,13.59302,Physical,Dark,Ice
+Fake Out,97.021,Hitmontop,26.19567,Physical,Fighting,Fighting
+Fake Out,32.01,Meowstic Male,4.8015,Physical,Psychic,Psychic
+Fake Out,94.099,Alolan Persian,17.87881,Physical,Dark,Dark
+Fake Out,82.69,Sneasel,2.4807,Physical,Dark,Ice
+Fake Out,61.956,Ludicolo,9.91296,Physical,Water,Grass
+Fake Out,97.76,Pikachu,12.7088,Physical,Electric,Electric
+Fake Out,17.459,Togedemaru,1.22213,Physical,Electric,Steel
+Fake Out,99.887,Kangaskhan,5.99322,Physical,Normal,Normal
+Fake Out,73.333,Shiftry,2.19999,Physical,Grass,Dark
+Fake Out,90.086,Toxicroak,1.80172,Physical,Poison,Fighting
+Fake Out,96.795,Scrafty,5.8077,Physical,Fighting,Dark
+Fake Out,98.966,Mr. Rime,1.97932,Physical,Psychic,Ice
+Fake Out,94.73,Mime Galarian Mr. Mime,1.8946,Physical,Psychic,Ice
+Fake Out,43.195,Alolan Raichu,0,Physical,Electric,Psychic
+Fake Out,98.395,Torracat,0,Physical,Fire,Fire
+Fake Out,76.824,Salazzle,0,Physical,Poison,Fire
+Fake Out,92.115,Mr. Mime,0,Physical,Psychic,Fairy
+Fake Out,68.36,Lopunny,0,Physical,Normal,Normal
+Fake Out,79.867,Perrserker,0,Physical,Steel,Steel
+Fake Out,90.552,Morpeko Full Belly Mode,0,Physical,Electric,Dark
+Fake Out,46.212,Hitmonlee,0,Physical,Fighting,Fighting
+Flare Blitz,98.84,Incineroar,1110.9616,Physical,Fire,Dark
+Flare Blitz,57.003,Entei,28.5015,Physical,Fire,Fire
+Flare Blitz,10.669,Cinderace,4.80105,Physical,Fire,Fire
+Flare Blitz,4.52,Coalossal,1.808,Physical,Fire,Rock
+Flare Blitz,18.755,Arcanine,4.31365,Physical,Fire,Fire
+Flare Blitz,99.507,Darmanitan Galarian Standard Mode,14.92605,Physical,Ice,Ice
+Flare Blitz,27.48,Talonflame,6.0456,Physical,Fire,Flying
+Flare Blitz,99.748,Alolan Marowak,15.95968,Physical,Fire,Ghost
+Flare Blitz,94.147,Centiskorch,11.29764,Physical,Fire,Bug
+Flare Blitz,97.886,Darmanitan Standard Mode,2.93658,Physical,Fire,Fire
+Flare Blitz,25.729,Blaziken,1.54374,Physical,Fire,Fighting
+Flare Blitz,98.294,Flareon,0,Physical,Fire,Fire
+Parting Shot,96.074,Incineroar,1079.87176,Status,Fire,Dark
+Parting Shot,9.867,Alolan Persian,1.87473,Status,Dark,Dark
+Parting Shot,20.607,Obstagoon,1.23642,Status,Dark,Normal
+Parting Shot,43.151,Silvally,0.86302,Status,Normal,Normal
+Parting Shot,99.999,Torracat,0,Status,Fire,Fire
+Parting Shot,54.022,Thievul,0,Status,Dark,Dark
+Parting Shot,94.834,Morpeko Full Belly Mode,0,Status,Electric,Dark
+Darkest Lariat,40.006,Incineroar,449.66744,Physical,Fire,Dark
+Darkest Lariat,15.461,Regigigas,5.72057,Physical,Normal,Normal
+Darkest Lariat,41.896,Snorlax,7.54128,Physical,Normal,Normal
+Darkest Lariat,25.322,Krookodile,2.78542,Physical,Ground,Dark
+Darkest Lariat,95.84,Electivire,2.8752,Physical,Electric,Electric
+Darkest Lariat,23.038,Dusknoir,0,Physical,Ghost,Ghost
+Darkest Lariat,91.567,Bewear,0,Physical,Normal,Fighting
+Darkest Lariat,16.886,Poliwrath,0,Physical,Water,Fighting
+Throat Chop,21.099,Incineroar,237.15276,Physical,Fire,Dark
+Throat Chop,55.04,Barraskewda,20.3648,Physical,Water,Water
+Throat Chop,9.203,Pheromosa,2.66887,Physical,Bug,Fighting
+Throat Chop,13.146,Weavile,1.84044,Physical,Dark,Ice
+Throat Chop,17.004,Galarian Zapdos,4.42104,Physical,Fighting,Flying
+Throat Chop,68.177,Shiftry,2.04531,Physical,Grass,Dark
+Throat Chop,6.455,Obstagoon,0.3873,Physical,Dark,Normal
+Throat Chop,26.954,Scrafty,1.61724,Physical,Fighting,Dark
+Throat Chop,8.382,Tauros,0.25146,Physical,Normal,Normal
+Throat Chop,84.021,Luxray,1.68042,Physical,Electric,Electric
+Throat Chop,8.365,Beartic,0,Physical,Ice,Ice
+Throat Chop,4.192,Gallade,0,Physical,Psychic,Fighting
+Throat Chop,75.328,Malamar,0,Physical,Dark,Psychic
+Throat Chop,7.187,Perrserker,0,Physical,Steel,Steel
+Throat Chop,13.113,Heracross,0,Physical,Bug,Fighting
+Throat Chop,29.027,Falinks,0,Physical,Fighting,Fighting
+Throat Chop,34.112,Hitmonlee,0,Physical,Fighting,Fighting
+Throat Chop,94.336,Corsola,0,Physical,Water,Rock
+Taunt,20.389,Incineroar,229.17236,Status,Fire,Dark
+Taunt,17.885,Thundurus Incarnate Forme,62.9552,Status,Electric,Flying
+Taunt,27.545,Whimsicott,117.06625,Status,Grass,Fairy
+Taunt,24.366,Tornadus Incarnate Forme,46.53906,Status,Flying,Flying
+Taunt,66.251,Dusclops,58.30088,Status,Ghost,Ghost
+Taunt,97.786,Weezing,42.04798,Status,Poison,Poison
+Taunt,30.703,Tapu Lele,7.06169,Status,Psychic,Fairy
+Taunt,43.916,Mimikyu,50.06424,Status,Ghost,Fairy
+Taunt,9.664,Gothitelle,1.9328,Status,Psychic,Psychic
+Taunt,17.898,Umbreon,6.2643,Status,Dark,Dark
+Taunt,47.284,Spectrier,8.98396,Status,Ghost,Ghost
+Taunt,41.363,Tsareena,10.75438,Status,Grass,Grass
+Taunt,9.719,Galarian Zapdos,2.52694,Status,Fighting,Flying
+Taunt,6.348,Alolan Persian,1.20612,Status,Dark,Dark
+Taunt,10.039,Galarian Moltres,3.51365,Status,Dark,Flying
+Taunt,17.313,Talonflame,3.80886,Status,Fire,Flying
+Taunt,13.294,Sneasel,0.39882,Status,Dark,Ice
+Taunt,28.552,Galarian Weezing,2.28416,Status,Poison,Fairy
+Taunt,21.789,Gyarados,3.26835,Status,Water,Flying
+Taunt,51.843,Tapu Bulu,1.03686,Status,Grass,Fairy
+Taunt,30.023,Froslass,1.20092,Status,Ice,Ghost
+Taunt,3.904,Jellicent,0.23424,Status,Water,Ghost
+Taunt,62.001,Mandibuzz,1.86003,Status,Dark,Flying
+Taunt,44.258,Obstagoon,2.65548,Status,Dark,Normal
+Taunt,8.244,Scrafty,0.49464,Status,Fighting,Dark
+Taunt,6.8,Aerodactyl,0.34,Status,Rock,Flying
+Taunt,12.859,Heatran,1.15731,Status,Fire,Steel
+Taunt,23.932,Bisharp,2.3932,Status,Dark,Steel
+Taunt,10.71,Corviknight,1.071,Status,Flying,Steel
+Taunt,3.658,Gengar,0.3658,Status,Ghost,Poison
+Taunt,25.832,Crobat,1.2916,Status,Poison,Flying
+Taunt,20.838,Zoroark,0,Status,Dark,Dark
+Taunt,4.292,Virizion,0,Status,Grass,Fighting
+Taunt,7.572,Alakazam,0,Status,Psychic,Psychic
+Taunt,91.691,Torracat,0,Status,Fire,Fire
+Taunt,15.534,Thievul,0,Status,Dark,Dark
+Taunt,36.166,Salazzle,0,Status,Poison,Fire
+Taunt,48.955,Emolga,0,Status,Electric,Flying
+Taunt,26.599,Toxtricity Low Key Form,0,Status,Electric,Poison
+Taunt,27.722,Mr. Mime,0,Status,Psychic,Fairy
+Taunt,17.463,Unfezant,0,Status,Normal,Flying
+Taunt,11.065,Perrserker,0,Status,Steel,Steel
+Taunt,18.154,Morpeko Full Belly Mode,0,Status,Electric,Dark
+Taunt,22.837,Noivern,0,Status,Flying,Dragon
+Taunt,60.279,Drapion,0,Status,Dark,Poison
+Taunt,75.36,Vanilluxe,0,Status,Ice,Ice
+Taunt,96.89,Mime Jr.,0,Status,Psychic,Fairy
+Snarl,9.495,Incineroar,106.7238,Special,Fire,Dark
+Snarl,22.241,Calyrex Shadow Rider,80.73483,Special,Psychic,Ghost
+Snarl,28.703,Entei,14.3515,Special,Fire,Fire
+Snarl,90.784,Umbreon,31.7744,Special,Dark,Dark
+Snarl,85.823,Spectrier,16.30637,Special,Ghost,Ghost
+Snarl,66.137,Arcanine,15.21151,Special,Fire,Fire
+Snarl,62.251,Zamazenta Crowned Shield,25.52291,Special,Fighting,Steel
+Snarl,85.882,Suicune,24.04696,Special,Water,Water
+Snarl,21.064,Liepard,3.37024,Special,Dark,Dark
+Snarl,16.88,Hydreigon,2.1944,Special,Dark,Dragon
+Snarl,9.429,Glastrier,1.22577,Special,Ice,Ice
+Snarl,37.83,Galarian Moltres,13.2405,Special,Dark,Flying
+Snarl,7.901,Tyranitar,1.89624,Special,Rock,Dark
+Snarl,22.824,Raikou,1.59768,Special,Electric,Electric
+Snarl,29.799,Krookodile,3.27789,Special,Ground,Dark
+Snarl,36.582,Mandibuzz,1.09746,Special,Dark,Flying
+Snarl,56.413,Scrafty,3.38478,Special,Fighting,Dark
+Snarl,50.59,Boltund,1.0118,Special,Electric,Electric
+Snarl,81.685,Manectric,2.45055,Special,Electric,Electric
+Snarl,47.343,Drampa,1.89372,Special,Normal,Dragon
+Snarl,55.109,Zoroark,0,Special,Dark,Dark
+Snarl,81.397,Haxorus,0,Special,Dragon,Dragon
+Snarl,81.578,Thievul,0,Special,Dark,Dark
+Snarl,45.062,Toxtricity Low Key Form,0,Special,Electric,Poison
+Snarl,13.481,Stoutland,0,Special,Normal,Normal
+Snarl,11.199,Drapion,0,Special,Dark,Poison
+Water Spout,8.226,Blastoise,8.06148,Special,Water,Water
+Water Spout,57.229,Jellicent,3.43374,Special,Water,Ghost
+Ice Beam,79.866,Gastrodon,316.26936,Special,Water,Ground
+Ice Beam,28.395,Porygon2,33.22215,Special,Normal,Normal
+Ice Beam,15.366,Blastoise,15.05868,Special,Water,Water
+Ice Beam,9.322,White Kyurem,8.8559,Special,Dragon,Ice
+Ice Beam,17.659,Milotic,5.2977,Special,Water,Water
+Ice Beam,10.22,Inteleon,1.1242,Special,Water,Water
+Ice Beam,6.014,Politoed,0.42098,Special,Water,Water
+Ice Beam,34.866,Ludicolo,5.57856,Special,Water,Grass
+Ice Beam,10.837,Primarina,1.19207,Special,Water,Fairy
+Ice Beam,7.909,Latias,0.47454,Special,Psychic,Dragon
+Ice Beam,6.454,Cresselia,0.6454,Special,Psychic,Psychic
+Ice Beam,93.187,Wishiwashi Solo Form,0.93187,Special,Water,Water
+Ice Beam,82.954,Mantine,2.48862,Special,Water,Flying
+Ice Beam,5.947,Goodra,0.35682,Special,Dragon,Dragon
+Ice Beam,38.335,Silvally,0.7667,Special,Normal,Normal
+Ice Beam,13.248,Starmie,0,Special,Water,Psychic
+Ice Beam,10.988,Vaporeon,0,Special,Water,Water
+Ice Beam,2.911,Lopunny,0,Special,Normal,Normal
+Ice Beam,25.41,Golduck,0,Special,Water,Water
+Ice Beam,16.545,Cursola,0,Special,Ghost,Ghost
+Ice Beam,50.262,Exploud,0,Special,Normal,Normal
+Ice Beam,81.73,Seaking,0,Special,Water,Water
+Ice Beam,3.503,Tentacruel,0,Special,Poison,Water
+Thunder,25.838,Zapdos,43.40784,Special,Electric,Flying
+Thunder,19.911,Lapras,12.14571,Special,Water,Ice
+Thunder,11.256,Tapu Koko,3.03912,Special,Electric,Fairy
+Thunder,40.022,Thundurus Therian Forme,3.60198,Special,Electric,Flying
+Thunder,10.649,Wash Rotom,1.70384,Special,Electric,Water
+Thunder,14.286,Pikachu,1.85718,Special,Electric,Electric
+Thunder,30.286,Raikou,2.12002,Special,Electric,Electric
+Thunder,77.345,Heliolisk,6.1876,Special,Electric,Normal
+Thunder,36.405,Porygon-Z,2.54835,Special,Normal,Normal
+Thunder,28.627,Duraludon,2.29016,Special,Steel,Dragon
+Thunder,17.204,Vikavolt,0.51612,Special,Bug,Electric
+Thunder,16.446,Xurkitree,0.65784,Special,Electric,Electric
+Thunder,12.932,Mow Rotom,0.38796,Special,Electric,Grass
+Thunder,86.412,Manectric,2.59236,Special,Electric,Electric
+Thunder,8.394,Magnezone,0,Special,Electric,Steel
+Thunder,39.983,Frost Rotom,0,Special,Electric,Ice
+Thunder,37.509,Jolteon,0,Special,Electric,Electric
+Thunder,21.356,Reuniclus,0,Special,Psychic,Psychic
+Thunder,39.96,Galvantula,0,Special,Bug,Electric
+Thunder,12.558,Dragalge,0,Special,Poison,Dragon
+Blizzard,52.957,Blastoise,51.89786,Special,Water,Water
+Blizzard,57.734,White Kyurem,54.8473,Special,Dragon,Ice
+Blizzard,19.52,Tapu Fini,14.4448,Special,Water,Fairy
+Blizzard,19.916,Lapras,12.14876,Special,Water,Ice
+Blizzard,44.307,Milotic,13.2921,Special,Water,Water
+Blizzard,4.901,Ludicolo,0.78416,Special,Water,Grass
+Blizzard,75.578,Alolan Ninetales,12.09248,Special,Ice,Fairy
+Blizzard,13.382,Porygon-Z,0.93674,Special,Normal,Normal
+Blizzard,74.712,Abomasnow,3.7356,Special,Grass,Ice
+Blizzard,11.584,Glaceon,0.11584,Special,Ice,Ice
+Blizzard,3.582,Vaporeon,0,Special,Water,Water
+Blizzard,99.999,Frost Rotom,0,Special,Electric,Ice
+Blizzard,8.443,Cursola,0,Special,Ghost,Ghost
+Blizzard,15.21,Exploud,0,Special,Normal,Normal
+Blizzard,99.833,Vanilluxe,0,Special,Ice,Ice
+Blizzard,30.075,Tentacruel,0,Special,Poison,Water
+Blizzard,12.533,Dunsparce,0,Special,Normal,Normal
+Reflect,75.872,Grimmsnarl,437.78144,Status,Dark,Fairy
+Reflect,7.178,Tapu Lele,1.65094,Status,Psychic,Fairy
+Reflect,4.686,Dragapult,2.53044,Status,Ghost,Dragon
+Reflect,74.018,Meowstic Male,11.1027,Status,Psychic,Psychic
+Reflect,47.943,Raikou,3.35601,Status,Electric,Electric
+Reflect,55.96,Togedemaru,3.9172,Status,Electric,Steel
+Reflect,78.803,Klefki,3.94015,Status,Fairy,Steel
+Reflect,29.119,Articuno,1.16476,Status,Ice,Flying
+Reflect,4.84,Togetic,0,Status,Fairy,Flying
+Reflect,8.773,Ribombee,0,Status,Bug,Fairy
+Reflect,13.174,Aromatisse,0,Status,Fairy,Fairy
+Reflect,12.454,Magneton,0,Status,Electric,Steel
+Reflect,9.675,Claydol,0,Status,Ground,Psychic
+Light Screen,63.992,Grimmsnarl,369.23384,Status,Dark,Fairy
+Light Screen,4.519,Raichu,4.20267,Status,Electric,Electric
+Light Screen,5.232,Tapu Fini,3.87168,Status,Water,Fairy
+Light Screen,8.997,Dragapult,4.85838,Status,Ghost,Dragon
+Light Screen,7.671,Tapu Koko,2.07117,Status,Electric,Fairy
+Light Screen,80.128,Meowstic Male,12.0192,Status,Psychic,Psychic
+Light Screen,44.365,Raikou,3.10555,Status,Electric,Electric
+Light Screen,78.689,Klefki,3.93445,Status,Fairy,Steel
+Light Screen,94.869,Charjabug,0,Status,Bug,Electric
+Light Screen,13.208,Aromatisse,0,Status,Fairy,Fairy
+Light Screen,9.695,Claydol,0,Status,Ground,Psychic
+Light Screen,9.362,Reuniclus,0,Status,Psychic,Psychic
+Light Screen,11.406,Galarian Corsola,0,Status,Ghost,Ghost
+Light Screen,3.514,Orbeetle,0,Status,Bug,Psychic
+Thunder Wave,55.346,Grimmsnarl,319.34642,Status,Dark,Fairy
+Thunder Wave,11.828,Thundurus Incarnate Forme,41.63456,Status,Electric,Flying
+Thunder Wave,7.192,Liepard,1.15072,Status,Dark,Dark
+Thunder Wave,18.483,Meowstic Male,2.77245,Status,Psychic,Psychic
+Thunder Wave,5.38,Tyranitar,1.2912,Status,Rock,Dark
+Thunder Wave,43.625,Raikou,3.05375,Status,Electric,Electric
+Thunder Wave,92.238,Klefki,4.6119,Status,Fairy,Steel
+Thunder Wave,13.82,Cresselia,1.382,Status,Psychic,Psychic
+Thunder Wave,46.664,Boltund,0.93328,Status,Electric,Electric
+Thunder Wave,8.948,Manectric,0.26844,Status,Electric,Electric
+Thunder Wave,14.468,Cinccino,0.43404,Status,Normal,Normal
+Thunder Wave,12.305,Togetic,0,Status,Fairy,Flying
+Thunder Wave,5.439,Salazzle,0,Status,Poison,Fire
+Thunder Wave,25.247,Mr. Mime,0,Status,Psychic,Fairy
+Thunder Wave,49.45,Lopunny,0,Status,Normal,Normal
+Thunder Wave,8.807,Miltank,0,Status,Normal,Normal
+Thunder Wave,5.819,Stoutland,0,Status,Normal,Normal
+Thunder Wave,28.58,Jolteon,0,Status,Electric,Electric
+Spirit Break,52.745,Grimmsnarl,304.33865,Physical,Dark,Fairy
+Foul Play,38.453,Grimmsnarl,221.87381,Physical,Dark,Fairy
+Foul Play,19.228,Thundurus Incarnate Forme,67.68256,Physical,Electric,Flying
+Foul Play,10.868,Amoonguss,38.038,Physical,Grass,Poison
+Foul Play,44.718,Porygon2,52.32006,Physical,Normal,Normal
+Foul Play,13.929,Sableye,6.54663,Physical,Ghost,Dark
+Foul Play,98.973,Umbreon,34.64055,Physical,Dark,Dark
+Foul Play,53.759,Liepard,8.60144,Physical,Dark,Dark
+Foul Play,33.373,Weavile,4.67222,Physical,Dark,Ice
+Foul Play,98.558,Alolan Persian,18.72602,Physical,Dark,Dark
+Foul Play,16.399,Galarian Moltres,5.73965,Physical,Dark,Flying
+Foul Play,4.42,Sneasel,0.1326,Physical,Dark,Ice
+Foul Play,15.684,Wash Rotom,2.50944,Physical,Electric,Water
+Foul Play,14.817,Tyranitar,3.55608,Physical,Rock,Dark
+Foul Play,20.003,Oranguru,3.40051,Physical,Normal,Psychic
+Foul Play,29.338,Krookodile,3.22718,Physical,Ground,Dark
+Foul Play,17.15,Shiftry,0.5145,Physical,Grass,Dark
+Foul Play,95.49,Toxicroak,1.9098,Physical,Poison,Fighting
+Foul Play,13.299,Porygon-Z,0.93093,Physical,Normal,Normal
+Foul Play,24.454,Klefki,1.2227,Physical,Fairy,Steel
+Foul Play,62.585,Mandibuzz,1.87755,Physical,Dark,Flying
+Foul Play,42.228,Scrafty,2.53368,Physical,Fighting,Dark
+Foul Play,99.644,Diggersby,0.99644,Physical,Normal,Ground
+Foul Play,23.157,Thievul,0,Physical,Dark,Dark
+Scary Face,34.624,Grimmsnarl,199.78048,Status,Dark,Fairy
+Scary Face,14.578,Thundurus Incarnate Forme,51.31456,Status,Electric,Flying
+Scary Face,26.494,Drapion,0,Status,Dark,Poison
+Trick,32.65,Grimmsnarl,188.3905,Status,Dark,Fairy
+Trick,4.837,Calyrex Shadow Rider,17.55831,Status,Psychic,Ghost
+Trick,20.679,Sableye,9.71913,Status,Ghost,Dark
+Trick,16.369,Indeedee Male,4.25594,Status,Normal,Psychic
+Trick,16.273,Meowstic Male,2.44095,Status,Psychic,Psychic
+Trick,64.784,Blacephalon,5.83056,Status,Fire,Ghost
+Trick,22.267,Espeon,0.66801,Status,Psychic,Psychic
+Trick,16.646,Starmie,0,Status,Water,Psychic
+Trick,4.564,Gallade,0,Status,Psychic,Fighting
+Trick,11.083,Frost Rotom,0,Status,Electric,Ice
+Fake Tears,17.558,Grimmsnarl,101.30966,Status,Dark,Fairy
+Fake Tears,7.076,Whimsicott,30.073,Status,Grass,Fairy
+Fake Tears,55.942,Liepard,8.95072,Status,Dark,Dark
+Fake Tears,68.219,Weavile,9.55066,Status,Dark,Ice
+Fake Tears,82.176,Alolan Persian,15.61344,Status,Dark,Dark
+Fake Tears,15.749,Alolan Ninetales,2.51984,Status,Ice,Fairy
+Fake Tears,40.278,Froslass,1.61112,Status,Ice,Ghost
+Fake Tears,14.467,Cinccino,0.43401,Status,Normal,Normal
+Fake Tears,16.543,Zoroark,0,Status,Dark,Dark
+Fake Tears,51.229,Slurpuff,0,Status,Fairy,Fairy
+Fake Tears,70.03,Thievul,0,Status,Dark,Dark
+Fake Tears,4.237,Cofagrigus,0,Status,Ghost,Ghost
+Fake Tears,9.984,Salazzle,0,Status,Poison,Fire
+Fake Tears,18.621,Ninetales,0,Status,Fire,Fire
+Fake Tears,15.254,Ribombee,0,Status,Bug,Fairy
+Fake Tears,10.809,Aromatisse,0,Status,Fairy,Fairy
+Fake Tears,23.305,Jolteon,0,Status,Electric,Electric
+Electroweb,84.902,Regieleki,511.95906,Special,Electric,Electric
+Electroweb,16.444,Thundurus Incarnate Forme,57.88288,Special,Electric,Flying
+Electroweb,67.333,Raichu,62.61969,Special,Electric,Electric
+Electroweb,18.51,Tapu Koko,4.9977,Special,Electric,Fairy
+Electroweb,10.282,Thundurus Therian Forme,0.92538,Special,Electric,Flying
+Electroweb,29.732,Pikachu,3.86516,Special,Electric,Electric
+Electroweb,79.314,Heliolisk,6.34512,Special,Electric,Normal
+Electroweb,22.414,Xurkitree,0.89656,Special,Electric,Electric
+Electroweb,32.737,Mow Rotom,0.98211,Special,Electric,Grass
+Electroweb,4.074,Emolga,0,Special,Electric,Flying
+Electroweb,58.466,Dedenne,0,Special,Electric,Fairy
+Electroweb,88.152,Galvantula,0,Special,Bug,Electric
+Thunderbolt,38.147,Regieleki,230.02641,Special,Electric,Electric
+Thunderbolt,22.15,Thundurus Incarnate Forme,77.968,Special,Electric,Flying
+Thunderbolt,69.658,Zapdos,117.02544,Special,Electric,Flying
+Thunderbolt,98.385,Heat Rotom,42.30555,Special,Electric,Fire
+Thunderbolt,18.513,Tapu Koko,4.99851,Special,Electric,Fairy
+Thunderbolt,49.534,Thundurus Therian Forme,4.45806,Special,Electric,Flying
+Thunderbolt,77.056,Wash Rotom,12.32896,Special,Electric,Water
+Thunderbolt,40.154,Pikachu,5.22002,Special,Electric,Electric
+Thunderbolt,55.702,Raikou,3.89914,Special,Electric,Electric
+Thunderbolt,11.739,Heliolisk,0.93912,Special,Electric,Normal
+Thunderbolt,10.48,Porygon-Z,0.7336,Special,Normal,Normal
+Thunderbolt,7.871,Latias,0.47226,Special,Psychic,Dragon
+Thunderbolt,55.3,Duraludon,4.424,Special,Steel,Dragon
+Thunderbolt,81.457,Vikavolt,2.44371,Special,Bug,Electric
+Thunderbolt,50.185,Boltund,1.0037,Special,Electric,Electric
+Thunderbolt,24.751,Goodra,1.48506,Special,Dragon,Dragon
+Thunderbolt,50.41,Xurkitree,2.0164,Special,Electric,Electric
+Thunderbolt,82.7,Mow Rotom,2.481,Special,Electric,Grass
+Thunderbolt,3.679,Gengar,0.3679,Special,Ghost,Poison
+Thunderbolt,11.696,Manectric,0.35088,Special,Electric,Electric
+Thunderbolt,10.475,Starmie,0,Special,Water,Psychic
+Thunderbolt,83.416,Magnezone,0,Special,Electric,Steel
+Thunderbolt,99.008,Frost Rotom,0,Special,Electric,Ice
+Thunderbolt,54.47,Magneton,0,Special,Electric,Steel
+Thunderbolt,10.971,Jolteon,0,Special,Electric,Electric
+Thunderbolt,24.691,Wigglytuff,0,Special,Normal,Fairy
+Thunderbolt,6.296,Gardevoir,0,Special,Psychic,Fairy
+Thunderbolt,45.944,Beheeyem,0,Special,Psychic,Psychic
+Thunderbolt,45.673,Dragalge,0,Special,Poison,Dragon
+Thunderbolt,93.107,Fan Rotom,0,Special,Electric,Flying
+Bounce,36.589,Regieleki,220.63167,Physical,Electric,Electric
+Bounce,26.742,Kingdra,9.89454,Physical,Water,Dragon
+Bounce,75.287,Seismitoad,44.41933,Physical,Water,Ground
+Bounce,80.27,Cinderace,36.1215,Physical,Fire,Fire
+Bounce,83.742,Barraskewda,30.98454,Physical,Water,Water
+Bounce,6.155,Tsareena,1.6003,Physical,Grass,Grass
+Bounce,72.574,Gyarados,10.8861,Physical,Water,Flying
+Bounce,17.267,Shiftry,0.51801,Physical,Grass,Dark
+Bounce,76.306,Cobalion,4.57836,Physical,Fighting,Steel
+Bounce,63.061,Virizion,0,Physical,Grass,Fighting
+Bounce,8.445,Sharpedo,0,Physical,Water,Dark
+Bounce,61.059,Hitmonlee,0,Physical,Fighting,Fighting
+Wild Charge,34.983,Regieleki,210.94749,Physical,Electric,Electric
+Wild Charge,74.033,Thundurus Incarnate Forme,260.59616,Physical,Electric,Flying
+Wild Charge,6.365,Arcanine,1.46395,Physical,Fire,Fire
+Wild Charge,66.803,Tapu Koko,18.03681,Physical,Electric,Fairy
+Wild Charge,99.837,Klinklang,882.55908,Physical,Steel,Steel
+Wild Charge,93.735,Electivire,2.81205,Physical,Electric,Electric
+Wild Charge,98.432,Luxray,1.96864,Physical,Electric,Electric
+Wild Charge,4.217,Bouffalant,0,Physical,Normal,Normal
+Wild Charge,24.15,Stoutland,0,Physical,Normal,Normal
+Wild Charge,6.628,Dunsparce,0,Physical,Normal,Normal
+Volt Switch,29.405,Regieleki,177.31215,Special,Electric,Electric
+Volt Switch,32.796,Raichu,30.50028,Special,Electric,Electric
+Volt Switch,25.572,Tapu Koko,6.90444,Special,Electric,Fairy
+Volt Switch,19.345,Thundurus Therian Forme,1.74105,Special,Electric,Flying
+Volt Switch,20.125,Wash Rotom,3.22,Special,Electric,Water
+Volt Switch,6.914,Pikachu,0.89882,Special,Electric,Electric
+Volt Switch,16.775,Raikou,1.17425,Special,Electric,Electric
+Volt Switch,28.301,Togedemaru,1.98107,Special,Electric,Steel
+Volt Switch,8.061,Heliolisk,0.64488,Special,Electric,Normal
+Volt Switch,50.464,Vikavolt,1.51392,Special,Bug,Electric
+Volt Switch,13.409,Mow Rotom,0.40227,Special,Electric,Grass
+Volt Switch,29.041,Alolan Raichu,0,Special,Electric,Psychic
+Volt Switch,33.833,Emolga,0,Special,Electric,Flying
+Volt Switch,5.294,Charjabug,0,Special,Bug,Electric
+Volt Switch,30.914,Toxtricity Low Key Form,0,Special,Electric,Poison
+Volt Switch,15.513,Magnezone,0,Special,Electric,Steel
+Volt Switch,17.272,Magneton,0,Special,Electric,Steel
+Volt Switch,32.355,Jolteon,0,Special,Electric,Electric
+Volt Switch,46.859,Dedenne,0,Special,Electric,Fairy
+Assurance,24.911,Regieleki,150.21333,Physical,Electric,Electric
+Assurance,4.051,Scyther,0,Physical,Bug,Flying
+Rising Voltage,21.208,Regieleki,127.88424,Special,Electric,Electric
+Rising Voltage,8.926,Thundurus Therian Forme,0.80334,Special,Electric,Flying
+Rising Voltage,13.807,Raikou,0.96649,Special,Electric,Electric
+Rising Voltage,5.446,Heliolisk,0.43568,Special,Electric,Normal
+Rising Voltage,84.385,Pincurchin,7.59465,Special,Electric,Electric
+Rising Voltage,39.124,Xurkitree,1.56496,Special,Electric,Electric
+Rising Voltage,90.9,Alolan Raichu,0,Special,Electric,Psychic
+Rising Voltage,11.685,Magnezone,0,Special,Electric,Steel
+Rising Voltage,36.896,Magneton,0,Special,Electric,Steel
+Rising Voltage,38.965,Jolteon,0,Special,Electric,Electric
+Rising Voltage,4.796,Fan Rotom,0,Special,Electric,Flying
+Hyper Beam,20.25,Regieleki,122.1075,Special,Electric,Electric
+Hyper Beam,6.413,Calyrex Shadow Rider,23.27919,Special,Psychic,Ghost
+Hyper Beam,25.944,Porygon2,30.35448,Special,Normal,Normal
+Hyper Beam,8.274,White Kyurem,7.8603,Special,Dragon,Ice
+Hyper Beam,6.68,Spectrier,1.2692,Special,Ghost,Ghost
+Hyper Beam,60.189,Regidrago,7.22268,Special,Dragon,Dragon
+Hyper Beam,28.827,Thundurus Therian Forme,2.59443,Special,Electric,Flying
+Hyper Beam,12.109,Inteleon,1.33199,Special,Water,Water
+Hyper Beam,4.885,Heliolisk,0.3908,Special,Electric,Normal
+Hyper Beam,9.831,Primarina,1.08141,Special,Water,Fairy
+Hyper Beam,90.706,Porygon-Z,6.34942,Special,Normal,Normal
+Hyper Beam,19.625,Appletun,0.785,Special,Grass,Dragon
+Hyper Beam,35.918,Xurkitree,1.43672,Special,Electric,Electric
+Hyper Beam,43.523,Drampa,1.74092,Special,Normal,Dragon
+Hyper Beam,27.528,Sylveon,0,Special,Fairy,Fairy
+Hyper Beam,6.278,Wigglytuff,0,Special,Normal,Fairy
+Hyper Beam,13.168,Tentacruel,0,Special,Poison,Water
+Screech,12.164,Regieleki,73.34892,Status,Electric,Electric
+Screech,4.799,Liepard,0.76784,Status,Dark,Dark
+Screech,4.869,Sceptile,0.24345,Status,Grass,Grass
+Screech,41.487,Thievul,0,Status,Dark,Dark
+Screech,9.294,Perrserker,0,Status,Steel,Steel
+Screech,59.272,Galvantula,0,Status,Bug,Electric
+Extreme Speed,5.35,Regieleki,32.2605,Physical,Electric,Electric
+Extreme Speed,40.914,Entei,20.457,Physical,Fire,Fire
+Extreme Speed,4.21,Arcanine,0.9683,Physical,Fire,Fire
+Extreme Speed,8.009,Lucario,0.72081,Physical,Fighting,Steel
+Extreme Speed,51.549,Dragonite,5.1549,Physical,Flying,Dragon
+Grassy Glide,99.878,Rillaboom,481.41196,Physical,Grass,Grass
+Grassy Glide,28.867,Tsareena,7.50542,Physical,Grass,Grass
+Grassy Glide,16.605,Lurantis,0.6642,Physical,Grass,Grass
+Grassy Glide,41.392,Dhelmise,0,Physical,Grass,Ghost
+Grassy Glide,13.247,Virizion,0,Physical,Grass,Fighting
+Grassy Glide,14.005,Flapple,0,Physical,Grass,Dragon
+Grassy Glide,29.647,Sirfetch'd,0,Physical,Fighting,Fighting
+Grassy Glide,50.633,Gourgeist Small Size,0,Physical,Grass,Ghost
+Grassy Glide,12.489,Tangrowth,0,Physical,Grass,Grass
+Grassy Glide,21.413,Decidueye,0,Physical,Grass,Ghost
+High Horsepower,62.281,Rillaboom,300.19442,Physical,Grass,Grass
+High Horsepower,81.641,Calyrex Ice Rider,240.02454,Physical,Psychic,Ice
+High Horsepower,97.573,Regigigas,36.10201,Physical,Normal,Normal
+High Horsepower,92.386,Mamoswine,14.78176,Physical,Ice,Ground
+High Horsepower,99.988,Glastrier,12.99844,Physical,Ice,Ice
+High Horsepower,62.779,Snorlax,11.30022,Physical,Normal,Normal
+High Horsepower,11.555,Stakataka,2.65765,Physical,Steel,Rock
+High Horsepower,97.388,Swampert,6.81716,Physical,Water,Ground
+High Horsepower,37.315,Tyranitar,8.9556,Physical,Rock,Dark
+High Horsepower,42.267,Kingler,3.80403,Physical,Water,Water
+High Horsepower,89.954,Tapu Bulu,1.79908,Physical,Grass,Fairy
+High Horsepower,30.971,Krookodile,3.40681,Physical,Ground,Dark
+High Horsepower,50.366,Excadrill,5.0366,Physical,Ground,Steel
+High Horsepower,23.592,Dracozolt,1.88736,Physical,Electric,Dragon
+High Horsepower,98.622,Mudsdale,5.91732,Physical,Ground,Ground
+High Horsepower,38.663,Rhyperior,3.47967,Physical,Ground,Rock
+High Horsepower,90.169,Diggersby,0.90169,Physical,Normal,Ground
+High Horsepower,5.646,Conkeldurr,0.5646,Physical,Fighting,Fighting
+High Horsepower,86.164,Tauros,2.58492,Physical,Normal,Normal
+High Horsepower,8.461,Dugtrio,0.25383,Physical,Ground,Ground
+High Horsepower,49.202,Copperajah,0,Physical,Steel,Steel
+High Horsepower,61.767,Hippowdon,0,Physical,Ground,Ground
+High Horsepower,85.37,Bouffalant,0,Physical,Normal,Normal
+High Horsepower,80.172,Sandaconda,0,Physical,Ground,Ground
+High Horsepower,14.035,Miltank,0,Physical,Normal,Normal
+High Horsepower,9.408,Heracross,0,Physical,Bug,Fighting
+High Horsepower,8.536,Bewear,0,Physical,Normal,Fighting
+High Horsepower,15.551,Poliwrath,0,Physical,Water,Fighting
+High Horsepower,80.024,Golurk,0,Physical,Ground,Ghost
+High Horsepower,67.397,Steelix,0,Physical,Ground,Steel
+U Turn,48.902,Rillaboom,235.70764,Physical,Grass,Grass
+U Turn,18.237,Landorus Therian Forme,67.29453,Physical,Ground,Flying
+U Turn,12.535,Urshifu Single Strike Style,15.66875,Physical,Fighting,Dark
+U Turn,15.795,Urshifu Rapid Strike Style,9.1611,Physical,Water,Fighting
+U Turn,22.434,Pheromosa,6.50586,Physical,Bug,Fighting
+U Turn,63.756,Tapu Koko,17.21412,Physical,Electric,Fairy
+U Turn,45.765,Tsareena,11.8989,Physical,Grass,Grass
+U Turn,58.343,Darmanitan Galarian Standard Mode,8.75145,Physical,Ice,Ice
+U Turn,9.284,Galarian Moltres,3.2494,Physical,Dark,Flying
+U Turn,93.126,Scizor,6.51882,Physical,Bug,Steel
+U Turn,88.11,Darmanitan Standard Mode,2.6433,Physical,Fire,Fire
+U Turn,11.099,Corviknight,1.1099,Physical,Flying,Steel
+U Turn,8.028,Accelgor,0.56196,Physical,Bug,Bug
+U Turn,21.801,Crobat,1.09005,Physical,Poison,Flying
+U Turn,5.378,Hawlucha,0.16134,Physical,Fighting,Flying
+U Turn,2.711,Lopunny,0,Physical,Normal,Normal
+U Turn,5.744,Unfezant,0,Physical,Normal,Flying
+U Turn,21.987,Perrserker,0,Physical,Steel,Steel
+U Turn,19.564,Noivern,0,Physical,Flying,Dragon
+U Turn,33.197,Decidueye,0,Physical,Grass,Ghost
+U Turn,51.63,Scyther,0,Physical,Bug,Flying
+Wood Hammer,21.823,Rillaboom,105.18686,Physical,Grass,Grass
+Wood Hammer,6.496,Mimikyu,7.40544,Physical,Ghost,Fairy
+Wood Hammer,98.698,Tapu Bulu,1.97396,Physical,Grass,Fairy
+Wood Hammer,7.884,Alolan Exeggutor,0.47304,Physical,Grass,Dragon
+Wood Hammer,92.721,Trevenant,1.85442,Physical,Grass,Ghost
+Wood Hammer,30.949,Abomasnow,1.54745,Physical,Grass,Ice
+Knock Off,9.28,Rillaboom,44.7296,Physical,Grass,Grass
+Knock Off,25.383,Escavalier,2.28447,Physical,Bug,Steel
+Knock Off,41.406,Kingler,3.72654,Physical,Water,Water
+Knock Off,97.547,Obstagoon,5.85282,Physical,Dark,Normal
+Knock Off,15.843,Machamp,0.63372,Physical,Fighting,Fighting
+Knock Off,12.938,Zoroark,0,Physical,Dark,Dark
+Knock Off,54.86,Sirfetch'd,0,Physical,Fighting,Fighting
+Knock Off,49.485,Gallade,0,Physical,Psychic,Fighting
+Knock Off,78.569,Tangrowth,0,Physical,Grass,Grass
+Knock Off,66.303,Crawdaunt,0,Physical,Water,Dark
+Knock Off,82.58,Drapion,0,Physical,Dark,Poison
+Knock Off,9.901,Decidueye,0,Physical,Grass,Ghost
+Knock Off,40.541,Passimian,0,Physical,Fighting,Fighting
+Knock Off,74.209,Lickilicky,0,Physical,Normal,Normal
+Rock Slide,85.296,Landorus Therian Forme,314.74224,Physical,Ground,Flying
+Rock Slide,4.831,Coalossal,1.9324,Physical,Fire,Rock
+Rock Slide,7.469,Zygarde Complete Forme,3.13698,Physical,Ground,Dragon
+Rock Slide,23.361,Metagross,6.30747,Physical,Psychic,Steel
+Rock Slide,20.609,Landorus Incarnate Forme,4.74007,Physical,Ground,Flying
+Rock Slide,15.83,Dusk Mane Necrozma,7.7567,Physical,Psychic,Steel
+Rock Slide,8.071,Dracovish,2.58272,Physical,Water,Dragon
+Rock Slide,47.446,Darmanitan Galarian Standard Mode,7.1169,Physical,Ice,Ice
+Rock Slide,65.492,Stakataka,15.06316,Physical,Steel,Rock
+Rock Slide,66.503,Salamence,5.32024,Physical,Flying,Dragon
+Rock Slide,94.303,Tyranitar,22.63272,Physical,Rock,Dark
+Rock Slide,10.627,Alolan Marowak,1.70032,Physical,Fire,Ghost
+Rock Slide,35.939,Kingler,3.23451,Physical,Water,Water
+Rock Slide,82.668,Garchomp,12.4002,Physical,Ground,Dragon
+Rock Slide,54.858,Krookodile,6.03438,Physical,Ground,Dark
+Rock Slide,87.735,Excadrill,8.7735,Physical,Ground,Steel
+Rock Slide,26.575,Shiftry,0.79725,Physical,Grass,Dark
+Rock Slide,59.216,Mudsdale,3.55296,Physical,Ground,Ground
+Rock Slide,98.421,Gigalith,3.93684,Physical,Rock,Rock
+Rock Slide,6.855,Dragonite,0.6855,Physical,Flying,Dragon
+Rock Slide,82.09,Darmanitan Standard Mode,2.4627,Physical,Fire,Fire
+Rock Slide,6.765,Cradily,0.74415,Physical,Rock,Grass
+Rock Slide,90.163,Aerodactyl,4.50815,Physical,Rock,Flying
+Rock Slide,27.165,Kabutops,1.0866,Physical,Water,Rock
+Rock Slide,92.731,Drednaw,3.70924,Physical,Water,Rock
+Rock Slide,52.657,Rhyperior,4.73913,Physical,Ground,Rock
+Rock Slide,72.119,Stonjourner,2.16357,Physical,Rock,Rock
+Rock Slide,49.671,Diggersby,0.49671,Physical,Normal,Ground
+Rock Slide,95.859,Durant,3.83436,Physical,Bug,Steel
+Rock Slide,16.533,Conkeldurr,1.6533,Physical,Fighting,Fighting
+Rock Slide,94.024,Terrakion,4.7012,Physical,Rock,Fighting
+Rock Slide,25.308,Black Kyurem,1.77156,Physical,Dragon,Ice
+Rock Slide,3.591,Goodra,0.21546,Physical,Dragon,Dragon
+Rock Slide,2.98,Tauros,0.0894,Physical,Normal,Normal
+Rock Slide,58.463,Blissey,1.75389,Physical,Normal,Normal
+Rock Slide,4.824,Haxorus,0,Physical,Dragon,Dragon
+Rock Slide,13.994,Runerigus,0,Physical,Ground,Ghost
+Rock Slide,46.238,Braviary,0,Physical,Normal,Flying
+Rock Slide,38.61,Beartic,0,Physical,Ice,Ice
+Rock Slide,44.164,Copperajah,0,Physical,Steel,Steel
+Rock Slide,27.756,Hippowdon,0,Physical,Ground,Ground
+Rock Slide,32.533,Arctozolt,0,Physical,Electric,Ice
+Rock Slide,14.781,Gallade,0,Physical,Psychic,Fighting
+Rock Slide,13.138,Malamar,0,Physical,Dark,Psychic
+Rock Slide,54.998,Lycanroc Dusk Form,0,Physical,Rock,Rock
+Rock Slide,9.618,Bouffalant,0,Physical,Normal,Normal
+Rock Slide,64.103,Sandaconda,0,Physical,Ground,Ground
+Rock Slide,66.684,Miltank,0,Physical,Normal,Normal
+Rock Slide,65.246,Heracross,0,Physical,Bug,Fighting
+Rock Slide,43.329,Falinks,0,Physical,Fighting,Fighting
+Rock Slide,14.736,Flygon,0,Physical,Ground,Dragon
+Rock Slide,82.689,Crustle,0,Physical,Rock,Bug
+Rock Slide,3.997,Dusknoir,0,Physical,Ghost,Ghost
+Rock Slide,5.009,Drapion,0,Physical,Dark,Poison
+Rock Slide,25.316,Passimian,0,Physical,Fighting,Fighting
+Rock Slide,98.209,Lycanroc Midday Form,0,Physical,Rock,Rock
+Rock Slide,84.337,Marowak,0,Physical,Ground,Ground
+Rock Slide,14.619,Alolan Sandslash,0,Physical,Ice,Steel
+Rock Slide,27.997,Poliwrath,0,Physical,Water,Fighting
+Rock Slide,27.303,Lycanroc Midnight Form,0,Physical,Rock,Rock
+Rock Slide,31.395,Hitmonlee,0,Physical,Fighting,Fighting
+Rock Slide,9.285,Scolipede,0,Physical,Bug,Poison
+Rock Slide,53.596,Dunsparce,0,Physical,Normal,Normal
+Rock Slide,70.676,Sandslash,0,Physical,Ground,Ground
+Rock Slide,4.941,Steelix,0,Physical,Ground,Steel
+Stone Edge,77.952,Entei,38.976,Physical,Fire,Fire
+Stone Edge,64.116,Landorus Incarnate Forme,14.74668,Physical,Ground,Flying
+Stone Edge,8.98,Dusk Mane Necrozma,4.4002,Physical,Psychic,Steel
+Stone Edge,8.282,Dracovish,2.65024,Physical,Water,Dragon
+Stone Edge,15.44,Stakataka,3.5512,Physical,Steel,Rock
+Stone Edge,4.129,Tyranitar,0.99096,Physical,Rock,Dark
+Stone Edge,9.07,Tapu Bulu,0.1814,Physical,Grass,Fairy
+Stone Edge,69.793,Kabutops,2.79172,Physical,Water,Rock
+Stone Edge,34.534,Bisharp,3.4534,Physical,Dark,Steel
+Stone Edge,20.304,Rhyperior,1.82736,Physical,Ground,Rock
+Stone Edge,11.132,Giratina Altered Forme,1.00188,Physical,Ghost,Dragon
+Stone Edge,5.87,Terrakion,0.2935,Physical,Rock,Fighting
+Stone Edge,81.122,Cobalion,4.86732,Physical,Fighting,Steel
+Stone Edge,85.961,Machamp,3.43844,Physical,Fighting,Fighting
+Stone Edge,25.702,Virizion,0,Physical,Grass,Fighting
+Stone Edge,10.927,Beartic,0,Physical,Ice,Ice
+Stone Edge,9.037,Copperajah,0,Physical,Steel,Steel
+Stone Edge,10.804,Arctozolt,0,Physical,Electric,Ice
+Stone Edge,30.927,Sandaconda,0,Physical,Ground,Ground
+Stone Edge,12.366,Heracross,0,Physical,Bug,Fighting
+Stone Edge,16.93,Crustle,0,Physical,Rock,Bug
+Stone Edge,82.05,Lycanroc Midnight Form,0,Physical,Rock,Rock
+Stone Edge,20.389,Hitmonlee,0,Physical,Fighting,Fighting
+Heavy Slam,7.257,Calyrex Ice Rider,21.33558,Physical,Psychic,Ice
+Heavy Slam,26.864,Celesteela,6.98464,Physical,Flying,Steel
+Heavy Slam,77.675,Glastrier,10.09775,Physical,Ice,Ice
+Heavy Slam,43.846,Mudsdale,2.63076,Physical,Ground,Ground
+Heavy Slam,56.707,Stonjourner,1.70121,Physical,Rock,Rock
+Heavy Slam,5.333,Beartic,0,Physical,Ice,Ice
+Heavy Slam,17.714,Copperajah,0,Physical,Steel,Steel
+Heavy Slam,10.092,Flapple,0,Physical,Grass,Dragon
+Fire Punch,3.947,Tyranitar,0.94728,Physical,Rock,Dark
+Fire Punch,17.822,Dragonite,1.7822,Physical,Flying,Dragon
+Fire Punch,9.128,Obstagoon,0.54768,Physical,Dark,Normal
+Fire Punch,6.307,Rhyperior,0.56763,Physical,Ground,Rock
+Fire Punch,8.86,Conkeldurr,0.886,Physical,Fighting,Fighting
+Fire Punch,11.956,Goodra,0.71736,Physical,Dragon,Dragon
+Fire Punch,8.05,Hawlucha,0.2415,Physical,Fighting,Flying
+Fire Punch,3.944,Lopunny,0,Physical,Normal,Normal
+Fire Punch,6.326,Miltank,0,Physical,Normal,Normal
+Fire Punch,25.177,Dusknoir,0,Physical,Ghost,Ghost
+Fire Punch,97.474,Druddigon,0,Physical,Dragon,Dragon
+Fire Punch,43,Marowak,0,Physical,Ground,Ground
+Fire Punch,8.256,Lycanroc Midnight Form,0,Physical,Rock,Rock
+Fire Punch,13.139,Lickilicky,0,Physical,Normal,Normal
+Heat Crash,28.138,Copperajah,0,Physical,Steel,Steel
+Swords Dance,37.344,Landorus Therian Forme,137.79936,Status,Ground,Flying
+Swords Dance,10.328,Calyrex Ice Rider,30.36432,Status,Psychic,Ice
+Swords Dance,19.905,Dusk Mane Necrozma,9.75345,Status,Psychic,Steel
+Swords Dance,18.215,Garchomp,2.73225,Status,Ground,Dragon
+Swords Dance,21,Aegislash Shield Forme,2.1,Status,Steel,Ghost
+Swords Dance,24.619,Bisharp,2.4619,Status,Dark,Steel
+Swords Dance,28.332,Rhyperior,2.54988,Status,Ground,Rock
+Swords Dance,13.27,Hawlucha,0.3981,Status,Fighting,Flying
+Swords Dance,16.359,Virizion,0,Status,Grass,Fighting
+Swords Dance,15.488,Golisopod,0,Status,Bug,Water
+Swords Dance,23.176,Lycanroc Dusk Form,0,Status,Rock,Rock
+Swords Dance,11.444,Decidueye,0,Status,Grass,Ghost
+Swords Dance,18.968,Lycanroc Midday Form,0,Status,Rock,Rock
+Swords Dance,50.12,Scyther,0,Status,Bug,Flying
+Swords Dance,28.469,Alolan Sandslash,0,Status,Ice,Steel
+Swords Dance,9.443,Lycanroc Midnight Form,0,Status,Rock,Rock
+Swords Dance,9.263,Lickilicky,0,Status,Normal,Normal
+Swords Dance,13.862,Scolipede,0,Status,Bug,Poison
+Giga Impact,15.59,Kartana,18.3962,Physical,Grass,Steel
+Giga Impact,99.433,Regigigas,36.79021,Physical,Normal,Normal
+Giga Impact,5.451,Snorlax,0.98118,Physical,Normal,Normal
+Giga Impact,9.842,Kangaskhan,0.59052,Physical,Normal,Normal
+Giga Impact,48.102,Diggersby,0.48102,Physical,Normal,Ground
+Giga Impact,5.547,Tauros,0.16641,Physical,Normal,Normal
+Giga Impact,21.27,Braviary,0,Physical,Normal,Flying
+Giga Impact,5.245,Bouffalant,0,Physical,Normal,Normal
+Giga Impact,52.864,Stoutland,0,Physical,Normal,Normal
+Rock Tomb,9.178,Landorus Therian Forme,33.86682,Physical,Ground,Flying
+Rock Tomb,8.265,Mienshao,1.4877,Physical,Fighting,Fighting
+Rock Tomb,73.229,Lucario,6.59061,Physical,Fighting,Steel
+Rock Tomb,24.578,Stonjourner,0.73734,Physical,Rock,Rock
+Rock Tomb,21.944,Hawlucha,0.65832,Physical,Fighting,Flying
+Rock Tomb,81.401,Haxorus,0,Physical,Dragon,Dragon
+Bulldoze,6.471,Landorus Therian Forme,23.87799,Physical,Ground,Flying
+Bulldoze,20.967,Entei,10.4835,Physical,Fire,Fire
+Bulldoze,38.715,Spectrier,7.35585,Physical,Ghost,Ghost
+Bulldoze,4.828,Hydreigon,0.62764,Physical,Dark,Dragon
+Bulldoze,7.123,Salamence,0.56984,Physical,Flying,Dragon
+Bulldoze,53.102,Raikou,3.71714,Physical,Electric,Electric
+Bulldoze,37.996,Dracozolt,3.03968,Physical,Electric,Dragon
+Bulldoze,6.854,Sceptile,0.3427,Physical,Grass,Grass
+Bulldoze,73.229,Lucario,6.59061,Physical,Fighting,Steel
+Bulldoze,26.147,Altaria,0.78441,Physical,Flying,Dragon
+Bulldoze,8.696,Latias,0.52176,Physical,Psychic,Dragon
+Bulldoze,9.989,Alolan Exeggutor,0.59934,Physical,Grass,Dragon
+Bulldoze,9.952,Aerodactyl,0.4976,Physical,Rock,Flying
+Bulldoze,31.605,Conkeldurr,3.1605,Physical,Fighting,Fighting
+Bulldoze,8.124,Terrakion,0.4062,Physical,Rock,Fighting
+Bulldoze,5.395,Runerigus,0,Physical,Ground,Ghost
+Bulldoze,3.655,Sharpedo,0,Physical,Water,Dark
+Bulldoze,47.886,Galarian Slowbro,0,Physical,Poison,Psychic
+Bulldoze,11.003,Claydol,0,Physical,Ground,Psychic
+Bulldoze,4.726,Flygon,0,Physical,Ground,Dragon
+Bulldoze,11.792,Dusknoir,0,Physical,Ghost,Ghost
+Bulldoze,19.081,Lickilicky,0,Physical,Normal,Normal
+Bulldoze,9.736,Scolipede,0,Physical,Bug,Poison
+Bulldoze,61.897,Sandslash,0,Physical,Ground,Ground
+Astral Barrage,99.995,Calyrex Shadow Rider,362.98185,Special,Psychic,Ghost
+Expanding Force,44.349,Calyrex Shadow Rider,160.98687,Special,Psychic,Ghost
+Expanding Force,86.47,Indeedee Female,334.6389,Special,Normal,Psychic
+Expanding Force,99.251,Indeedee Male,25.80526,Special,Normal,Psychic
+Expanding Force,4.804,Dusk Mane Necrozma,2.35396,Special,Psychic,Steel
+Expanding Force,84.501,Hatterene,18.59022,Special,Psychic,Fairy
+Expanding Force,72.61,Slowking,1.4522,Special,Water,Psychic
+Expanding Force,28.995,Galarian Articuno,4.0593,Special,Psychic,Flying
+Expanding Force,70.231,Slowbro,2.80924,Special,Water,Psychic
+Expanding Force,54.489,Oranguru,9.26313,Special,Normal,Psychic
+Expanding Force,5.188,Exeggutor,0.15564,Special,Grass,Psychic
+Expanding Force,54.43,Espeon,1.6329,Special,Psychic,Psychic
+Expanding Force,93.056,Alolan Raichu,0,Special,Electric,Psychic
+Expanding Force,99.281,Alakazam,0,Special,Psychic,Psychic
+Expanding Force,79.794,Starmie,0,Special,Water,Psychic
+Expanding Force,93.646,Galarian Slowbro,0,Special,Poison,Psychic
+Expanding Force,20.237,Claydol,0,Special,Ground,Psychic
+Expanding Force,81.611,Reuniclus,0,Special,Psychic,Psychic
+Expanding Force,12.082,Wigglytuff,0,Special,Normal,Fairy
+Expanding Force,95.954,Gardevoir,0,Special,Psychic,Fairy
+Expanding Force,83.206,Sigilyph,0,Special,Psychic,Flying
+Expanding Force,73.762,Orbeetle,0,Special,Bug,Psychic
+Expanding Force,93.324,Beheeyem,0,Special,Psychic,Psychic
+Will O Wisp,42.417,Calyrex Shadow Rider,153.97371,Status,Psychic,Ghost
+Will O Wisp,19.226,Dusclops,16.91888,Status,Ghost,Ghost
+Will O Wisp,98.913,Weezing,42.53259,Status,Poison,Poison
+Will O Wisp,86.776,Sableye,40.78472,Status,Ghost,Dark
+Will O Wisp,79.992,Mimikyu,91.19088,Status,Ghost,Fairy
+Will O Wisp,56.661,Heat Rotom,24.36423,Status,Electric,Fire
+Will O Wisp,48.47,Dragapult,26.1738,Status,Ghost,Dragon
+Will O Wisp,89.432,Spectrier,16.99208,Status,Ghost,Ghost
+Will O Wisp,89.474,Arcanine,20.57902,Status,Fire,Fire
+Will O Wisp,22.672,Volcarona,6.34816,Status,Fire,Bug
+Will O Wisp,51.275,Talonflame,11.2805,Status,Fire,Flying
+Will O Wisp,45.424,Wash Rotom,7.26784,Status,Electric,Water
+Will O Wisp,93.353,Galarian Weezing,7.46824,Status,Poison,Fairy
+Will O Wisp,9.8,Moltres,0.294,Status,Fire,Flying
+Will O Wisp,95.559,Drifblim,2.86677,Status,Ghost,Flying
+Will O Wisp,51.433,Froslass,2.05732,Status,Ice,Ghost
+Will O Wisp,20.549,Jellicent,1.23294,Status,Water,Ghost
+Will O Wisp,19.273,Giratina Altered Forme,1.73457,Status,Ghost,Dragon
+Will O Wisp,43.491,Mow Rotom,1.30473,Status,Electric,Grass
+Will O Wisp,6.35,Gengar,0.635,Status,Ghost,Poison
+Will O Wisp,8.306,Runerigus,0,Status,Ground,Ghost
+Will O Wisp,35.701,Cofagrigus,0,Status,Ghost,Ghost
+Will O Wisp,25.717,Ninetales,0,Status,Fire,Fire
+Will O Wisp,24.603,Gourgeist Small Size,0,Status,Grass,Ghost
+Will O Wisp,13.49,Frost Rotom,0,Status,Electric,Ice
+Will O Wisp,25.925,Polteageist,0,Status,Ghost,Ghost
+Will O Wisp,78.352,Gourgeist Super Size,0,Status,Grass,Ghost
+Will O Wisp,78.589,Galarian Corsola,0,Status,Ghost,Ghost
+Mud Shot,26.909,Calyrex Shadow Rider,97.67967,Special,Psychic,Ghost
+Mud Shot,6.835,Spectrier,1.29865,Special,Ghost,Ghost
+Mud Shot,6.824,Milotic,2.0472,Special,Water,Water
+Mud Shot,70.091,Slowbro,2.80364,Special,Water,Psychic
+Mud Shot,36.583,Vikavolt,1.09749,Special,Bug,Electric
+Mud Shot,16.404,Thievul,0,Special,Dark,Dark
+Mud Shot,2.635,Galarian Slowbro,0,Special,Poison,Psychic
+Psyshock,18.397,Calyrex Shadow Rider,66.78111,Special,Psychic,Ghost
+Psyshock,10.628,Tapu Lele,2.44444,Special,Psychic,Fairy
+Psyshock,47.127,Meowstic Male,7.06905,Special,Psychic,Psychic
+Psyshock,8.727,Latias,0.52362,Special,Psychic,Dragon
+Psyshock,23.744,Cresselia,2.3744,Special,Psychic,Psychic
+Psyshock,40.793,Mime Galarian Mr. Mime,0.81586,Special,Psychic,Ice
+Psyshock,14.009,Reuniclus,0,Special,Psychic,Psychic
+Leaf Storm,17.106,Calyrex Shadow Rider,62.09478,Special,Psychic,Ghost
+Leaf Storm,61.615,Venusaur,125.6946,Special,Grass,Poison
+Leaf Storm,41.766,Ludicolo,6.68256,Special,Water,Grass
+Leaf Storm,78.914,Sceptile,3.9457,Special,Grass,Grass
+Leaf Storm,6.399,Lurantis,0.25596,Special,Grass,Grass
+Leaf Storm,17.41,Alolan Exeggutor,1.0446,Special,Grass,Dragon
+Leaf Storm,20.56,Abomasnow,1.028,Special,Grass,Ice
+Leaf Storm,99.954,Mow Rotom,2.99862,Special,Electric,Grass
+Leaf Storm,46.244,Lilligant,0,Special,Grass,Grass
+Leaf Storm,91.298,Roserade,0,Special,Grass,Poison
+Leaf Storm,51.925,Tangrowth,0,Special,Grass,Grass
+Leaf Storm,19.655,Decidueye,0,Special,Grass,Ghost
+Leaf Storm,39.806,Maractus,0,Special,Grass,Grass
+Trick Room,10.284,Calyrex Shadow Rider,37.33092,Status,Psychic,Ghost
+Trick Room,10.418,Whimsicott,44.2765,Status,Grass,Fairy
+Trick Room,80.271,Calyrex Ice Rider,235.99674,Status,Psychic,Ice
+Trick Room,89.721,Porygon2,104.97357,Status,Normal,Normal
+Trick Room,99.72,Dusclops,87.7536,Status,Ghost,Ghost
+Trick Room,90.227,Mimikyu,102.85878,Status,Ghost,Fairy
+Trick Room,26.848,Gothitelle,5.3696,Status,Psychic,Psychic
+Trick Room,89.1,Bronzong,24.057,Status,Psychic,Steel
+Trick Room,81.248,Indeedee Male,21.12448,Status,Normal,Psychic
+Trick Room,61.193,Comfey,33.04422,Status,Fairy,Fairy
+Trick Room,98.313,Dawn Wings Necrozma,9.8313,Status,Psychic,Ghost
+Trick Room,67.44,Dusk Mane Necrozma,33.0456,Status,Psychic,Steel
+Trick Room,6.541,Meowstic Male,0.98115,Status,Psychic,Psychic
+Trick Room,93.105,Stakataka,21.41415,Status,Steel,Rock
+Trick Room,76.27,Klinklang,674.2268,Status,Steel,Steel
+Trick Room,84.068,Hatterene,18.49496,Status,Psychic,Fairy
+Trick Room,86.098,Slowking,1.72196,Status,Water,Psychic
+Trick Room,70.209,Galarian Articuno,9.82926,Status,Psychic,Flying
+Trick Room,74.327,Slowbro,2.97308,Status,Water,Psychic
+Trick Room,94.086,Oranguru,15.99462,Status,Normal,Psychic
+Trick Room,17.683,Nihilego,1.23781,Status,Rock,Poison
+Trick Room,73.539,Chandelure,6.61851,Status,Fire,Ghost
+Trick Room,41.094,Porygon-Z,2.87658,Status,Normal,Normal
+Trick Room,97.28,Jellicent,5.8368,Status,Water,Ghost
+Trick Room,99.562,Alolan Exeggutor,5.97372,Status,Grass,Dragon
+Trick Room,5.117,Trevenant,0.10234,Status,Grass,Ghost
+Trick Room,71.706,Cresselia,7.1706,Status,Psychic,Psychic
+Trick Room,98.937,Mr. Rime,1.97874,Status,Psychic,Ice
+Trick Room,31.653,Gengar,3.1653,Status,Ghost,Poison
+Trick Room,46.119,Espeon,1.38357,Status,Psychic,Psychic
+Trick Room,87.217,Runerigus,0,Status,Ground,Ghost
+Trick Room,31.882,Alakazam,0,Status,Psychic,Psychic
+Trick Room,97.278,Cofagrigus,0,Status,Ghost,Ghost
+Trick Room,13.289,Starmie,0,Status,Water,Psychic
+Trick Room,34.985,Mr. Mime,0,Status,Psychic,Fairy
+Trick Room,27.514,Gallade,0,Status,Psychic,Fighting
+Trick Room,74.028,Gourgeist Small Size,0,Status,Grass,Ghost
+Trick Room,68.45,Malamar,0,Status,Dark,Psychic
+Trick Room,82.873,Galarian Slowbro,0,Status,Poison,Psychic
+Trick Room,99.68,Aromatisse,0,Status,Fairy,Fairy
+Trick Room,97.989,Gourgeist Super Size,0,Status,Grass,Ghost
+Trick Room,86.003,Claydol,0,Status,Ground,Psychic
+Trick Room,94.054,Reuniclus,0,Status,Psychic,Psychic
+Trick Room,91.525,Dusknoir,0,Status,Ghost,Ghost
+Trick Room,84.948,Gardevoir,0,Status,Psychic,Fairy
+Trick Room,87.535,Sigilyph,0,Status,Psychic,Flying
+Trick Room,75.249,Orbeetle,0,Status,Bug,Psychic
+Trick Room,14.673,Beheeyem,0,Status,Psychic,Psychic
+Trick Room,91.199,Mime Jr.,0,Status,Psychic,Fairy
+Trick Room,99.986,Gourgeist Large Size,0,Status,Grass,Ghost
+Energy Ball,7.051,Calyrex Shadow Rider,25.59513,Special,Psychic,Ghost
+Energy Ball,38.249,Whimsicott,162.55825,Special,Grass,Fairy
+Energy Ball,13.322,Tapu Lele,3.06406,Special,Psychic,Fairy
+Energy Ball,11.243,Celesteela,2.92318,Special,Flying,Steel
+Energy Ball,34.295,Ludicolo,5.4872,Special,Water,Grass
+Energy Ball,14.182,Primarina,1.56002,Special,Water,Fairy
+Energy Ball,10.81,Chandelure,0.9729,Special,Fire,Ghost
+Energy Ball,9.565,Sceptile,0.47825,Special,Grass,Grass
+Energy Ball,24.574,Cherrim,1.96592,Special,Grass,Grass
+Energy Ball,82.448,Exeggutor,2.47344,Special,Grass,Psychic
+Energy Ball,8.132,Latias,0.48792,Special,Psychic,Dragon
+Energy Ball,40.742,Cradily,4.48162,Special,Rock,Grass
+Energy Ball,31.88,Abomasnow,1.594,Special,Grass,Ice
+Energy Ball,51.566,Vikavolt,1.54698,Special,Bug,Electric
+Energy Ball,8.593,Cresselia,0.8593,Special,Psychic,Psychic
+Energy Ball,49.345,Xurkitree,1.9738,Special,Electric,Electric
+Energy Ball,27.188,Gengar,2.7188,Special,Ghost,Poison
+Energy Ball,48.861,Palossand,2.44305,Special,Ground,Ghost
+Energy Ball,39.051,Drampa,1.56204,Special,Normal,Dragon
+Energy Ball,12.871,Lilligant,0,Special,Grass,Grass
+Energy Ball,6.404,Virizion,0,Special,Grass,Fighting
+Energy Ball,10.686,Alakazam,0,Special,Psychic,Psychic
+Energy Ball,3.159,Ninetales,0,Special,Fire,Fire
+Energy Ball,39.791,Shiinotic,0,Special,Grass,Fairy
+Energy Ball,42.136,Vileplume,0,Special,Grass,Poison
+Energy Ball,11.911,Reuniclus,0,Special,Psychic,Psychic
+Energy Ball,3.868,Sigilyph,0,Special,Psychic,Flying
+Energy Ball,16.411,Galvantula,0,Special,Bug,Electric
+Energy Ball,9.454,Maractus,0,Special,Grass,Grass
+Energy Ball,15.806,Orbeetle,0,Special,Bug,Psychic
+Energy Ball,90.038,Beheeyem,0,Special,Psychic,Psychic
+Speed Swap,5.031,Calyrex Shadow Rider,18.26253,Status,Psychic,Ghost
+Speed Swap,17.598,Bronzong,4.75146,Status,Psychic,Steel
+Speed Swap,44.941,Pheromosa,13.03289,Status,Bug,Fighting
+Speed Swap,11.351,Alolan Raichu,0,Status,Electric,Psychic
+Speed Swap,14.679,Alakazam,0,Status,Psychic,Psychic
+Speed Swap,82.033,Ribombee,0,Status,Bug,Fairy
+Imprison,4.292,Calyrex Shadow Rider,15.57996,Status,Psychic,Ghost
+Imprison,78.776,Indeedee Male,20.48176,Status,Normal,Psychic
+Imprison,61.233,Chandelure,5.51097,Status,Fire,Ghost
+Imprison,5.103,Runerigus,0,Status,Ground,Ghost
+Imprison,26.181,Alakazam,0,Status,Psychic,Psychic
+Imprison,10.982,Gallade,0,Status,Psychic,Fighting
+Imprison,56.075,Gourgeist Small Size,0,Status,Grass,Ghost
+Imprison,2.375,Galarian Slowbro,0,Status,Poison,Psychic
+Imprison,17.167,Gourgeist Super Size,0,Status,Grass,Ghost
+Imprison,72.714,Claydol,0,Status,Ground,Psychic
+Imprison,83.492,Gardevoir,0,Status,Psychic,Fairy
+Imprison,82.149,Sigilyph,0,Status,Psychic,Flying
+Imprison,6.387,Decidueye,0,Status,Grass,Ghost
+Imprison,70.952,Orbeetle,0,Status,Bug,Psychic
+Imprison,99.986,Gourgeist Large Size,0,Status,Grass,Ghost
+Fly,71.796,Thundurus Incarnate Forme,252.72192,Physical,Electric,Flying
+Fly,90.761,Landorus Therian Forme,334.90809,Physical,Ground,Flying
+Fly,69.188,Dragapult,37.36152,Physical,Ghost,Dragon
+Fly,79.577,Landorus Incarnate Forme,18.30271,Physical,Ground,Flying
+Fly,53.503,Thundurus Therian Forme,4.81527,Physical,Electric,Flying
+Fly,73.574,Flapple,0,Physical,Grass,Dragon
+Brick Break,43.333,Thundurus Incarnate Forme,152.53216,Physical,Electric,Flying
+Brick Break,11.325,Barraskewda,4.19025,Physical,Water,Water
+Brick Break,18.977,Metagross,5.12379,Physical,Psychic,Steel
+Brick Break,19.779,Hitmontop,5.34033,Physical,Fighting,Fighting
+Brick Break,12.437,Galarian Zapdos,3.23362,Physical,Fighting,Flying
+Brick Break,9.178,Alolan Marowak,1.46848,Physical,Fire,Ghost
+Brick Break,23.397,Kingler,2.10573,Physical,Water,Water
+Brick Break,9.384,Garchomp,1.4076,Physical,Ground,Dragon
+Brick Break,33.477,Excadrill,3.3477,Physical,Ground,Steel
+Brick Break,85.023,Toxicroak,1.70046,Physical,Poison,Fighting
+Brick Break,11.856,Riolu,1.54128,Physical,Fighting,Fighting
+Brick Break,40.76,Darmanitan Standard Mode,1.2228,Physical,Fire,Fire
+Brick Break,12.06,Obstagoon,0.7236,Physical,Dark,Normal
+Brick Break,22.399,Scrafty,1.34394,Physical,Fighting,Dark
+Brick Break,29.947,Hawlucha,0.89841,Physical,Fighting,Flying
+Brick Break,5.075,Miltank,0,Physical,Normal,Normal
+Brick Break,11.859,Crawdaunt,0,Physical,Water,Dark
+Brick Break,22.15,Dusknoir,0,Physical,Ghost,Ghost
+Brick Break,30.089,Drapion,0,Physical,Dark,Poison
+Brick Break,6.829,Marowak,0,Physical,Ground,Ground
+Brick Break,5.937,Bewear,0,Physical,Normal,Fighting
+Brick Break,35.236,Scyther,0,Physical,Bug,Flying
+Brick Break,31.389,Sandslash,0,Physical,Ground,Ground
+Eerie Impulse,24.899,Thundurus Incarnate Forme,87.64448,Status,Electric,Flying
+Eerie Impulse,34.166,Porygon2,39.97422,Status,Normal,Normal
+Eerie Impulse,19.148,Zapdos,32.16864,Status,Electric,Flying
+Eerie Impulse,12.494,Raichu,11.61942,Status,Electric,Electric
+Eerie Impulse,17.358,Wash Rotom,2.77728,Status,Electric,Water
+Eerie Impulse,29.587,Raikou,2.07109,Status,Electric,Electric
+Eerie Impulse,11.179,Emolga,0,Status,Electric,Flying
+Eerie Impulse,84.456,Charjabug,0,Status,Bug,Electric
+Eerie Impulse,13.65,Dedenne,0,Status,Electric,Fairy
+Superpower,18.7,Thundurus Incarnate Forme,65.824,Physical,Electric,Flying
+Superpower,49.018,Darmanitan Galarian Standard Mode,7.3527,Physical,Ice,Ice
+Superpower,5.114,Snorlax,0.92052,Physical,Normal,Normal
+Superpower,86.111,Scizor,6.02777,Physical,Bug,Steel
+Superpower,17.602,Tyranitar,4.22448,Physical,Rock,Dark
+Superpower,46.658,Gigalith,1.86632,Physical,Rock,Rock
+Superpower,99.995,Lurantis,3.9998,Physical,Grass,Grass
+Superpower,15.49,Dragonite,1.549,Physical,Flying,Dragon
+Superpower,10.719,Kabutops,0.42876,Physical,Water,Rock
+Superpower,4.833,Rhyperior,0.43497,Physical,Ground,Rock
+Superpower,31.615,Durant,1.2646,Physical,Bug,Steel
+Superpower,27.442,Goodra,1.64652,Physical,Dragon,Dragon
+Superpower,52.894,Beartic,0,Physical,Ice,Ice
+Superpower,10.187,Copperajah,0,Physical,Steel,Steel
+Superpower,99.825,Malamar,0,Physical,Dark,Psychic
+Superpower,19.787,Stoutland,0,Physical,Normal,Normal
+Superpower,9.104,Flygon,0,Physical,Ground,Dragon
+Superpower,92.253,Druddigon,0,Physical,Dragon,Dragon
+Superpower,95.825,Flareon,0,Physical,Fire,Fire
+Superpower,18.661,Scolipede,0,Physical,Bug,Poison
+Crunch,12.792,Thundurus Incarnate Forme,45.02784,Physical,Electric,Flying
+Crunch,51.432,Entei,25.716,Physical,Fire,Fire
+Crunch,34.666,Barraskewda,12.82642,Physical,Water,Water
+Crunch,50.063,Dracovish,16.02016,Physical,Water,Dragon
+Crunch,4.81,Salamence,0.3848,Physical,Flying,Dragon
+Crunch,41.823,Tyranitar,10.03752,Physical,Rock,Dark
+Crunch,16.509,Gyarados,2.47635,Physical,Water,Flying
+Crunch,9.381,Centiskorch,1.12572,Physical,Fire,Bug
+Crunch,25.266,Scrafty,1.51596,Physical,Fighting,Dark
+Crunch,56.664,Silvally,1.13328,Physical,Normal,Normal
+Crunch,9.039,Hippowdon,0,Physical,Ground,Ground
+Crunch,92.529,Sharpedo,0,Physical,Water,Dark
+Crunch,40.591,Crawdaunt,0,Physical,Water,Dark
+Crunch,4.615,Stoutland,0,Physical,Normal,Normal
+Crunch,8.457,Lycanroc Midday Form,0,Physical,Rock,Rock
+Crunch,9.385,Lycanroc Midnight Form,0,Physical,Rock,Rock
+Rain Dance,6.781,Thundurus Incarnate Forme,23.86912,Status,Electric,Flying
+Rain Dance,12.39,Tornadus Incarnate Forme,23.6649,Status,Flying,Flying
+Rain Dance,29.453,Raikou,2.06171,Status,Electric,Electric
+Rain Dance,18.753,Klefki,0.93765,Status,Fairy,Steel
+Rain Dance,76.317,Luxray,1.52634,Status,Electric,Electric
+Rain Dance,12.436,Magneton,0,Status,Electric,Steel
+Iron Tail,6.068,Thundurus Incarnate Forme,21.35936,Physical,Electric,Flying
+Iron Tail,31.525,Zygarde Complete Forme,13.2405,Physical,Ground,Dragon
+Iron Tail,14.64,Rhyperior,1.3176,Physical,Ground,Rock
+Iron Tail,32.068,Leafeon,1.6034,Physical,Grass,Grass
+Iron Tail,19.472,Goodra,1.16832,Physical,Dragon,Dragon
+Iron Tail,6.811,Haxorus,0,Physical,Dragon,Dragon
+Iron Tail,67.686,Flareon,0,Physical,Fire,Fire
+Iron Tail,72.916,Lycanroc Midnight Form,0,Physical,Rock,Rock
+Grass Knot,3.807,Thundurus Incarnate Forme,13.40064,Special,Electric,Flying
+Grass Knot,5.611,Tapu Fini,4.15214,Special,Water,Fairy
+Grass Knot,8.981,Landorus Incarnate Forme,2.06563,Special,Ground,Flying
+Grass Knot,12.263,Tapu Koko,3.31101,Special,Electric,Fairy
+Grass Knot,67.783,Thundurus Therian Forme,6.10047,Special,Electric,Flying
+Grass Knot,10.546,Pikachu,1.37098,Special,Electric,Electric
+Grass Knot,74.485,Nihilego,5.21395,Special,Rock,Poison
+Grass Knot,9.419,Cherrim,0.75352,Special,Grass,Grass
+Grass Knot,43.084,Alolan Exeggutor,2.58504,Special,Grass,Dragon
+Grass Knot,31.718,Xurkitree,1.26872,Special,Electric,Electric
+Grass Knot,4.069,Zoroark,0,Special,Dark,Dark
+Grass Knot,8.07,Alolan Raichu,0,Special,Electric,Psychic
+Grass Knot,14.653,Wigglytuff,0,Special,Normal,Fairy
+Earthquake,93.103,Landorus Therian Forme,343.55007,Physical,Ground,Flying
+Earthquake,11.265,Seismitoad,6.64635,Physical,Water,Ground
+Earthquake,7.915,Celesteela,2.0579,Physical,Flying,Steel
+Earthquake,15.203,Metagross,4.10481,Physical,Psychic,Steel
+Earthquake,68.895,Dusk Mane Necrozma,33.75855,Physical,Psychic,Steel
+Earthquake,13.781,Dracovish,4.40992,Physical,Water,Dragon
+Earthquake,28.743,Darmanitan Galarian Standard Mode,4.31145,Physical,Ice,Ice
+Earthquake,22.506,Snorlax,4.05108,Physical,Normal,Normal
+Earthquake,8.314,Salamence,0.66512,Physical,Flying,Dragon
+Earthquake,8.787,Tyranitar,2.10888,Physical,Rock,Dark
+Earthquake,9.243,Gyarados,1.38645,Physical,Water,Flying
+Earthquake,85.835,Garchomp,12.87525,Physical,Ground,Dragon
+Earthquake,6.087,Kangaskhan,0.36522,Physical,Normal,Normal
+Earthquake,64.961,Krookodile,7.14571,Physical,Ground,Dark
+Earthquake,51.834,Excadrill,5.1834,Physical,Ground,Steel
+Earthquake,3.346,Sceptile,0.1673,Physical,Grass,Grass
+Earthquake,87.034,Greedent,0.87034,Physical,Normal,Normal
+Earthquake,6.962,Lucario,0.62658,Physical,Fighting,Steel
+Earthquake,38.584,Dragonite,3.8584,Physical,Flying,Dragon
+Earthquake,46.316,Darmanitan Standard Mode,1.38948,Physical,Fire,Fire
+Earthquake,7.812,Aerodactyl,0.3906,Physical,Rock,Flying
+Earthquake,8.013,Drednaw,0.32052,Physical,Water,Rock
+Earthquake,60.126,Rhyperior,5.41134,Physical,Ground,Rock
+Earthquake,91.903,Electivire,2.75709,Physical,Electric,Electric
+Earthquake,24.515,Abomasnow,1.22575,Physical,Grass,Ice
+Earthquake,11.244,Diggersby,0.11244,Physical,Normal,Ground
+Earthquake,27.481,Giratina Altered Forme,2.47329,Physical,Ghost,Dragon
+Earthquake,6.812,Wishiwashi Solo Form,0.06812,Physical,Water,Water
+Earthquake,39.568,Terrakion,1.9784,Physical,Rock,Fighting
+Earthquake,9.506,Tauros,0.28518,Physical,Normal,Normal
+Earthquake,90.913,Dugtrio,2.72739,Physical,Ground,Ground
+Earthquake,88.25,Tyrantrum,810.135,Physical,Rock,Dragon
+Earthquake,19.388,Blaziken,1.16328,Physical,Fire,Fighting
+Earthquake,90.029,Haxorus,0,Physical,Dragon,Dragon
+Earthquake,18.83,Dhelmise,0,Physical,Grass,Ghost
+Earthquake,30.158,Runerigus,0,Physical,Ground,Ghost
+Earthquake,7.637,Copperajah,0,Physical,Steel,Steel
+Earthquake,16.175,Hippowdon,0,Physical,Ground,Ground
+Earthquake,13.202,Sandaconda,0,Physical,Ground,Ground
+Earthquake,6.948,Heracross,0,Physical,Bug,Fighting
+Earthquake,10.443,Claydol,0,Physical,Ground,Psychic
+Earthquake,17.88,Flygon,0,Physical,Ground,Dragon
+Earthquake,94.413,Crustle,0,Physical,Rock,Bug
+Earthquake,22.497,Dusknoir,0,Physical,Ghost,Ghost
+Earthquake,11.409,Drapion,0,Physical,Dark,Poison
+Earthquake,57.458,Passimian,0,Physical,Fighting,Fighting
+Earthquake,38.828,Marowak,0,Physical,Ground,Ground
+Earthquake,22.622,Alolan Sandslash,0,Physical,Ice,Steel
+Earthquake,15.219,Golurk,0,Physical,Ground,Ghost
+Earthquake,10.365,Hitmonlee,0,Physical,Fighting,Fighting
+Earthquake,21.901,Scolipede,0,Physical,Bug,Poison
+Earthquake,21.783,Sandslash,0,Physical,Ground,Ground
+Earthquake,30.194,Steelix,0,Physical,Ground,Steel
+Earth Power,7.275,Landorus Therian Forme,26.84475,Special,Ground,Flying
+Earth Power,98.795,Gastrodon,391.2282,Special,Water,Ground
+Earth Power,63.727,Venusaur,130.00308,Special,Grass,Poison
+Earth Power,23.092,Torkoal,14.54796,Special,Fire,Fire
+Earth Power,97.707,White Kyurem,92.82165,Special,Dragon,Ice
+Earth Power,7.535,Seismitoad,4.44565,Special,Water,Ground
+Earth Power,99.472,Landorus Incarnate Forme,22.87856,Special,Ground,Flying
+Earth Power,16.312,Dusk Mane Necrozma,7.99288,Special,Psychic,Steel
+Earth Power,93.957,Hydreigon,12.21441,Special,Dark,Dragon
+Earth Power,17.636,Cradily,1.93996,Special,Rock,Grass
+Earth Power,90.586,Heatran,8.15274,Special,Fire,Steel
+Earth Power,39.411,Abomasnow,1.97055,Special,Grass,Ice
+Earth Power,34.199,Giratina Altered Forme,3.07791,Special,Ghost,Dragon
+Earth Power,4.834,Black Kyurem,0.33838,Special,Dragon,Ice
+Earth Power,98.134,Palossand,4.9067,Special,Ground,Ghost
+Earth Power,63.529,Cursola,0,Special,Ghost,Ghost
+Earth Power,73.564,Flygon,0,Special,Ground,Dragon
+Yawn,96.989,Gastrodon,384.07644,Status,Water,Ground
+Yawn,59.178,Blastoise,57.99444,Status,Water,Water
+Yawn,64.405,Torkoal,40.57515,Status,Fire,Fire
+Yawn,41.331,Togekiss,16.11909,Status,Fairy,Flying
+Yawn,97.716,Umbreon,34.2006,Status,Dark,Dark
+Yawn,38.753,Liepard,6.20048,Status,Dark,Dark
+Yawn,25.288,Meowstic Male,3.7932,Status,Psychic,Psychic
+Yawn,35.127,Snorlax,6.32286,Status,Normal,Normal
+Yawn,95.446,Swampert,6.68122,Status,Water,Ground
+Yawn,27.775,Slowbro,1.111,Status,Water,Psychic
+Yawn,13.558,Oranguru,2.30486,Status,Normal,Psychic
+Yawn,67.568,Accelgor,4.72976,Status,Bug,Bug
+Yawn,50.966,Glaceon,0.50966,Status,Ice,Ice
+Yawn,36.712,Togetic,0,Status,Fairy,Flying
+Yawn,23.968,Sylveon,0,Status,Fairy,Fairy
+Yawn,79.92,Slurpuff,0,Status,Fairy,Fairy
+Yawn,72.347,Hippowdon,0,Status,Ground,Ground
+Yawn,3.095,Vaporeon,0,Status,Water,Water
+Yawn,43.566,Golduck,0,Status,Water,Water
+Yawn,9.179,Galarian Slowbro,0,Status,Poison,Psychic
+Yawn,27.732,Stoutland,0,Status,Normal,Normal
+Yawn,11.079,Jolteon,0,Status,Electric,Electric
+Icy Wind,14.347,Gastrodon,56.81412,Special,Water,Ground
+Icy Wind,24.594,Porygon2,28.77498,Special,Normal,Normal
+Icy Wind,66.041,Tornadus Incarnate Forme,126.13831,Special,Flying,Flying
+Icy Wind,19.769,Blastoise,19.37362,Special,Water,Water
+Icy Wind,28.331,Kingdra,10.48247,Special,Water,Dragon
+Icy Wind,15.553,Tapu Fini,11.50922,Special,Water,Fairy
+Icy Wind,7.153,Lapras,4.36333,Special,Water,Ice
+Icy Wind,50.314,Pheromosa,14.59106,Special,Bug,Fighting
+Icy Wind,24.124,Clefairy,6.031,Special,Fairy,Fairy
+Icy Wind,23.79,Suicune,6.6612,Special,Water,Water
+Icy Wind,68.313,Weavile,9.56382,Special,Dark,Ice
+Icy Wind,94.652,Alolan Persian,17.98388,Special,Dark,Dark
+Icy Wind,22.098,Milotic,6.6294,Special,Water,Water
+Icy Wind,54.36,Inteleon,5.9796,Special,Water,Water
+Icy Wind,96.54,Sneasel,2.8962,Special,Dark,Ice
+Icy Wind,83.058,Politoed,5.81406,Special,Water,Water
+Icy Wind,31.843,Ludicolo,5.09488,Special,Water,Grass
+Icy Wind,46.024,Alolan Ninetales,7.36384,Special,Ice,Fairy
+Icy Wind,21.906,Gyarados,3.2859,Special,Water,Flying
+Icy Wind,47.103,Froslass,1.88412,Special,Ice,Ghost
+Icy Wind,32.44,Latias,1.9464,Special,Psychic,Dragon
+Icy Wind,44.255,Obstagoon,2.6553,Special,Dark,Normal
+Icy Wind,6.896,Kabutops,0.27584,Special,Water,Rock
+Icy Wind,11.067,Articuno,0.44268,Special,Ice,Flying
+Icy Wind,29.963,Cresselia,2.9963,Special,Psychic,Psychic
+Icy Wind,3.256,Black Kyurem,0.22792,Special,Dragon,Ice
+Icy Wind,20.968,Gengar,2.0968,Special,Ghost,Poison
+Icy Wind,36.281,Glaceon,0.36281,Special,Ice,Ice
+Icy Wind,95.431,Mime Galarian Mr. Mime,1.90862,Special,Psychic,Ice
+Icy Wind,94.663,Qwilfish,0,Special,Poison,Water
+Icy Wind,10.359,Starmie,0,Special,Water,Psychic
+Icy Wind,15.352,Vaporeon,0,Special,Water,Water
+Icy Wind,33.614,Golduck,0,Special,Water,Water
+Icy Wind,14.187,Vanilluxe,0,Special,Ice,Ice
+Icy Wind,7.753,Seaking,0,Special,Water,Water
+Icy Wind,12.633,Tentacruel,0,Special,Poison,Water
+Icy Wind,34.512,Lickilicky,0,Special,Normal,Normal
+Blast Burn,88.243,Charizard,303.55592,Special,Fire,Flying
+Hurricane,80.422,Charizard,276.65168,Special,Fire,Flying
+Hurricane,94.991,Tornadus Incarnate Forme,181.43281,Special,Flying,Flying
+Hurricane,96.628,Zapdos,162.33504,Special,Electric,Flying
+Hurricane,70.551,Kingdra,26.10387,Special,Water,Dragon
+Hurricane,40.218,Galarian Moltres,14.0763,Special,Dark,Flying
+Hurricane,68.782,Salamence,5.50256,Special,Flying,Dragon
+Hurricane,87.905,Galarian Articuno,12.3067,Special,Psychic,Flying
+Hurricane,95.722,Pelipper,7.65776,Special,Water,Flying
+Hurricane,99.632,Moltres,2.98896,Special,Fire,Flying
+Hurricane,24.625,Butterfree,3.94,Special,Bug,Flying
+Hurricane,4.825,Dragonite,0.4825,Special,Flying,Dragon
+Hurricane,67.066,Articuno,2.68264,Special,Ice,Flying
+Hurricane,99.147,Mantine,2.97441,Special,Water,Flying
+Hurricane,42.069,Noivern,0,Special,Flying,Dragon
+Hurricane,19.818,Decidueye,0,Special,Grass,Ghost
+Hurricane,90.912,Noctowl,0,Special,Normal,Flying
+Ancient Power,48.995,Charizard,168.5428,Special,Fire,Flying
+Ancient Power,18.699,Regidrago,2.24388,Special,Dragon,Dragon
+Ancient Power,9.454,Galarian Moltres,3.3089,Special,Dark,Flying
+Ancient Power,17.99,Galarian Articuno,2.5186,Special,Psychic,Flying
+Ancient Power,41.541,Cradily,4.56951,Special,Rock,Grass
+Ancient Power,7.799,Stonjourner,0.23397,Special,Rock,Rock
+Ancient Power,7.294,Giratina Altered Forme,0.65646,Special,Ghost,Dragon
+Ancient Power,7.549,Tangrowth,0,Special,Grass,Grass
+Heat Wave,38.932,Charizard,133.92608,Special,Fire,Flying
+Heat Wave,73.258,Zapdos,123.07344,Special,Electric,Flying
+Heat Wave,47.296,Torkoal,29.79648,Special,Fire,Fire
+Heat Wave,92.384,Coalossal,36.9536,Special,Fire,Rock
+Heat Wave,48.54,Arcanine,11.1642,Special,Fire,Fire
+Heat Wave,80.857,Volcarona,22.63996,Special,Fire,Bug
+Heat Wave,11.51,Salamence,0.9208,Special,Flying,Dragon
+Heat Wave,51.684,Moltres,1.55052,Special,Fire,Flying
+Heat Wave,85.717,Chandelure,7.71453,Special,Fire,Ghost
+Heat Wave,9.772,Blacephalon,0.87948,Special,Fire,Ghost
+Heat Wave,55.981,Heatran,5.03829,Special,Fire,Steel
+Heat Wave,65.534,Blaziken,3.93204,Special,Fire,Fighting
+Heat Wave,6.116,Togetic,0,Special,Fairy,Flying
+Heat Wave,68.342,Turtonator,0,Special,Fire,Dragon
+Heat Wave,60.429,Salazzle,0,Special,Poison,Fire
+Heat Wave,79.378,Ninetales,0,Special,Fire,Fire
+Heat Wave,7.061,Noivern,0,Special,Flying,Dragon
+Heat Wave,5.764,Noctowl,0,Special,Normal,Flying
+Solar Beam,16.248,Charizard,55.89312,Special,Fire,Flying
+Solar Beam,11.089,Torkoal,6.98607,Special,Fire,Fire
+Solar Beam,91.809,Coalossal,36.7236,Special,Fire,Rock
+Solar Beam,21.127,Talonflame,4.64794,Special,Fire,Flying
+Solar Beam,9.887,Heliolisk,0.79096,Special,Electric,Normal
+Solar Beam,29.069,Moltres,0.87207,Special,Fire,Flying
+Solar Beam,42.024,Blacephalon,3.78216,Special,Fire,Ghost
+Solar Beam,26.833,Heatran,2.41497,Special,Fire,Steel
+Solar Beam,9.17,Lilligant,0,Special,Grass,Grass
+Solar Beam,67.83,Ninetales,0,Special,Fire,Fire
+Solar Beam,26.849,Vileplume,0,Special,Grass,Poison
+Air Slash,15.085,Charizard,51.8924,Special,Fire,Flying
+Air Slash,37.443,Togekiss,14.60277,Special,Fairy,Flying
+Air Slash,61.181,Celesteela,15.90706,Special,Flying,Steel
+Air Slash,49.827,Galarian Moltres,17.43945,Special,Dark,Flying
+Air Slash,77.367,Inteleon,8.51037,Special,Water,Water
+Air Slash,10.656,Galarian Articuno,1.49184,Special,Psychic,Flying
+Air Slash,9.359,Shiftry,0.28077,Special,Grass,Dark
+Air Slash,29.785,Articuno,1.1914,Special,Ice,Flying
+Air Slash,10.333,Virizion,0,Special,Grass,Fighting
+Air Slash,43.865,Emolga,0,Special,Electric,Flying
+Air Slash,41.919,Noivern,0,Special,Flying,Dragon
+Air Slash,4.597,Flygon,0,Special,Ground,Dragon
+Air Slash,19.737,Sigilyph,0,Special,Psychic,Flying
+Air Slash,7.721,Decidueye,0,Special,Grass,Ghost
+Air Slash,100,Fan Rotom,0,Special,Electric,Flying
+Air Slash,6.991,Dunsparce,0,Special,Normal,Normal
+Helping Hand,11.829,Charizard,40.69176,Status,Fire,Flying
+Helping Hand,92.2,Indeedee Female,356.814,Status,Normal,Psychic
+Helping Hand,65.191,Whimsicott,277.06175,Status,Grass,Fairy
+Helping Hand,37.541,Blastoise,36.79018,Status,Water,Water
+Helping Hand,12.099,Urshifu Single Strike Style,15.12375,Status,Fighting,Dark
+Helping Hand,38.375,Dusclops,33.77,Status,Ghost,Ghost
+Helping Hand,70.022,Raichu,65.12046,Status,Electric,Electric
+Helping Hand,11.312,White Kyurem,10.7464,Status,Dragon,Ice
+Helping Hand,14.095,Sableye,6.62465,Status,Ghost,Dark
+Helping Hand,5.87,Urshifu Rapid Strike Style,3.4046,Status,Water,Fighting
+Helping Hand,96.715,Gothitelle,19.343,Status,Psychic,Psychic
+Helping Hand,27.471,Heat Rotom,11.81253,Status,Electric,Fire
+Helping Hand,82.768,Togekiss,32.27952,Status,Fairy,Flying
+Helping Hand,61.219,Indeedee Male,15.91694,Status,Normal,Psychic
+Helping Hand,16.849,Comfey,9.09846,Status,Fairy,Fairy
+Helping Hand,50.981,Lapras,31.09841,Status,Water,Ice
+Helping Hand,15.329,Arcanine,3.52567,Status,Fire,Fire
+Helping Hand,13.612,Zamazenta Crowned Shield,5.58092,Status,Fighting,Steel
+Helping Hand,94.232,Clefairy,23.558,Status,Fairy,Fairy
+Helping Hand,31.096,Mienshao,5.59728,Status,Fighting,Fighting
+Helping Hand,19.984,Suicune,5.59552,Status,Water,Water
+Helping Hand,63.509,Tsareena,16.51234,Status,Grass,Grass
+Helping Hand,26.015,Hitmontop,7.02405,Status,Fighting,Fighting
+Helping Hand,21.211,Shuckle,1.48477,Status,Rock,Bug
+Helping Hand,15.918,Milotic,4.7754,Status,Water,Water
+Helping Hand,18.586,Wash Rotom,2.97376,Status,Electric,Water
+Helping Hand,83.949,Politoed,5.87643,Status,Water,Water
+Helping Hand,37.3,Pikachu,4.849,Status,Electric,Electric
+Helping Hand,7.865,Togedemaru,0.55055,Status,Electric,Steel
+Helping Hand,91.494,Cherrim,7.31952,Status,Grass,Grass
+Helping Hand,22.874,Riolu,2.97362,Status,Fighting,Fighting
+Helping Hand,47.122,Latias,2.82732,Status,Psychic,Dragon
+Helping Hand,84.697,Clefable,5.92879,Status,Fairy,Fairy
+Helping Hand,11.151,Rhyperior,1.00359,Status,Ground,Rock
+Helping Hand,52.563,Cresselia,5.2563,Status,Psychic,Psychic
+Helping Hand,98.721,Mr. Rime,1.97442,Status,Psychic,Ice
+Helping Hand,93.038,Wishiwashi Solo Form,0.93038,Status,Water,Water
+Helping Hand,46.678,Boltund,0.93356,Status,Electric,Electric
+Helping Hand,12.27,Luxray,0.2454,Status,Electric,Electric
+Helping Hand,8.793,Mow Rotom,0.26379,Status,Electric,Grass
+Helping Hand,14.692,Cinccino,0.44076,Status,Normal,Normal
+Helping Hand,83.865,Blissey,2.51595,Status,Normal,Normal
+Helping Hand,41.362,Mime Galarian Mr. Mime,0.82724,Status,Psychic,Ice
+Helping Hand,32.767,Lilligant,0,Status,Grass,Grass
+Helping Hand,25.791,Togetic,0,Status,Fairy,Flying
+Helping Hand,11.101,Sylveon,0,Status,Fairy,Fairy
+Helping Hand,15.47,Slurpuff,0,Status,Fairy,Fairy
+Helping Hand,54.204,Emolga,0,Status,Electric,Flying
+Helping Hand,46.642,Ribombee,0,Status,Bug,Fairy
+Helping Hand,76.087,Vaporeon,0,Status,Water,Water
+Helping Hand,35.364,Mr. Mime,0,Status,Psychic,Fairy
+Helping Hand,51.443,Lopunny,0,Status,Normal,Normal
+Helping Hand,46.579,Aromatisse,0,Status,Fairy,Fairy
+Helping Hand,7.956,Stoutland,0,Status,Normal,Normal
+Helping Hand,18.88,Dedenne,0,Status,Electric,Fairy
+Helping Hand,9.929,Reuniclus,0,Status,Psychic,Psychic
+Helping Hand,16.909,Maractus,0,Status,Grass,Grass
+Helping Hand,12.679,Lickilicky,0,Status,Normal,Normal
+Spore,99.938,Amoonguss,349.783,Status,Grass,Poison
+Spore,90.823,Shiinotic,0,Status,Grass,Fairy
+Rage Powder,99.642,Amoonguss,348.747,Status,Grass,Poison
+Rage Powder,95.946,Volcarona,26.86488,Status,Fire,Bug
+Rage Powder,81.326,Butterfree,13.01216,Status,Bug,Flying
+Rage Powder,81.004,Tangrowth,0,Status,Grass,Grass
+Rage Powder,99.843,Tangela,0,Status,Grass,Grass
+Pollen Puff,46.926,Amoonguss,164.241,Special,Grass,Poison
+Pollen Puff,79.36,Butterfree,12.6976,Special,Bug,Flying
+Pollen Puff,82.623,Cherrim,6.60984,Special,Grass,Grass
+Pollen Puff,28.564,Lilligant,0,Special,Grass,Grass
+Pollen Puff,74.437,Ribombee,0,Special,Bug,Fairy
+Pollen Puff,15.559,Shiinotic,0,Special,Grass,Fairy
+Pollen Puff,94.13,Eldegoss,0,Special,Grass,Grass
+Giga Drain,19.295,Amoonguss,67.5325,Special,Grass,Poison
+Giga Drain,37.765,Comfey,20.3931,Special,Fairy,Fairy
+Giga Drain,21.747,Celesteela,5.65422,Special,Flying,Steel
+Giga Drain,9.256,Araquanid,1.3884,Special,Bug,Water
+Giga Drain,7.311,Hatterene,1.60842,Special,Psychic,Fairy
+Giga Drain,20.1,Ludicolo,3.216,Special,Water,Grass
+Giga Drain,5.021,Sceptile,0.25105,Special,Grass,Grass
+Giga Drain,9.123,Exeggutor,0.27369,Special,Grass,Psychic
+Giga Drain,51.129,Cradily,5.62419,Special,Rock,Grass
+Giga Drain,39.789,Appletun,1.59156,Special,Grass,Dragon
+Giga Drain,16.091,Abomasnow,0.80455,Special,Grass,Ice
+Giga Drain,7.043,Palossand,0.35215,Special,Ground,Ghost
+Giga Drain,13.245,Lilligant,0,Special,Grass,Grass
+Giga Drain,14.508,Shiinotic,0,Special,Grass,Fairy
+Giga Drain,6.226,Roserade,0,Special,Grass,Poison
+Giga Drain,38.126,Tangrowth,0,Special,Grass,Grass
+Giga Drain,78.716,Polteageist,0,Special,Ghost,Ghost
+Giga Drain,84.389,Eldegoss,0,Special,Grass,Grass
+Giga Drain,12.843,Vileplume,0,Special,Grass,Poison
+Giga Drain,29.145,Cursola,0,Special,Ghost,Ghost
+Giga Drain,47.49,Maractus,0,Special,Grass,Grass
+Giga Drain,36.659,Tentacruel,0,Special,Poison,Water
+Seed Bomb,8.792,Amoonguss,30.772,Physical,Grass,Poison
+Seed Bomb,23.825,Calyrex Ice Rider,70.0455,Physical,Psychic,Ice
+Seed Bomb,8.034,Celesteela,2.08884,Physical,Flying,Steel
+Seed Bomb,15.054,Perrserker,0,Physical,Steel,Steel
+Seed Bomb,8.633,Morpeko Full Belly Mode,0,Physical,Electric,Dark
+Seed Bomb,77.473,Gourgeist Super Size,0,Physical,Grass,Ghost
+Seed Bomb,9.689,Passimian,0,Physical,Fighting,Fighting
+Hex,7.764,Amoonguss,27.174,Special,Grass,Poison
+Hex,36.398,Pincurchin,3.27582,Special,Electric,Electric
+Hex,13.924,Galarian Corsola,0,Special,Ghost,Ghost
+Follow Me,99.822,Indeedee Female,386.31114,Status,Normal,Psychic
+Follow Me,96.579,Togekiss,37.66581,Status,Fairy,Flying
+Follow Me,98.9,Clefairy,24.725,Status,Fairy,Fairy
+Follow Me,93.001,Clefable,6.51007,Status,Fairy,Fairy
+Follow Me,97.204,Togetic,0,Status,Fairy,Flying
+Mystical Fire,6.706,Indeedee Female,25.95222,Special,Normal,Psychic
+Mystical Fire,24.637,Eternatus,10.10117,Special,Poison,Dragon
+Mystical Fire,8.853,Alcremie,1.59354,Special,Fairy,Fairy
+Mystical Fire,82.513,Hatterene,18.15286,Special,Psychic,Fairy
+Mystical Fire,13.225,Blacephalon,1.19025,Special,Fire,Ghost
+Mystical Fire,82.886,Clefable,5.80202,Special,Fairy,Fairy
+Mystical Fire,78.219,Sylveon,0,Special,Fairy,Fairy
+Mystical Fire,10.513,Gardevoir,0,Special,Psychic,Fairy
+Safeguard,6.623,Indeedee Female,25.63101,Status,Normal,Psychic
+Safeguard,17.912,Mimikyu,20.41968,Status,Ghost,Fairy
+Safeguard,20.675,Araquanid,3.10125,Status,Bug,Water
+Safeguard,50.625,Arcanine,11.64375,Status,Fire,Fire
+Safeguard,12.189,Slowking,0.24378,Status,Water,Psychic
+Safeguard,9.596,Cherrim,0.76768,Status,Grass,Grass
+Safeguard,28.664,Altaria,0.85992,Status,Flying,Dragon
+Safeguard,15.124,Klefki,0.7562,Status,Fairy,Steel
+Shadow Ball,5.046,Indeedee Female,19.52802,Special,Normal,Psychic
+Shadow Ball,37.299,Porygon2,43.63983,Special,Normal,Normal
+Shadow Ball,58.798,Tapu Lele,13.52354,Special,Psychic,Fairy
+Shadow Ball,3.444,Dragapult,1.85976,Special,Ghost,Dragon
+Shadow Ball,21.544,Indeedee Male,5.60144,Special,Normal,Psychic
+Shadow Ball,96.691,Spectrier,18.37129,Special,Ghost,Ghost
+Shadow Ball,33.412,Chansey,2.00472,Special,Normal,Normal
+Shadow Ball,7.617,Wash Rotom,1.21872,Special,Electric,Water
+Shadow Ball,25.858,Galarian Articuno,3.62012,Special,Psychic,Flying
+Shadow Ball,6.399,Drifblim,0.19197,Special,Ghost,Flying
+Shadow Ball,83.892,Chandelure,7.55028,Special,Fire,Ghost
+Shadow Ball,61.221,Aegislash Shield Forme,6.1221,Special,Steel,Ghost
+Shadow Ball,59.488,Jellicent,3.56928,Special,Water,Ghost
+Shadow Ball,83.472,Blacephalon,7.51248,Special,Fire,Ghost
+Shadow Ball,21.757,Abomasnow,1.08785,Special,Grass,Ice
+Shadow Ball,25.445,Giratina Altered Forme,2.29005,Special,Ghost,Dragon
+Shadow Ball,85.18,Gengar,8.518,Special,Ghost,Poison
+Shadow Ball,79.464,Palossand,3.9732,Special,Ground,Ghost
+Shadow Ball,6.661,Sylveon,0,Special,Fairy,Fairy
+Shadow Ball,22.829,Alakazam,0,Special,Psychic,Psychic
+Shadow Ball,63.942,Cofagrigus,0,Special,Ghost,Ghost
+Shadow Ball,6.284,Vaporeon,0,Special,Water,Water
+Shadow Ball,97.519,Polteageist,0,Special,Ghost,Ghost
+Shadow Ball,5.63,Noivern,0,Special,Flying,Dragon
+Shadow Ball,44.096,Jolteon,0,Special,Electric,Electric
+Shadow Ball,99.079,Cursola,0,Special,Ghost,Ghost
+Shadow Ball,8.167,Reuniclus,0,Special,Psychic,Psychic
+Shadow Ball,29.555,Exploud,0,Special,Normal,Normal
+Shadow Ball,26.019,Galarian Corsola,0,Special,Ghost,Ghost
+Shadow Ball,27.833,Decidueye,0,Special,Grass,Ghost
+Tailwind,99.572,Whimsicott,423.181,Status,Grass,Fairy
+Tailwind,99.854,Tornadus Incarnate Forme,190.72114,Status,Flying,Flying
+Tailwind,98.844,Suicune,27.67632,Status,Water,Water
+Tailwind,99.903,Talonflame,21.97866,Status,Fire,Flying
+Tailwind,16.811,Galarian Articuno,2.35354,Status,Psychic,Flying
+Tailwind,78.914,Pelipper,6.31312,Status,Water,Flying
+Tailwind,99.749,Drifblim,2.99247,Status,Ghost,Flying
+Tailwind,66.78,Butterfree,10.6848,Status,Bug,Flying
+Tailwind,99.835,Altaria,2.99505,Status,Flying,Dragon
+Tailwind,62.371,Mandibuzz,1.87113,Status,Dark,Flying
+Tailwind,77.583,Latias,4.65498,Status,Psychic,Dragon
+Tailwind,87.621,Aerodactyl,4.38105,Status,Rock,Flying
+Tailwind,85.309,Articuno,3.41236,Status,Ice,Flying
+Tailwind,77.586,Corviknight,7.7586,Status,Flying,Steel
+Tailwind,17.024,Mantine,0.51072,Status,Water,Flying
+Tailwind,99.06,Crobat,4.953,Status,Poison,Flying
+Tailwind,29.34,Braviary,0,Status,Normal,Flying
+Tailwind,94.412,Unfezant,0,Status,Normal,Flying
+Tailwind,70.608,Noivern,0,Status,Flying,Dragon
+Tailwind,89.62,Sigilyph,0,Status,Psychic,Flying
+Moonblast,55.759,Whimsicott,236.97575,Special,Grass,Fairy
+Moonblast,80.347,Tapu Fini,59.45678,Special,Water,Fairy
+Moonblast,91.882,Tapu Lele,21.13286,Special,Psychic,Fairy
+Moonblast,31.046,Clefairy,7.7615,Special,Fairy,Fairy
+Moonblast,20.629,Alolan Ninetales,3.30064,Special,Ice,Fairy
+Moonblast,85.87,Primarina,9.4457,Special,Water,Fairy
+Moonblast,5.137,Clefable,0.35959,Special,Fairy,Fairy
+Moonblast,15.395,Cresselia,1.5395,Special,Psychic,Psychic
+Moonblast,7.977,Sylveon,0,Special,Fairy,Fairy
+Moonblast,53.771,Ribombee,0,Special,Bug,Fairy
+Moonblast,83.586,Shiinotic,0,Special,Grass,Fairy
+Moonblast,7.134,Aromatisse,0,Special,Fairy,Fairy
+Moonblast,26.089,Gardevoir,0,Special,Psychic,Fairy
+Switcheroo,19.612,Whimsicott,83.351,Status,Grass,Fairy
+Switcheroo,6.156,Klefki,0.3078,Status,Fairy,Steel
+Switcheroo,51.275,Lopunny,0,Status,Normal,Normal
+Cotton Spore,18.727,Whimsicott,79.58975,Status,Grass,Fairy
+Cotton Spore,4.323,Eldegoss,0,Status,Grass,Grass
+Dazzling Gleam,10.298,Whimsicott,43.7665,Special,Grass,Fairy
+Dazzling Gleam,12.954,Tapu Fini,9.58596,Special,Water,Fairy
+Dazzling Gleam,74.918,Tapu Lele,17.23114,Special,Psychic,Fairy
+Dazzling Gleam,88.14,Togekiss,34.3746,Special,Fairy,Flying
+Dazzling Gleam,19.882,Indeedee Male,5.16932,Special,Normal,Psychic
+Dazzling Gleam,31.825,Alcremie,5.7285,Special,Fairy,Fairy
+Dazzling Gleam,21.802,Tapu Koko,5.88654,Special,Electric,Fairy
+Dazzling Gleam,98.52,Hatterene,21.6744,Special,Psychic,Fairy
+Dazzling Gleam,44.6,Alolan Ninetales,7.136,Special,Ice,Fairy
+Dazzling Gleam,16.839,Klefki,0.84195,Special,Fairy,Steel
+Dazzling Gleam,6.203,Clefable,0.43421,Special,Fairy,Fairy
+Dazzling Gleam,72.009,Xurkitree,2.88036,Special,Electric,Electric
+Dazzling Gleam,37.986,Gengar,3.7986,Special,Ghost,Poison
+Dazzling Gleam,6.114,Espeon,0.18342,Special,Psychic,Psychic
+Dazzling Gleam,53.208,Togetic,0,Special,Fairy,Flying
+Dazzling Gleam,81.682,Slurpuff,0,Special,Fairy,Fairy
+Dazzling Gleam,75.536,Alakazam,0,Special,Psychic,Psychic
+Dazzling Gleam,23.355,Starmie,0,Special,Water,Psychic
+Dazzling Gleam,13.23,Ribombee,0,Special,Bug,Fairy
+Dazzling Gleam,34.592,Mr. Mime,0,Special,Psychic,Fairy
+Dazzling Gleam,7.838,Shiinotic,0,Special,Grass,Fairy
+Dazzling Gleam,82.277,Aromatisse,0,Special,Fairy,Fairy
+Dazzling Gleam,97.582,Wigglytuff,0,Special,Normal,Fairy
+Dazzling Gleam,73.77,Gardevoir,0,Special,Psychic,Fairy
+Dazzling Gleam,7.203,Tentacruel,0,Special,Poison,Water
+Encore,6.48,Whimsicott,27.54,Status,Grass,Fairy
+Encore,51.536,Accelgor,3.60752,Status,Bug,Bug
+Encore,7.814,Togetic,0,Status,Fairy,Flying
+Encore,5.499,Alolan Raichu,0,Status,Electric,Psychic
+Encore,9.376,Ninetales,0,Status,Fire,Fire
+Encore,4.925,Emolga,0,Status,Electric,Flying
+Encore,7.98,Lopunny,0,Status,Normal,Normal
+Dark Pulse,5.633,Tornadus Incarnate Forme,10.75903,Special,Flying,Flying
+Dark Pulse,31.218,Blastoise,30.59364,Special,Water,Water
+Dark Pulse,83.482,Hydreigon,10.85266,Special,Dark,Dragon
+Dark Pulse,13.354,Thundurus Therian Forme,1.20186,Special,Electric,Flying
+Dark Pulse,10.092,Inteleon,1.11012,Special,Water,Water
+Dark Pulse,11.828,Hatterene,2.60216,Special,Psychic,Fairy
+Dark Pulse,45.551,Porygon-Z,3.18857,Special,Normal,Normal
+Dark Pulse,44.908,Duraludon,3.59264,Special,Steel,Dragon
+Dark Pulse,22.436,Mow Rotom,0.67308,Special,Electric,Grass
+Dark Pulse,48.631,Zoroark,0,Special,Dark,Dark
+Dark Pulse,51.133,Clawitzer,0,Special,Water,Water
+Dark Pulse,16.804,Thievul,0,Special,Dark,Dark
+Dark Pulse,20.054,Ninetales,0,Special,Fire,Fire
+Dark Pulse,18.34,Frost Rotom,0,Special,Electric,Ice
+Dark Pulse,13.21,Polteageist,0,Special,Ghost,Ghost
+Dark Pulse,19.873,Noivern,0,Special,Flying,Dragon
+Dark Pulse,8.061,Beheeyem,0,Special,Psychic,Psychic
+Sucker Punch,98.103,Urshifu Single Strike Style,122.62875,Physical,Fighting,Dark
+Sucker Punch,22.29,Sableye,10.4763,Physical,Ghost,Dark
+Sucker Punch,92.159,Cinderace,41.47155,Physical,Fire,Fire
+Sucker Punch,7.116,Dragapult,3.84264,Physical,Ghost,Dragon
+Sucker Punch,13.306,Liepard,2.12896,Physical,Dark,Dark
+Sucker Punch,6.39,Hitmontop,1.7253,Physical,Fighting,Fighting
+Sucker Punch,6.971,Meowstic Male,1.04565,Physical,Psychic,Psychic
+Sucker Punch,16.92,Galarian Moltres,5.922,Physical,Dark,Flying
+Sucker Punch,98.244,Kangaskhan,5.89464,Physical,Normal,Normal
+Sucker Punch,78.223,Shiftry,2.34669,Physical,Grass,Dark
+Sucker Punch,61.556,Pincurchin,5.54004,Physical,Electric,Electric
+Sucker Punch,96.162,Bisharp,9.6162,Physical,Dark,Steel
+Sucker Punch,95.402,Dugtrio,2.86206,Physical,Ground,Ground
+Sucker Punch,27.508,Grapploct,0,Physical,Fighting,Fighting
+Sucker Punch,6.893,Zoroark,0,Physical,Dark,Dark
+Sucker Punch,27.786,Golisopod,0,Physical,Bug,Water
+Sucker Punch,4.62,Lycanroc Dusk Form,0,Physical,Rock,Rock
+Sucker Punch,4.659,Decidueye,0,Physical,Grass,Ghost
+Sucker Punch,29.126,Maractus,0,Physical,Grass,Grass
+Sucker Punch,26.135,Lycanroc Midday Form,0,Physical,Rock,Rock
+Glacial Lance,99.987,Calyrex Ice Rider,293.96178,Physical,Psychic,Ice
+Body Press,16.525,Calyrex Ice Rider,48.5835,Physical,Psychic,Ice
+Body Press,74.99,Ferrothorn,98.2369,Physical,Grass,Steel
+Body Press,44.194,Torkoal,27.84222,Physical,Fire,Fire
+Body Press,90.996,Bronzong,24.56892,Physical,Psychic,Steel
+Body Press,13.137,Glastrier,1.70781,Physical,Ice,Ice
+Body Press,53.526,Stakataka,12.31098,Physical,Steel,Rock
+Body Press,25.692,Slowbro,1.02768,Physical,Water,Psychic
+Body Press,52.708,Mudsdale,3.16248,Physical,Ground,Ground
+Body Press,44.864,Gigalith,1.79456,Physical,Rock,Rock
+Body Press,26.619,Appletun,1.06476,Physical,Grass,Dragon
+Body Press,97.884,Registeel,2.93652,Physical,Steel,Steel
+Body Press,64.218,Stonjourner,1.92654,Physical,Rock,Rock
+Body Press,30.903,Corviknight,3.0903,Physical,Flying,Steel
+Body Press,45.465,Kommo-o,0.9093,Physical,Dragon,Fighting
+Body Press,71.581,Runerigus,0,Physical,Ground,Ghost
+Body Press,12.098,Copperajah,0,Physical,Steel,Steel
+Body Press,30.477,Hippowdon,0,Physical,Ground,Ground
+Body Press,52.355,Cofagrigus,0,Physical,Ghost,Ghost
+Body Press,7.151,Turtonator,0,Physical,Fire,Dragon
+Body Press,62.438,Magnezone,0,Physical,Electric,Steel
+Body Press,12.081,Sandaconda,0,Physical,Ground,Ground
+Body Press,70.578,Miltank,0,Physical,Normal,Normal
+Body Press,49.779,Claydol,0,Physical,Ground,Psychic
+Body Press,8.182,Lickilicky,0,Physical,Normal,Normal
+Body Press,92.58,Steelix,0,Physical,Ground,Steel
+Iron Defense,15.771,Calyrex Ice Rider,46.36674,Status,Psychic,Ice
+Iron Defense,64.478,Ferrothorn,84.46618,Status,Grass,Steel
+Iron Defense,82.208,Bronzong,22.19616,Status,Psychic,Steel
+Iron Defense,13.671,Slowking,0.27342,Status,Water,Psychic
+Iron Defense,25.56,Slowbro,1.0224,Status,Water,Psychic
+Iron Defense,12.545,Gigalith,0.5018,Status,Rock,Rock
+Iron Defense,27.015,Appletun,1.0806,Status,Grass,Dragon
+Iron Defense,96.185,Registeel,2.88555,Status,Steel,Steel
+Iron Defense,10.606,Corviknight,1.0606,Status,Flying,Steel
+Iron Defense,45.465,Kommo-o,0.9093,Status,Dragon,Fighting
+Iron Defense,6.993,Turtonator,0,Status,Fire,Dragon
+Hydro Pump,57.369,Kingdra,21.22653,Special,Water,Dragon
+Hydro Pump,5.338,Tapu Fini,3.95012,Special,Water,Fairy
+Hydro Pump,6.112,Seismitoad,3.60608,Special,Water,Ground
+Hydro Pump,93.473,Lapras,57.01853,Special,Water,Ice
+Hydro Pump,9.451,Milotic,2.8353,Special,Water,Water
+Hydro Pump,84,Wash Rotom,13.44,Special,Electric,Water
+Hydro Pump,28.99,Ludicolo,4.6384,Special,Water,Grass
+Hydro Pump,70.102,Slowbro,2.80408,Special,Water,Psychic
+Hydro Pump,24.024,Pincurchin,2.16216,Special,Electric,Electric
+Hydro Pump,4.717,Jellicent,0.28302,Special,Water,Ghost
+Hydro Pump,93.18,Wishiwashi Solo Form,0.9318,Special,Water,Water
+Hydro Pump,82.963,Mantine,2.48889,Special,Water,Flying
+Hydro Pump,39.352,Starmie,0,Special,Water,Psychic
+Hydro Pump,4.913,Golduck,0,Special,Water,Water
+Hydro Pump,8.816,Galarian Slowbro,0,Special,Poison,Psychic
+Hydro Pump,17.14,Crawdaunt,0,Special,Water,Dark
+Hydro Pump,15.887,Cursola,0,Special,Ghost,Ghost
+Hydro Pump,12.163,Exploud,0,Special,Normal,Normal
+Hydro Pump,50.962,Tentacruel,0,Special,Poison,Water
+Hydro Pump,26.033,Dragalge,0,Special,Poison,Dragon
+Flamethrower,15.511,Torkoal,9.77193,Special,Fire,Fire
+Flamethrower,72.593,Eternatus,29.76313,Special,Poison,Dragon
+Flamethrower,8.867,Dragapult,4.78818,Special,Ghost,Dragon
+Flamethrower,13.641,Celesteela,3.54666,Special,Flying,Steel
+Flamethrower,29.263,Arcanine,6.73049,Special,Fire,Fire
+Flamethrower,68.506,Salamence,5.48048,Special,Flying,Dragon
+Flamethrower,12.189,Slowking,0.24378,Special,Water,Psychic
+Flamethrower,32.402,Alolan Exeggutor,1.94412,Special,Grass,Dragon
+Flamethrower,22.748,Blacephalon,2.04732,Special,Fire,Ghost
+Flamethrower,27.349,Heatran,2.46141,Special,Fire,Steel
+Flamethrower,32.067,Goodra,1.92402,Special,Dragon,Dragon
+Flamethrower,38.335,Silvally,0.7667,Special,Normal,Normal
+Flamethrower,95.415,Manectric,2.86245,Special,Electric,Electric
+Flamethrower,37.546,Kommo-o,0.75092,Special,Dragon,Fighting
+Flamethrower,9.896,Blissey,0.29688,Special,Normal,Normal
+Flamethrower,87.07,Drampa,3.4828,Special,Normal,Dragon
+Flamethrower,16.792,Zoroark,0,Special,Dark,Dark
+Flamethrower,13.071,Slurpuff,0,Special,Fairy,Fairy
+Flamethrower,14.868,Turtonator,0,Special,Fire,Dragon
+Flamethrower,14.108,Salazzle,0,Special,Poison,Fire
+Flamethrower,7.063,Galarian Slowbro,0,Special,Poison,Psychic
+Flamethrower,15.157,Noivern,0,Special,Flying,Dragon
+Flamethrower,73.147,Flygon,0,Special,Ground,Dragon
+Flamethrower,64.579,Exploud,0,Special,Normal,Normal
+Flamethrower,58.7,Wigglytuff,0,Special,Normal,Fairy
+Flamethrower,4.816,Lickilicky,0,Special,Normal,Normal
+Recover,67.506,Porygon2,78.98202,Status,Normal,Normal
+Recover,34.977,Eternatus,14.34057,Status,Poison,Dragon
+Recover,74.765,Alcremie,13.4577,Status,Fairy,Fairy
+Recover,32.26,Milotic,9.678,Status,Water,Water
+Recover,99.921,Toxapex,4.99605,Status,Poison,Water
+Recover,6.34,Jellicent,0.3804,Status,Water,Ghost
+Recover,13.82,Latias,0.8292,Status,Psychic,Dragon
+Recover,20.241,Cradily,2.22651,Status,Rock,Grass
+Recover,27.734,Reuniclus,0,Status,Psychic,Psychic
+Recover,4.317,Orbeetle,0,Status,Bug,Psychic
+Tri Attack,22.802,Porygon2,26.67834,Special,Normal,Normal
+Tri Attack,53.847,Porygon-Z,3.76929,Special,Normal,Normal
+Tri Attack,10.716,Blissey,0.32148,Special,Normal,Normal
+Ally Switch,16.619,Porygon2,19.44423,Status,Normal,Normal
+Ally Switch,96.977,Shedinja,40.73034,Status,Bug,Ghost
+Ally Switch,26.309,Sableye,12.36523,Status,Ghost,Dark
+Ally Switch,74.335,Gothitelle,14.867,Status,Psychic,Psychic
+Ally Switch,82.713,Bronzong,22.33251,Status,Psychic,Steel
+Ally Switch,11.747,Togekiss,4.58133,Status,Fairy,Flying
+Ally Switch,6.317,Dragapult,3.41118,Status,Ghost,Dragon
+Ally Switch,53.806,Comfey,29.05524,Status,Fairy,Fairy
+Ally Switch,15.681,Metagross,4.23387,Status,Psychic,Steel
+Ally Switch,5.648,Clefairy,1.412,Status,Fairy,Fairy
+Ally Switch,68.447,Mienshao,12.32046,Status,Fighting,Fighting
+Ally Switch,34.467,Chansey,2.06802,Status,Normal,Normal
+Ally Switch,5.418,Dusk Mane Necrozma,2.65482,Status,Psychic,Steel
+Ally Switch,4.952,Meowstic Male,0.7428,Status,Psychic,Psychic
+Ally Switch,37.051,Wash Rotom,5.92816,Status,Electric,Water
+Ally Switch,16.236,Alolan Marowak,2.59776,Status,Fire,Ghost
+Ally Switch,59.192,Kingler,5.32728,Status,Water,Water
+Ally Switch,77.416,Oranguru,13.16072,Status,Normal,Psychic
+Ally Switch,6.418,Nihilego,0.44926,Status,Rock,Poison
+Ally Switch,9.186,Heliolisk,0.73488,Status,Electric,Normal
+Ally Switch,31.462,Chandelure,2.83158,Status,Fire,Ghost
+Ally Switch,89.322,Froslass,3.57288,Status,Ice,Ghost
+Ally Switch,23.795,Latias,1.4277,Status,Psychic,Dragon
+Ally Switch,96.007,Trevenant,1.92014,Status,Grass,Ghost
+Ally Switch,94.644,Swoobat,1.89288,Status,Psychic,Flying
+Ally Switch,34.486,Cresselia,3.4486,Status,Psychic,Psychic
+Ally Switch,86.068,Dugtrio,2.58204,Status,Ground,Ground
+Ally Switch,16.552,Gengar,1.6552,Status,Ghost,Poison
+Ally Switch,80.589,Espeon,2.41767,Status,Psychic,Psychic
+Ally Switch,51.218,Hawlucha,1.53654,Status,Fighting,Flying
+Ally Switch,6.024,Mime Galarian Mr. Mime,0.12048,Status,Psychic,Ice
+Ally Switch,12.476,Dhelmise,0,Status,Grass,Ghost
+Ally Switch,9.592,Runerigus,0,Status,Ground,Ghost
+Ally Switch,71.905,Cofagrigus,0,Status,Ghost,Ghost
+Ally Switch,45.57,Ribombee,0,Status,Bug,Fairy
+Ally Switch,13.044,Mr. Mime,0,Status,Psychic,Fairy
+Ally Switch,9.986,Magnezone,0,Status,Electric,Steel
+Ally Switch,3.867,Gallade,0,Status,Psychic,Fighting
+Ally Switch,33.341,Gourgeist Small Size,0,Status,Grass,Ghost
+Ally Switch,11.027,Malamar,0,Status,Dark,Psychic
+Ally Switch,13.432,Frost Rotom,0,Status,Electric,Ice
+Ally Switch,4.862,Polteageist,0,Status,Ghost,Ghost
+Ally Switch,14.567,Aromatisse,0,Status,Fairy,Fairy
+Ally Switch,67.222,Claydol,0,Status,Ground,Psychic
+Ally Switch,43.42,Dedenne,0,Status,Electric,Fairy
+Ally Switch,10.64,Dusknoir,0,Status,Ghost,Ghost
+Ally Switch,12.638,Wigglytuff,0,Status,Normal,Fairy
+Brutal Swing,9.282,Tornadus Incarnate Forme,17.72862,Physical,Flying,Flying
+Brutal Swing,3.672,Raichu,3.41496,Physical,Electric,Electric
+Brutal Swing,19.036,Oranguru,3.23612,Physical,Normal,Psychic
+Brutal Swing,41.955,Krookodile,4.61505,Physical,Ground,Dark
+Brutal Swing,19.264,Dracozolt,1.54112,Physical,Electric,Dragon
+Brutal Swing,38.672,Alolan Exeggutor,2.32032,Physical,Grass,Dragon
+Brutal Swing,10.415,Goodra,0.6249,Physical,Dragon,Dragon
+Brutal Swing,9.288,Scyther,0,Physical,Bug,Flying
+Detect,28.526,Zapdos,47.92368,Status,Electric,Flying
+Detect,22.811,Urshifu Single Strike Style,28.51375,Status,Fighting,Dark
+Detect,21.076,Urshifu Rapid Strike Style,12.22408,Status,Water,Fighting
+Detect,8.12,Galarian Zapdos,2.1112,Status,Fighting,Flying
+Detect,26.106,Alolan Marowak,4.17696,Status,Fire,Ghost
+Detect,38.05,Riolu,4.9465,Status,Fighting,Fighting
+Detect,9.855,Conkeldurr,0.9855,Status,Fighting,Fighting
+Detect,17.947,Blaziken,1.07682,Status,Fire,Fighting
+Detect,54.959,Grapploct,0,Status,Fighting,Fighting
+Detect,3.882,Zoroark,0,Status,Dark,Dark
+Detect,29.659,Sirfetch'd,0,Status,Fighting,Fighting
+Detect,10.533,Unfezant,0,Status,Normal,Flying
+Detect,27.258,Jolteon,0,Status,Electric,Electric
+Detect,43.44,Marowak,0,Status,Ground,Ground
+Detect,23.342,Flareon,0,Status,Fire,Fire
+Roost,15.034,Zapdos,25.25712,Status,Electric,Flying
+Roost,25.813,Mandibuzz,0.77439,Status,Dark,Flying
+Roost,10.686,Dragonite,1.0686,Status,Flying,Dragon
+Roost,81.883,Corviknight,8.1883,Status,Flying,Steel
+Roost,46.221,Dunsparce,0,Status,Normal,Normal
+Roost,91.575,Noctowl,0,Status,Normal,Flying
+Weather Ball,13.405,Zapdos,22.5204,Special,Electric,Flying
+Weather Ball,74.341,Venusaur,151.65564,Special,Grass,Poison
+Weather Ball,20.378,Thundurus Therian Forme,1.83402,Special,Electric,Flying
+Weather Ball,8.603,Ludicolo,1.37648,Special,Water,Grass
+Weather Ball,83.581,Heliolisk,6.68648,Special,Electric,Normal
+Weather Ball,51.643,Moltres,1.54929,Special,Fire,Flying
+Weather Ball,92.09,Drifblim,2.7627,Special,Ghost,Flying
+Weather Ball,47.691,Articuno,1.90764,Special,Ice,Flying
+Weather Ball,19.464,Leafeon,0.9732,Special,Grass,Grass
+Weather Ball,37.488,Glaceon,0.37488,Special,Ice,Ice
+Weather Ball,48.143,Espeon,1.44429,Special,Psychic,Psychic
+Weather Ball,24.207,Jolteon,0,Special,Electric,Electric
+Weather Ball,84.609,Maractus,0,Special,Grass,Grass
+Leaf Blade,99.828,Kartana,117.79704,Physical,Grass,Steel
+Leaf Blade,26.859,Shiftry,0.80577,Physical,Grass,Dark
+Leaf Blade,7.619,Sceptile,0.38095,Physical,Grass,Grass
+Leaf Blade,76.994,Lurantis,3.07976,Physical,Grass,Grass
+Leaf Blade,51.141,Leafeon,2.55705,Physical,Grass,Grass
+Leaf Blade,73.099,Virizion,0,Physical,Grass,Fighting
+Leaf Blade,51.716,Sirfetch'd,0,Physical,Fighting,Fighting
+Leaf Blade,22.641,Gallade,0,Physical,Psychic,Fighting
+Leaf Blade,50.742,Decidueye,0,Physical,Grass,Ghost
+Smart Strike,98.388,Kartana,116.09784,Physical,Grass,Steel
+Smart Strike,9.785,Cobalion,0.5871,Physical,Fighting,Steel
+Smart Strike,6.01,Seaking,0,Physical,Water,Water
+Aerial Ace,90.58,Kartana,106.8844,Physical,Grass,Steel
+Aerial Ace,29.688,Dracozolt,2.37504,Physical,Electric,Dragon
+Aerial Ace,10.724,Gallade,0,Physical,Psychic,Fighting
+Aerial Ace,23.487,Heracross,0,Physical,Bug,Fighting
+Hydro Cannon,85.941,Blastoise,84.22218,Special,Water,Water
+Terrain Pulse,7.782,Blastoise,7.62636,Special,Water,Water
+Terrain Pulse,79.634,Clawitzer,0,Special,Water,Water
+Sleep Powder,87.975,Venusaur,179.469,Status,Grass,Poison
+Sleep Powder,96.23,Butterfree,15.3968,Status,Bug,Flying
+Sleep Powder,83.252,Alolan Exeggutor,4.99512,Status,Grass,Dragon
+Sleep Powder,93.858,Lilligant,0,Status,Grass,Grass
+Sleep Powder,92.891,Roserade,0,Status,Grass,Poison
+Sleep Powder,72.667,Tangrowth,0,Status,Grass,Grass
+Sleep Powder,99.799,Tangela,0,Status,Grass,Grass
+Sleep Powder,88.358,Eldegoss,0,Status,Grass,Grass
+Sleep Powder,94.007,Vileplume,0,Status,Grass,Poison
+Sludge Bomb,41.102,Venusaur,83.84808,Special,Grass,Poison
+Sludge Bomb,83.793,Weezing,36.03099,Special,Poison,Poison
+Sludge Bomb,55.993,Eternatus,22.95713,Special,Poison,Dragon
+Sludge Bomb,18.408,Landorus Incarnate Forme,4.23384,Special,Ground,Flying
+Sludge Bomb,10.883,Thundurus Therian Forme,0.97947,Special,Electric,Flying
+Sludge Bomb,27.757,Galarian Weezing,2.22056,Special,Poison,Fairy
+Sludge Bomb,87.91,Nihilego,6.1537,Special,Rock,Poison
+Sludge Bomb,20.438,Jellicent,1.22628,Special,Water,Ghost
+Sludge Bomb,29.745,Cradily,3.27195,Special,Rock,Grass
+Sludge Bomb,32.545,Goodra,1.9527,Special,Dragon,Dragon
+Sludge Bomb,64.906,Gengar,6.4906,Special,Ghost,Poison
+Sludge Bomb,30.638,Zoroark,0,Special,Dark,Dark
+Sludge Bomb,27.498,Salazzle,0,Special,Poison,Fire
+Sludge Bomb,93.605,Toxtricity Low Key Form,0,Special,Electric,Poison
+Sludge Bomb,16.924,Galarian Slowbro,0,Special,Poison,Psychic
+Sludge Bomb,99.818,Roserade,0,Special,Grass,Poison
+Sludge Bomb,16.585,Tangrowth,0,Special,Grass,Grass
+Sludge Bomb,19.632,Tangela,0,Special,Grass,Grass
+Sludge Bomb,80.15,Vileplume,0,Special,Grass,Poison
+Sludge Bomb,92.384,Tentacruel,0,Special,Poison,Water
+Sludge Bomb,86.902,Dragalge,0,Special,Poison,Dragon
+Frenzy Plant,29.596,Venusaur,60.37584,Special,Grass,Poison
+Leech Seed,71.176,Ferrothorn,93.24056,Status,Grass,Steel
+Leech Seed,37.948,Celesteela,9.86648,Status,Flying,Steel
+Leech Seed,8.532,Tapu Bulu,0.17064,Status,Grass,Fairy
+Leech Seed,4.862,Cherrim,0.38896,Status,Grass,Grass
+Leech Seed,82.452,Exeggutor,2.47356,Status,Grass,Psychic
+Leech Seed,26.518,Alolan Exeggutor,1.59108,Status,Grass,Dragon
+Leech Seed,50.409,Cradily,5.54499,Status,Rock,Grass
+Leech Seed,74.628,Appletun,2.98512,Status,Grass,Dragon
+Leech Seed,5.314,Tangrowth,0,Status,Grass,Grass
+Leech Seed,90.805,Tangela,0,Status,Grass,Grass
+Leech Seed,33.642,Maractus,0,Status,Grass,Grass
+Power Whip,54.295,Ferrothorn,71.12645,Physical,Grass,Steel
+Power Whip,90.577,Seismitoad,53.44043,Physical,Water,Ground
+Power Whip,80.68,Tsareena,20.9768,Physical,Grass,Grass
+Power Whip,72.523,Gyarados,10.87845,Physical,Water,Flying
+Power Whip,93.6,Centiskorch,11.232,Physical,Fire,Bug
+Power Whip,19.181,Goodra,1.15086,Physical,Dragon,Dragon
+Power Whip,72.612,Dhelmise,0,Physical,Grass,Ghost
+Power Whip,41.499,Copperajah,0,Physical,Steel,Steel
+Power Whip,40.912,Gourgeist Small Size,0,Physical,Grass,Ghost
+Power Whip,17.602,Gourgeist Super Size,0,Physical,Grass,Ghost
+Power Whip,15.788,Lickilicky,0,Physical,Normal,Normal
+Power Whip,100,Gourgeist Large Size,0,Physical,Grass,Ghost
+Gyro Ball,33.77,Ferrothorn,44.2387,Physical,Grass,Steel
+Gyro Ball,76.334,Stakataka,17.55682,Physical,Steel,Rock
+Gyro Ball,86.833,Greedent,0.86833,Physical,Normal,Normal
+Gyro Ball,9.427,Perrserker,0,Physical,Steel,Steel
+Gyro Ball,3.126,Lickilicky,0,Physical,Normal,Normal
+Transform,100,Ditto,74,Status,Normal,Normal
+Wicked Blow,99.409,Urshifu Single Strike Style,124.26125,Physical,Fighting,Dark
+Close Combat,98.953,Urshifu Single Strike Style,123.69125,Physical,Fighting,Dark
+Close Combat,98.438,Urshifu Rapid Strike Style,57.09404,Physical,Water,Fighting
+Close Combat,13.412,Barraskewda,4.96244,Physical,Water,Water
+Close Combat,93.054,Pheromosa,26.98566,Physical,Bug,Fighting
+Close Combat,52.68,Zamazenta Crowned Shield,21.5988,Physical,Fighting,Steel
+Close Combat,99.302,Mienshao,17.87436,Physical,Fighting,Fighting
+Close Combat,19.604,Glastrier,2.54852,Physical,Ice,Ice
+Close Combat,77.873,Hitmontop,21.02571,Physical,Fighting,Fighting
+Close Combat,34.009,Galarian Zapdos,8.84234,Physical,Fighting,Flying
+Close Combat,47.328,Escavalier,4.25952,Physical,Bug,Steel
+Close Combat,14.788,Lucario,1.33092,Physical,Fighting,Steel
+Close Combat,42.491,Mudsdale,2.54946,Physical,Ground,Ground
+Close Combat,30.294,Obstagoon,1.81764,Physical,Dark,Normal
+Close Combat,61.933,Scrafty,3.71598,Physical,Fighting,Dark
+Close Combat,48.927,Conkeldurr,4.8927,Physical,Fighting,Fighting
+Close Combat,64.67,Terrakion,3.2335,Physical,Rock,Fighting
+Close Combat,88.937,Cobalion,5.33622,Physical,Fighting,Steel
+Close Combat,5.209,Machamp,0.20836,Physical,Fighting,Fighting
+Close Combat,11.669,Tyrantrum,107.12142,Physical,Rock,Dragon
+Close Combat,30.935,Blaziken,1.8561,Physical,Fire,Fighting
+Close Combat,45.632,Hawlucha,1.36896,Physical,Fighting,Flying
+Close Combat,10.076,Haxorus,0,Physical,Dragon,Dragon
+Close Combat,97.334,Braviary,0,Physical,Normal,Flying
+Close Combat,65.522,Virizion,0,Physical,Grass,Fighting
+Close Combat,23.175,Sharpedo,0,Physical,Water,Dark
+Close Combat,79.028,Sirfetch'd,0,Physical,Fighting,Fighting
+Close Combat,74.369,Gallade,0,Physical,Psychic,Fighting
+Close Combat,2.553,Lopunny,0,Physical,Normal,Normal
+Close Combat,34.831,Golisopod,0,Physical,Bug,Water
+Close Combat,89.49,Lycanroc Dusk Form,0,Physical,Rock,Rock
+Close Combat,71.445,Perrserker,0,Physical,Steel,Steel
+Close Combat,81.375,Bouffalant,0,Physical,Normal,Normal
+Close Combat,9.528,Crawdaunt,0,Physical,Water,Dark
+Close Combat,97.664,Heracross,0,Physical,Bug,Fighting
+Close Combat,93.997,Falinks,0,Physical,Fighting,Fighting
+Close Combat,94.732,Passimian,0,Physical,Fighting,Fighting
+Close Combat,46.49,Lycanroc Midday Form,0,Physical,Rock,Rock
+Close Combat,28.473,Poliwrath,0,Physical,Water,Fighting
+Close Combat,28.055,Lycanroc Midnight Form,0,Physical,Rock,Rock
+Close Combat,63.549,Hitmonlee,0,Physical,Fighting,Fighting
+Poison Jab,7.804,Urshifu Single Strike Style,9.755,Physical,Fighting,Dark
+Poison Jab,5.298,Urshifu Rapid Strike Style,3.07284,Physical,Water,Fighting
+Poison Jab,4.799,Pheromosa,1.39171,Physical,Bug,Fighting
+Poison Jab,11.245,Toxicroak,0.2249,Physical,Poison,Fighting
+Poison Jab,24.121,Bisharp,2.4121,Physical,Dark,Steel
+Poison Jab,19.973,Conkeldurr,1.9973,Physical,Fighting,Fighting
+Poison Jab,8.238,Hawlucha,0.24714,Physical,Fighting,Flying
+Poison Jab,3.347,Haxorus,0,Physical,Dragon,Dragon
+Poison Jab,19.311,Sirfetch'd,0,Physical,Fighting,Fighting
+Poison Jab,20.833,Gallade,0,Physical,Psychic,Fighting
+Poison Jab,8.534,Golisopod,0,Physical,Bug,Water
+Poison Jab,23.912,Drapion,0,Physical,Dark,Poison
+Poison Jab,7.903,Poliwrath,0,Physical,Water,Fighting
+Poison Jab,9.603,Hitmonlee,0,Physical,Fighting,Fighting
+Poison Jab,90.139,Scolipede,0,Physical,Bug,Poison
+Poison Jab,6.758,Dunsparce,0,Physical,Normal,Normal
+Flash Cannon,11.624,White Kyurem,11.0428,Special,Dragon,Ice
+Flash Cannon,58.062,Celesteela,15.09612,Special,Flying,Steel
+Flash Cannon,12.506,Dusk Mane Necrozma,6.12794,Special,Psychic,Steel
+Flash Cannon,46.602,Hydreigon,6.05826,Special,Dark,Dragon
+Flash Cannon,57.482,Aegislash Shield Forme,5.7482,Special,Steel,Ghost
+Flash Cannon,92.256,Duraludon,7.38048,Special,Steel,Dragon
+Flash Cannon,70.739,Heatran,6.36651,Special,Fire,Steel
+Flash Cannon,13.838,Vikavolt,0.41514,Special,Bug,Electric
+Flash Cannon,13.816,Kommo-o,0.27632,Special,Dragon,Fighting
+Flash Cannon,83.459,Turtonator,0,Special,Fire,Dragon
+Flash Cannon,96.756,Magnezone,0,Special,Electric,Steel
+Flash Cannon,91.962,Magneton,0,Special,Electric,Steel
+Flash Cannon,11.082,Reuniclus,0,Special,Psychic,Psychic
+Flash Cannon,7.316,Sigilyph,0,Special,Psychic,Flying
+Flash Cannon,73.532,Beheeyem,0,Special,Psychic,Psychic
+Overheat,99.979,Heat Rotom,42.99097,Special,Electric,Fire
+Overheat,8.209,Volcarona,2.29852,Special,Fire,Bug
+Overheat,20.404,Talonflame,4.48888,Special,Fire,Flying
+Overheat,9.951,Chandelure,0.89559,Special,Fire,Ghost
+Overheat,6.108,Manectric,0.18324,Special,Electric,Electric
+Overheat,10.983,Blaziken,0.65898,Special,Fire,Fighting
+Overheat,93.984,Torracat,0,Special,Fire,Fire
+Overheat,21.689,Salazzle,0,Special,Poison,Fire
+Overheat,48.736,Ninetales,0,Special,Fire,Fire
+Overheat,11.474,Exploud,0,Special,Normal,Normal
+Steel Beam,75.212,Lucario,6.76908,Special,Fighting,Steel
+Steel Beam,8.738,Duraludon,0.69904,Special,Steel,Dragon
+Steel Beam,6.84,Heatran,0.6156,Special,Fire,Steel
+Steel Beam,8.127,Magnezone,0,Special,Electric,Steel
+Steel Beam,8.1,Magneton,0,Special,Electric,Steel
+Power Gem,5.125,Dusk Mane Necrozma,2.51125,Special,Psychic,Steel
+Power Gem,87.349,Nihilego,6.11443,Special,Rock,Poison
+Power Gem,8.939,Cursola,0,Special,Ghost,Ghost
+Dragon Pulse,93.75,Regidrago,11.25,Special,Dragon,Dragon
+Dragon Pulse,4.689,Heliolisk,0.37512,Special,Electric,Normal
+Dragon Pulse,15.512,Sceptile,0.7756,Special,Grass,Grass
+Dragon Pulse,20.966,Duraludon,1.67728,Special,Steel,Dragon
+Dragon Pulse,24.042,Appletun,0.96168,Special,Grass,Dragon
+Dragon Pulse,17.419,Giratina Altered Forme,1.56771,Special,Ghost,Dragon
+Dragon Pulse,28.146,Goodra,1.68876,Special,Dragon,Dragon
+Dragon Pulse,27.603,Clawitzer,0,Special,Water,Water
+Dragon Pulse,10.923,Turtonator,0,Special,Fire,Dragon
+Dragon Pulse,61.955,Flygon,0,Special,Ground,Dragon
+Dragon Pulse,12.992,Dragalge,0,Special,Poison,Dragon
+Shadow Sneak,98.581,Shedinja,41.40402,Physical,Bug,Ghost
+Shadow Sneak,62.111,Dusclops,54.65768,Physical,Ghost,Ghost
+Shadow Sneak,36.811,Sableye,17.30117,Physical,Ghost,Dark
+Shadow Sneak,92.864,Mimikyu,105.86496,Physical,Ghost,Fairy
+Shadow Sneak,95.597,Giratina Origin Forme,15.29552,Physical,Ghost,Dragon
+Shadow Sneak,67.253,Aegislash Shield Forme,6.7253,Physical,Steel,Ghost
+Shadow Sneak,23.608,Giratina Altered Forme,2.12472,Physical,Ghost,Dragon
+Shadow Sneak,8.972,Gallade,0,Physical,Psychic,Fighting
+Shadow Sneak,31.459,Gourgeist Small Size,0,Physical,Grass,Ghost
+Shadow Sneak,19.472,Gourgeist Super Size,0,Physical,Grass,Ghost
+Shadow Sneak,16.285,Dusknoir,0,Physical,Ghost,Ghost
+Shadow Sneak,27.431,Decidueye,0,Physical,Grass,Ghost
+Shadow Sneak,99.986,Gourgeist Large Size,0,Physical,Grass,Ghost
+Poltergeist,91.871,Shedinja,38.58582,Physical,Bug,Ghost
+Poltergeist,41.903,Alolan Marowak,6.70448,Physical,Fire,Ghost
+Poltergeist,82.311,Giratina Origin Forme,13.16976,Physical,Ghost,Dragon
+Poltergeist,94.698,Trevenant,1.89396,Physical,Grass,Ghost
+Poltergeist,83.651,Dhelmise,0,Physical,Grass,Ghost
+Poltergeist,32.135,Runerigus,0,Physical,Ground,Ghost
+Poltergeist,6.768,Gourgeist Small Size,0,Physical,Grass,Ghost
+Poltergeist,92.839,Dusknoir,0,Physical,Ghost,Ghost
+Poltergeist,48.827,Decidueye,0,Physical,Grass,Ghost
+Poltergeist,75.387,Golurk,0,Physical,Ground,Ghost
+Endure,82.904,Shedinja,34.81968,Status,Bug,Ghost
+Endure,19.246,Shuckle,1.34722,Status,Rock,Bug
+Endure,24.724,Rhyperior,2.22516,Status,Ground,Rock
+Endure,32.885,Ninjask,0,Status,Bug,Flying
+Endure,15.593,Lycanroc Midday Form,0,Status,Rock,Rock
+Sunsteel Strike,85.426,Dusk Mane Necrozma,41.85874,Physical,Psychic,Steel
+Psychic Fangs,24.367,Dusk Mane Necrozma,11.93983,Physical,Psychic,Steel
+Psychic Fangs,62.715,Dracovish,20.0688,Physical,Water,Dragon
+Psychic Fangs,10.582,Luxray,0.21164,Physical,Electric,Electric
+Psychic Fangs,6.225,Sharpedo,0,Physical,Water,Dark
+Psychic Fangs,18.472,Lycanroc Dusk Form,0,Physical,Rock,Rock
+Psychic Fangs,9.602,Lycanroc Midday Form,0,Physical,Rock,Rock
+Psychic Fangs,12.226,Lycanroc Midnight Form,0,Physical,Rock,Rock
+Wide Guard,60.199,Regigigas,22.27363,Status,Normal,Normal
+Wide Guard,30.339,Celesteela,7.88814,Status,Flying,Steel
+Wide Guard,97.829,Araquanid,14.67435,Status,Bug,Water
+Wide Guard,52.704,Zamazenta Crowned Shield,21.60864,Status,Fighting,Steel
+Wide Guard,48.488,Mienshao,8.72784,Status,Fighting,Fighting
+Wide Guard,78.786,Hitmontop,21.27222,Status,Fighting,Fighting
+Wide Guard,46.74,Stakataka,10.7502,Status,Steel,Rock
+Wide Guard,12.209,Swampert,0.85463,Status,Water,Ground
+Wide Guard,20.13,Pelipper,1.6104,Status,Water,Flying
+Wide Guard,61.137,Kingler,5.50233,Status,Water,Water
+Wide Guard,33.461,Aegislash Shield Forme,3.3461,Status,Steel,Ghost
+Wide Guard,31.987,Gigalith,1.27948,Status,Rock,Rock
+Wide Guard,85.889,Aerodactyl,4.29445,Status,Rock,Flying
+Wide Guard,41.11,Stonjourner,1.2333,Status,Rock,Rock
+Wide Guard,12.818,Conkeldurr,1.2818,Status,Fighting,Fighting
+Wide Guard,94.773,Mantine,2.84319,Status,Water,Flying
+Wide Guard,94.075,Machamp,3.763,Status,Fighting,Fighting
+Wide Guard,9.545,Turtonator,0,Status,Fire,Dragon
+Wide Guard,7.525,Gallade,0,Status,Psychic,Fighting
+Night Shade,67.739,Dusclops,59.61032,Special,Ghost,Ghost
+Night Shade,9.682,Jellicent,0.58092,Special,Water,Ghost
+Night Shade,4.317,Runerigus,0,Special,Ground,Ghost
+Night Shade,14.732,Cofagrigus,0,Special,Ghost,Ghost
+Night Shade,52.4,Galarian Corsola,0,Special,Ghost,Ghost
+Pain Split,22.982,Dusclops,20.22416,Status,Ghost,Ghost
+Pain Split,13.078,Giratina Altered Forme,1.17702,Status,Ghost,Dragon
+Pain Split,3.745,Dusknoir,0,Status,Ghost,Ghost
+Haze,9.145,Dusclops,8.0476,Status,Ghost,Ghost
+Haze,61.551,Altaria,1.84653,Status,Flying,Dragon
+Haze,83.127,Crobat,4.15635,Status,Poison,Flying
+Haze,52.481,Vaporeon,0,Status,Water,Water
+Haze,54.89,Galarian Corsola,0,Status,Ghost,Ghost
+Eruption,60.986,Torkoal,38.42118,Special,Fire,Fire
+Burning Jealousy,36.362,Torkoal,22.90806,Special,Fire,Fire
+Burning Jealousy,33.404,Zoroark,0,Special,Dark,Dark
+Burning Jealousy,5.734,Thievul,0,Special,Dark,Dark
+Burning Jealousy,14.324,Turtonator,0,Special,Fire,Dragon
+Burning Jealousy,15.74,Ninetales,0,Special,Fire,Fire
+Burning Jealousy,46.833,Cursola,0,Special,Ghost,Ghost
+Draco Meteor,67.739,Kingdra,25.06343,Special,Water,Dragon
+Draco Meteor,79.675,White Kyurem,75.69125,Special,Dragon,Ice
+Draco Meteor,3.283,Dragapult,1.77282,Special,Ghost,Dragon
+Draco Meteor,59.592,Hydreigon,7.74696,Special,Dark,Dragon
+Draco Meteor,89.562,Regidrago,10.74744,Special,Dragon,Dragon
+Draco Meteor,12.207,Salamence,0.97656,Special,Flying,Dragon
+Draco Meteor,6.134,Giratina Origin Forme,0.98144,Special,Ghost,Dragon
+Draco Meteor,7.671,Altaria,0.23013,Special,Flying,Dragon
+Draco Meteor,16.308,Alolan Exeggutor,0.97848,Special,Grass,Dragon
+Draco Meteor,79.107,Duraludon,6.32856,Special,Steel,Dragon
+Draco Meteor,61.082,Appletun,2.44328,Special,Grass,Dragon
+Draco Meteor,8.428,Giratina Altered Forme,0.75852,Special,Ghost,Dragon
+Draco Meteor,34.108,Goodra,2.04648,Special,Dragon,Dragon
+Draco Meteor,58.197,Drampa,2.32788,Special,Normal,Dragon
+Draco Meteor,77.974,Turtonator,0,Special,Fire,Dragon
+Draco Meteor,91.591,Noivern,0,Special,Flying,Dragon
+Draco Meteor,15.644,Flygon,0,Special,Ground,Dragon
+Draco Meteor,88.575,Dragalge,0,Special,Poison,Dragon
+Outrage,27.002,Kingdra,9.99074,Physical,Water,Dragon
+Outrage,12.294,Zygarde Complete Forme,5.16348,Physical,Ground,Dragon
+Outrage,12.738,Dracovish,4.07616,Physical,Water,Dragon
+Outrage,5.209,Salamence,0.41672,Physical,Flying,Dragon
+Outrage,8.226,Tyranitar,1.97424,Physical,Rock,Dark
+Outrage,54.128,Garchomp,8.1192,Physical,Ground,Dragon
+Outrage,35.972,Dracozolt,2.87776,Physical,Electric,Dragon
+Outrage,10.926,Dragonite,1.0926,Physical,Flying,Dragon
+Outrage,17.272,Giratina Altered Forme,1.55448,Physical,Ghost,Dragon
+Outrage,21.096,Black Kyurem,1.47672,Physical,Dragon,Ice
+Outrage,11.452,Goodra,0.68712,Physical,Dragon,Dragon
+Outrage,87.645,Tyrantrum,804.5811,Physical,Rock,Dragon
+Outrage,3.995,Haxorus,0,Physical,Dragon,Dragon
+Outrage,12.226,Flapple,0,Physical,Grass,Dragon
+Waterfall,26.476,Kingdra,9.79612,Physical,Water,Dragon
+Waterfall,10.256,Barraskewda,3.79472,Physical,Water,Water
+Waterfall,99.407,Gyarados,14.91105,Physical,Water,Flying
+Waterfall,10.643,Kabutops,0.42572,Physical,Water,Rock
+Waterfall,10.797,Eiscue Ice Face,0,Physical,Ice,Ice
+Waterfall,53.071,Sharpedo,0,Physical,Water,Dark
+Waterfall,7.553,Crawdaunt,0,Physical,Water,Dark
+Waterfall,5.122,Seaking,0,Physical,Water,Water
+Waterfall,39.057,Poliwrath,0,Physical,Water,Fighting
+Muddy Water,14.093,Kingdra,5.21441,Special,Water,Dragon
+Muddy Water,58.173,Tapu Fini,43.04802,Special,Water,Fairy
+Muddy Water,65.185,Milotic,19.5555,Special,Water,Water
+Muddy Water,26.896,Ludicolo,4.30336,Special,Water,Grass
+Muddy Water,60.292,Slowking,1.20584,Special,Water,Psychic
+Muddy Water,5.396,Jellicent,0.32376,Special,Water,Ghost
+Muddy Water,8.063,Vaporeon,0,Special,Water,Water
+Muddy Water,17.863,Golduck,0,Special,Water,Water
+Muddy Water,12.156,Tentacruel,0,Special,Poison,Water
+Muddy Water,5.121,Lickilicky,0,Special,Normal,Normal
+Nuzzle,84.644,Raichu,78.71892,Physical,Electric,Electric
+Nuzzle,10.08,Pikachu,1.3104,Physical,Electric,Electric
+Nuzzle,96.414,Togedemaru,6.74898,Physical,Electric,Steel
+Nuzzle,49.07,Boltund,0.9814,Physical,Electric,Electric
+Nuzzle,93.289,Emolga,0,Physical,Electric,Flying
+Nuzzle,83.039,Dedenne,0,Physical,Electric,Fairy
+Tail Whip,4.506,Raichu,4.19058,Status,Electric,Electric
+Feint,3.954,Raichu,3.67722,Physical,Electric,Electric
+Feint,6.526,Pheromosa,1.89254,Physical,Bug,Fighting
+Feint,19.536,Mienshao,3.51648,Physical,Fighting,Fighting
+Feint,15.948,Weavile,2.23272,Physical,Dark,Ice
+Feint,52.647,Hitmontop,14.21469,Physical,Fighting,Fighting
+Feint,21.703,Talonflame,4.77466,Physical,Fire,Flying
+Feint,85.01,Toxicroak,1.7002,Physical,Poison,Fighting
+Feint,34.183,Riolu,4.44379,Physical,Fighting,Fighting
+Feint,4.838,Accelgor,0.33866,Physical,Bug,Bug
+Sacred Fire,88.425,Entei,44.2125,Physical,Fire,Fire
+Stomping Tantrum,14.102,Entei,7.051,Physical,Fire,Fire
+Stomping Tantrum,80.505,Seismitoad,47.49795,Physical,Water,Ground
+Stomping Tantrum,79.646,Metagross,21.50442,Physical,Psychic,Steel
+Stomping Tantrum,50.526,Galarian Zapdos,13.13676,Physical,Fighting,Flying
+Stomping Tantrum,7.269,Garchomp,1.09035,Physical,Ground,Dragon
+Stomping Tantrum,64.555,Gigalith,2.5822,Physical,Rock,Rock
+Stomping Tantrum,83.167,Durant,3.32668,Physical,Bug,Steel
+Stomping Tantrum,28.727,Terrakion,1.43635,Physical,Rock,Fighting
+Stomping Tantrum,97.933,Garbodor,0.97933,Physical,Poison,Poison
+Stomping Tantrum,11.301,Tyrantrum,103.74318,Physical,Rock,Dragon
+Stomping Tantrum,71.558,Arctozolt,0,Physical,Electric,Ice
+Stomping Tantrum,17.549,Lycanroc Midnight Form,0,Physical,Rock,Rock
+Stomping Tantrum,4.777,Lickilicky,0,Physical,Normal,Normal
+Moongeist Beam,99.996,Dawn Wings Necrozma,9.9996,Special,Psychic,Ghost
+Meteor Beam,14.663,Eternatus,6.01183,Special,Poison,Dragon
+Meteor Beam,92.932,Coalossal,37.1728,Special,Fire,Rock
+Meteor Beam,95.905,Dawn Wings Necrozma,9.5905,Special,Psychic,Ghost
+Meteor Beam,45.651,Celesteela,11.86926,Special,Flying,Steel
+Meteor Beam,23.5,Nihilego,1.645,Special,Rock,Poison
+Meteor Beam,42.174,Cradily,4.63914,Special,Rock,Grass
+Meteor Beam,41.698,Starmie,0,Special,Water,Psychic
+Meteor Beam,20.336,Cursola,0,Special,Ghost,Ghost
+Meteor Beam,41.929,Beheeyem,0,Special,Psychic,Psychic
+Moonlight,79.625,Umbreon,27.86875,Status,Dark,Dark
+Moonlight,5.286,Clefable,0.37002,Status,Fairy,Fairy
+Moonlight,46.023,Cresselia,4.6023,Status,Psychic,Psychic
+Freeze Dry,39.128,White Kyurem,37.1716,Special,Dragon,Ice
+Freeze Dry,89.979,Lapras,54.88719,Special,Water,Ice
+Freeze Dry,70.517,Alolan Ninetales,11.28272,Special,Ice,Fairy
+Freeze Dry,67.208,Articuno,2.68832,Special,Ice,Flying
+Freeze Dry,98.571,Mr. Rime,1.97142,Special,Psychic,Ice
+Freeze Dry,99.721,Glaceon,0.99721,Special,Ice,Ice
+Freeze Dry,91.832,Vanilluxe,0,Special,Ice,Ice
+Freeze Dry,97.435,Arctovish,0,Special,Water,Ice
+Calm Mind,40.074,Tapu Fini,29.65476,Status,Water,Fairy
+Calm Mind,67.626,Alcremie,12.17268,Status,Fairy,Fairy
+Calm Mind,13.682,Slowking,0.27364,Status,Water,Psychic
+Calm Mind,41.204,Galarian Articuno,5.76856,Status,Psychic,Flying
+Calm Mind,13.177,Latias,0.79062,Status,Psychic,Dragon
+Calm Mind,16.519,Blacephalon,1.48671,Status,Fire,Ghost
+Calm Mind,13.065,Giratina Altered Forme,1.17585,Status,Ghost,Dragon
+Calm Mind,34.04,Cresselia,3.404,Status,Psychic,Psychic
+Calm Mind,10.694,Blissey,0.32082,Status,Normal,Normal
+Calm Mind,3.264,Orbeetle,0,Status,Bug,Psychic
+Calm Mind,5.982,Noctowl,0,Status,Normal,Flying
+Heal Pulse,31.413,Tapu Fini,23.24562,Status,Water,Fairy
+Heal Pulse,10.812,Cherrim,0.86496,Status,Grass,Grass
+Heal Pulse,41.47,Latias,2.4882,Status,Psychic,Dragon
+Heal Pulse,25.216,Blissey,0.75648,Status,Normal,Normal
+Heal Pulse,24.07,Clawitzer,0,Status,Water,Water
+Heal Pulse,70.075,Aromatisse,0,Status,Fairy,Fairy
+Nature's Madness,20.283,Tapu Fini,15.00942,Special,Water,Fairy
+Nature's Madness,14.898,Tapu Lele,3.42654,Special,Psychic,Fairy
+Nature's Madness,15.913,Tapu Koko,4.29651,Special,Electric,Fairy
+Scald,14.531,Tapu Fini,10.75294,Special,Water,Fairy
+Scald,5.434,Dragapult,2.93436,Special,Ghost,Dragon
+Scald,8.363,Araquanid,1.25445,Special,Bug,Water
+Scald,90.484,Suicune,25.33552,Special,Water,Water
+Scald,25.404,Milotic,7.6212,Special,Water,Water
+Scald,95.212,Politoed,6.66484,Special,Water,Water
+Scald,28.693,Ludicolo,4.59088,Special,Water,Grass
+Scald,12.315,Slowking,0.2463,Special,Water,Psychic
+Scald,76.433,Azumarill,6.87897,Special,Water,Fairy
+Scald,99.846,Toxapex,4.9923,Special,Poison,Water
+Scald,94.045,Pelipper,7.5236,Special,Water,Flying
+Scald,44.706,Pincurchin,4.02354,Special,Electric,Electric
+Scald,50.476,Starmie,0,Special,Water,Psychic
+Scald,83.766,Vaporeon,0,Special,Water,Water
+Scald,21.07,Golduck,0,Special,Water,Water
+Scald,21.57,Cursola,0,Special,Ghost,Ghost
+Scald,81.957,Seaking,0,Special,Water,Water
+Scald,33.149,Tentacruel,0,Special,Poison,Water
+Surf,5.623,Tapu Fini,4.16102,Special,Water,Fairy
+Surf,16.923,Dragapult,9.13842,Special,Ghost,Dragon
+Surf,3.507,Lapras,2.13927,Special,Water,Ice
+Surf,86.031,Sneasel,2.58093,Special,Dark,Ice
+Surf,7.487,Ludicolo,1.19792,Special,Water,Grass
+Surf,53.147,Pikachu,6.90911,Special,Electric,Electric
+Surf,28.468,Jellicent,1.70808,Special,Water,Ghost
+Surf,59.229,Latias,3.55374,Special,Psychic,Dragon
+Surf,44.252,Obstagoon,2.65512,Special,Dark,Normal
+Surf,28.05,Goodra,1.683,Special,Dragon,Dragon
+Surf,94.75,Qwilfish,0,Special,Poison,Water
+Surf,22.034,Alolan Raichu,0,Special,Electric,Psychic
+Surf,10.01,Vaporeon,0,Special,Water,Water
+Surf,51.792,Golduck,0,Special,Water,Water
+Surf,3.728,Galarian Slowbro,0,Special,Poison,Psychic
+Surf,35.829,Stoutland,0,Special,Normal,Normal
+Surf,13.052,Exploud,0,Special,Normal,Normal
+Surf,4.652,Seaking,0,Special,Water,Water
+Quash,83.107,Sableye,39.06029,Status,Ghost,Dark
+Sunny Day,24.331,Sableye,11.43557,Status,Ghost,Dark
+Sunny Day,5.795,Meowstic Male,0.86925,Status,Psychic,Psychic
+Sunny Day,4.683,Sneasel,0.14049,Status,Dark,Ice
+Sunny Day,92.09,Drifblim,2.7627,Status,Ghost,Flying
+Sunny Day,7.301,Cherrim,0.58408,Status,Grass,Grass
+Sunny Day,39.137,Klefki,1.95685,Status,Fairy,Steel
+Sunny Day,9.995,Riolu,1.29935,Status,Fighting,Fighting
+Sunny Day,6.856,Crobat,0.3428,Status,Poison,Flying
+Surging Strikes,99.864,Urshifu Rapid Strike Style,57.92112,Physical,Water,Fighting
+Aqua Jet,91.829,Urshifu Rapid Strike Style,53.26082,Physical,Water,Fighting
+Aqua Jet,15.378,Azumarill,1.38402,Physical,Water,Fairy
+Aqua Jet,17.203,Dragonite,1.7203,Physical,Flying,Dragon
+Aqua Jet,14.422,Kabutops,0.57688,Physical,Water,Rock
+Aqua Jet,19.157,Clawitzer,0,Physical,Water,Water
+Aqua Jet,98.485,Qwilfish,0,Physical,Poison,Water
+Aqua Jet,15.092,Beartic,0,Physical,Ice,Ice
+Aqua Jet,42.398,Golisopod,0,Physical,Bug,Water
+Aqua Jet,63.646,Golduck,0,Physical,Water,Water
+Aqua Jet,92.698,Crawdaunt,0,Physical,Water,Dark
+Psychic,82.087,Tapu Lele,18.88001,Special,Psychic,Fairy
+Psychic,15.22,Meowstic Male,2.283,Special,Psychic,Psychic
+Psychic,3.966,Politoed,0.27762,Special,Water,Water
+Psychic,7.485,Oranguru,1.27245,Special,Normal,Psychic
+Psychic,16.943,Cresselia,1.6943,Special,Psychic,Psychic
+Psychic,7.556,Gengar,0.7556,Special,Ghost,Poison
+Psychic,37.243,Espeon,1.11729,Special,Psychic,Psychic
+Psychic,5.679,Alolan Raichu,0,Special,Electric,Psychic
+Psychic,10.077,Cofagrigus,0,Special,Ghost,Ghost
+Psychic,18.997,Starmie,0,Special,Water,Psychic
+Psychic,3.49,Ribombee,0,Special,Bug,Fairy
+Psychic,4.068,Galarian Slowbro,0,Special,Poison,Psychic
+Psychic,15.313,Claydol,0,Special,Ground,Psychic
+Psychic,5.494,Sigilyph,0,Special,Psychic,Flying
+Psychic,22.222,Orbeetle,0,Special,Bug,Psychic
+Psychic,6.597,Beheeyem,0,Special,Psychic,Psychic
+Hypnosis,77.277,Gothitelle,15.4554,Status,Psychic,Psychic
+Hypnosis,11.07,Bronzong,2.9889,Status,Psychic,Steel
+Hypnosis,50.544,Milotic,15.1632,Status,Water,Water
+Hypnosis,12.363,Exeggutor,0.37089,Status,Grass,Psychic
+Hypnosis,5.279,Gengar,0.5279,Status,Ghost,Poison
+Hypnosis,53.85,Crobat,2.6925,Status,Poison,Flying
+Hypnosis,51.111,Mime Galarian Mr. Mime,1.02222,Status,Psychic,Ice
+Hypnosis,8.447,Ninetales,0,Status,Fire,Fire
+Hypnosis,38.724,Golduck,0,Status,Water,Water
+Hypnosis,5.295,Unfezant,0,Status,Normal,Flying
+Hypnosis,15.595,Orbeetle,0,Status,Bug,Psychic
+Liquidation,91.553,Seismitoad,54.01627,Physical,Water,Ground
+Liquidation,84.181,Barraskewda,31.14697,Physical,Water,Water
+Liquidation,91.623,Araquanid,13.74345,Physical,Bug,Water
+Liquidation,94.763,Swampert,6.63341,Physical,Water,Ground
+Liquidation,13.001,Azumarill,1.17009,Physical,Water,Fairy
+Liquidation,81.599,Kabutops,3.26396,Physical,Water,Rock
+Liquidation,99.611,Drednaw,3.98444,Physical,Water,Rock
+Liquidation,6.812,Wishiwashi Solo Form,0.06812,Physical,Water,Water
+Liquidation,68.399,Cloyster,1.36798,Physical,Water,Ice
+Liquidation,62.331,Beartic,0,Physical,Ice,Ice
+Liquidation,20.198,Eiscue Ice Face,0,Physical,Ice,Ice
+Liquidation,38.927,Sharpedo,0,Physical,Water,Dark
+Liquidation,90.634,Golisopod,0,Physical,Bug,Water
+Liquidation,37.905,Crawdaunt,0,Physical,Water,Dark
+Liquidation,58.636,Poliwrath,0,Physical,Water,Fighting
+Liquidation,99.994,Corsola,0,Physical,Water,Rock
+Brave Bird,65.671,Tapu Koko,17.73117,Physical,Electric,Fairy
+Brave Bird,93.244,Galarian Zapdos,24.24344,Physical,Fighting,Flying
+Brave Bird,62.48,Talonflame,13.7456,Physical,Fire,Flying
+Brave Bird,37.405,Mandibuzz,1.12215,Physical,Dark,Flying
+Brave Bird,89.734,Corviknight,8.9734,Physical,Flying,Steel
+Brave Bird,74.159,Crobat,3.70795,Physical,Poison,Flying
+Brave Bird,17.577,Blaziken,1.05462,Physical,Fire,Fighting
+Brave Bird,9.564,Hawlucha,0.28692,Physical,Fighting,Flying
+Brave Bird,99.987,Braviary,0,Physical,Normal,Flying
+Brave Bird,33.114,Sirfetch'd,0,Physical,Fighting,Fighting
+Brave Bird,88.439,Unfezant,0,Physical,Normal,Flying
+Brave Bird,30.498,Decidueye,0,Physical,Grass,Ghost
+Burn Up,18.863,Moltres,0.56589,Special,Fire,Flying
+Iron Head,29.976,Cinderace,13.4892,Physical,Fire,Fire
+Iron Head,8.392,Bronzong,2.26584,Physical,Psychic,Steel
+Iron Head,8.331,Celesteela,2.16606,Physical,Flying,Steel
+Iron Head,75.875,Metagross,20.48625,Physical,Psychic,Steel
+Iron Head,5.745,Snorlax,1.0341,Physical,Normal,Normal
+Iron Head,99.473,Escavalier,8.95257,Physical,Bug,Steel
+Iron Head,9.738,Tyranitar,2.33712,Physical,Rock,Dark
+Iron Head,5.116,Giratina Origin Forme,0.81856,Physical,Ghost,Dragon
+Iron Head,35.248,Togedemaru,2.46736,Physical,Electric,Steel
+Iron Head,7.054,Garchomp,1.0581,Physical,Ground,Dragon
+Iron Head,97.594,Excadrill,9.7594,Physical,Ground,Steel
+Iron Head,26.54,Aegislash Shield Forme,2.654,Physical,Steel,Ghost
+Iron Head,49.988,Mudsdale,2.99928,Physical,Ground,Ground
+Iron Head,52.682,Gigalith,2.10728,Physical,Rock,Rock
+Iron Head,78.545,Bisharp,7.8545,Physical,Dark,Steel
+Iron Head,60.238,Corviknight,6.0238,Physical,Flying,Steel
+Iron Head,100,Durant,4,Physical,Bug,Steel
+Iron Head,90.211,Cobalion,5.41266,Physical,Fighting,Steel
+Iron Head,13.048,Hawlucha,0.39144,Physical,Fighting,Flying
+Iron Head,12.333,Dhelmise,0,Physical,Grass,Ghost
+Iron Head,61.24,Copperajah,0,Physical,Steel,Steel
+Iron Head,9.379,Eiscue Ice Face,0,Physical,Ice,Ice
+Iron Head,11.04,Hippowdon,0,Physical,Ground,Ground
+Iron Head,8.632,Lycanroc Dusk Form,0,Physical,Rock,Rock
+Iron Head,90.865,Perrserker,0,Physical,Steel,Steel
+Iron Head,27.362,Bouffalant,0,Physical,Normal,Normal
+Iron Head,36.301,Sandaconda,0,Physical,Ground,Ground
+Iron Head,6.95,Stoutland,0,Physical,Normal,Normal
+Iron Head,61.839,Falinks,0,Physical,Fighting,Fighting
+Iron Head,77.228,Passimian,0,Physical,Fighting,Fighting
+Iron Head,6.944,Lycanroc Midday Form,0,Physical,Rock,Rock
+Iron Head,42.398,Marowak,0,Physical,Ground,Ground
+Iron Head,64.331,Alolan Sandslash,0,Physical,Ice,Steel
+Iron Head,6.649,Lycanroc Midnight Form,0,Physical,Rock,Rock
+Iron Head,93.224,Steelix,0,Physical,Ground,Steel
+Nasty Plot,60.352,Heat Rotom,25.95136,Status,Electric,Fire
+Nasty Plot,13.675,Hydreigon,1.77775,Status,Dark,Dragon
+Nasty Plot,42.43,Galarian Moltres,14.8505,Status,Dark,Flying
+Nasty Plot,24.378,Wash Rotom,3.90048,Status,Electric,Water
+Nasty Plot,10.223,Swoobat,0.20446,Status,Psychic,Flying
+Nasty Plot,9.508,Mow Rotom,0.28524,Status,Electric,Grass
+Nasty Plot,11.469,Gengar,1.1469,Status,Ghost,Poison
+Nasty Plot,5.636,Alolan Raichu,0,Status,Electric,Psychic
+Nasty Plot,11.458,Alakazam,0,Status,Psychic,Psychic
+Nasty Plot,17.652,Frost Rotom,0,Status,Electric,Ice
+Nasty Plot,88.403,Fan Rotom,0,Status,Electric,Flying
+Nasty Plot,31.279,Noctowl,0,Status,Normal,Flying
+Dynamax Cannon,71.187,Eternatus,29.18667,Special,Poison,Dragon
+Cosmic Power,33.131,Eternatus,13.58371,Status,Poison,Dragon
+Cosmic Power,9.989,Clefable,0.69923,Status,Fairy,Fairy
+Toxic,21.734,Eternatus,8.91094,Status,Poison,Dragon
+Toxic,76.158,Shuckle,5.33106,Status,Rock,Bug
+Toxic,99.726,Toxapex,4.9863,Status,Poison,Water
+Toxic,16.287,Accelgor,1.14009,Status,Bug,Bug
+Toxic,4.278,Salazzle,0,Status,Poison,Fire
+Toxic,34.385,Drapion,0,Status,Dark,Poison
+Ice Punch,74.543,Regigigas,27.58091,Physical,Normal,Normal
+Ice Punch,58.683,Metagross,15.84441,Physical,Psychic,Steel
+Ice Punch,12.049,Tyranitar,2.89176,Physical,Rock,Dark
+Ice Punch,6.015,Kangaskhan,0.3609,Physical,Normal,Normal
+Ice Punch,9.611,Registeel,0.28833,Physical,Steel,Steel
+Ice Punch,7.649,Rhyperior,0.68841,Physical,Ground,Rock
+Ice Punch,95.004,Electivire,2.85012,Physical,Electric,Electric
+Ice Punch,40.118,Diggersby,0.40118,Physical,Normal,Ground
+Ice Punch,72.094,Conkeldurr,7.2094,Physical,Fighting,Fighting
+Ice Punch,7.662,Grapploct,0,Physical,Fighting,Fighting
+Ice Punch,6.38,Gallade,0,Physical,Psychic,Fighting
+Ice Punch,2.927,Lopunny,0,Physical,Normal,Normal
+Ice Punch,5.291,Miltank,0,Physical,Normal,Normal
+Ice Punch,4.577,Bewear,0,Physical,Normal,Fighting
+Ice Punch,22.824,Poliwrath,0,Physical,Water,Fighting
+Ice Punch,7.682,Golurk,0,Physical,Ground,Ghost
+High Jump Kick,80.067,Cinderace,36.03015,Physical,Fire,Fire
+High Jump Kick,25.393,Tsareena,6.60218,Physical,Grass,Grass
+High Jump Kick,23.597,Lopunny,0,Physical,Normal,Normal
+High Jump Kick,33.543,Hitmonlee,0,Physical,Fighting,Fighting
+Pyro Ball,73.923,Cinderace,33.26535,Physical,Fire,Fire
+Coaching,9.529,Cinderace,4.28805,Status,Fire,Fire
+Coaching,69.878,Pheromosa,20.26462,Status,Bug,Fighting
+Coaching,76.272,Zamazenta Crowned Shield,31.27152,Status,Fighting,Steel
+Coaching,9.222,Mienshao,1.65996,Status,Fighting,Fighting
+Coaching,14.432,Galarian Zapdos,3.75232,Status,Fighting,Flying
+Coaching,99.35,Riolu,12.9155,Status,Fighting,Fighting
+Coaching,24.06,Scrafty,1.4436,Status,Fighting,Dark
+Coaching,29.875,Blaziken,1.7925,Status,Fire,Fighting
+Coaching,75.565,Hawlucha,2.26695,Status,Fighting,Flying
+Coaching,8.538,Grapploct,0,Status,Fighting,Fighting
+Coaching,3.849,Gallade,0,Status,Psychic,Fighting
+Coaching,21.662,Hitmonlee,0,Status,Fighting,Fighting
+Dragon Darts,83.82,Dragapult,45.2628,Physical,Ghost,Dragon
+Phantom Force,75.683,Dragapult,40.86882,Physical,Ghost,Dragon
+Phantom Force,5.76,Giratina Origin Forme,0.9216,Physical,Ghost,Dragon
+Phantom Force,8.301,Dhelmise,0,Physical,Grass,Ghost
+Phantom Force,8.011,Runerigus,0,Physical,Ground,Ghost
+Dragon Dance,10.912,Dragapult,5.89248,Status,Ghost,Dragon
+Dragon Dance,9.151,Dusk Mane Necrozma,4.48399,Status,Psychic,Steel
+Dragon Dance,4.514,Hydreigon,0.58682,Status,Dark,Dragon
+Dragon Dance,11.306,Tyranitar,2.71344,Status,Rock,Dark
+Dragon Dance,29.898,Dragonite,2.9898,Status,Flying,Dragon
+Dragon Dance,5.062,Black Kyurem,0.35434,Status,Dragon,Ice
+Dragon Dance,11.253,Flapple,0,Status,Grass,Dragon
+Dragon Dance,5.839,Flygon,0,Status,Ground,Dragon
+Dragon Claw,5.582,Dragapult,3.01428,Physical,Ghost,Dragon
+Dragon Claw,9.536,Salamence,0.76288,Physical,Flying,Dragon
+Dragon Claw,5.866,Giratina Origin Forme,0.93856,Physical,Ghost,Dragon
+Dragon Claw,21.875,Garchomp,3.28125,Physical,Ground,Dragon
+Dragon Claw,9.287,Dracozolt,0.74296,Physical,Electric,Dragon
+Dragon Claw,32.854,Dragonite,3.2854,Physical,Flying,Dragon
+Dragon Claw,39.873,Black Kyurem,2.79111,Physical,Dragon,Ice
+Dragon Claw,10.836,Haxorus,0,Physical,Dragon,Dragon
+Dragon Claw,9.245,Flygon,0,Physical,Ground,Dragon
+Dragon Claw,94.407,Druddigon,0,Physical,Dragon,Dragon
+Dive,4.601,Dragapult,2.48454,Physical,Ghost,Dragon
+Breaking Swipe,4.489,Dragapult,2.42406,Physical,Ghost,Dragon
+Breaking Swipe,4.724,Zygarde Complete Forme,1.98408,Physical,Ground,Dragon
+Breaking Swipe,15.355,Dracozolt,1.2284,Physical,Electric,Dragon
+Breaking Swipe,64.512,Altaria,1.93536,Physical,Flying,Dragon
+Breaking Swipe,5.47,Latias,0.3282,Physical,Psychic,Dragon
+Breaking Swipe,38.497,Dragonite,3.8497,Physical,Flying,Dragon
+Breaking Swipe,12.353,Giratina Altered Forme,1.11177,Physical,Ghost,Dragon
+Breaking Swipe,6.585,Black Kyurem,0.46095,Physical,Dragon,Ice
+Breaking Swipe,54.358,Goodra,3.26148,Physical,Dragon,Dragon
+Breaking Swipe,45.295,Kommo-o,0.9059,Physical,Dragon,Fighting
+Breaking Swipe,81.479,Haxorus,0,Physical,Dragon,Dragon
+After You,11.887,Indeedee Male,3.09062,Status,Normal,Psychic
+After You,28.422,Clefairy,7.1055,Status,Fairy,Fairy
+After You,94.234,Lilligant,0,Status,Grass,Grass
+After You,9.259,Togetic,0,Status,Fairy,Flying
+After You,69.546,Slurpuff,0,Status,Fairy,Fairy
+After You,10.438,Aromatisse,0,Status,Fairy,Fairy
+After You,65.575,Stoutland,0,Status,Normal,Normal
+After You,85.939,Vileplume,0,Status,Grass,Poison
+Floral Healing,98.635,Comfey,53.2629,Status,Fairy,Fairy
+Draining Kiss,81.263,Comfey,43.88202,Special,Fairy,Fairy
+Perish Song,13.826,Lapras,8.43386,Status,Water,Ice
+Perish Song,17.79,Politoed,1.2453,Status,Water,Water
+Perish Song,76.382,Azumarill,6.87438,Status,Water,Fairy
+Perish Song,12.571,Alolan Marowak,2.01136,Status,Fire,Ghost
+Perish Song,8.88,Primarina,0.9768,Status,Water,Fairy
+Perish Song,13.655,Gengar,1.3655,Status,Ghost,Poison
+Perish Song,19.085,Cursola,0,Status,Ghost,Ghost
+Perish Song,7.499,Marowak,0,Status,Ground,Ground
+Ice Shard,6.266,Lapras,3.82226,Physical,Water,Ice
+Ice Shard,88.54,Mamoswine,14.1664,Physical,Ice,Ground
+Ice Shard,7.595,Weavile,1.0633,Physical,Dark,Ice
+Ice Shard,29.597,Froslass,1.18388,Physical,Ice,Ghost
+Ice Shard,32.137,Articuno,1.28548,Physical,Ice,Flying
+Ice Shard,56.567,Abomasnow,2.82835,Physical,Grass,Ice
+Ice Shard,25.649,Cloyster,0.51298,Physical,Water,Ice
+Ice Shard,32.859,Vanilluxe,0,Physical,Ice,Ice
+Thousand Arrows,98.354,Zygarde Complete Forme,41.30868,Physical,Ground,Dragon
+Coil,95.64,Zygarde Complete Forme,40.1688,Status,Ground,Dragon
+Coil,55.165,Milotic,16.5495,Status,Water,Water
+Coil,48.199,Centiskorch,5.78388,Status,Fire,Bug
+Coil,36.854,Sandaconda,0,Status,Ground,Ground
+Coil,52.707,Dunsparce,0,Status,Normal,Normal
+Icicle Crash,78.325,Mamoswine,12.532,Physical,Ice,Ground
+Icicle Crash,92.194,Glastrier,11.98522,Physical,Ice,Ice
+Icicle Crash,99.805,Darmanitan Galarian Standard Mode,14.97075,Physical,Ice,Ice
+Icicle Crash,99.809,Beartic,0,Physical,Ice,Ice
+Icicle Crash,95.947,Eiscue Ice Face,0,Physical,Ice,Ice
+Icicle Crash,96.658,Arctozolt,0,Physical,Electric,Ice
+Icicle Crash,50.796,Alolan Sandslash,0,Physical,Ice,Steel
+Icicle Spear,27.808,Mamoswine,4.44928,Physical,Ice,Ground
+Icicle Spear,64.503,Black Kyurem,4.51521,Physical,Dragon,Ice
+Icicle Spear,99.961,Cloyster,1.99922,Physical,Water,Ice
+Icicle Spear,96.61,Arctovish,0,Physical,Water,Ice
+Gravity,67.415,Dawn Wings Necrozma,6.7415,Status,Psychic,Ghost
+Photon Geyser,29.646,Dawn Wings Necrozma,2.9646,Special,Psychic,Ghost
+Photon Geyser,21.428,Dusk Mane Necrozma,10.49972,Special,Psychic,Steel
+Drill Run,63.825,Barraskewda,23.61525,Physical,Water,Water
+Drill Run,94.319,Escavalier,8.48871,Physical,Bug,Steel
+Drill Run,9.435,Golisopod,0,Physical,Bug,Water
+Drill Run,11.044,Lycanroc Dusk Form,0,Physical,Rock,Rock
+Drill Run,6.488,Sandaconda,0,Physical,Ground,Ground
+Drill Run,7.835,Seaking,0,Physical,Water,Water
+Drill Run,15.835,Lycanroc Midday Form,0,Physical,Rock,Rock
+Drill Run,54.276,Alolan Sandslash,0,Physical,Ice,Steel
+Drill Run,11.157,Dunsparce,0,Physical,Normal,Normal
+Drill Run,69.881,Sandslash,0,Physical,Ground,Ground
+Flip Turn,9.286,Barraskewda,3.43582,Physical,Water,Water
+Flip Turn,9.243,Primarina,1.01673,Physical,Water,Fairy
+Flip Turn,6.943,Kabutops,0.27772,Physical,Water,Rock
+Flip Turn,45.573,Starmie,0,Physical,Water,Psychic
+Flip Turn,60.274,Sharpedo,0,Physical,Water,Dark
+Flip Turn,4.409,Vaporeon,0,Physical,Water,Water
+Flip Turn,43.931,Golduck,0,Physical,Water,Water
+Thunder Punch,44.466,Metagross,12.00582,Physical,Psychic,Steel
+Thunder Punch,7.12,Tyranitar,1.7088,Physical,Rock,Dark
+Thunder Punch,4.43,Dragonite,0.443,Physical,Flying,Dragon
+Thunder Punch,17.43,Rhyperior,1.5687,Physical,Ground,Rock
+Thunder Punch,6.206,Electivire,0.18618,Physical,Electric,Electric
+Thunder Punch,34.781,Dusknoir,0,Physical,Ghost,Ghost
+Thunder Punch,25.38,Marowak,0,Physical,Ground,Ground
+Thunder Punch,6.365,Golurk,0,Physical,Ground,Ghost
+Bullet Punch,12.183,Metagross,3.28941,Physical,Psychic,Steel
+Bullet Punch,99.999,Scizor,6.99993,Physical,Bug,Steel
+Bullet Punch,15.779,Lucario,1.42011,Physical,Fighting,Steel
+Bullet Punch,34.106,Riolu,4.43378,Physical,Fighting,Fighting
+Bullet Punch,11.015,Machamp,0.4406,Physical,Fighting,Fighting
+Bullet Punch,24.477,Hitmonlee,0,Physical,Fighting,Fighting
+Steel Roller,8.608,Metagross,2.32416,Physical,Psychic,Steel
+Steel Roller,6.309,Snorlax,1.13562,Physical,Normal,Normal
+Steel Roller,6.677,Azumarill,0.60093,Physical,Water,Fairy
+Steel Roller,36.696,Dhelmise,0,Physical,Grass,Ghost
+Steel Roller,36.763,Copperajah,0,Physical,Steel,Steel
+Steel Roller,84.409,Miltank,0,Physical,Normal,Normal
+Steel Roller,39.556,Alolan Sandslash,0,Physical,Ice,Steel
+Steel Roller,45.104,Lickilicky,0,Physical,Normal,Normal
+Steel Roller,51.167,Scolipede,0,Physical,Bug,Poison
+Steel Roller,95.351,Sandslash,0,Physical,Ground,Ground
+Leech Life,43.037,Araquanid,6.45555,Physical,Bug,Water
+Leech Life,86.706,Centiskorch,10.40472,Physical,Fire,Bug
+Leech Life,17.598,Lurantis,0.70392,Physical,Grass,Grass
+Leech Life,78.255,Golisopod,0,Physical,Bug,Water
+Leech Life,65.337,Ninjask,0,Physical,Bug,Flying
+Lunge,42.459,Araquanid,6.36885,Physical,Bug,Water
+Lunge,3.54,Pheromosa,1.0266,Physical,Bug,Fighting
+Entrainment,8.442,Araquanid,1.2663,Status,Bug,Water
+Entrainment,17.248,Hawlucha,0.51744,Status,Fighting,Flying
+Entrainment,21.54,Lopunny,0,Status,Normal,Normal
+Quick Guard,35.293,Pheromosa,10.23497,Status,Bug,Fighting
+Quick Guard,13.803,Galarian Zapdos,3.58878,Status,Fighting,Flying
+Quick Guard,31.416,Talonflame,6.91152,Status,Fire,Flying
+Quick Guard,8.061,Scizor,0.56427,Status,Bug,Steel
+Quick Guard,43.442,Riolu,5.64746,Status,Fighting,Fighting
+Quick Guard,7.47,Machamp,0.2988,Status,Fighting,Fighting
+Quick Guard,11.449,Crobat,0.57245,Status,Poison,Flying
+Quick Guard,21.952,Hawlucha,0.65856,Status,Fighting,Flying
+Quick Guard,7.842,Thievul,0,Status,Dark,Dark
+Quick Guard,5.608,Lycanroc Midday Form,0,Status,Rock,Rock
+Low Kick,4.338,Pheromosa,1.25802,Physical,Bug,Fighting
+Low Kick,21.367,Dracovish,6.83744,Physical,Water,Dragon
+Low Kick,46.327,Bisharp,4.6327,Physical,Dark,Steel
+Low Kick,6.961,Beartic,0,Physical,Ice,Ice
+Triple Axel,2.811,Pheromosa,0.81519,Physical,Bug,Fighting
+Triple Axel,64.749,Weavile,9.06486,Physical,Dark,Ice
+Triple Axel,77.652,Tsareena,20.18952,Physical,Grass,Grass
+Triple Axel,6.657,Hitmontop,1.79739,Physical,Fighting,Fighting
+Triple Axel,94.762,Sneasel,2.84286,Physical,Dark,Ice
+Triple Axel,86.956,Cinccino,2.60868,Physical,Normal,Normal
+Triple Axel,49.242,Alolan Sandslash,0,Physical,Ice,Steel
+Morning Sun,23.385,Arcanine,5.37855,Status,Fire,Fire
+Behemoth Bash,99.973,Zamazenta Crowned Shield,40.98893,Physical,Fighting,Steel
+Sing,7.9,Clefairy,1.975,Status,Fairy,Fairy
+Sing,32.42,Chansey,1.9452,Status,Normal,Normal
+Sing,76.263,Azumarill,6.86367,Status,Water,Fairy
+Life Dew,6.103,Clefairy,1.52575,Status,Fairy,Fairy
+Life Dew,4.497,Milotic,1.3491,Status,Water,Water
+Life Dew,58.569,Primarina,6.44259,Status,Water,Fairy
+Life Dew,58.644,Blissey,1.75932,Status,Normal,Normal
+Life Dew,55.79,Togetic,0,Status,Fairy,Flying
+Seismic Toss,99.814,Chansey,5.98884,Physical,Normal,Normal
+Soft Boiled,99.724,Chansey,5.98344,Status,Normal,Normal
+Soft Boiled,40.928,Blissey,1.22784,Status,Normal,Normal
+Minimize,67.107,Chansey,4.02642,Status,Normal,Normal
+Defense Curl,27.137,Chansey,1.62822,Status,Normal,Normal
+Roar,50.304,Suicune,14.08512,Status,Water,Water
+Acid Armor,66.589,Alcremie,11.98602,Status,Fairy,Fairy
+Stored Power,66.412,Alcremie,11.95416,Special,Fairy,Fairy
+Stored Power,13.671,Slowking,0.27342,Special,Water,Psychic
+Stored Power,13.149,Latias,0.78894,Special,Psychic,Dragon
+Stored Power,12.587,Swoobat,0.25174,Special,Psychic,Flying
+Stored Power,63.631,Polteageist,0,Special,Ghost,Ghost
+Stored Power,44.087,Dunsparce,0,Special,Normal,Normal
+Decorate,32.349,Alcremie,5.82282,Status,Fairy,Fairy
+Aromatherapy,5.611,Alcremie,1.00998,Status,Fairy,Fairy
+Aromatherapy,3.534,Clefable,0.24738,Status,Fairy,Fairy
+Aromatherapy,25.803,Blissey,0.77409,Status,Normal,Normal
+Aromatherapy,6.124,Eldegoss,0,Status,Grass,Grass
+Aromatherapy,17.414,Aromatisse,0,Status,Fairy,Fairy
+Copycat,94.071,Liepard,15.05136,Status,Dark,Dark
+Copycat,70.238,Riolu,9.13094,Status,Fighting,Fighting
+Copycat,50.875,Glaceon,0.50875,Status,Ice,Ice
+Copycat,11.6,Espeon,0.348,Status,Psychic,Psychic
+Copycat,33.488,Zoroark,0,Status,Dark,Dark
+Hyper Voice,32.132,Hydreigon,4.17716,Special,Dark,Dragon
+Hyper Voice,78.479,Primarina,8.63269,Special,Water,Fairy
+Hyper Voice,11.344,Manectric,0.34032,Special,Electric,Electric
+Hyper Voice,94.163,Drampa,3.76652,Special,Normal,Dragon
+Hyper Voice,99.32,Sylveon,0,Special,Fairy,Fairy
+Hyper Voice,2.842,Vaporeon,0,Special,Water,Water
+Hyper Voice,2.911,Lopunny,0,Special,Normal,Normal
+Hyper Voice,13.498,Jolteon,0,Special,Electric,Electric
+Hyper Voice,42.862,Exploud,0,Special,Normal,Normal
+Hyper Voice,60.13,Wigglytuff,0,Special,Normal,Fairy
+Hyper Voice,13.593,Maractus,0,Special,Grass,Grass
+Hyper Voice,65.412,Noctowl,0,Special,Normal,Flying
+Fire Blast,11.773,Hydreigon,1.53049,Special,Dark,Dragon
+Fire Blast,54.349,Slowking,1.08698,Special,Water,Psychic
+Fire Blast,28.799,Moltres,0.86397,Special,Fire,Flying
+Fire Blast,15.707,Blacephalon,1.41363,Special,Fire,Ghost
+Fire Blast,3.877,Galarian Slowbro,0,Special,Poison,Psychic
+Fire Blast,25.819,Wigglytuff,0,Special,Normal,Fairy
+Head Smash,4.567,Hydreigon,0.59371,Physical,Dark,Dragon
+Head Smash,90.018,Drednaw,3.60072,Physical,Water,Rock
+Head Smash,99.923,Tyrantrum,917.29314,Physical,Rock,Dragon
+Head Smash,67.256,Eiscue Ice Face,0,Physical,Ice,Ice
+Head Smash,99.994,Corsola,0,Physical,Water,Rock
+Lash Out,10.266,Weavile,1.43724,Physical,Dark,Ice
+Lash Out,26.397,Tyranitar,6.33528,Physical,Rock,Dark
+Lash Out,34.019,Gyarados,5.10285,Physical,Water,Flying
+Lash Out,37.426,Mandibuzz,1.12278,Physical,Dark,Flying
+Lash Out,14.364,Darmanitan Standard Mode,0.43092,Physical,Fire,Fire
+Lash Out,7.24,Bisharp,0.724,Physical,Dark,Steel
+Lash Out,83.705,Tauros,2.51115,Physical,Normal,Normal
+Lash Out,8.67,Malamar,0,Physical,Dark,Psychic
+Lash Out,61.087,Bouffalant,0,Physical,Normal,Normal
+Fishious Rend,99.997,Dracovish,31.99904,Physical,Water,Dragon
+Fishious Rend,99.981,Arctovish,0,Physical,Water,Ice
+Ice Fang,30.62,Dracovish,9.7984,Physical,Water,Dragon
+Ice Fang,10.308,Luxray,0.20616,Physical,Electric,Electric
+Ice Fang,7.147,Hippowdon,0,Physical,Ground,Ground
+Dragon Energy,99.997,Regidrago,11.99964,Special,Dragon,Dragon
+Endeavor,11.784,Hitmontop,3.18168,Physical,Fighting,Fighting
+Endeavor,50.382,Sceptile,2.5191,Physical,Grass,Grass
+Endeavor,7.393,Tangrowth,0,Physical,Grass,Grass
+Endeavor,18.473,Lycanroc Midday Form,0,Physical,Rock,Rock
+Mach Punch,5.441,Hitmontop,1.46907,Physical,Fighting,Fighting
+Mach Punch,56.263,Conkeldurr,5.6263,Physical,Fighting,Fighting
+Dual Wingbeat,18.363,Talonflame,4.03986,Physical,Fire,Flying
+Dual Wingbeat,23.991,Salamence,1.91928,Physical,Flying,Dragon
+Dual Wingbeat,85.617,Scizor,5.99319,Physical,Bug,Steel
+Dual Wingbeat,4.607,Giratina Origin Forme,0.73712,Physical,Ghost,Dragon
+Dual Wingbeat,61.366,Altaria,1.84098,Physical,Flying,Dragon
+Dual Wingbeat,87.537,Dragonite,8.7537,Physical,Flying,Dragon
+Dual Wingbeat,78.699,Aerodactyl,3.93495,Physical,Rock,Flying
+Dual Wingbeat,17.778,Giratina Altered Forme,1.60002,Physical,Ghost,Dragon
+Dual Wingbeat,7.27,Flapple,0,Physical,Grass,Dragon
+Dual Wingbeat,13.526,Sirfetch'd,0,Physical,Fighting,Fighting
+Dual Wingbeat,62.12,Ninjask,0,Physical,Bug,Flying
+Dual Wingbeat,97.928,Scyther,0,Physical,Bug,Flying
+Fusion Bolt,92.083,Black Kyurem,6.44581,Physical,Dragon,Ice
+Shadow Claw,8.804,Salamence,0.70432,Physical,Flying,Dragon
+Shadow Claw,9.842,Kangaskhan,0.59052,Physical,Normal,Normal
+Shadow Claw,4.301,Black Kyurem,0.30107,Physical,Dragon,Ice
+Shadow Claw,6.501,Dhelmise,0,Physical,Grass,Ghost
+Shadow Claw,5.01,Runerigus,0,Physical,Ground,Ghost
+Guard Split,99.202,Shuckle,6.94414,Status,Rock,Bug
+Guard Split,39.034,Runerigus,0,Status,Ground,Ghost
+Guard Split,12.763,Cofagrigus,0,Status,Ghost,Ghost
+Power Split,95.393,Shuckle,6.67751,Status,Rock,Bug
+Infestation,14.48,Shuckle,1.0136,Special,Rock,Bug
+Thunderous Kick,67.987,Galarian Zapdos,17.67662,Physical,Fighting,Flying
+Steel Wing,31.969,Galarian Zapdos,8.31194,Physical,Fighting,Flying
+Steel Wing,10.233,Giratina Altered Forme,0.92097,Physical,Ghost,Dragon
+Steel Wing,52.602,Unfezant,0,Physical,Normal,Flying
+Steel Wing,7.503,Scyther,0,Physical,Bug,Flying
+Blaze Kick,15.202,Galarian Zapdos,3.95252,Physical,Fighting,Flying
+Struggle Bug,67.987,Volcarona,19.03636,Special,Fire,Bug
+Struggle Bug,8.929,Accelgor,0.62503,Special,Bug,Bug
+Struggle Bug,21.286,Ribombee,0,Special,Bug,Fairy
+Struggle Bug,6.764,Golisopod,0,Special,Bug,Water
+Struggle Bug,75.494,Galvantula,0,Special,Bug,Electric
+Struggle Bug,21.826,Orbeetle,0,Special,Bug,Psychic
+Quiver Dance,31.421,Volcarona,8.79788,Status,Fire,Bug
+Quiver Dance,5.125,Butterfree,0.82,Status,Bug,Flying
+String Shot,11.671,Volcarona,3.26788,Status,Fire,Bug
+String Shot,44.417,Slurpuff,0,Status,Fairy,Fairy
+Bug Buzz,8.421,Volcarona,2.35788,Special,Fire,Bug
+Bug Buzz,14.291,Butterfree,2.28656,Special,Bug,Flying
+Bug Buzz,99.997,Vikavolt,2.99991,Special,Bug,Electric
+Bug Buzz,16.122,Accelgor,1.12854,Special,Bug,Bug
+Bug Buzz,37.275,Galvantula,0,Special,Bug,Electric
+Bug Buzz,69.579,Orbeetle,0,Special,Bug,Psychic
+Skill Swap,48.484,Meowstic Male,7.2726,Status,Psychic,Psychic
+Skill Swap,94.994,Exeggutor,2.84982,Status,Grass,Psychic
+Skill Swap,52.608,Mime Galarian Mr. Mime,1.05216,Status,Psychic,Ice
+Skill Swap,58.279,Mr. Mime,0,Status,Psychic,Fairy
+Skill Swap,10.555,Reuniclus,0,Status,Psychic,Psychic
+Skill Swap,99.87,Mime Jr.,0,Status,Psychic,Fairy
+Belly Drum,48.899,Snorlax,8.80182,Status,Normal,Normal
+Belly Drum,6.652,Azumarill,0.59868,Status,Water,Fairy
+Belly Drum,99.812,Greedent,0.99812,Status,Normal,Normal
+Belly Drum,91.653,Eiscue Ice Face,0,Status,Ice,Ice
+Belly Drum,71.3,Poliwrath,0,Status,Water,Fighting
+Belly Drum,9.388,Lickilicky,0,Status,Normal,Normal
+Self Destruct,44.587,Snorlax,8.02566,Physical,Normal,Normal
+Self Destruct,14.745,Lickilicky,0,Physical,Normal,Normal
+Double Edge,42.949,Snorlax,7.73082,Physical,Normal,Normal
+Double Edge,13.369,Kangaskhan,0.80214,Physical,Normal,Normal
+Double Edge,9.701,Obstagoon,0.58206,Physical,Dark,Normal
+Double Edge,20.35,Leafeon,1.0175,Physical,Grass,Grass
+Curse,37.643,Snorlax,6.77574,Status,Normal,Normal
+Curse,84.395,Swampert,5.90765,Status,Water,Ground
+Curse,43.187,Runerigus,0,Status,Ground,Ghost
+Curse,11.831,Hippowdon,0,Status,Ground,Ground
+Curse,4.423,Cofagrigus,0,Status,Ghost,Ghost
+Curse,6.899,Galarian Corsola,0,Status,Ghost,Ghost
+Curse,3.057,Lickilicky,0,Status,Normal,Normal
+Body Slam,7.265,Snorlax,1.3077,Physical,Normal,Normal
+Body Slam,6.15,Garchomp,0.9225,Physical,Ground,Dragon
+Body Slam,91.328,Tauros,2.73984,Physical,Normal,Normal
+Body Slam,58.495,Blissey,1.75485,Physical,Normal,Normal
+Body Slam,4.202,Bouffalant,0,Physical,Normal,Normal
+Body Slam,27.631,Miltank,0,Physical,Normal,Normal
+Body Slam,7.178,Bewear,0,Physical,Normal,Fighting
+Body Slam,25.991,Lickilicky,0,Physical,Normal,Normal
+Body Slam,9.094,Dunsparce,0,Physical,Normal,Normal
+Fiery Wrath,91.103,Galarian Moltres,31.88605,Special,Dark,Flying
+Dragon Tail,4.881,Milotic,1.4643,Physical,Water,Water
+Dragon Tail,25.66,Duraludon,2.0528,Physical,Steel,Dragon
+Aura Sphere,77.572,Lucario,6.98148,Special,Fighting,Steel
+Aura Sphere,12.425,Kommo-o,0.2485,Special,Dragon,Fighting
+Aura Sphere,19.976,Blaziken,1.19856,Special,Fire,Fighting
+Aura Sphere,66.612,Clawitzer,0,Special,Water,Water
+Aura Sphere,3.912,Lopunny,0,Special,Normal,Normal
+Focus Blast,20.226,Sceptile,1.0113,Special,Grass,Grass
+Focus Blast,18.123,Blaziken,1.08738,Special,Fire,Fighting
+Focus Blast,12.133,Zoroark,0,Special,Dark,Dark
+Focus Blast,10.205,Virizion,0,Special,Grass,Fighting
+Focus Blast,20.822,Alolan Raichu,0,Special,Electric,Psychic
+Focus Blast,28.557,Alakazam,0,Special,Psychic,Psychic
+Focus Blast,58.935,Reuniclus,0,Special,Psychic,Psychic
+Focus Blast,3.027,Wigglytuff,0,Special,Normal,Fairy
+Gear Grind,99.916,Klinklang,883.25744,Physical,Steel,Steel
+Shift Gear,99.543,Klinklang,879.96012,Status,Steel,Steel
+Snipe Shot,95.029,Inteleon,10.45319,Special,Water,Water
+Focus Energy,66.68,Inteleon,7.3348,Status,Water,Water
+Soak,4.752,Inteleon,0.52272,Status,Water,Water
+Soak,60.977,Grapploct,0,Status,Fighting,Fighting
+Soak,5.847,Eiscue Ice Face,0,Status,Ice,Ice
+X Scissor,39.143,Escavalier,3.52287,Physical,Bug,Steel
+X Scissor,8.339,Kabutops,0.33356,Physical,Water,Rock
+X Scissor,69.857,Leafeon,3.49285,Physical,Grass,Grass
+X Scissor,12.435,Crawdaunt,0,Physical,Water,Dark
+X Scissor,98.898,Crustle,0,Physical,Rock,Bug
+X Scissor,42.915,Scyther,0,Physical,Bug,Flying
+X Scissor,14.483,Scolipede,0,Physical,Bug,Poison
+Megahorn,21.001,Escavalier,1.89009,Physical,Bug,Steel
+Megahorn,84.826,Drednaw,3.39304,Physical,Water,Rock
+Megahorn,5.059,Virizion,0,Physical,Grass,Fighting
+Megahorn,97.194,Heracross,0,Physical,Bug,Fighting
+Megahorn,10.326,Falinks,0,Physical,Fighting,Fighting
+Megahorn,6.702,Seaking,0,Physical,Water,Water
+Megahorn,68.62,Scolipede,0,Physical,Bug,Poison
+Slack Off,13.777,Slowking,0.27554,Status,Water,Psychic
+Slack Off,70.251,Hippowdon,0,Status,Ground,Ground
+Swagger,12.189,Slowking,0.24378,Status,Water,Psychic
+Swagger,43.536,Morpeko Full Belly Mode,0,Status,Electric,Dark
+Dig,6.64,Azumarill,0.5976,Physical,Water,Fairy
+Dig,61.483,Kabutops,2.45932,Physical,Water,Rock
+Dig,73.021,Leafeon,3.65105,Physical,Grass,Grass
+Dig,7.498,Beartic,0,Physical,Ice,Ice
+Dig,2.641,Ninetales,0,Physical,Fire,Fire
+Dig,61.564,Ninjask,0,Physical,Bug,Flying
+Freezing Glare,66.235,Galarian Articuno,9.2729,Special,Psychic,Flying
+Volt Tackle,45.301,Pikachu,5.88913,Physical,Electric,Electric
+Aurora Veil,67.6,Alolan Ninetales,10.816,Status,Ice,Fairy
+Aurora Veil,45.985,Abomasnow,2.29925,Status,Grass,Ice
+Aurora Veil,12.748,Vanilluxe,0,Status,Ice,Ice
+Extrasensory,8.987,Alolan Ninetales,1.43792,Special,Ice,Fairy
+Extrasensory,2.487,Ninetales,0,Special,Fire,Fire
+Extrasensory,9.946,Exploud,0,Special,Normal,Normal
+Shadow Bone,58.438,Alolan Marowak,9.35008,Physical,Fire,Ghost
+Bonemerang,52.538,Alolan Marowak,8.40608,Physical,Fire,Ghost
+Bonemerang,59.007,Marowak,0,Physical,Ground,Ground
+Shadow Force,85.557,Giratina Origin Forme,13.68912,Physical,Ghost,Dragon
+Shadow Force,52.602,Giratina Altered Forme,4.73418,Physical,Ghost,Dragon
+Baneful Bunker,98.869,Toxapex,4.94345,Status,Poison,Water
+Strange Steam,72.417,Galarian Weezing,5.79336,Special,Poison,Fairy
+Crabhammer,88.5,Kingler,7.965,Physical,Water,Water
+Crabhammer,54.524,Crawdaunt,0,Physical,Water,Dark
+Instruct,90.762,Oranguru,15.42954,Status,Normal,Psychic
+Acid Spray,6.687,Nihilego,0.46809,Special,Rock,Poison
+Acid Spray,22.378,Accelgor,1.56646,Special,Bug,Bug
+Acid Spray,94.512,Qwilfish,0,Special,Poison,Water
+Spiky Shield,59.403,Togedemaru,4.15821,Status,Electric,Steel
+Spiky Shield,65.895,Maractus,0,Status,Grass,Grass
+Fling,55.96,Togedemaru,3.9172,Physical,Electric,Steel
+Fling,68.999,Kangaskhan,4.13994,Physical,Normal,Normal
+Fling,4.587,Sceptile,0.22935,Physical,Grass,Grass
+Fling,10.604,Salazzle,0,Physical,Poison,Fire
+Zing Zap,30.734,Togedemaru,2.15138,Physical,Electric,Steel
+Zing Zap,15.669,Pincurchin,1.41021,Physical,Electric,Electric
+Glare,76.717,Heliolisk,6.13736,Status,Electric,Normal
+Glare,11.412,Sandaconda,0,Status,Ground,Ground
+Glare,92.875,Druddigon,0,Status,Dragon,Dragon
+Electrify,6.646,Heliolisk,0.53168,Status,Electric,Normal
+Electrify,52.913,Boltund,1.05826,Status,Electric,Electric
+Horn Leech,32.325,Tapu Bulu,0.6465,Physical,Grass,Fairy
+Facade,69.465,Kangaskhan,4.1679,Physical,Normal,Normal
+Facade,7.096,Krookodile,0.78056,Physical,Ground,Dark
+Facade,99.693,Greedent,0.99693,Physical,Normal,Normal
+Facade,20.763,Obstagoon,1.24578,Physical,Dark,Normal
+Facade,6.16,Conkeldurr,0.616,Physical,Fighting,Fighting
+Facade,51.858,Silvally,1.03716,Physical,Normal,Normal
+Facade,28.991,Lopunny,0,Physical,Normal,Normal
+Facade,4.745,Heracross,0,Physical,Bug,Fighting
+Facade,10.966,Stoutland,0,Physical,Normal,Normal
+Facade,22.92,Flareon,0,Physical,Fire,Fire
+Power Trip,43.976,Krookodile,4.83736,Physical,Ground,Dark
+Horn Drill,9.172,Excadrill,0.9172,Physical,Ground,Steel
+Horn Drill,85.16,Seaking,0,Physical,Water,Water
+Water Pledge,67.558,Primarina,7.43138,Special,Water,Fairy
+Round,11.005,Primarina,1.21055,Special,Water,Fairy
+Round,8.601,Ninetales,0,Special,Fire,Fire
+Round,90.095,Charjabug,0,Special,Bug,Electric
+Round,33.028,Ninjask,0,Special,Bug,Flying
+Solar Blade,68.495,Shiftry,2.05485,Physical,Grass,Dark
+Solar Blade,31.603,Cherrim,2.52824,Physical,Grass,Grass
+Solar Blade,50.024,Leafeon,2.5012,Physical,Grass,Grass
+Drain Punch,12.247,Toxicroak,0.24494,Physical,Poison,Fighting
+Drain Punch,5.532,Lucario,0.49788,Physical,Fighting,Steel
+Drain Punch,11.9,Scrafty,0.714,Physical,Fighting,Dark
+Drain Punch,42.404,Conkeldurr,4.2404,Physical,Fighting,Fighting
+Drain Punch,87.835,Grapploct,0,Physical,Fighting,Fighting
+Drain Punch,2.961,Slurpuff,0,Physical,Fairy,Fairy
+Drain Punch,21.693,Gallade,0,Physical,Psychic,Fighting
+Drain Punch,10.695,Passimian,0,Physical,Fighting,Fighting
+Drain Punch,92.737,Bewear,0,Physical,Normal,Fighting
+Drain Punch,46.428,Poliwrath,0,Physical,Water,Fighting
+Drain Punch,23.279,Golurk,0,Physical,Ground,Ghost
+Bolt Beak,99.987,Dracozolt,7.99896,Physical,Electric,Dragon
+Bolt Beak,97.917,Arctozolt,0,Physical,Electric,Ice
+Fire Fang,39.85,Dracozolt,3.188,Physical,Electric,Dragon
+Fire Fang,24.69,Lycanroc Midday Form,0,Physical,Rock,Rock
+Grass Pledge,81.233,Sceptile,4.06165,Special,Grass,Grass
+Leer,70.496,Sceptile,3.5248,Status,Grass,Grass
+Low Sweep,12.142,Sceptile,0.6071,Physical,Grass,Grass
+Venoshock,36.416,Pincurchin,3.27744,Special,Electric,Electric
+Reversal,13.358,Pincurchin,1.20222,Physical,Electric,Electric
+Reversal,28.154,Blaziken,1.68924,Physical,Fire,Fighting
+Reversal,3.716,Scyther,0,Physical,Bug,Flying
+King's Shield,98.243,Aegislash Shield Forme,9.8243,Status,Steel,Ghost
+Guard Swap,32.36,Porygon-Z,2.2652,Status,Normal,Normal
+Meteor Mash,13.165,Lucario,1.18485,Physical,Fighting,Steel
+Petal Blizzard,35.447,Cherrim,2.83576,Physical,Grass,Grass
+Petal Blizzard,21.531,Lilligant,0,Physical,Grass,Grass
+Charm,38.513,Froslass,1.54052,Status,Ice,Ghost
+Charm,11.6,Espeon,0.348,Status,Psychic,Psychic
+Charm,15.492,Slurpuff,0,Status,Fairy,Fairy
+Charm,48.128,Emolga,0,Status,Electric,Flying
+Charm,5.584,Lopunny,0,Status,Normal,Normal
+Charm,90.365,Eldegoss,0,Status,Grass,Grass
+Charm,8.934,Stoutland,0,Status,Normal,Normal
+Charm,23.354,Jolteon,0,Status,Electric,Electric
+Charm,13.548,Dedenne,0,Status,Electric,Fairy
+Destiny Bond,36.267,Froslass,1.45068,Status,Ice,Ghost
+Destiny Bond,7.674,Gengar,0.7674,Status,Ghost,Poison
+Destiny Bond,6.001,Runerigus,0,Status,Ground,Ghost
+Destiny Bond,8.235,Gourgeist Small Size,0,Status,Grass,Ghost
+Destiny Bond,8.771,Galarian Corsola,0,Status,Ghost,Ghost
+Frost Breath,30.395,Froslass,1.2158,Special,Ice,Ghost
+Strength Sap,70.026,Jellicent,4.20156,Status,Water,Ghost
+Strength Sap,47.651,Shiinotic,0,Status,Grass,Fairy
+Strength Sap,27.168,Polteageist,0,Status,Ghost,Ghost
+Strength Sap,28.844,Vileplume,0,Status,Grass,Poison
+Strength Sap,13.62,Cursola,0,Status,Ghost,Ghost
+Strength Sap,99.563,Galarian Corsola,0,Status,Ghost,Ghost
+Bone Rush,37.405,Mandibuzz,1.12215,Physical,Dark,Flying
+Synthesis,68.249,Lurantis,2.72996,Status,Grass,Grass
+Synthesis,6.862,Eldegoss,0,Status,Grass,Grass
+Night Slash,6.067,Lurantis,0.24268,Physical,Grass,Grass
+Night Slash,98.793,Unfezant,0,Physical,Normal,Flying
+Night Slash,17.2,Drapion,0,Physical,Dark,Poison
+Night Slash,8.25,Scyther,0,Physical,Bug,Flying
+Reflect Type,13.181,Latias,0.79086,Status,Psychic,Dragon
+Dragon Hammer,7.882,Alolan Exeggutor,0.47292,Physical,Grass,Dragon
+Stockpile,6.485,Cradily,0.71335,Status,Rock,Grass
+Stockpile,21.203,Hippowdon,0,Status,Ground,Ground
+Obstruct,41.255,Obstagoon,2.4753,Status,Dark,Normal
+Mind Blown,81.186,Blacephalon,7.30674,Special,Fire,Ghost
+Forest's Curse,96.185,Trevenant,1.9237,Status,Grass,Ghost
+Magma Storm,22.163,Heatran,1.99467,Special,Fire,Steel
+Apple Acid,33.8,Appletun,1.352,Special,Grass,Dragon
+Psycho Cut,17.959,Bisharp,1.7959,Physical,Dark,Steel
+Psycho Cut,58.452,Gallade,0,Physical,Psychic,Fighting
+Psycho Cut,29.385,Malamar,0,Physical,Dark,Psychic
+Amnesia,84.199,Registeel,2.52597,Status,Steel,Steel
+Amnesia,14.285,Palossand,0.71425,Status,Ground,Ghost
+Amnesia,45.857,Dunsparce,0,Status,Normal,Normal
+Rock Blast,25.241,Rhyperior,2.27169,Physical,Ground,Rock
+Rock Blast,88.219,Garbodor,0.88219,Physical,Poison,Poison
+Rock Blast,85.25,Cinccino,2.5575,Physical,Normal,Normal
+Rock Blast,99.599,Cloyster,1.99198,Physical,Water,Ice
+Rock Polish,7.173,Rhyperior,0.64557,Status,Ground,Rock
+Stealth Rock,4.488,Rhyperior,0.40392,Status,Ground,Rock
+Stealth Rock,9.797,Galarian Corsola,0,Status,Ghost,Ghost
+Sand Tomb,17.236,Stonjourner,0.51708,Physical,Rock,Rock
+Bite,40.109,Leafeon,2.00545,Physical,Grass,Grass
+Bite,9.139,Dunsparce,0,Physical,Normal,Normal
+Baton Pass,96.329,Swoobat,1.92658,Status,Psychic,Flying
+Baton Pass,42.828,Espeon,1.28484,Status,Psychic,Psychic
+Baton Pass,33.841,Polteageist,0,Status,Ghost,Ghost
+Baton Pass,62.772,Ninjask,0,Status,Bug,Flying
+Baton Pass,6.458,Scolipede,0,Status,Bug,Poison
+Bulk Up,12.557,Corviknight,1.2557,Status,Flying,Steel
+Bulk Up,16.068,Braviary,0,Status,Normal,Flying
+Bulk Up,81.476,Bewear,0,Status,Normal,Fighting
+First Impression,18.845,Durant,0.7538,Physical,Bug,Steel
+First Impression,37.13,Sirfetch'd,0,Physical,Fighting,Fighting
+First Impression,52.463,Golisopod,0,Physical,Bug,Water
+Lunar Dance,11.774,Cresselia,1.1774,Status,Psychic,Psychic
+Hammer Arm,7.178,Conkeldurr,0.7178,Physical,Fighting,Fighting
+Hammer Arm,6.219,Bewear,0,Physical,Normal,Fighting
+Hammer Arm,27.92,Lickilicky,0,Physical,Normal,Normal
+Discharge,46.069,Boltund,0.92138,Special,Electric,Electric
+Discharge,22.513,Xurkitree,0.90052,Special,Electric,Electric
+Discharge,4.525,Alolan Raichu,0,Special,Electric,Psychic
+Discharge,7.859,Magneton,0,Special,Electric,Steel
+Discharge,13.32,Jolteon,0,Special,Electric,Electric
+Discharge,7.019,Dedenne,0,Special,Electric,Fairy
+Zen Headbutt,12.15,Terrakion,0.6075,Physical,Rock,Fighting
+Zen Headbutt,15.758,Cobalion,0.94548,Physical,Fighting,Steel
+Zen Headbutt,9.423,Copperajah,0,Physical,Steel,Steel
+Zen Headbutt,23.346,Gallade,0,Physical,Psychic,Fighting
+Zen Headbutt,3.71,Bouffalant,0,Physical,Normal,Normal
+Zen Headbutt,12.434,Falinks,0,Physical,Fighting,Fighting
+Zen Headbutt,8.962,Dunsparce,0,Physical,Normal,Normal
+Freeze Shock,23.721,Black Kyurem,1.66047,Physical,Dragon,Ice
+Noble Roar,3.208,Black Kyurem,0.22456,Status,Dragon,Ice
+Dynamic Punch,90.146,Machamp,3.60584,Physical,Fighting,Fighting
+Dynamic Punch,71.032,Golurk,0,Physical,Ground,Ghost
+Counter,7.244,Goodra,0.43464,Physical,Dragon,Dragon
+Skitter Smack,6.558,Goodra,0.39348,Physical,Dragon,Dragon
+Skitter Smack,3.912,Charjabug,0,Physical,Bug,Electric
+Skitter Smack,9.242,Gourgeist Small Size,0,Physical,Grass,Ghost
+Skitter Smack,10.126,Sandaconda,0,Physical,Ground,Ground
+Skitter Smack,24.434,Dusknoir,0,Physical,Ghost,Ghost
+Skitter Smack,12.666,Drapion,0,Physical,Dark,Poison
+Skitter Smack,11.842,Decidueye,0,Physical,Grass,Ghost
+Aqua Tail,5.801,Goodra,0.34806,Physical,Dragon,Dragon
+Aqua Tail,6.013,Seaking,0,Physical,Water,Water
+Aqua Tail,11.025,Dunsparce,0,Physical,Normal,Normal
+Explosion,99.967,Silvally,1.99934,Physical,Normal,Normal
+Explosion,7.64,Claydol,0,Physical,Ground,Psychic
+Water Shuriken,80.733,Accelgor,5.65131,Special,Bug,Bug
+Final Gambit,19.177,Accelgor,1.34239,Special,Bug,Bug
+Toxic Spikes,18.452,Accelgor,1.29164,Status,Bug,Bug
+Toxic Spikes,13.567,Cofagrigus,0,Status,Ghost,Ghost
+Gunk Shot,99.828,Garbodor,0.99828,Physical,Poison,Poison
+Gunk Shot,17.874,Perrserker,0,Physical,Steel,Steel
+Gunk Shot,4.099,Passimian,0,Physical,Fighting,Fighting
+Gunk Shot,4.396,Druddigon,0,Physical,Dragon,Dragon
+Baby Doll Eyes,12.086,Luxray,0.24172,Status,Electric,Electric
+Baby Doll Eyes,3.383,Ninetales,0,Status,Fire,Fire
+Baby Doll Eyes,9.498,Lopunny,0,Status,Normal,Normal
+Memento,88.412,Dugtrio,2.65236,Status,Ground,Ground
+Sludge Wave,11.926,Gengar,1.1926,Special,Ghost,Poison
+Sludge Wave,65.158,Salazzle,0,Special,Poison,Fire
+Sludge Wave,16.857,Toxtricity Low Key Form,0,Special,Electric,Poison
+Sludge Wave,5.422,Tentacruel,0,Special,Poison,Water
+Sludge Wave,15.618,Dragalge,0,Special,Poison,Dragon
+Clear Smog,3.314,Gengar,0.3314,Special,Ghost,Poison
+Clear Smog,5.004,Golduck,0,Special,Water,Water
+Shore Up,95.862,Palossand,4.7931,Status,Ground,Ghost
+Magic Room,14.192,Espeon,0.42576,Status,Psychic,Psychic
+Magic Room,5.292,Ribombee,0,Status,Bug,Fairy
+Absorb,6.872,Crobat,0.3436,Special,Poison,Flying
+Bullet Seed,85.481,Cinccino,2.56443,Physical,Normal,Normal
+Tail Slap,72.288,Cinccino,2.16864,Physical,Normal,Normal
+Clanging Scales,52.485,Kommo-o,1.0497,Special,Dragon,Fighting
+Clangorous Soul,43.18,Kommo-o,0.8636,Status,Dragon,Fighting
+Shell Smash,38.357,Cloyster,0.76714,Status,Water,Ice
+Shell Smash,19.562,Polteageist,0,Status,Ghost,Ghost
+Shell Smash,31.547,Crustle,0,Status,Rock,Bug
+Scorching Sands,19.875,Blaziken,1.1925,Special,Fire,Fighting
+Scorching Sands,14.453,Turtonator,0,Special,Fire,Dragon
+Scorching Sands,11.538,Ninetales,0,Special,Fire,Fire
+Scorching Sands,23.719,Claydol,0,Special,Ground,Psychic
+Scorching Sands,4.58,Flygon,0,Special,Ground,Dragon
+Acrobatics,45.147,Hawlucha,1.35441,Physical,Fighting,Flying
+Acrobatics,7.401,Flapple,0,Physical,Grass,Dragon
+Acrobatics,9.629,Thievul,0,Physical,Dark,Dark
+Acrobatics,4.105,Lopunny,0,Physical,Normal,Normal
+Acrobatics,32.252,Passimian,0,Physical,Fighting,Fighting
+Acrobatics,33.466,Ninjask,0,Physical,Bug,Flying
+Flying Press,17.423,Hawlucha,0.52269,Physical,Fighting,Flying
+Octolock,93.923,Grapploct,0,Status,Fighting,Fighting
+Topsy Turvy,32.348,Grapploct,0,Status,Fighting,Fighting
+Topsy Turvy,23.043,Malamar,0,Status,Dark,Psychic
+Night Daze,28.918,Zoroark,0,Special,Dark,Dark
+Water Pulse,89.989,Clawitzer,0,Special,Water,Water
+Anchor Shot,54.891,Dhelmise,0,Physical,Grass,Ghost
+Grav Apple,88.344,Flapple,0,Physical,Grass,Dragon
+Dragon Rush,83.851,Flapple,0,Physical,Grass,Dragon
+Dragon Rush,8.67,Flygon,0,Physical,Ground,Dragon
+Beat Up,29.785,Thievul,0,Physical,Dark,Dark
+Beat Up,38.801,Salazzle,0,Physical,Poison,Fire
+Howl,8.562,Thievul,0,Status,Dark,Dark
+Howl,5.696,Lycanroc Dusk Form,0,Status,Rock,Rock
+Howl,33.354,Stoutland,0,Status,Normal,Normal
+Pluck,17.502,Arctozolt,0,Physical,Electric,Ice
+Shell Trap,67.407,Turtonator,0,Special,Fire,Dragon
+Poison Gas,4.488,Salazzle,0,Status,Poison,Fire
+Disable,2.335,Ninetales,0,Status,Fire,Fire
+Meteor Assault,19.784,Sirfetch'd,0,Physical,Fighting,Fighting
+Tickle,31.732,Emolga,0,Status,Electric,Flying
+Electro Ball,6.36,Emolga,0,Special,Electric,Flying
+Bug Bite,82.394,Charjabug,0,Physical,Bug,Electric
+Bug Bite,9.677,Scolipede,0,Physical,Bug,Poison
+Sticky Web,6.957,Charjabug,0,Status,Bug,Electric
+Overdrive,99.887,Toxtricity Low Key Form,0,Special,Electric,Poison
+Boomburst,18.087,Toxtricity Low Key Form,0,Special,Electric,Poison
+Boomburst,5.259,Noivern,0,Special,Flying,Dragon
+Boomburst,96.703,Exploud,0,Special,Normal,Normal
+Wish,15.233,Vaporeon,0,Status,Water,Water
+Healing Wish,21.116,Lopunny,0,Status,Normal,Normal
+Circle Throw,5.725,Lopunny,0,Physical,Normal,Normal
+Trick Or Treat,49.872,Gourgeist Small Size,0,Status,Grass,Ghost
+Trick Or Treat,74.892,Gourgeist Super Size,0,Status,Grass,Ghost
+Simple Beam,11.144,Golduck,0,Status,Water,Water
+Psych Up,4.283,Golduck,0,Status,Water,Water
+Accelerock,87.034,Lycanroc Dusk Form,0,Physical,Rock,Rock
+Accelerock,10.192,Lycanroc Midday Form,0,Physical,Rock,Rock
+Shell Side Arm,82.17,Galarian Slowbro,0,Special,Poison,Psychic
+Head Charge,89.719,Bouffalant,0,Physical,Normal,Normal
+Cotton Guard,11.44,Bouffalant,0,Status,Normal,Normal
+Cotton Guard,6.906,Maractus,0,Status,Grass,Grass
+Teatime,6.644,Polteageist,0,Status,Ghost,Ghost
+Aura Wheel,99.949,Morpeko Full Belly Mode,0,Physical,Electric,Dark
+Rapid Spin,9.693,Eldegoss,0,Physical,Grass,Grass
+Milk Drink,18.392,Miltank,0,Status,Normal,Normal
+Metal Sound,31.141,Magneton,0,Status,Electric,Steel
+Retaliate,4.736,Stoutland,0,Physical,Normal,Normal
+Super Fang,31.592,Noivern,0,Physical,Flying,Dragon
+Super Fang,42.671,Dedenne,0,Physical,Electric,Fairy
+Mud Slap,22.837,Jolteon,0,Special,Electric,Electric
+Grassy Terrain,14.193,Vileplume,0,Status,Grass,Poison
+No Retreat,95.948,Falinks,0,Status,Fighting,Fighting
+Parabolic Charge,19.359,Dedenne,0,Special,Electric,Fairy
+Tearful Look,5.936,Dedenne,0,Status,Electric,Fairy
+Rock Wrecker,67.011,Crustle,0,Physical,Rock,Bug
+Cross Poison,20.513,Drapion,0,Physical,Dark,Poison
+Spirit Shackle,26.5,Decidueye,0,Physical,Grass,Ghost
+Petal Dance,12.617,Maractus,0,Special,Grass,Grass
+Flail,32.884,Ninjask,0,Physical,Bug,Flying
+Lava Plume,4.632,Flareon,0,Special,Fire,Fire
+Thief,5.452,Scyther,0,Physical,Bug,Flying
+Fury Cutter,4.716,Scyther,0,Physical,Bug,Flying
+Shadow Punch,21.708,Golurk,0,Physical,Ground,Ghost
+Wrap,23.041,Lickilicky,0,Physical,Normal,Normal
+Thrash,17.229,Lickilicky,0,Physical,Normal,Normal
+Headbutt,33.562,Dunsparce,0,Physical,Normal,Normal
+Sleep Talk,9.898,Dunsparce,0,Status,Normal,Normal
+Dream Eater,6.179,Noctowl,0,Special,Normal,Flying
