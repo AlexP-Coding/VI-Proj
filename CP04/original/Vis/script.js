@@ -52,7 +52,7 @@ function createParallelCoordinates(id) {
     .attr("width",  width_right + margin.left + margin.right)
     .attr("height", height_right + margin.top + margin.bottom)
     .append("g")
-    .attr("id", "gScatterPlot")
+    .attr("id", "gParallelCoordinates")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 
@@ -65,95 +65,152 @@ function createParallelCoordinates(id) {
       .attr("id", "gXAxis")
       .attr("transform", `translate(0, ${height_right})`)
       .call(d3.axisBottom(x).tickFormat((x) => x / 1000000 + "M"));*/
+  
 
-  const total = d3.scaleLinear().domain([150, 700]).range([10, height_right,]);
-    svg.append("g")
-    .attr("id", "gYAxis")
-    .attr("transform", `translate(0, 0)`)
-    .call(d3.axisLeft(total));
-    svg.append("text")
-    .attr("class", "y label")
-    .attr("text-anchor", "middle")
-    .attr("y", 0)
-    .attr("x", 0)
-    .text("Total");
 
-  const hp = d3.scaleLinear().domain([0, 255]).range([10, height_right,]);
-    svg.append("g")
-    .attr("id", "gYAxis")
-    .attr("transform", `translate(143, 0)`)
-    .call(d3.axisLeft(hp));
-    svg.append("text")
-    .attr("class", "y label")
-    .attr("text-anchor", "middle")
-    .attr("y", 0)
-    .attr("x", 143)
-    .text("HP");
 
-  const attack = d3.scaleLinear().domain([0, 200]).range([10, height_right,]);
-    svg.append("g")
-    .attr("id", "gYAxis")
-    .attr("transform", `translate(286, 0)`)
-    .call(d3.axisLeft(attack));
-    svg.append("text")
-    .attr("class", "y label")
-    .attr("text-anchor", "middle")
-    .attr("y", 0)
-    .attr("x", 286)
-    .text("Attack");
 
-  const defense = d3.scaleLinear().domain([0, 250]).range([10, height_right,]);
-    svg.append("g")
-    .attr("id", "gYAxis")
-    .attr("transform", `translate(429, 0)`)
-    .call(d3.axisLeft(defense));
-    svg.append("text")
-    .attr("class", "y label")
-    .attr("text-anchor", "middle")
-    .attr("y", 0)
-    .attr("x", 429)
-    .text("Defense");
+  d3.json("json/df_pokemon.json").then(function(data) {
 
-  const sp_attack = d3.scaleLinear().domain([0, 200]).range([10, height_right,]);
-    svg.append("g")
-    .attr("id", "gYAxis")
-    .attr("transform", `translate(572, 0)`)
-    .call(d3.axisLeft(sp_attack));
-    svg.append("text")
-    .attr("class", "y label")
-    .attr("text-anchor", "middle")
-    .attr("y", 0)
-    .attr("x", 572)
-    .text("Special Attack");
+          
+    const stats = ["Total", "HP", "Attack", "Defense", "Special_Atk", "Special_Def", "Speed"];
 
-  const sp_defense = d3.scaleLinear().domain([0, 250]).range([10, height_right,]);
-    svg.append("g")
-    .attr("id", "gYAxis")
-    .attr("transform", `translate(715, 0)`)
-    .call(d3.axisLeft(sp_defense));
-    svg.append("text")
-    .attr("class", "y label")
-    .attr("text-anchor", "middle")
-    .attr("y", 0)
-    .attr("x", 715)
-    .text("Special Defense");
+    const x = d3
+      .scalePoint()
+      .domain(stats)
+      .range([0, (6/7)* width_right]);
 
-  const speed = d3.scaleLinear().domain([0, 200]).range([10, height_right,]);
-    svg.append("g")
-    .attr("id", "gYAxis")
-    .attr("transform", `translate(858, 0)`)
-    .call(d3.axisLeft(speed));
-    svg.append("text")
-    .attr("class", "y label")
-    .attr("text-anchor", "middle")
-    .attr("y", 0)
-    .attr("x", 858)
-    .text("Speed");
+    const total = d3
+      .scaleLinear()
+      .domain([d3.min(data, (d) => d.Total), d3.max(data, (d) => d.Total)])
+      .range([10, height_right]);
+    svg
+      .append("g")
+      .attr("id", "gYAxis")
+      .attr("transform", `translate(${x("Total")}, 0)`)
+      .call(d3.axisLeft(total));
+    
+    const hp = d3
+      .scaleLinear()
+      .domain([d3.min(data, (d) => d.HP), d3.max(data, (d) => d.HP)])
+      .range([10, height_right]);
+    svg
+      .append("g")
+      .attr("id", "gYAxis")
+      .attr("transform", `translate(${x("HP")}, 0)`)
+      .call(d3.axisLeft(hp));
+    
+    const attack = d3
+      .scaleLinear()
+      .domain([d3.min(data, (d) => d.Attack), d3.max(data, (d) => d.Attack)])
+      .range([10, height_right]);
+    svg
+      .append("g")
+      .attr("id", "gYAxis")
+      .attr("transform", `translate(${x("Attack")}, 0)`)
+      .call(d3.axisLeft(attack));
+    
+    const defense = d3
+      .scaleLinear()
+      .domain([d3.min(data, (d) => d.Defense), d3.max(data, (d) => d.Defense)])
+      .range([10, height_right]);
+    svg
+      .append("g")
+      .attr("id", "gYAxis")
+      .attr("transform", `translate(${x("Defense")}, 0)`)
+      .call(d3.axisLeft(defense));  
 
-  d3.csv("cleanData/df_pokemon.csv", function(data) {
-    const stats = ["Total", "HP", "Attack", "Defense", "Sp. Attack", "Sp. Defense", "Speed"];
+    const special_attack = d3
+      .scaleLinear()
+      .domain([d3.min(data, (d) => d.Special_Atk), d3.max(data, (d) => d.Special_Atk)])
+      .range([10, height_right]);
+    svg
+      .append("g")
+      .attr("id", "gYAxis")
+      .attr("transform", `translate(${x("Special_Atk")}, 0)`)
+      .call(d3.axisLeft(special_attack));
+    
+    const special_defense = d3
+      .scaleLinear()
+      .domain([d3.min(data, (d) => d.Special_Def), d3.max(data, (d) => d.Special_Def)])
+      .range([10, height_right]);
+    svg
+      .append("g")
+      .attr("id", "gYAxis")
+      .attr("transform", `translate(${x("Special_Def")}, 0)`)
+      .call(d3.axisLeft(special_defense));
+    
+    const speed = d3
+      .scaleLinear()
+      .domain([d3.min(data, (d) => d.Speed), d3.max(data, (d) => d.Speed)])
+      .range([10, height_right]);
+    svg
+      .append("g")
+      .attr("id", "gYAxis")
+      .attr("transform", `translate(${x("Speed")}, 0)`)
+      .call(d3.axisLeft(special_attack));
+    
+    for(i=0; i<7;i++){
+      svg
+        .append("text")
+        .data(stats)
+        .attr("x", x(stats[i]))
+        .attr("y", 0)
+        .attr("text-anchor", "middle")
+        .text(stats[i]);
+    }
 
-    function path(d) {
+    function y(key, value){
+      if(key == "Total" )
+        return total(value);
+      if(key == "HP")
+        return hp(value);
+      if(key == "Attack")
+        return attack(value);
+      if(key == "Defense")
+        return defense(value);
+      if(key == "Special_Atk")
+        return special_attack(value);
+      if(key == "Special_Def")
+        return special_defense(value);
+      if(key == "Speed")
+        return speed(value);
+    }
+
+    function value(key, d){
+      if(key == "Total" )
+        return d.Total;
+      if(key == "HP")
+        return d.HP;
+      if(key == "Attack")
+        return d.Attack;
+      if(key == "Defense")
+        return d.Defense;
+      if(key == "Special_Atk")
+        return d.Special_Atk;
+      if(key == "Special_Def")
+        return d.Special_Def;
+      if(key == "Speed")
+        return d.Speed;
+    }
+
+    line = d3.line()
+    //.defined(([key, value]) => value != null)
+    .x(([key]) => x(key))
+    .y(([key, val]) => y(key, val))
+
+    svg
+      .append("path")
+      .datum(data)
+      .attr("class", "pathValue")
+      .attr("fill", "none")
+      .attr("stroke", "steelblue")
+      .attr("stroke-width", 1.5)
+      .attr("d", d => line(d3.cross(stats, d, (key, d) => [key, value(key, d)])));
+    
+    
+  
+    /*function path(d) {
         return d3.line()(stats.map(function(p) { 
           if (p == "Total")
             return [0, total(d[p])]; 
@@ -169,7 +226,7 @@ function createParallelCoordinates(id) {
     .attr("d",  path)
     .style("fill", "none")
     .style("stroke", "#69b3a2")
-    .style("opacity", 0.5);
+    .style("opacity", 0.5);*/
     
   })
 }
