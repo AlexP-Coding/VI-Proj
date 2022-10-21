@@ -1,16 +1,16 @@
-const margin = { top: 20, right: 30, bottom: 40, left: 50 };
-const width_left = 500 - margin.left - margin.right;
-const height_left_top = 400 - margin.top - margin.bottom;
-const height_left_bottom = 200 - margin.top - margin.bottom;
+const margin = { top: 0.028 * window.innerHeight, right: 0.019 * window.innerWidth, bottom: 0.056* window.innerHeight, left: 0.033 * window.innerWidth };
+const width_left = 0.326 * window.innerWidth - margin.left - margin.right;
+const height_left_top = 0.563 * window.innerHeight - margin.top - margin.bottom;
+const height_left_bottom = 0.281 * window.innerHeight - margin.top - margin.bottom;
 
-const width_right = 1000 - margin.left - margin.right;
-const height_right = 340 - margin.top - margin.bottom;
+const width_right = 0.651 * window.innerWidth - margin.left - margin.right;
+const height_right = 0.478 * window.innerHeight - margin.top - margin.bottom;
 
 function init() {
   createBarChart("#vi1");
   //createBarChart("#vi4");
   //createBarChart("#vi5");
-  createScatterPlot("#vi2");
+  createParallelCoordinates("#vi2");
   createLineChart("#vi3");
 }
 
@@ -22,7 +22,7 @@ function createBarChart(id) {
     .append("g")
     .attr("id", "gBarChart")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
-
+  
   d3.json("data.json").then(function (data) {
     const x = d3.scaleLinear().domain([0, 10]).range([0, width_left]);
     svg
@@ -46,7 +46,7 @@ function createBarChart(id) {
   });
 }
 
-function createScatterPlot(id) {
+function createParallelCoordinates(id) {
   const svg = d3
     .select(id)
     .attr("width",  width_right + margin.left + margin.right)
@@ -55,7 +55,7 @@ function createScatterPlot(id) {
     .attr("id", "gScatterPlot")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-  d3.json("data.json").then(function (data) {
+
     /*const x = d3
       .scaleLinear()
       .domain([0, d3.max(data, (d) => d.budget)])
@@ -66,7 +66,7 @@ function createScatterPlot(id) {
       .attr("transform", `translate(0, ${height_right})`)
       .call(d3.axisBottom(x).tickFormat((x) => x / 1000000 + "M"));*/
 
-    const total = d3.scaleLinear().domain([150, 700]).range([10, height_right,]);
+  const total = d3.scaleLinear().domain([150, 700]).range([10, height_right,]);
     svg.append("g")
     .attr("id", "gYAxis")
     .attr("transform", `translate(0, 0)`)
@@ -78,7 +78,7 @@ function createScatterPlot(id) {
     .attr("x", 0)
     .text("Total");
 
-    const hp = d3.scaleLinear().domain([0, 255]).range([10, height_right,]);
+  const hp = d3.scaleLinear().domain([0, 255]).range([10, height_right,]);
     svg.append("g")
     .attr("id", "gYAxis")
     .attr("transform", `translate(143, 0)`)
@@ -90,7 +90,7 @@ function createScatterPlot(id) {
     .attr("x", 143)
     .text("HP");
 
-    const attack = d3.scaleLinear().domain([0, 200]).range([10, height_right,]);
+  const attack = d3.scaleLinear().domain([0, 200]).range([10, height_right,]);
     svg.append("g")
     .attr("id", "gYAxis")
     .attr("transform", `translate(286, 0)`)
@@ -102,7 +102,7 @@ function createScatterPlot(id) {
     .attr("x", 286)
     .text("Attack");
 
-    const defense = d3.scaleLinear().domain([0, 250]).range([10, height_right,]);
+  const defense = d3.scaleLinear().domain([0, 250]).range([10, height_right,]);
     svg.append("g")
     .attr("id", "gYAxis")
     .attr("transform", `translate(429, 0)`)
@@ -114,7 +114,7 @@ function createScatterPlot(id) {
     .attr("x", 429)
     .text("Defense");
 
-    const sp_attack = d3.scaleLinear().domain([0, 200]).range([10, height_right,]);
+  const sp_attack = d3.scaleLinear().domain([0, 200]).range([10, height_right,]);
     svg.append("g")
     .attr("id", "gYAxis")
     .attr("transform", `translate(572, 0)`)
@@ -126,7 +126,7 @@ function createScatterPlot(id) {
     .attr("x", 572)
     .text("Special Attack");
 
-    const sp_defense = d3.scaleLinear().domain([0, 250]).range([10, height_right,]);
+  const sp_defense = d3.scaleLinear().domain([0, 250]).range([10, height_right,]);
     svg.append("g")
     .attr("id", "gYAxis")
     .attr("transform", `translate(715, 0)`)
@@ -138,7 +138,7 @@ function createScatterPlot(id) {
     .attr("x", 715)
     .text("Special Defense");
 
-    const speed = d3.scaleLinear().domain([0, 200]).range([10, height_right,]);
+  const speed = d3.scaleLinear().domain([0, 200]).range([10, height_right,]);
     svg.append("g")
     .attr("id", "gYAxis")
     .attr("transform", `translate(858, 0)`)
@@ -150,26 +150,28 @@ function createScatterPlot(id) {
     .attr("x", 858)
     .text("Speed");
 
-    /*const radiusScale = d3
-    .scaleLinear()
-    .domain([0, d3.max(data, (d) => d.title.length)])
-    .range([4, 20]);
+  d3.csv("cleanData/df_pokemon.csv", function(data) {
+    const stats = ["Total", "HP", "Attack", "Defense", "Sp. Attack", "Sp. Defense", "Speed"];
 
-    svg
-      .selectAll("circle.circleValues")
-      .data(data, (d) => d.title)
-      .join("circle")
-      .attr("class", "circleValues itemValue")
-      .attr("cx", (d) => x(d.budget))
-      .attr("cy", (d) => y(d.rating))
-      .attr("r", (d) => radiusScale(d.title.length))
-      .style("fill", "steelblue")
-      .style("stroke", "black")
-      .on("mouseover", (event, d) => handleMouseOver(d))
-      .on("mouseleave", (event, d) => handleMouseLeave())
-      .append("title")
-      .text((d) => d.title);*/
-  });
+    function path(d) {
+        return d3.line()(stats.map(function(p) { 
+          if (p == "Total")
+            return [0, total(d[p])]; 
+          if (p == "HP")
+            return [143, total(d[p])]; 
+          }));
+    }
+
+  svg
+    .selectAll("myPath")
+    .data(data)
+    .append("path")
+    .attr("d",  path)
+    .style("fill", "none")
+    .style("stroke", "#69b3a2")
+    .style("opacity", 0.5);
+    
+  })
 }
 
 function createLineChart(id) {
@@ -216,25 +218,11 @@ function createLineChart(id) {
       .attr("transform", `rotate(-90)`)
       .text("Accuracy");
 
-    svg
-      .append("path")
-      .datum(data)
-      .attr("class", "pathValue")
-      .attr("fill", "none")
-      .attr("stroke", "steelblue")
-      .attr("stroke-width", 1.5)
-      .attr(
-        "d",
-        d3
-          .line()
-          .x((d) => x(d.oscar_year))
-          .y((d) => y(d.budget))
-      );
 
     const yMax = d3.max(data, (d) => d.budget);
     const yMin = d3.min(data, (d) => d.budget);
 
-    svg
+    /*svg
       .selectAll("circle.circleValues")
       .data(data, (d) => d.title)
       .join("circle")
@@ -251,7 +239,7 @@ function createLineChart(id) {
       .on("mouseover", (event, d) => handleMouseOver(d))
       .on("mouseleave", (event, d) => handleMouseLeave())
       .append("title")
-      .text((d) => d.title);
+      .text((d) => d.title);*/
   });
 }
 
