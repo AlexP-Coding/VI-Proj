@@ -1,4 +1,4 @@
-﻿Move,Type,Power,Accuracy,PP,Damage Class,Power Percentile,Accuracy Percentile,PP Percentile
+﻿Move,Type,Power,Accuracy,PP,Damage_Class,Power_Percentile,Accuracy_Percentile,PP_Percentile
 Absorb,Grass,20,100,25,Special,2.7,27.7,88.7
 Accelerock,Rock,40,100,20,Physical,9.4,27.7,69.8
 Acid,Poison,40,100,30,Special,9.4,27.7,91.2
@@ -658,7 +658,7 @@ Strange Steam,Fairy,90,95,10,Special,61.7,22.1,20
 Strength,Normal,80,100,15,Physical,47,27.7,51.3
 Strength Sap,Grass,-1,100,10,Status,-1,27.7,20
 String Shot,Bug,-1,95,40,Status,-1,22.1,97.1
-Struggle,Normal,50,-1,-1,Physical,17.2,-1,-1
+Struggle,Normal,50,-1,1,Physical,17.2,-1,-1
 Struggle Bug,Bug,50,100,20,Special,17.2,27.7,69.8
 Stuff Cheeks,Normal,-1,-1,10,Status,-1,-1,20
 Stun Spore,Grass,-1,75,30,Status,-1,2.9,91.2

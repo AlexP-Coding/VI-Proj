@@ -11,7 +11,7 @@ function init() {
   //createBarChart("#vi4");
   //createBarChart("#vi5");
   createParallelCoordinates("#vi2");
-  createLineChart("#vi3");
+  createScatterPoltMoves("#vi3");
 }
 
 function createBarChart(id) {
@@ -231,16 +231,24 @@ function createParallelCoordinates(id) {
   })
 }
 
-function createLineChart(id) {
+function createScatterPoltMoves(id) {
   const svg = d3
     .select(id)
-    .attr("width", width_right + margin.left + margin.right)
+    .attr("width", width_right + margin.left + margin.right + 100)
     .attr("height", height_right + margin.top + margin.bottom)
     .append("g")
     .attr("id", "gLineChart")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-  d3.json("data.json").then(function (data) {
+  d3.json("json/df_moves.json").then(function (data) {
+    data = data.filter(function (d) {
+      return d.Power != -1; //&& !(d.Accuracy == -1);
+    });
+
+    const shape = d3.scaleOrdinal()
+      .domain(["Special", "Status", "Physical" ])
+      .range([ d3.symbolCircle, d3.symbolTriangle, d3.symbolSquare]);
+    
     const x = d3
       .scaleLinear()
       .domain([0, 250])
@@ -260,7 +268,7 @@ function createLineChart(id) {
 
     const y = d3
       .scaleLinear()
-      .domain([0, 100])
+      .domain([0, 40])
       .range([height_right, 0]);
     svg
       .append("g")
@@ -270,14 +278,30 @@ function createLineChart(id) {
       .append("text")
       .attr("class", "y label")
       .attr("text-anchor", "end")
-      .attr("y", 15)
+      .attr("y", -25)
       .attr("x", 0)
       .attr("transform", `rotate(-90)`)
-      .text("Accuracy");
-
-
-    const yMax = d3.max(data, (d) => d.budget);
-    const yMin = d3.min(data, (d) => d.budget);
+      .text("PP");
+    
+    svg
+      .selectAll("dot")
+      .data(data)
+      .enter()
+      .append("path")
+      .attr("class", "itemValue")
+      .attr("d", d3.symbol()
+        .size(120)
+        .type(function(d) { return shape(d.Damage_Class)})
+      )
+      .attr("transform", function(d) { return "translate(" + x(d.Power) + "," + y(d.PP) + ")"; })
+      .style("fill", "steelblue")
+      .style("opacity", 0.25)
+      /*
+      .on("mouseover", (event, d) => handleMouseOver(d.country))
+      .on("mouseleave", (event, d) => handleMouseLeave())
+      */
+      .append("title")
+      .text((d) => d.Move);
 
     /*svg
       .selectAll("circle.circleValues")
