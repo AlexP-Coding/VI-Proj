@@ -6,7 +6,8 @@ const height_left_bottom = 0.281 * window.innerHeight - margin.top - margin.bott
 const width_right = 0.651 * window.innerWidth - margin.left - margin.right;
 const height_right = 0.478 * window.innerHeight - margin.top - margin.bottom;
 
-function init() {
+
+  function init() {
   createBarChart("#vi1");
   //createBarChart("#vi4");
   //createBarChart("#vi5");
@@ -55,127 +56,12 @@ function createParallelCoordinates(id) {
     .attr("id", "gParallelCoordinates")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-
-    /*const x = d3
-      .scaleLinear()
-      .domain([0, d3.max(data, (d) => d.budget)])
-      .range([0, width_right]);
-    svg
-      .append("g")
-      .attr("id", "gXAxis")
-      .attr("transform", `translate(0, ${height_right})`)
-      .call(d3.axisBottom(x).tickFormat((x) => x / 1000000 + "M"));*/
-  
-
-
-
-
   d3.json("json/df_pokemon.json").then(function(data) {
 
           
     const stats = ["Total", "HP", "Attack", "Defense", "Special_Atk", "Special_Def", "Speed"];
 
-    const x = d3
-      .scalePoint()
-      .domain(stats)
-      .range([0, (6/7)* width_right]);
-
-    const total = d3
-      .scaleLinear()
-      .domain([d3.min(data, (d) => d.Total), d3.max(data, (d) => d.Total)])
-      .range([10, height_right]);
-    svg
-      .append("g")
-      .attr("id", "gYAxis")
-      .attr("transform", `translate(${x("Total")}, 0)`)
-      .call(d3.axisLeft(total));
-    
-    const hp = d3
-      .scaleLinear()
-      .domain([d3.min(data, (d) => d.HP), d3.max(data, (d) => d.HP)])
-      .range([10, height_right]);
-    svg
-      .append("g")
-      .attr("id", "gYAxis")
-      .attr("transform", `translate(${x("HP")}, 0)`)
-      .call(d3.axisLeft(hp));
-    
-    const attack = d3
-      .scaleLinear()
-      .domain([d3.min(data, (d) => d.Attack), d3.max(data, (d) => d.Attack)])
-      .range([10, height_right]);
-    svg
-      .append("g")
-      .attr("id", "gYAxis")
-      .attr("transform", `translate(${x("Attack")}, 0)`)
-      .call(d3.axisLeft(attack));
-    
-    const defense = d3
-      .scaleLinear()
-      .domain([d3.min(data, (d) => d.Defense), d3.max(data, (d) => d.Defense)])
-      .range([10, height_right]);
-    svg
-      .append("g")
-      .attr("id", "gYAxis")
-      .attr("transform", `translate(${x("Defense")}, 0)`)
-      .call(d3.axisLeft(defense));  
-
-    const special_attack = d3
-      .scaleLinear()
-      .domain([d3.min(data, (d) => d.Special_Atk), d3.max(data, (d) => d.Special_Atk)])
-      .range([10, height_right]);
-    svg
-      .append("g")
-      .attr("id", "gYAxis")
-      .attr("transform", `translate(${x("Special_Atk")}, 0)`)
-      .call(d3.axisLeft(special_attack));
-    
-    const special_defense = d3
-      .scaleLinear()
-      .domain([d3.min(data, (d) => d.Special_Def), d3.max(data, (d) => d.Special_Def)])
-      .range([10, height_right]);
-    svg
-      .append("g")
-      .attr("id", "gYAxis")
-      .attr("transform", `translate(${x("Special_Def")}, 0)`)
-      .call(d3.axisLeft(special_defense));
-    
-    const speed = d3
-      .scaleLinear()
-      .domain([d3.min(data, (d) => d.Speed), d3.max(data, (d) => d.Speed)])
-      .range([10, height_right]);
-    svg
-      .append("g")
-      .attr("id", "gYAxis")
-      .attr("transform", `translate(${x("Speed")}, 0)`)
-      .call(d3.axisLeft(special_attack));
-    
-    for(i=0; i<7;i++){
-      svg
-        .append("text")
-        .data(stats)
-        .attr("x", x(stats[i]))
-        .attr("y", 0)
-        .attr("text-anchor", "middle")
-        .text(stats[i]);
-    }
-
-    function y(key, value){
-      if(key == "Total" )
-        return total(value);
-      if(key == "HP")
-        return hp(value);
-      if(key == "Attack")
-        return attack(value);
-      if(key == "Defense")
-        return defense(value);
-      if(key == "Special_Atk")
-        return special_attack(value);
-      if(key == "Special_Def")
-        return special_defense(value);
-      if(key == "Speed")
-        return speed(value);
-    }
+    const stats_double = ["Total", "HP", "Attack", "Defense", "Special_Atk", "Special_Def", "Speed", "Speed", "Special_Def",  "Special_Atk","Defense","Attack","HP","Total"];
 
     function value(key, d){
       if(key == "Total" )
@@ -194,40 +80,59 @@ function createParallelCoordinates(id) {
         return d.Speed;
     }
 
+    
+    const color = d3.scaleOrdinal(["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass",
+                                   "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy" ],
+                                   [ "#6D6D53", "#9A2620", "#270F70", "#803380", "#644F14", "#93802D", "#86931A", "#5A467A", "#313149", "#AC4F0C", 
+                                   "#0E3289", "#5F902D", "#826904", "#950631", "#256363", "#3506A9", "#5A463A", "#691125"])
+
+
+    const x = d3.scalePoint(stats, [0, (6/7)* width_right]);
+
+    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear(d3.extent(data, d => value(key, d)), [10, height_right])]))
+
+    new_data = data.filter(function(d) { return d.Monthly_Usage > 0;});
+
     line = d3.line()
-    //.defined(([key, value]) => value != null)
-    .x(([key]) => x(key))
-    .y(([key, val]) => y(key, val))
+      .defined(([value, ]) => value != null)
+      .x(([,key]) => x(key))
+      .y(([value, key]) => y.get(key)(value))
+
 
     svg
+      .selectAll("path")
+      .data(new_data)
+      .enter()
       .append("path")
-      .datum(data)
       .attr("class", "pathValue")
       .attr("fill", "none")
-      .attr("stroke", "steelblue")
-      .attr("stroke-width", 1.5)
-      .attr("d", d => line(d3.cross(stats, d, (key, d) => [key, value(key, d)])));
-    
-    
-  
-    /*function path(d) {
-        return d3.line()(stats.map(function(p) { 
-          if (p == "Total")
-            return [0, total(d[p])]; 
-          if (p == "HP")
-            return [143, total(d[p])]; 
-          }));
-    }
+      .attr("stroke-width", 0.5)
+      .attr("stroke", d => color(d.Type1))
+      .attr("d", d => line(d3.cross([d], stats, (element, key) => [value(key, element), key])))
+      .append("title")
+        .text(d => d.Pokemon);
 
-  svg
-    .selectAll("myPath")
-    .data(data)
-    .append("path")
-    .attr("d",  path)
-    .style("fill", "none")
-    .style("stroke", "#69b3a2")
-    .style("opacity", 0.5);*/
-    
+
+    svg.append("g")
+    .selectAll("g")
+    .data(stats)
+    .join("g")
+      .each(function(d) { d3.select(this).call(d3.axisLeft(y.get(d))); })
+      .attr("transform", d => `translate(${x(d)},0)`)
+      .call(g => g.append("text")
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("text-anchor", "middle")
+        .attr("fill", "currentColor")
+        .style("font-size", "1.5em")
+        .text(d => d))
+      .call(g => g.selectAll("text")
+        .clone(true)
+        .lower()
+        .attr("fill", "none")
+        .attr("stroke-width", 5)
+        .attr("stroke-linejoin", "round")
+        .attr("stroke", "white"));
   })
 }
 

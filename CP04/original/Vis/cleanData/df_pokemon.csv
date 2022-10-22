@@ -1,4 +1,4 @@
-ID,Name,Species,Variant,Generation,Evolves_from,Type1,Type2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,image_url,VGC2022_rules,Monthly Usage (k)
+ID,Name,Species,Variant,Generation,Evolves_from,Type1,Type2,Total,HP,Attack,Defense,Special_Atk,Special_Def,Speed,image_url,VGC2022_rules,Monthly Usage (k)
 447,Riolu,Riolu,NULL,4,NULL,Fighting,NULL,285,40,70,40,35,40,60,https://img.pokemondb.net/sprites/sword-shield/icon/riolu.png,Permitted,13
 439,Mime Jr.,Mime,Jr.,4,NULL,Psychic,Fairy,310,20,25,45,70,90,60,https://img.pokemondb.net/sprites/sword-shield/icon/mime-jr.png,Permitted,0
 172,Pichu,Pichu,NULL,2,NULL,Electric,NULL,205,20,40,15,35,35,60,https://img.pokemondb.net/sprites/sword-shield/icon/pichu.png,Permitted,0

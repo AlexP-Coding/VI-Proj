@@ -11,7 +11,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 100,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 204
+		"Monthly_Usage": 204
 	},
 	{
 		"Pokemon": "Blastoise",
@@ -25,7 +25,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 105,
 		"Speed": 78,
-		"Monthly_Usage_(k)": 98
+		"Monthly_Usage": 98
 	},
 	{
 		"Pokemon": "Pikachu",
@@ -39,7 +39,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 50,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 13
+		"Monthly_Usage": 13
 	},
 	{
 		"Pokemon": "Mankey",
@@ -53,7 +53,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 45,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Primeape",
@@ -67,7 +67,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 70,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Growlithe",
@@ -81,7 +81,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 50,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Meganium",
@@ -95,7 +95,7 @@
 		"Special_Atk": 83,
 		"Special_Def": 100,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ampharos",
@@ -109,7 +109,7 @@
 		"Special_Atk": 115,
 		"Special_Def": 90,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Charizard",
@@ -123,7 +123,7 @@
 		"Special_Atk": 109,
 		"Special_Def": 85,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 344
+		"Monthly_Usage": 344
 	},
 	{
 		"Pokemon": "Bellossom",
@@ -137,7 +137,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 100,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sudowoodo",
@@ -151,7 +151,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 65,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Treecko",
@@ -165,7 +165,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 55,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Grovyle",
@@ -179,7 +179,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 65,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Torchic",
@@ -193,7 +193,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 50,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Mudkip",
@@ -207,7 +207,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 50,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Poochyena",
@@ -221,7 +221,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 30,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Butterfree",
@@ -235,7 +235,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 80,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 16
+		"Monthly_Usage": 16
 	},
 	{
 		"Pokemon": "Luvdisc",
@@ -249,7 +249,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 65,
 		"Speed": 97,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Bagon",
@@ -263,7 +263,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 30,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Shelgon",
@@ -277,7 +277,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 50,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Regirock",
@@ -291,7 +291,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 100,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Regice",
@@ -305,7 +305,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 200,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Buneary",
@@ -319,7 +319,7 @@
 		"Special_Atk": 44,
 		"Special_Def": 56,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lopunny",
@@ -333,7 +333,7 @@
 		"Special_Atk": 54,
 		"Special_Def": 96,
 		"Speed": 105,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Tornadus Therian Forme",
@@ -347,7 +347,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 90,
 		"Speed": 121,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Chespin",
@@ -361,7 +361,7 @@
 		"Special_Atk": 48,
 		"Special_Def": 45,
 		"Speed": 38,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Quilladin",
@@ -375,7 +375,7 @@
 		"Special_Atk": 56,
 		"Special_Def": 58,
 		"Speed": 57,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gabite",
@@ -389,7 +389,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 55,
 		"Speed": 82,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Graveler",
@@ -403,7 +403,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 45,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Bulbasaur",
@@ -417,7 +417,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 65,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ivysaur",
@@ -431,7 +431,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 80,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Weedle",
@@ -445,7 +445,7 @@
 		"Special_Atk": 20,
 		"Special_Def": 20,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Kakuna",
@@ -459,7 +459,7 @@
 		"Special_Atk": 25,
 		"Special_Def": 25,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Beedrill",
@@ -473,7 +473,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 80,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pidgey",
@@ -487,7 +487,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 35,
 		"Speed": 56,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pidgeotto",
@@ -501,7 +501,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 50,
 		"Speed": 71,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pidgeot",
@@ -515,7 +515,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 70,
 		"Speed": 101,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alolan Rattata",
@@ -529,7 +529,7 @@
 		"Special_Atk": 25,
 		"Special_Def": 35,
 		"Speed": 72,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alolan Raticate",
@@ -543,7 +543,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 80,
 		"Speed": 77,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Spearow",
@@ -557,7 +557,7 @@
 		"Special_Atk": 31,
 		"Special_Def": 31,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Fearow",
@@ -571,7 +571,7 @@
 		"Special_Atk": 61,
 		"Special_Def": 61,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alolan Raichu",
@@ -585,7 +585,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 85,
 		"Speed": 110,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Raichu",
@@ -599,7 +599,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 80,
 		"Speed": 110,
-		"Monthly_Usage_(k)": 93
+		"Monthly_Usage": 93
 	},
 	{
 		"Pokemon": "Fennekin",
@@ -613,7 +613,7 @@
 		"Special_Atk": 62,
 		"Special_Def": 60,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Braixen",
@@ -627,7 +627,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 70,
 		"Speed": 73,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Froakie",
@@ -641,7 +641,7 @@
 		"Special_Atk": 62,
 		"Special_Def": 44,
 		"Speed": 71,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Frogadier",
@@ -655,7 +655,7 @@
 		"Special_Atk": 83,
 		"Special_Def": 56,
 		"Speed": 97,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Goomy",
@@ -669,7 +669,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 75,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sliggoo",
@@ -683,7 +683,7 @@
 		"Special_Atk": 83,
 		"Special_Def": 113,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Bergmite",
@@ -697,7 +697,7 @@
 		"Special_Atk": 32,
 		"Special_Def": 35,
 		"Speed": 28,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Avalugg",
@@ -711,7 +711,7 @@
 		"Special_Atk": 44,
 		"Special_Def": 46,
 		"Speed": 28,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Litten",
@@ -725,7 +725,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 40,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Steenee",
@@ -739,7 +739,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 48,
 		"Speed": 62,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alolan Ninetales",
@@ -753,7 +753,7 @@
 		"Special_Atk": 81,
 		"Special_Def": 100,
 		"Speed": 109,
-		"Monthly_Usage_(k)": 16
+		"Monthly_Usage": 16
 	},
 	{
 		"Pokemon": "Passimian",
@@ -767,7 +767,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 60,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pyukumuku",
@@ -781,7 +781,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 130,
 		"Speed": 5,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sandshrew",
@@ -795,7 +795,7 @@
 		"Special_Atk": 20,
 		"Special_Def": 30,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sandslash",
@@ -809,7 +809,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 55,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Nidoran\u2640",
@@ -823,7 +823,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 41,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Nidorina",
@@ -837,7 +837,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 55,
 		"Speed": 56,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Nidoran\u2642",
@@ -851,7 +851,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Nidorino",
@@ -865,7 +865,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 55,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Vulpix",
@@ -879,7 +879,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 65,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alolan Vulpix",
@@ -893,7 +893,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 65,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Golem",
@@ -907,7 +907,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 65,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alolan Sandshrew",
@@ -921,7 +921,7 @@
 		"Special_Atk": 10,
 		"Special_Def": 35,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alolan Sandslash",
@@ -935,7 +935,7 @@
 		"Special_Atk": 25,
 		"Special_Def": 65,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Nidoqueen",
@@ -949,7 +949,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 85,
 		"Speed": 76,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Nidoking",
@@ -963,7 +963,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 75,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Jigglypuff",
@@ -977,7 +977,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 25,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Wigglytuff",
@@ -991,7 +991,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 50,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Zubat",
@@ -1005,7 +1005,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 40,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Golbat",
@@ -1019,7 +1019,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 75,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Oddish",
@@ -1033,7 +1033,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 65,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gloom",
@@ -1047,7 +1047,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 75,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Vileplume",
@@ -1061,7 +1061,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 90,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Paras",
@@ -1075,7 +1075,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 55,
 		"Speed": 25,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Parasect",
@@ -1089,7 +1089,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 80,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Venonat",
@@ -1103,7 +1103,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 55,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Venomoth",
@@ -1117,7 +1117,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 75,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alolan Diglett",
@@ -1131,7 +1131,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 45,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alolan Dugtrio",
@@ -1145,7 +1145,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 70,
 		"Speed": 110,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ninetales",
@@ -1159,7 +1159,7 @@
 		"Special_Atk": 81,
 		"Special_Def": 100,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Diglett",
@@ -1173,7 +1173,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 45,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Meowth",
@@ -1187,7 +1187,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Arcanine",
@@ -1201,7 +1201,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 80,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 23
+		"Monthly_Usage": 23
 	},
 	{
 		"Pokemon": "Alolan Meowth",
@@ -1215,7 +1215,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 40,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Galarian Meowth",
@@ -1229,7 +1229,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Persian",
@@ -1243,7 +1243,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 65,
 		"Speed": 115,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Psyduck",
@@ -1257,7 +1257,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 50,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Golduck",
@@ -1271,7 +1271,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 80,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Poliwag",
@@ -1285,7 +1285,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Poliwhirl",
@@ -1299,7 +1299,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 50,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Abra",
@@ -1313,7 +1313,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 55,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Kadabra",
@@ -1327,7 +1327,7 @@
 		"Special_Atk": 120,
 		"Special_Def": 70,
 		"Speed": 105,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alakazam",
@@ -1341,7 +1341,7 @@
 		"Special_Atk": 135,
 		"Special_Def": 95,
 		"Speed": 120,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Machop",
@@ -1355,7 +1355,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 35,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Machoke",
@@ -1369,7 +1369,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 60,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ponyta",
@@ -1383,7 +1383,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 65,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Galarian Ponyta",
@@ -1397,7 +1397,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 65,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Rapidash",
@@ -1411,7 +1411,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 80,
 		"Speed": 105,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Galarian Slowpoke",
@@ -1425,7 +1425,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 15,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Muk",
@@ -1439,7 +1439,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 100,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Shellder",
@@ -1453,7 +1453,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 25,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Slowbro",
@@ -1467,7 +1467,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 80,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 4
+		"Monthly_Usage": 4
 	},
 	{
 		"Pokemon": "Drowzee",
@@ -1481,7 +1481,7 @@
 		"Special_Atk": 43,
 		"Special_Def": 90,
 		"Speed": 42,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hypno",
@@ -1495,7 +1495,7 @@
 		"Special_Atk": 73,
 		"Special_Def": 115,
 		"Speed": 67,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Krabby",
@@ -1509,7 +1509,7 @@
 		"Special_Atk": 25,
 		"Special_Def": 25,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Voltorb",
@@ -1523,7 +1523,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 55,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Electrode",
@@ -1537,7 +1537,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 80,
 		"Speed": 150,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cubone",
@@ -1551,7 +1551,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 50,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Geodude",
@@ -1565,7 +1565,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 30,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hisuian Growlithe",
@@ -1579,7 +1579,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 50,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hisuian Arcanine",
@@ -1593,7 +1593,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 80,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Poliwrath",
@@ -1607,7 +1607,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 90,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Bellsprout",
@@ -1621,7 +1621,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 30,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Weepinbell",
@@ -1635,7 +1635,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 45,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Victreebel",
@@ -1649,7 +1649,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 70,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Shieldon",
@@ -1663,7 +1663,7 @@
 		"Special_Atk": 42,
 		"Special_Def": 88,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Bastiodon",
@@ -1677,7 +1677,7 @@
 		"Special_Atk": 47,
 		"Special_Def": 138,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Tentacool",
@@ -1691,7 +1691,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 100,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alolan Geodude",
@@ -1705,7 +1705,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 30,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Tentacruel",
@@ -1719,7 +1719,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 120,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alolan Graveler",
@@ -1733,7 +1733,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 45,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alolan Golem",
@@ -1747,7 +1747,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 65,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Galarian Rapidash",
@@ -1761,7 +1761,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 80,
 		"Speed": 105,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Slowpoke",
@@ -1775,7 +1775,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 15,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Galarian Farfetch'd",
@@ -1789,7 +1789,7 @@
 		"Special_Atk": 58,
 		"Special_Def": 62,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Seel",
@@ -1803,7 +1803,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 70,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cloyster",
@@ -1817,7 +1817,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 45,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 2
+		"Monthly_Usage": 2
 	},
 	{
 		"Pokemon": "Gengar",
@@ -1831,7 +1831,7 @@
 		"Special_Atk": 130,
 		"Special_Def": 75,
 		"Speed": 110,
-		"Monthly_Usage_(k)": 10
+		"Monthly_Usage": 10
 	},
 	{
 		"Pokemon": "Grimer",
@@ -1845,7 +1845,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 50,
 		"Speed": 25,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Marowak",
@@ -1859,7 +1859,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 80,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hitmonlee",
@@ -1873,7 +1873,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 110,
 		"Speed": 87,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hitmonchan",
@@ -1887,7 +1887,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 110,
 		"Speed": 76,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lickitung",
@@ -1901,7 +1901,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 75,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Koffing",
@@ -1915,7 +1915,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 45,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Magmar",
@@ -1929,7 +1929,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 85,
 		"Speed": 93,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pinsir",
@@ -1943,7 +1943,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 70,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Magikarp",
@@ -1957,7 +1957,7 @@
 		"Special_Atk": 15,
 		"Special_Def": 20,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alolan Exeggutor",
@@ -1971,7 +1971,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 75,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 6
+		"Monthly_Usage": 6
 	},
 	{
 		"Pokemon": "Exeggutor",
@@ -1985,7 +1985,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 75,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Partner Eevee",
@@ -1999,7 +1999,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 85,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alolan Marowak",
@@ -2013,7 +2013,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 80,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 16
+		"Monthly_Usage": 16
 	},
 	{
 		"Pokemon": "Eevee",
@@ -2027,7 +2027,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 65,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Vaporeon",
@@ -2041,7 +2041,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 95,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Jolteon",
@@ -2055,7 +2055,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 95,
 		"Speed": 130,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Flareon",
@@ -2069,7 +2069,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 110,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Porygon",
@@ -2083,7 +2083,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 75,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cyndaquil",
@@ -2097,7 +2097,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 50,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Galarian Weezing",
@@ -2111,7 +2111,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 70,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 8
+		"Monthly_Usage": 8
 	},
 	{
 		"Pokemon": "Quilava",
@@ -2125,7 +2125,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 65,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Typhlosion",
@@ -2139,7 +2139,7 @@
 		"Special_Atk": 109,
 		"Special_Def": 85,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Onix",
@@ -2153,7 +2153,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 45,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alolan Grimer",
@@ -2167,7 +2167,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 50,
 		"Speed": 25,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Doduo",
@@ -2181,7 +2181,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 35,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Dodrio",
@@ -2195,7 +2195,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 60,
 		"Speed": 110,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Dewgong",
@@ -2209,7 +2209,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 95,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gastly",
@@ -2223,7 +2223,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 35,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Haunter",
@@ -2237,7 +2237,7 @@
 		"Special_Atk": 115,
 		"Special_Def": 55,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alolan Muk",
@@ -2251,7 +2251,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 100,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hisuian Voltorb",
@@ -2265,7 +2265,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 55,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hisuian Electrode",
@@ -2279,7 +2279,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 80,
 		"Speed": 150,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Exeggcute",
@@ -2293,7 +2293,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 45,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Rhyhorn",
@@ -2307,7 +2307,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 30,
 		"Speed": 25,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Rhydon",
@@ -2321,7 +2321,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 45,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Kangaskhan",
@@ -2335,7 +2335,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 80,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 6
+		"Monthly_Usage": 6
 	},
 	{
 		"Pokemon": "Tangela",
@@ -2349,7 +2349,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 40,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Horsea",
@@ -2363,7 +2363,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 25,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Seadra",
@@ -2377,7 +2377,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 45,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Goldeen",
@@ -2391,7 +2391,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 50,
 		"Speed": 63,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Seaking",
@@ -2405,7 +2405,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 80,
 		"Speed": 68,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Staryu",
@@ -2419,7 +2419,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 55,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gyarados",
@@ -2433,7 +2433,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 100,
 		"Speed": 81,
-		"Monthly_Usage_(k)": 15
+		"Monthly_Usage": 15
 	},
 	{
 		"Pokemon": "Electabuzz",
@@ -2447,7 +2447,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 85,
 		"Speed": 105,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lapras",
@@ -2461,7 +2461,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 95,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 61
+		"Monthly_Usage": 61
 	},
 	{
 		"Pokemon": "Totodile",
@@ -2475,7 +2475,7 @@
 		"Special_Atk": 44,
 		"Special_Def": 48,
 		"Speed": 43,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Croconaw",
@@ -2489,7 +2489,7 @@
 		"Special_Atk": 59,
 		"Special_Def": 63,
 		"Speed": 58,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Feraligatr",
@@ -2503,7 +2503,7 @@
 		"Special_Atk": 79,
 		"Special_Def": 83,
 		"Speed": 78,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sentret",
@@ -2517,7 +2517,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 45,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Furret",
@@ -2531,7 +2531,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 55,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pichu",
@@ -2545,7 +2545,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 35,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cleffa",
@@ -2559,7 +2559,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 55,
 		"Speed": 15,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Togepi",
@@ -2573,7 +2573,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 65,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Aerodactyl",
@@ -2587,7 +2587,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 75,
 		"Speed": 130,
-		"Monthly_Usage_(k)": 5
+		"Monthly_Usage": 5
 	},
 	{
 		"Pokemon": "Mareep",
@@ -2601,7 +2601,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 45,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Aipom",
@@ -2615,7 +2615,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 55,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sunkern",
@@ -2629,7 +2629,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 30,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Galarian Articuno",
@@ -2643,7 +2643,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 100,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 14
+		"Monthly_Usage": 14
 	},
 	{
 		"Pokemon": "Sunflora",
@@ -2657,7 +2657,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 85,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Mime Galarian Mr. Mime",
@@ -2671,7 +2671,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 90,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 2
+		"Monthly_Usage": 2
 	},
 	{
 		"Pokemon": "Misdreavus",
@@ -2685,7 +2685,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 85,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Jynx",
@@ -2699,7 +2699,7 @@
 		"Special_Atk": 115,
 		"Special_Def": 95,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Kabutops",
@@ -2713,7 +2713,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 70,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 4
+		"Monthly_Usage": 4
 	},
 	{
 		"Pokemon": "Omanyte",
@@ -2727,7 +2727,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 55,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Omastar",
@@ -2741,7 +2741,7 @@
 		"Special_Atk": 115,
 		"Special_Def": 70,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Kabuto",
@@ -2755,7 +2755,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 45,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Starmie",
@@ -2769,7 +2769,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 85,
 		"Speed": 115,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Mr. Mime",
@@ -2783,7 +2783,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 120,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Scyther",
@@ -2797,7 +2797,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 80,
 		"Speed": 105,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Articuno",
@@ -2811,7 +2811,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 125,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 4
+		"Monthly_Usage": 4
 	},
 	{
 		"Pokemon": "Galarian Zapdos",
@@ -2825,7 +2825,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 90,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 26
+		"Monthly_Usage": 26
 	},
 	{
 		"Pokemon": "Zapdos",
@@ -2839,7 +2839,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 90,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 168
+		"Monthly_Usage": 168
 	},
 	{
 		"Pokemon": "Galarian Moltres",
@@ -2853,7 +2853,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 125,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 35
+		"Monthly_Usage": 35
 	},
 	{
 		"Pokemon": "Moltres",
@@ -2867,7 +2867,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 85,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Dratini",
@@ -2881,7 +2881,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 50,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Dragonair",
@@ -2895,7 +2895,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 70,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Chikorita",
@@ -2909,7 +2909,7 @@
 		"Special_Atk": 49,
 		"Special_Def": 65,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Bayleef",
@@ -2923,7 +2923,7 @@
 		"Special_Atk": 63,
 		"Special_Def": 80,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Unown",
@@ -2937,7 +2937,7 @@
 		"Special_Atk": 72,
 		"Special_Def": 48,
 		"Speed": 48,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Wobbuffet",
@@ -2951,7 +2951,7 @@
 		"Special_Atk": 33,
 		"Special_Def": 58,
 		"Speed": 33,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pineco",
@@ -2965,7 +2965,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 35,
 		"Speed": 15,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Dunsparce",
@@ -2979,7 +2979,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 65,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Snubbull",
@@ -2993,7 +2993,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Granbull",
@@ -3007,7 +3007,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 60,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Phanpy",
@@ -3021,7 +3021,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Donphan",
@@ -3035,7 +3035,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 60,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Stantler",
@@ -3049,7 +3049,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 65,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Crobat",
@@ -3063,7 +3063,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 80,
 		"Speed": 130,
-		"Monthly_Usage_(k)": 5
+		"Monthly_Usage": 5
 	},
 	{
 		"Pokemon": "Smeargle",
@@ -3077,7 +3077,7 @@
 		"Special_Atk": 20,
 		"Special_Def": 45,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Tyrogue",
@@ -3091,7 +3091,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 35,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Elekid",
@@ -3105,7 +3105,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 55,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Magby",
@@ -3119,7 +3119,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 55,
 		"Speed": 83,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Miltank",
@@ -3133,7 +3133,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 70,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Dragonite",
@@ -3147,7 +3147,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 100,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 10
+		"Monthly_Usage": 10
 	},
 	{
 		"Pokemon": "Chinchou",
@@ -3161,7 +3161,7 @@
 		"Special_Atk": 56,
 		"Special_Def": 56,
 		"Speed": 67,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lanturn",
@@ -3175,7 +3175,7 @@
 		"Special_Atk": 76,
 		"Special_Def": 76,
 		"Speed": 67,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hisuian Typhlosion",
@@ -3189,7 +3189,7 @@
 		"Special_Atk": 119,
 		"Special_Def": 85,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hoothoot",
@@ -3203,7 +3203,7 @@
 		"Special_Atk": 36,
 		"Special_Def": 56,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Noctowl",
@@ -3217,7 +3217,7 @@
 		"Special_Atk": 86,
 		"Special_Def": 96,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ledyba",
@@ -3231,7 +3231,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 80,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ledian",
@@ -3245,7 +3245,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 110,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Spinarak",
@@ -3259,7 +3259,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ariados",
@@ -3273,7 +3273,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 70,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Igglybuff",
@@ -3287,7 +3287,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 20,
 		"Speed": 15,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Togetic",
@@ -3301,7 +3301,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 105,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Natu",
@@ -3315,7 +3315,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 45,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Xatu",
@@ -3329,7 +3329,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 70,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Politoed",
@@ -3343,7 +3343,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 100,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 7
+		"Monthly_Usage": 7
 	},
 	{
 		"Pokemon": "Flaaffy",
@@ -3357,7 +3357,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 60,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Mightyena",
@@ -3371,7 +3371,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 60,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Azumarill",
@@ -3385,7 +3385,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 80,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 9
+		"Monthly_Usage": 9
 	},
 	{
 		"Pokemon": "Zigzagoon",
@@ -3399,7 +3399,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 41,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Linoone",
@@ -3413,7 +3413,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 61,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Wurmple",
@@ -3427,7 +3427,7 @@
 		"Special_Atk": 20,
 		"Special_Def": 30,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Silcoon",
@@ -3441,7 +3441,7 @@
 		"Special_Atk": 25,
 		"Special_Def": 25,
 		"Speed": 15,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cascoon",
@@ -3455,7 +3455,7 @@
 		"Special_Atk": 25,
 		"Special_Def": 25,
 		"Speed": 15,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Seedot",
@@ -3469,7 +3469,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 30,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Slowking",
@@ -3483,7 +3483,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 110,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 2
+		"Monthly_Usage": 2
 	},
 	{
 		"Pokemon": "Makuhita",
@@ -3497,7 +3497,7 @@
 		"Special_Atk": 20,
 		"Special_Def": 30,
 		"Speed": 25,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hariyama",
@@ -3511,7 +3511,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 60,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Nosepass",
@@ -3525,7 +3525,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 90,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Skitty",
@@ -3539,7 +3539,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 35,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Delcatty",
@@ -3553,7 +3553,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 55,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Electrike",
@@ -3567,7 +3567,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 40,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Plusle",
@@ -3581,7 +3581,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 75,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Minun",
@@ -3595,7 +3595,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 85,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Volbeat",
@@ -3609,7 +3609,7 @@
 		"Special_Atk": 47,
 		"Special_Def": 85,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Scizor",
@@ -3623,7 +3623,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 80,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 7
+		"Monthly_Usage": 7
 	},
 	{
 		"Pokemon": "Illumise",
@@ -3637,7 +3637,7 @@
 		"Special_Atk": 73,
 		"Special_Def": 85,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gulpin",
@@ -3651,7 +3651,7 @@
 		"Special_Atk": 43,
 		"Special_Def": 53,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Swalot",
@@ -3665,7 +3665,7 @@
 		"Special_Atk": 73,
 		"Special_Def": 83,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Shuckle",
@@ -3679,7 +3679,7 @@
 		"Special_Atk": 10,
 		"Special_Def": 230,
 		"Speed": 5,
-		"Monthly_Usage_(k)": 7
+		"Monthly_Usage": 7
 	},
 	{
 		"Pokemon": "Steelix",
@@ -3693,7 +3693,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 65,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Qwilfish",
@@ -3707,7 +3707,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 55,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Marill",
@@ -3721,7 +3721,7 @@
 		"Special_Atk": 20,
 		"Special_Def": 50,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hoppip",
@@ -3735,7 +3735,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 55,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Skiploom",
@@ -3749,7 +3749,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 65,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Jumpluff",
@@ -3763,7 +3763,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 95,
 		"Speed": 110,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Yanma",
@@ -3777,7 +3777,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 45,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Wooper",
@@ -3791,7 +3791,7 @@
 		"Special_Atk": 25,
 		"Special_Def": 25,
 		"Speed": 15,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Quagsire",
@@ -3805,7 +3805,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 65,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Murkrow",
@@ -3819,7 +3819,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 42,
 		"Speed": 91,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Galarian Slowking",
@@ -3833,7 +3833,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 110,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Girafarig",
@@ -3847,7 +3847,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 65,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Forretress",
@@ -3861,7 +3861,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 60,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gligar",
@@ -3875,7 +3875,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 65,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hisuian Qwilfish",
@@ -3889,7 +3889,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 55,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Heracross",
@@ -3903,7 +3903,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 95,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sneasel",
@@ -3917,7 +3917,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 75,
 		"Speed": 115,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Mantine",
@@ -3931,7 +3931,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 140,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Teddiursa",
@@ -3945,7 +3945,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 50,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Kingdra",
@@ -3959,7 +3959,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 95,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 37
+		"Monthly_Usage": 37
 	},
 	{
 		"Pokemon": "Ursaring",
@@ -3973,7 +3973,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 75,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Slugma",
@@ -3987,7 +3987,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 40,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Galarian Corsola",
@@ -4001,7 +4001,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 100,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Remoraid",
@@ -4015,7 +4015,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 35,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Octillery",
@@ -4029,7 +4029,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 75,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Wailmer",
@@ -4043,7 +4043,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 35,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Grumpig",
@@ -4057,7 +4057,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 110,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Spinda",
@@ -4071,7 +4071,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 60,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Trapinch",
@@ -4085,7 +4085,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 45,
 		"Speed": 10,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cacnea",
@@ -4099,7 +4099,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 40,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Zangoose",
@@ -4113,7 +4113,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 60,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Seviper",
@@ -4127,7 +4127,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 60,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Corphish",
@@ -4141,7 +4141,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 35,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Feebas",
@@ -4155,7 +4155,7 @@
 		"Special_Atk": 10,
 		"Special_Def": 55,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Castform",
@@ -4169,7 +4169,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 70,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Tyranitar",
@@ -4183,7 +4183,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 100,
 		"Speed": 61,
-		"Monthly_Usage_(k)": 24
+		"Monthly_Usage": 24
 	},
 	{
 		"Pokemon": "Castform Sunny Form",
@@ -4197,7 +4197,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 70,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Castform Rainy Form",
@@ -4211,7 +4211,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 70,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Castform Snowy Form",
@@ -4225,7 +4225,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 70,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Kecleon",
@@ -4239,7 +4239,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 120,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Houndour",
@@ -4253,7 +4253,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 50,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Houndoom",
@@ -4267,7 +4267,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 80,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Skarmory",
@@ -4281,7 +4281,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 70,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Larvitar",
@@ -4295,7 +4295,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 50,
 		"Speed": 41,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hisuian Sneasel",
@@ -4309,7 +4309,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 75,
 		"Speed": 115,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Magcargo",
@@ -4323,7 +4323,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 80,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Swinub",
@@ -4337,7 +4337,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 30,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Piloswine",
@@ -4351,7 +4351,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 60,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Corsola",
@@ -4365,7 +4365,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 95,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Delibird",
@@ -4379,7 +4379,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 45,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Smoochum",
@@ -4393,7 +4393,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 65,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pupitar",
@@ -4407,7 +4407,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 70,
 		"Speed": 51,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sceptile",
@@ -4421,7 +4421,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 85,
 		"Speed": 120,
-		"Monthly_Usage_(k)": 5
+		"Monthly_Usage": 5
 	},
 	{
 		"Pokemon": "Shuppet",
@@ -4435,7 +4435,7 @@
 		"Special_Atk": 63,
 		"Special_Def": 33,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Banette",
@@ -4449,7 +4449,7 @@
 		"Special_Atk": 83,
 		"Special_Def": 63,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Duskull",
@@ -4463,7 +4463,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 90,
 		"Speed": 25,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Primal Kyogre",
@@ -4477,7 +4477,7 @@
 		"Special_Atk": 180,
 		"Special_Def": 160,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Blaziken",
@@ -4491,7 +4491,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 70,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 6
+		"Monthly_Usage": 6
 	},
 	{
 		"Pokemon": "Deoxys Defense Forme",
@@ -4505,7 +4505,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 160,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Deoxys Attack Forme",
@@ -4519,7 +4519,7 @@
 		"Special_Atk": 180,
 		"Special_Def": 20,
 		"Speed": 150,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Deoxys Normal Forme",
@@ -4533,7 +4533,7 @@
 		"Special_Atk": 150,
 		"Special_Def": 50,
 		"Speed": 150,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Swampert",
@@ -4547,7 +4547,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 90,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 7
+		"Monthly_Usage": 7
 	},
 	{
 		"Pokemon": "Deoxys Speed Forme",
@@ -4561,7 +4561,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 90,
 		"Speed": 180,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Turtwig",
@@ -4575,7 +4575,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 55,
 		"Speed": 31,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Grotle",
@@ -4589,7 +4589,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 65,
 		"Speed": 36,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Chimchar",
@@ -4603,7 +4603,7 @@
 		"Special_Atk": 58,
 		"Special_Def": 44,
 		"Speed": 61,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Piplup",
@@ -4617,7 +4617,7 @@
 		"Special_Atk": 61,
 		"Special_Def": 56,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Prinplup",
@@ -4631,7 +4631,7 @@
 		"Special_Atk": 81,
 		"Special_Def": 76,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Bidoof",
@@ -4645,7 +4645,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 40,
 		"Speed": 31,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ludicolo",
@@ -4659,7 +4659,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 100,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 16
+		"Monthly_Usage": 16
 	},
 	{
 		"Pokemon": "Kricketot",
@@ -4673,7 +4673,7 @@
 		"Special_Atk": 25,
 		"Special_Def": 41,
 		"Speed": 25,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Shiftry",
@@ -4687,7 +4687,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 60,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Pelipper",
@@ -4701,7 +4701,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 70,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 8
+		"Monthly_Usage": 8
 	},
 	{
 		"Pokemon": "Kricketune",
@@ -4715,7 +4715,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 51,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Shinx",
@@ -4729,7 +4729,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 34,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Luxio",
@@ -4743,7 +4743,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 49,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cranidos",
@@ -4757,7 +4757,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 30,
 		"Speed": 58,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Rampardos",
@@ -4771,7 +4771,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 50,
 		"Speed": 58,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Burmy Plant Cloak",
@@ -4785,7 +4785,7 @@
 		"Special_Atk": 29,
 		"Special_Def": 45,
 		"Speed": 36,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Burmy Sandy Cloak",
@@ -4799,7 +4799,7 @@
 		"Special_Atk": 29,
 		"Special_Def": 45,
 		"Speed": 36,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Combusken",
@@ -4813,7 +4813,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 60,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Marshtomp",
@@ -4827,7 +4827,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 70,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Galarian Zigzagoon",
@@ -4841,7 +4841,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 41,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Galarian Linoone",
@@ -4855,7 +4855,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 61,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Beautifly",
@@ -4869,7 +4869,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 50,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Dustox",
@@ -4883,7 +4883,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 90,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lotad",
@@ -4897,7 +4897,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 50,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lombre",
@@ -4911,7 +4911,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 70,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Nuzleaf",
@@ -4925,7 +4925,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 40,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Taillow",
@@ -4939,7 +4939,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 30,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Swellow",
@@ -4953,7 +4953,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 50,
 		"Speed": 125,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Wingull",
@@ -4967,7 +4967,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 30,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ralts",
@@ -4981,7 +4981,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 35,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Shedinja",
@@ -4995,7 +4995,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 30,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 42
+		"Monthly_Usage": 42
 	},
 	{
 		"Pokemon": "Shroomish",
@@ -5009,7 +5009,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 60,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Slakoth",
@@ -5023,7 +5023,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 35,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Vigoroth",
@@ -5037,7 +5037,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 55,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Slaking",
@@ -5051,7 +5051,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 65,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Whismur",
@@ -5065,7 +5065,7 @@
 		"Special_Atk": 51,
 		"Special_Def": 23,
 		"Speed": 28,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Loudred",
@@ -5079,7 +5079,7 @@
 		"Special_Atk": 71,
 		"Special_Def": 43,
 		"Speed": 48,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Exploud",
@@ -5093,7 +5093,7 @@
 		"Special_Atk": 91,
 		"Special_Def": 73,
 		"Speed": 68,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Burmy Trash Cloak",
@@ -5107,7 +5107,7 @@
 		"Special_Atk": 29,
 		"Special_Def": 45,
 		"Speed": 36,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pachirisu",
@@ -5121,7 +5121,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 90,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Buizel",
@@ -5135,7 +5135,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 30,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Floatzel",
@@ -5149,7 +5149,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 50,
 		"Speed": 115,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cherubi",
@@ -5163,7 +5163,7 @@
 		"Special_Atk": 62,
 		"Special_Def": 53,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Mismagius",
@@ -5177,7 +5177,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 105,
 		"Speed": 105,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Glameow",
@@ -5191,7 +5191,7 @@
 		"Special_Atk": 42,
 		"Special_Def": 37,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Purugly",
@@ -5205,7 +5205,7 @@
 		"Special_Atk": 64,
 		"Special_Def": 59,
 		"Speed": 112,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Chingling",
@@ -5219,7 +5219,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 50,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Bonsly",
@@ -5233,7 +5233,7 @@
 		"Special_Atk": 10,
 		"Special_Def": 45,
 		"Speed": 10,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Happiny",
@@ -5247,7 +5247,7 @@
 		"Special_Atk": 15,
 		"Special_Def": 65,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Munchlax",
@@ -5261,7 +5261,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 85,
 		"Speed": 5,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hippopotas",
@@ -5275,7 +5275,7 @@
 		"Special_Atk": 38,
 		"Special_Def": 42,
 		"Speed": 32,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hippowdon",
@@ -5289,7 +5289,7 @@
 		"Special_Atk": 68,
 		"Special_Def": 72,
 		"Speed": 47,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sableye",
@@ -5303,7 +5303,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 65,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 47
+		"Monthly_Usage": 47
 	},
 	{
 		"Pokemon": "Mawile",
@@ -5317,7 +5317,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 55,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Meditite",
@@ -5331,7 +5331,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 55,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Medicham",
@@ -5345,7 +5345,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 75,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Breloom",
@@ -5359,7 +5359,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 60,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Nincada",
@@ -5373,7 +5373,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 30,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ninjask",
@@ -5387,7 +5387,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 50,
 		"Speed": 160,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Azurill",
@@ -5401,7 +5401,7 @@
 		"Special_Atk": 20,
 		"Special_Def": 40,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Aron",
@@ -5415,7 +5415,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lairon",
@@ -5429,7 +5429,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 50,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Aggron",
@@ -5443,7 +5443,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 60,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Roselia",
@@ -5457,7 +5457,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 80,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Carvanha",
@@ -5471,7 +5471,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 20,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sharpedo",
@@ -5485,7 +5485,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 40,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Torkoal",
@@ -5499,7 +5499,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 70,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 63
+		"Monthly_Usage": 63
 	},
 	{
 		"Pokemon": "Wailord",
@@ -5513,7 +5513,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 45,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Spoink",
@@ -5527,7 +5527,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 80,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Carnivine",
@@ -5541,7 +5541,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 72,
 		"Speed": 46,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Finneon",
@@ -5555,7 +5555,7 @@
 		"Special_Atk": 49,
 		"Special_Def": 61,
 		"Speed": 66,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lumineon",
@@ -5569,7 +5569,7 @@
 		"Special_Atk": 69,
 		"Special_Def": 86,
 		"Speed": 91,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Dusknoir",
@@ -5583,7 +5583,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 135,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Uxie",
@@ -5597,7 +5597,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 130,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Mesprit",
@@ -5611,7 +5611,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 105,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cradily",
@@ -5625,7 +5625,7 @@
 		"Special_Atk": 81,
 		"Special_Def": 107,
 		"Speed": 43,
-		"Monthly_Usage_(k)": 11
+		"Monthly_Usage": 11
 	},
 	{
 		"Pokemon": "Azelf",
@@ -5639,7 +5639,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 70,
 		"Speed": 115,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Phione",
@@ -5653,7 +5653,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 80,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Manaphy",
@@ -5667,7 +5667,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 100,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Darkrai",
@@ -5681,7 +5681,7 @@
 		"Special_Atk": 135,
 		"Special_Def": 90,
 		"Speed": 125,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Shaymin Land Forme",
@@ -5695,7 +5695,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 100,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Arceus",
@@ -5709,7 +5709,7 @@
 		"Special_Atk": 120,
 		"Special_Def": 120,
 		"Speed": 120,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Snivy",
@@ -5723,7 +5723,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 55,
 		"Speed": 63,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Servine",
@@ -5737,7 +5737,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 75,
 		"Speed": 83,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Serperior",
@@ -5751,7 +5751,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 95,
 		"Speed": 113,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Tepig",
@@ -5765,7 +5765,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 45,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Oshawott",
@@ -5779,7 +5779,7 @@
 		"Special_Atk": 63,
 		"Special_Def": 45,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Dewott",
@@ -5793,7 +5793,7 @@
 		"Special_Atk": 83,
 		"Special_Def": 60,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Samurott",
@@ -5807,7 +5807,7 @@
 		"Special_Atk": 108,
 		"Special_Def": 70,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Altaria",
@@ -5821,7 +5821,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 105,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Patrat",
@@ -5835,7 +5835,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 39,
 		"Speed": 42,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Numel",
@@ -5849,7 +5849,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 45,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Camerupt",
@@ -5863,7 +5863,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 75,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Vibrava",
@@ -5877,7 +5877,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 50,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Flygon",
@@ -5891,7 +5891,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 80,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cacturne",
@@ -5905,7 +5905,7 @@
 		"Special_Atk": 115,
 		"Special_Def": 60,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Swablu",
@@ -5919,7 +5919,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 75,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lunatone",
@@ -5933,7 +5933,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 85,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Solrock",
@@ -5947,7 +5947,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 65,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Barboach",
@@ -5961,7 +5961,7 @@
 		"Special_Atk": 46,
 		"Special_Def": 41,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Whiscash",
@@ -5975,7 +5975,7 @@
 		"Special_Atk": 76,
 		"Special_Def": 71,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Crawdaunt",
@@ -5989,7 +5989,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 55,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Baltoy",
@@ -6003,7 +6003,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 70,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Claydol",
@@ -6017,7 +6017,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 120,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lileep",
@@ -6031,7 +6031,7 @@
 		"Special_Atk": 61,
 		"Special_Def": 87,
 		"Speed": 23,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Anorith",
@@ -6045,7 +6045,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 50,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Armaldo",
@@ -6059,7 +6059,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 80,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Registeel",
@@ -6073,7 +6073,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 150,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Chimecho",
@@ -6087,7 +6087,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 90,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Absol",
@@ -6101,7 +6101,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 60,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Wynaut",
@@ -6115,7 +6115,7 @@
 		"Special_Atk": 23,
 		"Special_Def": 48,
 		"Speed": 23,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Snorunt",
@@ -6129,7 +6129,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 50,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Glalie",
@@ -6143,7 +6143,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 80,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Clamperl",
@@ -6157,7 +6157,7 @@
 		"Special_Atk": 74,
 		"Special_Def": 55,
 		"Speed": 32,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Huntail",
@@ -6171,7 +6171,7 @@
 		"Special_Atk": 94,
 		"Special_Def": 75,
 		"Speed": 52,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gorebyss",
@@ -6185,7 +6185,7 @@
 		"Special_Atk": 114,
 		"Special_Def": 75,
 		"Speed": 52,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Watchog",
@@ -6199,7 +6199,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 69,
 		"Speed": 77,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lillipup",
@@ -6213,7 +6213,7 @@
 		"Special_Atk": 25,
 		"Special_Def": 45,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Herdier",
@@ -6227,7 +6227,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 65,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Stoutland",
@@ -6241,7 +6241,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 90,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Purrloin",
@@ -6255,7 +6255,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 37,
 		"Speed": 66,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pansage",
@@ -6269,7 +6269,7 @@
 		"Special_Atk": 53,
 		"Special_Def": 48,
 		"Speed": 64,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Simisage",
@@ -6283,7 +6283,7 @@
 		"Special_Atk": 98,
 		"Special_Def": 63,
 		"Speed": 101,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pansear",
@@ -6297,7 +6297,7 @@
 		"Special_Atk": 53,
 		"Special_Def": 48,
 		"Speed": 64,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Simisear",
@@ -6311,7 +6311,7 @@
 		"Special_Atk": 98,
 		"Special_Def": 63,
 		"Speed": 101,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Panpour",
@@ -6325,7 +6325,7 @@
 		"Special_Atk": 53,
 		"Special_Def": 48,
 		"Speed": 64,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Simipour",
@@ -6339,7 +6339,7 @@
 		"Special_Atk": 98,
 		"Special_Def": 63,
 		"Speed": 101,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Munna",
@@ -6353,7 +6353,7 @@
 		"Special_Atk": 67,
 		"Special_Def": 55,
 		"Speed": 24,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Musharna",
@@ -6367,7 +6367,7 @@
 		"Special_Atk": 107,
 		"Special_Def": 95,
 		"Speed": 29,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Salamence",
@@ -6381,7 +6381,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 80,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 8
+		"Monthly_Usage": 8
 	},
 	{
 		"Pokemon": "Latias",
@@ -6395,7 +6395,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 130,
 		"Speed": 110,
-		"Monthly_Usage_(k)": 6
+		"Monthly_Usage": 6
 	},
 	{
 		"Pokemon": "Latios",
@@ -6409,7 +6409,7 @@
 		"Special_Atk": 130,
 		"Special_Def": 110,
 		"Speed": 110,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Metagross",
@@ -6423,7 +6423,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 90,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 27
+		"Monthly_Usage": 27
 	},
 	{
 		"Pokemon": "Beldum",
@@ -6437,7 +6437,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 60,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Metang",
@@ -6451,7 +6451,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 80,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Spheal",
@@ -6465,7 +6465,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 50,
 		"Speed": 25,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sealeo",
@@ -6479,7 +6479,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 70,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Walrein",
@@ -6493,7 +6493,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 90,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Primal Groudon",
@@ -6507,7 +6507,7 @@
 		"Special_Atk": 150,
 		"Special_Def": 90,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Tropius",
@@ -6521,7 +6521,7 @@
 		"Special_Atk": 72,
 		"Special_Def": 87,
 		"Speed": 51,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Relicanth",
@@ -6535,7 +6535,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 65,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Blitzle",
@@ -6549,7 +6549,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 32,
 		"Speed": 76,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Zebstrika",
@@ -6563,7 +6563,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 63,
 		"Speed": 116,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Roggenrola",
@@ -6577,7 +6577,7 @@
 		"Special_Atk": 25,
 		"Special_Def": 25,
 		"Speed": 15,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Boldore",
@@ -6591,7 +6591,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 40,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Timburr",
@@ -6605,7 +6605,7 @@
 		"Special_Atk": 25,
 		"Special_Def": 35,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gurdurr",
@@ -6619,7 +6619,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 50,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Tympole",
@@ -6633,7 +6633,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 40,
 		"Speed": 64,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Throh",
@@ -6647,7 +6647,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 85,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sawk",
@@ -6661,7 +6661,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 75,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Petilil",
@@ -6675,7 +6675,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 50,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lilligant",
@@ -6689,7 +6689,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 75,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Basculin White-Striped Form",
@@ -6703,7 +6703,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 55,
 		"Speed": 98,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Basculin Blue-Striped Form",
@@ -6717,7 +6717,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 55,
 		"Speed": 98,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Basculin Red-Striped Form",
@@ -6731,7 +6731,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 55,
 		"Speed": 98,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Galarian Darumaka",
@@ -6745,7 +6745,7 @@
 		"Special_Atk": 15,
 		"Special_Def": 45,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Darumaka",
@@ -6759,7 +6759,7 @@
 		"Special_Atk": 15,
 		"Special_Def": 45,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Maractus",
@@ -6773,7 +6773,7 @@
 		"Special_Atk": 106,
 		"Special_Def": 67,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cofagrigus",
@@ -6787,7 +6787,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 105,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Trubbish",
@@ -6801,7 +6801,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 62,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Zorua",
@@ -6815,7 +6815,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 40,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Zoroark",
@@ -6829,7 +6829,7 @@
 		"Special_Atk": 120,
 		"Special_Def": 60,
 		"Speed": 105,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Minccino",
@@ -6843,7 +6843,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gothita",
@@ -6857,7 +6857,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 65,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gothorita",
@@ -6871,7 +6871,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 85,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Torterra",
@@ -6885,7 +6885,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 85,
 		"Speed": 56,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Monferno",
@@ -6899,7 +6899,7 @@
 		"Special_Atk": 78,
 		"Special_Def": 52,
 		"Speed": 81,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Infernape",
@@ -6913,7 +6913,7 @@
 		"Special_Atk": 104,
 		"Special_Def": 71,
 		"Speed": 108,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Empoleon",
@@ -6927,7 +6927,7 @@
 		"Special_Atk": 111,
 		"Special_Def": 101,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Starly",
@@ -6941,7 +6941,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 30,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Staravia",
@@ -6955,7 +6955,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Staraptor",
@@ -6969,7 +6969,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 60,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Bibarel",
@@ -6983,7 +6983,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 60,
 		"Speed": 71,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Budew",
@@ -6997,7 +6997,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 70,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Roserade",
@@ -7011,7 +7011,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 105,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Wormadam Plant Cloak",
@@ -7025,7 +7025,7 @@
 		"Special_Atk": 79,
 		"Special_Def": 105,
 		"Speed": 36,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Wormadam Sandy Cloak",
@@ -7039,7 +7039,7 @@
 		"Special_Atk": 59,
 		"Special_Def": 85,
 		"Speed": 36,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Wormadam Trash Cloak",
@@ -7053,7 +7053,7 @@
 		"Special_Atk": 69,
 		"Special_Def": 95,
 		"Speed": 36,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Mothim",
@@ -7067,7 +7067,7 @@
 		"Special_Atk": 94,
 		"Special_Def": 50,
 		"Speed": 66,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Combee",
@@ -7081,7 +7081,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 42,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Vespiquen",
@@ -7095,7 +7095,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 102,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Solosis",
@@ -7109,7 +7109,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 50,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gastrodon",
@@ -7123,7 +7123,7 @@
 		"Special_Atk": 92,
 		"Special_Def": 82,
 		"Speed": 39,
-		"Monthly_Usage_(k)": 396
+		"Monthly_Usage": 396
 	},
 	{
 		"Pokemon": "Drifblim",
@@ -7137,7 +7137,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 54,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Shellos",
@@ -7151,7 +7151,7 @@
 		"Special_Atk": 57,
 		"Special_Def": 62,
 		"Speed": 34,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ambipom",
@@ -7165,7 +7165,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 66,
 		"Speed": 115,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Duosion",
@@ -7179,7 +7179,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 60,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Reuniclus",
@@ -7193,7 +7193,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 85,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Vanillite",
@@ -7207,7 +7207,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 60,
 		"Speed": 44,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Vanillish",
@@ -7221,7 +7221,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 75,
 		"Speed": 59,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Vanilluxe",
@@ -7235,7 +7235,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 95,
 		"Speed": 79,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Karrablast",
@@ -7249,7 +7249,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 45,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alomomola",
@@ -7263,7 +7263,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 45,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Klink",
@@ -7277,7 +7277,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 60,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Klang",
@@ -7291,7 +7291,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 85,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Tynamo",
@@ -7305,7 +7305,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 40,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Eelektrik",
@@ -7319,7 +7319,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 70,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lucario",
@@ -7333,7 +7333,7 @@
 		"Special_Atk": 115,
 		"Special_Def": 70,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 9
+		"Monthly_Usage": 9
 	},
 	{
 		"Pokemon": "Eelektross",
@@ -7347,7 +7347,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 80,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Elgyem",
@@ -7361,7 +7361,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 55,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Toxicroak",
@@ -7375,7 +7375,7 @@
 		"Special_Atk": 86,
 		"Special_Def": 65,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 2
+		"Monthly_Usage": 2
 	},
 	{
 		"Pokemon": "Beheeyem",
@@ -7389,7 +7389,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 95,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Axew",
@@ -7403,7 +7403,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 40,
 		"Speed": 57,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Fraxure",
@@ -7417,7 +7417,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 50,
 		"Speed": 67,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Haxorus",
@@ -7431,7 +7431,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 70,
 		"Speed": 97,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Garchomp",
@@ -7445,7 +7445,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 85,
 		"Speed": 102,
-		"Monthly_Usage_(k)": 15
+		"Monthly_Usage": 15
 	},
 	{
 		"Pokemon": "Gible",
@@ -7459,7 +7459,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 45,
 		"Speed": 42,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Bronzong",
@@ -7473,7 +7473,7 @@
 		"Special_Atk": 79,
 		"Special_Def": 116,
 		"Speed": 33,
-		"Monthly_Usage_(k)": 27
+		"Monthly_Usage": 27
 	},
 	{
 		"Pokemon": "Drifloon",
@@ -7487,7 +7487,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 44,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Honchkrow",
@@ -7501,7 +7501,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 52,
 		"Speed": 71,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Skorupi",
@@ -7515,7 +7515,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 55,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Mime Jr.",
@@ -7529,7 +7529,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 90,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Chatot",
@@ -7543,7 +7543,7 @@
 		"Special_Atk": 92,
 		"Special_Def": 42,
 		"Speed": 91,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Spiritomb",
@@ -7557,7 +7557,7 @@
 		"Special_Atk": 92,
 		"Special_Def": 108,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Bronzor",
@@ -7571,7 +7571,7 @@
 		"Special_Atk": 24,
 		"Special_Def": 86,
 		"Speed": 23,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Stunky",
@@ -7585,7 +7585,7 @@
 		"Special_Atk": 41,
 		"Special_Def": 41,
 		"Speed": 74,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Skuntank",
@@ -7599,7 +7599,7 @@
 		"Special_Atk": 71,
 		"Special_Def": 61,
 		"Speed": 84,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Croagunk",
@@ -7613,7 +7613,7 @@
 		"Special_Atk": 61,
 		"Special_Def": 40,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Mantyke",
@@ -7627,7 +7627,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 120,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Snover",
@@ -7641,7 +7641,7 @@
 		"Special_Atk": 62,
 		"Special_Def": 60,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Drapion",
@@ -7655,7 +7655,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 75,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Abomasnow",
@@ -7669,7 +7669,7 @@
 		"Special_Atk": 92,
 		"Special_Def": 85,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 5
+		"Monthly_Usage": 5
 	},
 	{
 		"Pokemon": "Electivire",
@@ -7683,7 +7683,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 85,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Weavile",
@@ -7697,7 +7697,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 85,
 		"Speed": 125,
-		"Monthly_Usage_(k)": 14
+		"Monthly_Usage": 14
 	},
 	{
 		"Pokemon": "Rhyperior",
@@ -7711,7 +7711,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 55,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 9
+		"Monthly_Usage": 9
 	},
 	{
 		"Pokemon": "Togekiss",
@@ -7725,7 +7725,7 @@
 		"Special_Atk": 120,
 		"Special_Def": 115,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 39
+		"Monthly_Usage": 39
 	},
 	{
 		"Pokemon": "Mamoswine",
@@ -7739,7 +7739,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 60,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 16
+		"Monthly_Usage": 16
 	},
 	{
 		"Pokemon": "Leafeon",
@@ -7753,7 +7753,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 65,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 5
+		"Monthly_Usage": 5
 	},
 	{
 		"Pokemon": "Glaceon",
@@ -7767,7 +7767,7 @@
 		"Special_Atk": 130,
 		"Special_Def": 95,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 1
+		"Monthly_Usage": 1
 	},
 	{
 		"Pokemon": "Lickilicky",
@@ -7781,7 +7781,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 95,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Froslass",
@@ -7795,7 +7795,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 70,
 		"Speed": 110,
-		"Monthly_Usage_(k)": 4
+		"Monthly_Usage": 4
 	},
 	{
 		"Pokemon": "Wash Rotom",
@@ -7809,7 +7809,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 107,
 		"Speed": 86,
-		"Monthly_Usage_(k)": 16
+		"Monthly_Usage": 16
 	},
 	{
 		"Pokemon": "Heat Rotom",
@@ -7823,7 +7823,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 107,
 		"Speed": 86,
-		"Monthly_Usage_(k)": 43
+		"Monthly_Usage": 43
 	},
 	{
 		"Pokemon": "Mow Rotom",
@@ -7837,7 +7837,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 107,
 		"Speed": 86,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Tangrowth",
@@ -7851,7 +7851,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 50,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Magmortar",
@@ -7865,7 +7865,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 95,
 		"Speed": 83,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cubchoo",
@@ -7879,7 +7879,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 40,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Beartic",
@@ -7893,7 +7893,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 80,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cryogonal",
@@ -7907,7 +7907,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 135,
 		"Speed": 105,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Heatran",
@@ -7921,7 +7921,7 @@
 		"Special_Atk": 130,
 		"Special_Def": 106,
 		"Speed": 77,
-		"Monthly_Usage_(k)": 9
+		"Monthly_Usage": 9
 	},
 	{
 		"Pokemon": "Shelmet",
@@ -7935,7 +7935,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 65,
 		"Speed": 25,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Giratina Origin Forme",
@@ -7949,7 +7949,7 @@
 		"Special_Atk": 120,
 		"Special_Def": 100,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 16
+		"Monthly_Usage": 16
 	},
 	{
 		"Pokemon": "Giratina Altered Forme",
@@ -7963,7 +7963,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 120,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 9
+		"Monthly_Usage": 9
 	},
 	{
 		"Pokemon": "Mienfoo",
@@ -7977,7 +7977,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 50,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Druddigon",
@@ -7991,7 +7991,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 90,
 		"Speed": 48,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Probopass",
@@ -8005,7 +8005,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 150,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Bouffalant",
@@ -8019,7 +8019,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 95,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Magnezone",
@@ -8033,7 +8033,7 @@
 		"Special_Atk": 130,
 		"Special_Def": 90,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Yanmega",
@@ -8047,7 +8047,7 @@
 		"Special_Atk": 116,
 		"Special_Def": 56,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gliscor",
@@ -8061,7 +8061,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 75,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gallade",
@@ -8075,7 +8075,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 115,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Fan Rotom",
@@ -8089,7 +8089,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 107,
 		"Speed": 86,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Frost Rotom",
@@ -8103,7 +8103,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 107,
 		"Speed": 86,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Rotom",
@@ -8117,7 +8117,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 77,
 		"Speed": 91,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Dialga Origin Forme",
@@ -8131,7 +8131,7 @@
 		"Special_Atk": 150,
 		"Special_Def": 120,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Palkia Origin Forme",
@@ -8145,7 +8145,7 @@
 		"Special_Atk": 150,
 		"Special_Def": 120,
 		"Speed": 120,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cresselia",
@@ -8159,7 +8159,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 130,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 10
+		"Monthly_Usage": 10
 	},
 	{
 		"Pokemon": "Heatmor",
@@ -8173,7 +8173,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 66,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Scatterbug",
@@ -8187,7 +8187,7 @@
 		"Special_Atk": 27,
 		"Special_Def": 25,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Bunnelby",
@@ -8201,7 +8201,7 @@
 		"Special_Atk": 32,
 		"Special_Def": 36,
 		"Speed": 57,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Spewpa",
@@ -8215,7 +8215,7 @@
 		"Special_Atk": 27,
 		"Special_Def": 30,
 		"Speed": 29,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Flab\u00e9b\u00e9",
@@ -8229,7 +8229,7 @@
 		"Special_Atk": 61,
 		"Special_Def": 79,
 		"Speed": 42,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Floette",
@@ -8243,7 +8243,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 98,
 		"Speed": 52,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Florges",
@@ -8257,7 +8257,7 @@
 		"Special_Atk": 112,
 		"Special_Def": 154,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Skiddo",
@@ -8271,7 +8271,7 @@
 		"Special_Atk": 62,
 		"Special_Def": 57,
 		"Speed": 52,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gogoat",
@@ -8285,7 +8285,7 @@
 		"Special_Atk": 97,
 		"Special_Def": 81,
 		"Speed": 68,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pancham",
@@ -8299,7 +8299,7 @@
 		"Special_Atk": 46,
 		"Special_Def": 48,
 		"Speed": 43,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Furfrou",
@@ -8313,7 +8313,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 90,
 		"Speed": 102,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Espurr",
@@ -8327,7 +8327,7 @@
 		"Special_Atk": 63,
 		"Special_Def": 60,
 		"Speed": 68,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Meowstic Female",
@@ -8341,7 +8341,7 @@
 		"Special_Atk": 83,
 		"Special_Def": 81,
 		"Speed": 104,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Spritzee",
@@ -8355,7 +8355,7 @@
 		"Special_Atk": 63,
 		"Special_Def": 65,
 		"Speed": 23,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Aromatisse",
@@ -8369,7 +8369,7 @@
 		"Special_Atk": 99,
 		"Special_Def": 89,
 		"Speed": 29,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Swirlix",
@@ -8383,7 +8383,7 @@
 		"Special_Atk": 59,
 		"Special_Def": 57,
 		"Speed": 49,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Slurpuff",
@@ -8397,7 +8397,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 75,
 		"Speed": 72,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Clauncher",
@@ -8411,7 +8411,7 @@
 		"Special_Atk": 58,
 		"Special_Def": 63,
 		"Speed": 44,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Clawitzer",
@@ -8425,7 +8425,7 @@
 		"Special_Atk": 120,
 		"Special_Def": 89,
 		"Speed": 59,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Brionne",
@@ -8439,7 +8439,7 @@
 		"Special_Atk": 91,
 		"Special_Def": 81,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Yungoos",
@@ -8453,7 +8453,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 30,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gumshoos",
@@ -8467,7 +8467,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 60,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Grubbin",
@@ -8481,7 +8481,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 45,
 		"Speed": 46,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Crabrawler",
@@ -8495,7 +8495,7 @@
 		"Special_Atk": 42,
 		"Special_Def": 47,
 		"Speed": 63,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Rockruff",
@@ -8509,7 +8509,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 40,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Own Tempo Rockruff",
@@ -8523,7 +8523,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 40,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lycanroc Midday Form",
@@ -8537,7 +8537,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 65,
 		"Speed": 112,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lycanroc Midnight Form",
@@ -8551,7 +8551,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 75,
 		"Speed": 82,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lycanroc Dusk Form",
@@ -8565,7 +8565,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 65,
 		"Speed": 110,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Wishiwashi School Form",
@@ -8579,7 +8579,7 @@
 		"Special_Atk": 140,
 		"Special_Def": 135,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Mudbray",
@@ -8593,7 +8593,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 55,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Fomantis",
@@ -8607,7 +8607,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 35,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Swoobat",
@@ -8621,7 +8621,7 @@
 		"Special_Atk": 77,
 		"Special_Def": 55,
 		"Speed": 114,
-		"Monthly_Usage_(k)": 2
+		"Monthly_Usage": 2
 	},
 	{
 		"Pokemon": "Shaymin Sky Forme",
@@ -8635,7 +8635,7 @@
 		"Special_Atk": 120,
 		"Special_Def": 75,
 		"Speed": 127,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pignite",
@@ -8649,7 +8649,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 55,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Emboar",
@@ -8663,7 +8663,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 65,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hisuian Samurott",
@@ -8677,7 +8677,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 65,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pidove",
@@ -8691,7 +8691,7 @@
 		"Special_Atk": 36,
 		"Special_Def": 30,
 		"Speed": 43,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Tranquill",
@@ -8705,7 +8705,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 42,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Unfezant",
@@ -8719,7 +8719,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 55,
 		"Speed": 93,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Woobat",
@@ -8733,7 +8733,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 43,
 		"Speed": 72,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Excadrill",
@@ -8747,7 +8747,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 65,
 		"Speed": 88,
-		"Monthly_Usage_(k)": 10
+		"Monthly_Usage": 10
 	},
 	{
 		"Pokemon": "Drilbur",
@@ -8761,7 +8761,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 45,
 		"Speed": 68,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Audino",
@@ -8775,7 +8775,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 86,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Type: Null",
@@ -8789,7 +8789,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 95,
 		"Speed": 59,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Komala",
@@ -8803,7 +8803,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 95,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Jangmo-o",
@@ -8817,7 +8817,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 45,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Seismitoad",
@@ -8831,7 +8831,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 75,
 		"Speed": 74,
-		"Monthly_Usage_(k)": 59
+		"Monthly_Usage": 59
 	},
 	{
 		"Pokemon": "Corvisquire",
@@ -8845,7 +8845,7 @@
 		"Special_Atk": 43,
 		"Special_Def": 55,
 		"Speed": 77,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Blipbug",
@@ -8859,7 +8859,7 @@
 		"Special_Atk": 25,
 		"Special_Def": 45,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Whimsicott",
@@ -8873,7 +8873,7 @@
 		"Special_Atk": 77,
 		"Special_Def": 75,
 		"Speed": 116,
-		"Monthly_Usage_(k)": 425
+		"Monthly_Usage": 425
 	},
 	{
 		"Pokemon": "Nickit",
@@ -8887,7 +8887,7 @@
 		"Special_Atk": 47,
 		"Special_Def": 52,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Thievul",
@@ -8901,7 +8901,7 @@
 		"Special_Atk": 87,
 		"Special_Def": 92,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Rolycoly",
@@ -8915,7 +8915,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 50,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Silicobra",
@@ -8929,7 +8929,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 50,
 		"Speed": 46,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sandaconda",
@@ -8943,7 +8943,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 70,
 		"Speed": 71,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Krookodile",
@@ -8957,7 +8957,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 70,
 		"Speed": 92,
-		"Monthly_Usage_(k)": 11
+		"Monthly_Usage": 11
 	},
 	{
 		"Pokemon": "Arrokuda",
@@ -8971,7 +8971,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 30,
 		"Speed": 66,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Clobbopus",
@@ -8985,7 +8985,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 50,
 		"Speed": 32,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Grapploct",
@@ -8999,7 +8999,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 80,
 		"Speed": 42,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sinistea",
@@ -9013,7 +9013,7 @@
 		"Special_Atk": 74,
 		"Special_Def": 54,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Polteageist",
@@ -9027,7 +9027,7 @@
 		"Special_Atk": 134,
 		"Special_Def": 114,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hatenna",
@@ -9041,7 +9041,7 @@
 		"Special_Atk": 56,
 		"Special_Def": 53,
 		"Speed": 39,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hattrem",
@@ -9055,7 +9055,7 @@
 		"Special_Atk": 86,
 		"Special_Def": 73,
 		"Speed": 49,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Palpitoad",
@@ -9069,7 +9069,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 55,
 		"Speed": 69,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sewaddle",
@@ -9083,7 +9083,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 60,
 		"Speed": 42,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Swadloon",
@@ -9097,7 +9097,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 80,
 		"Speed": 42,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Leavanny",
@@ -9111,7 +9111,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 80,
 		"Speed": 92,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Venipede",
@@ -9125,7 +9125,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 39,
 		"Speed": 57,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Whirlipede",
@@ -9139,7 +9139,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 79,
 		"Speed": 47,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Scolipede",
@@ -9153,7 +9153,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 69,
 		"Speed": 112,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cottonee",
@@ -9167,7 +9167,7 @@
 		"Special_Atk": 37,
 		"Special_Def": 50,
 		"Speed": 66,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hisuian Lilligant",
@@ -9181,7 +9181,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 75,
 		"Speed": 105,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sandile",
@@ -9195,7 +9195,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 35,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Krokorok",
@@ -9209,7 +9209,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 45,
 		"Speed": 74,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Darmanitan Galarian Zen Mode",
@@ -9223,7 +9223,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 55,
 		"Speed": 135,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Darmanitan Zen Mode",
@@ -9237,7 +9237,7 @@
 		"Special_Atk": 140,
 		"Special_Def": 105,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Scraggy",
@@ -9251,7 +9251,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 70,
 		"Speed": 48,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Dwebble",
@@ -9265,7 +9265,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 35,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Crustle",
@@ -9279,7 +9279,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 75,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Falinks",
@@ -9293,7 +9293,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 60,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Yamask",
@@ -9307,7 +9307,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 65,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Eiscue Noice Face",
@@ -9321,7 +9321,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 50,
 		"Speed": 130,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Eiscue Ice Face",
@@ -9335,7 +9335,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 90,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cufant",
@@ -9349,7 +9349,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 49,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Copperajah",
@@ -9363,7 +9363,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 69,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Zacian Hero of Many Battles",
@@ -9377,7 +9377,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 115,
 		"Speed": 138,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Zamazenta Hero of Many Battles",
@@ -9391,7 +9391,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 115,
 		"Speed": 138,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Scrafty",
@@ -9405,7 +9405,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 115,
 		"Speed": 58,
-		"Monthly_Usage_(k)": 6
+		"Monthly_Usage": 6
 	},
 	{
 		"Pokemon": "Escavalier",
@@ -9419,7 +9419,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 105,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 9
+		"Monthly_Usage": 9
 	},
 	{
 		"Pokemon": "Amoonguss",
@@ -9433,7 +9433,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 80,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 350
+		"Monthly_Usage": 350
 	},
 	{
 		"Pokemon": "Jellicent",
@@ -9447,7 +9447,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 105,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 6
+		"Monthly_Usage": 6
 	},
 	{
 		"Pokemon": "Sigilyph",
@@ -9461,7 +9461,7 @@
 		"Special_Atk": 103,
 		"Special_Def": 80,
 		"Speed": 97,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Galarian Yamask",
@@ -9475,7 +9475,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 65,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Tirtouga",
@@ -9489,7 +9489,7 @@
 		"Special_Atk": 53,
 		"Special_Def": 45,
 		"Speed": 22,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Carracosta",
@@ -9503,7 +9503,7 @@
 		"Special_Atk": 83,
 		"Special_Def": 65,
 		"Speed": 32,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Archen",
@@ -9517,7 +9517,7 @@
 		"Special_Atk": 74,
 		"Special_Def": 45,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Archeops",
@@ -9531,7 +9531,7 @@
 		"Special_Atk": 112,
 		"Special_Def": 65,
 		"Speed": 110,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hisuian Zorua",
@@ -9545,7 +9545,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 40,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hisuian Zoroark",
@@ -9559,7 +9559,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 60,
 		"Speed": 110,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ducklett",
@@ -9573,7 +9573,7 @@
 		"Special_Atk": 44,
 		"Special_Def": 50,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Swanna",
@@ -9587,7 +9587,7 @@
 		"Special_Atk": 87,
 		"Special_Def": 63,
 		"Speed": 98,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Deerling",
@@ -9601,7 +9601,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 50,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sawsbuck",
@@ -9615,7 +9615,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 70,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Emolga",
@@ -9629,7 +9629,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 60,
 		"Speed": 103,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Foongus",
@@ -9643,7 +9643,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 55,
 		"Speed": 15,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Frillish",
@@ -9657,7 +9657,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 85,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Joltik",
@@ -9671,7 +9671,7 @@
 		"Special_Atk": 57,
 		"Special_Def": 50,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Galvantula",
@@ -9685,7 +9685,7 @@
 		"Special_Atk": 97,
 		"Special_Def": 60,
 		"Speed": 108,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ferrothorn",
@@ -9699,7 +9699,7 @@
 		"Special_Atk": 54,
 		"Special_Def": 116,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 131
+		"Monthly_Usage": 131
 	},
 	{
 		"Pokemon": "Chandelure",
@@ -9713,7 +9713,7 @@
 		"Special_Atk": 145,
 		"Special_Def": 90,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 9
+		"Monthly_Usage": 9
 	},
 	{
 		"Pokemon": "Litwick",
@@ -9727,7 +9727,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 55,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Lampent",
@@ -9741,7 +9741,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 60,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Bisharp",
@@ -9755,7 +9755,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 70,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 10
+		"Monthly_Usage": 10
 	},
 	{
 		"Pokemon": "Mandibuzz",
@@ -9769,7 +9769,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 95,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Durant",
@@ -9783,7 +9783,7 @@
 		"Special_Atk": 48,
 		"Special_Def": 48,
 		"Speed": 109,
-		"Monthly_Usage_(k)": 4
+		"Monthly_Usage": 4
 	},
 	{
 		"Pokemon": "Ferroseed",
@@ -9797,7 +9797,7 @@
 		"Special_Atk": 24,
 		"Special_Def": 86,
 		"Speed": 10,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Stunfisk",
@@ -9811,7 +9811,7 @@
 		"Special_Atk": 81,
 		"Special_Def": 99,
 		"Speed": 32,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Galarian Stunfisk",
@@ -9825,7 +9825,7 @@
 		"Special_Atk": 66,
 		"Special_Def": 84,
 		"Speed": 32,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Golett",
@@ -9839,7 +9839,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 50,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Golurk",
@@ -9853,7 +9853,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 80,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pawniard",
@@ -9867,7 +9867,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Rufflet",
@@ -9881,7 +9881,7 @@
 		"Special_Atk": 37,
 		"Special_Def": 50,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hisuian Braviary",
@@ -9895,7 +9895,7 @@
 		"Special_Atk": 112,
 		"Special_Def": 70,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Braviary",
@@ -9909,7 +9909,7 @@
 		"Special_Atk": 57,
 		"Special_Def": 75,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Vullaby",
@@ -9923,7 +9923,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 65,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Deino",
@@ -9937,7 +9937,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 50,
 		"Speed": 38,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Zweilous",
@@ -9951,7 +9951,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 70,
 		"Speed": 58,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hydreigon",
@@ -9965,7 +9965,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 90,
 		"Speed": 98,
-		"Monthly_Usage_(k)": 13
+		"Monthly_Usage": 13
 	},
 	{
 		"Pokemon": "Terrakion",
@@ -9979,7 +9979,7 @@
 		"Special_Atk": 72,
 		"Special_Def": 90,
 		"Speed": 108,
-		"Monthly_Usage_(k)": 5
+		"Monthly_Usage": 5
 	},
 	{
 		"Pokemon": "Tornadus Incarnate Forme",
@@ -9993,7 +9993,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 80,
 		"Speed": 111,
-		"Monthly_Usage_(k)": 191
+		"Monthly_Usage": 191
 	},
 	{
 		"Pokemon": "Thundurus Therian Forme",
@@ -10007,7 +10007,7 @@
 		"Special_Atk": 145,
 		"Special_Def": 80,
 		"Speed": 101,
-		"Monthly_Usage_(k)": 9
+		"Monthly_Usage": 9
 	},
 	{
 		"Pokemon": "Thundurus Incarnate Forme",
@@ -10021,7 +10021,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 80,
 		"Speed": 111,
-		"Monthly_Usage_(k)": 352
+		"Monthly_Usage": 352
 	},
 	{
 		"Pokemon": "Volcarona",
@@ -10035,7 +10035,7 @@
 		"Special_Atk": 135,
 		"Special_Def": 105,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 28
+		"Monthly_Usage": 28
 	},
 	{
 		"Pokemon": "Larvesta",
@@ -10049,7 +10049,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 55,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Landorus Incarnate Forme",
@@ -10063,7 +10063,7 @@
 		"Special_Atk": 115,
 		"Special_Def": 80,
 		"Speed": 101,
-		"Monthly_Usage_(k)": 23
+		"Monthly_Usage": 23
 	},
 	{
 		"Pokemon": "Landorus Therian Forme",
@@ -10077,7 +10077,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 80,
 		"Speed": 91,
-		"Monthly_Usage_(k)": 369
+		"Monthly_Usage": 369
 	},
 	{
 		"Pokemon": "Cobalion",
@@ -10091,7 +10091,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 72,
 		"Speed": 108,
-		"Monthly_Usage_(k)": 6
+		"Monthly_Usage": 6
 	},
 	{
 		"Pokemon": "Black Kyurem",
@@ -10105,7 +10105,7 @@
 		"Special_Atk": 120,
 		"Special_Def": 90,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 7
+		"Monthly_Usage": 7
 	},
 	{
 		"Pokemon": "White Kyurem",
@@ -10119,7 +10119,7 @@
 		"Special_Atk": 170,
 		"Special_Def": 100,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 95
+		"Monthly_Usage": 95
 	},
 	{
 		"Pokemon": "Diggersby",
@@ -10133,7 +10133,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 77,
 		"Speed": 78,
-		"Monthly_Usage_(k)": 1
+		"Monthly_Usage": 1
 	},
 	{
 		"Pokemon": "Talonflame",
@@ -10147,7 +10147,7 @@
 		"Special_Atk": 74,
 		"Special_Def": 69,
 		"Speed": 126,
-		"Monthly_Usage_(k)": 22
+		"Monthly_Usage": 22
 	},
 	{
 		"Pokemon": "Virizion",
@@ -10161,7 +10161,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 129,
 		"Speed": 108,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Meloetta Pirouette Forme",
@@ -10175,7 +10175,7 @@
 		"Special_Atk": 77,
 		"Special_Def": 77,
 		"Speed": 128,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Meloetta Aria Forme",
@@ -10189,7 +10189,7 @@
 		"Special_Atk": 128,
 		"Special_Def": 128,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Chesnaught",
@@ -10203,7 +10203,7 @@
 		"Special_Atk": 74,
 		"Special_Def": 75,
 		"Speed": 64,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Delphox",
@@ -10217,7 +10217,7 @@
 		"Special_Atk": 114,
 		"Special_Def": 100,
 		"Speed": 104,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Greninja",
@@ -10231,7 +10231,7 @@
 		"Special_Atk": 103,
 		"Special_Def": 71,
 		"Speed": 122,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ash-Greninja",
@@ -10245,7 +10245,7 @@
 		"Special_Atk": 153,
 		"Special_Def": 71,
 		"Speed": 132,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Fletchling",
@@ -10259,7 +10259,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 38,
 		"Speed": 62,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Binacle",
@@ -10273,7 +10273,7 @@
 		"Special_Atk": 39,
 		"Special_Def": 56,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Barbaracle",
@@ -10287,7 +10287,7 @@
 		"Special_Atk": 54,
 		"Special_Def": 86,
 		"Speed": 68,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Amaura",
@@ -10301,7 +10301,7 @@
 		"Special_Atk": 67,
 		"Special_Def": 63,
 		"Speed": 46,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Aurorus",
@@ -10315,7 +10315,7 @@
 		"Special_Atk": 99,
 		"Special_Def": 92,
 		"Speed": 58,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Aegislash Shield Forme",
@@ -10329,7 +10329,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 140,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 10
+		"Monthly_Usage": 10
 	},
 	{
 		"Pokemon": "Heliolisk",
@@ -10343,7 +10343,7 @@
 		"Special_Atk": 109,
 		"Special_Def": 94,
 		"Speed": 109,
-		"Monthly_Usage_(k)": 8
+		"Monthly_Usage": 8
 	},
 	{
 		"Pokemon": "Tyrantrum",
@@ -10357,7 +10357,7 @@
 		"Special_Atk": 69,
 		"Special_Def": 59,
 		"Speed": 71,
-		"Monthly_Usage_(k)": 918
+		"Monthly_Usage": 918
 	},
 	{
 		"Pokemon": "Hawlucha",
@@ -10371,7 +10371,7 @@
 		"Special_Atk": 74,
 		"Special_Def": 63,
 		"Speed": 118,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Vivillon",
@@ -10385,7 +10385,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 50,
 		"Speed": 89,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Litleo",
@@ -10399,7 +10399,7 @@
 		"Special_Atk": 73,
 		"Special_Def": 54,
 		"Speed": 72,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pyroar",
@@ -10413,7 +10413,7 @@
 		"Special_Atk": 109,
 		"Special_Def": 66,
 		"Speed": 106,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pangoro",
@@ -10427,7 +10427,7 @@
 		"Special_Atk": 69,
 		"Special_Def": 71,
 		"Speed": 58,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Honedge",
@@ -10441,7 +10441,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 37,
 		"Speed": 28,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Doublade",
@@ -10455,7 +10455,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 49,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Aegislash Blade Forme",
@@ -10469,7 +10469,7 @@
 		"Special_Atk": 140,
 		"Special_Def": 50,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Inkay",
@@ -10483,7 +10483,7 @@
 		"Special_Atk": 37,
 		"Special_Def": 46,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Malamar",
@@ -10497,7 +10497,7 @@
 		"Special_Atk": 68,
 		"Special_Def": 75,
 		"Speed": 73,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Skrelp",
@@ -10511,7 +10511,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 60,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Dragalge",
@@ -10525,7 +10525,7 @@
 		"Special_Atk": 97,
 		"Special_Def": 123,
 		"Speed": 44,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Helioptile",
@@ -10539,7 +10539,7 @@
 		"Special_Atk": 61,
 		"Special_Def": 43,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Tyrunt",
@@ -10553,7 +10553,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 45,
 		"Speed": 48,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Dedenne",
@@ -10567,7 +10567,7 @@
 		"Special_Atk": 81,
 		"Special_Def": 67,
 		"Speed": 101,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Goodra",
@@ -10581,7 +10581,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 150,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 6
+		"Monthly_Usage": 6
 	},
 	{
 		"Pokemon": "Zygarde Complete Forme",
@@ -10595,7 +10595,7 @@
 		"Special_Atk": 91,
 		"Special_Def": 95,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 42
+		"Monthly_Usage": 42
 	},
 	{
 		"Pokemon": "Klefki",
@@ -10609,7 +10609,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 87,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 5
+		"Monthly_Usage": 5
 	},
 	{
 		"Pokemon": "Trevenant",
@@ -10623,7 +10623,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 82,
 		"Speed": 56,
-		"Monthly_Usage_(k)": 2
+		"Monthly_Usage": 2
 	},
 	{
 		"Pokemon": "Phantump",
@@ -10637,7 +10637,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 60,
 		"Speed": 38,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pumpkaboo Super Size",
@@ -10651,7 +10651,7 @@
 		"Special_Atk": 44,
 		"Special_Def": 55,
 		"Speed": 41,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pumpkaboo Large Size",
@@ -10665,7 +10665,7 @@
 		"Special_Atk": 44,
 		"Special_Def": 55,
 		"Speed": 46,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pumpkaboo Small Size",
@@ -10679,7 +10679,7 @@
 		"Special_Atk": 44,
 		"Special_Def": 55,
 		"Speed": 56,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Pumpkaboo Average Size",
@@ -10693,7 +10693,7 @@
 		"Special_Atk": 44,
 		"Special_Def": 55,
 		"Speed": 51,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gourgeist Super Size",
@@ -10707,7 +10707,7 @@
 		"Special_Atk": 58,
 		"Special_Def": 75,
 		"Speed": 54,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hisuian Sliggoo",
@@ -10721,7 +10721,7 @@
 		"Special_Atk": 83,
 		"Special_Def": 113,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hisuian Goodra",
@@ -10735,7 +10735,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 150,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Incineroar",
@@ -10749,7 +10749,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 90,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 1124
+		"Monthly_Usage": 1124
 	},
 	{
 		"Pokemon": "Araquanid",
@@ -10763,7 +10763,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 132,
 		"Speed": 42,
-		"Monthly_Usage_(k)": 15
+		"Monthly_Usage": 15
 	},
 	{
 		"Pokemon": "Primarina",
@@ -10777,7 +10777,7 @@
 		"Special_Atk": 126,
 		"Special_Def": 116,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 11
+		"Monthly_Usage": 11
 	},
 	{
 		"Pokemon": "Dewpider",
@@ -10791,7 +10791,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 72,
 		"Speed": 27,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Vikavolt",
@@ -10805,7 +10805,7 @@
 		"Special_Atk": 145,
 		"Special_Def": 75,
 		"Speed": 43,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Toxapex",
@@ -10819,7 +10819,7 @@
 		"Special_Atk": 53,
 		"Special_Def": 142,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 5
+		"Monthly_Usage": 5
 	},
 	{
 		"Pokemon": "Pikipek",
@@ -10833,7 +10833,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 30,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Trumbeak",
@@ -10847,7 +10847,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 50,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Toucannon",
@@ -10861,7 +10861,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 75,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Charjabug",
@@ -10875,7 +10875,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 75,
 		"Speed": 36,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Crabominable",
@@ -10889,7 +10889,7 @@
 		"Special_Atk": 62,
 		"Special_Def": 67,
 		"Speed": 43,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Oricorio Pa'u Style",
@@ -10903,7 +10903,7 @@
 		"Special_Atk": 98,
 		"Special_Def": 70,
 		"Speed": 93,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Oricorio Pom-Pom Style",
@@ -10917,7 +10917,7 @@
 		"Special_Atk": 98,
 		"Special_Def": 70,
 		"Speed": 93,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Oricorio Sensu Style",
@@ -10931,7 +10931,7 @@
 		"Special_Atk": 98,
 		"Special_Def": 70,
 		"Speed": 93,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Oricorio Baile Style",
@@ -10945,7 +10945,7 @@
 		"Special_Atk": 98,
 		"Special_Def": 70,
 		"Speed": 93,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cutiefly",
@@ -10959,7 +10959,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 40,
 		"Speed": 84,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ribombee",
@@ -10973,7 +10973,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 70,
 		"Speed": 124,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Mareanie",
@@ -10987,7 +10987,7 @@
 		"Special_Atk": 43,
 		"Special_Def": 52,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Morelull",
@@ -11001,7 +11001,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 75,
 		"Speed": 15,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Shiinotic",
@@ -11015,7 +11015,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 100,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Salandit",
@@ -11029,7 +11029,7 @@
 		"Special_Atk": 71,
 		"Special_Def": 40,
 		"Speed": 77,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Salazzle",
@@ -11043,7 +11043,7 @@
 		"Special_Atk": 111,
 		"Special_Def": 60,
 		"Speed": 117,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Tsareena",
@@ -11057,7 +11057,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 98,
 		"Speed": 72,
-		"Monthly_Usage_(k)": 26
+		"Monthly_Usage": 26
 	},
 	{
 		"Pokemon": "Oranguru",
@@ -11071,7 +11071,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 110,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 17
+		"Monthly_Usage": 17
 	},
 	{
 		"Pokemon": "Comfey",
@@ -11085,7 +11085,7 @@
 		"Special_Atk": 82,
 		"Special_Def": 110,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 54
+		"Monthly_Usage": 54
 	},
 	{
 		"Pokemon": "Bounsweet",
@@ -11099,7 +11099,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 38,
 		"Speed": 32,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Celesteela",
@@ -11113,7 +11113,7 @@
 		"Special_Atk": 107,
 		"Special_Def": 101,
 		"Speed": 61,
-		"Monthly_Usage_(k)": 26
+		"Monthly_Usage": 26
 	},
 	{
 		"Pokemon": "Dhelmise",
@@ -11127,7 +11127,7 @@
 		"Special_Atk": 86,
 		"Special_Def": 90,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Palossand",
@@ -11141,7 +11141,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 75,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 5
+		"Monthly_Usage": 5
 	},
 	{
 		"Pokemon": "Togedemaru",
@@ -11155,7 +11155,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 73,
 		"Speed": 96,
-		"Monthly_Usage_(k)": 7
+		"Monthly_Usage": 7
 	},
 	{
 		"Pokemon": "Mimikyu",
@@ -11169,7 +11169,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 105,
 		"Speed": 96,
-		"Monthly_Usage_(k)": 114
+		"Monthly_Usage": 114
 	},
 	{
 		"Pokemon": "Drampa",
@@ -11183,7 +11183,7 @@
 		"Special_Atk": 135,
 		"Special_Def": 91,
 		"Speed": 36,
-		"Monthly_Usage_(k)": 4
+		"Monthly_Usage": 4
 	},
 	{
 		"Pokemon": "Sandygast",
@@ -11197,7 +11197,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 45,
 		"Speed": 15,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Kommo-o",
@@ -11211,7 +11211,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 105,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 2
+		"Monthly_Usage": 2
 	},
 	{
 		"Pokemon": "Tapu Koko",
@@ -11225,7 +11225,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 75,
 		"Speed": 130,
-		"Monthly_Usage_(k)": 27
+		"Monthly_Usage": 27
 	},
 	{
 		"Pokemon": "Tapu Lele",
@@ -11239,7 +11239,7 @@
 		"Special_Atk": 130,
 		"Special_Def": 115,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 23
+		"Monthly_Usage": 23
 	},
 	{
 		"Pokemon": "Tapu Bulu",
@@ -11253,7 +11253,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 95,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 2
+		"Monthly_Usage": 2
 	},
 	{
 		"Pokemon": "Tapu Fini",
@@ -11267,7 +11267,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 130,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 74
+		"Monthly_Usage": 74
 	},
 	{
 		"Pokemon": "Nihilego",
@@ -11281,7 +11281,7 @@
 		"Special_Atk": 127,
 		"Special_Def": 131,
 		"Speed": 103,
-		"Monthly_Usage_(k)": 7
+		"Monthly_Usage": 7
 	},
 	{
 		"Pokemon": "Pheromosa",
@@ -11295,7 +11295,7 @@
 		"Special_Atk": 137,
 		"Special_Def": 37,
 		"Speed": 151,
-		"Monthly_Usage_(k)": 29
+		"Monthly_Usage": 29
 	},
 	{
 		"Pokemon": "Wimpod",
@@ -11309,7 +11309,7 @@
 		"Special_Atk": 20,
 		"Special_Def": 30,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Golisopod",
@@ -11323,7 +11323,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 90,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Minior Meteor Form",
@@ -11337,7 +11337,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 100,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Minior Core Form",
@@ -11351,7 +11351,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 60,
 		"Speed": 120,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Turtonator",
@@ -11365,7 +11365,7 @@
 		"Special_Atk": 91,
 		"Special_Def": 85,
 		"Speed": 36,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Bruxish",
@@ -11379,7 +11379,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 70,
 		"Speed": 92,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hakamo-o",
@@ -11393,7 +11393,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 70,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Buzzwole",
@@ -11407,7 +11407,7 @@
 		"Special_Atk": 53,
 		"Special_Def": 53,
 		"Speed": 79,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Kartana",
@@ -11421,7 +11421,7 @@
 		"Special_Atk": 59,
 		"Special_Def": 31,
 		"Speed": 109,
-		"Monthly_Usage_(k)": 118
+		"Monthly_Usage": 118
 	},
 	{
 		"Pokemon": "Dusk Mane Necrozma",
@@ -11435,7 +11435,7 @@
 		"Special_Atk": 113,
 		"Special_Def": 109,
 		"Speed": 77,
-		"Monthly_Usage_(k)": 49
+		"Monthly_Usage": 49
 	},
 	{
 		"Pokemon": "Rillaboom",
@@ -11449,7 +11449,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 70,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 482
+		"Monthly_Usage": 482
 	},
 	{
 		"Pokemon": "Dawn Wings Necrozma",
@@ -11463,7 +11463,7 @@
 		"Special_Atk": 157,
 		"Special_Def": 127,
 		"Speed": 77,
-		"Monthly_Usage_(k)": 10
+		"Monthly_Usage": 10
 	},
 	{
 		"Pokemon": "Cinderace",
@@ -11477,7 +11477,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 75,
 		"Speed": 119,
-		"Monthly_Usage_(k)": 45
+		"Monthly_Usage": 45
 	},
 	{
 		"Pokemon": "Inteleon",
@@ -11491,7 +11491,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 65,
 		"Speed": 120,
-		"Monthly_Usage_(k)": 11
+		"Monthly_Usage": 11
 	},
 	{
 		"Pokemon": "Blacephalon",
@@ -11505,7 +11505,7 @@
 		"Special_Atk": 151,
 		"Special_Def": 79,
 		"Speed": 107,
-		"Monthly_Usage_(k)": 9
+		"Monthly_Usage": 9
 	},
 	{
 		"Pokemon": "Greedent",
@@ -11519,7 +11519,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 75,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 1
+		"Monthly_Usage": 1
 	},
 	{
 		"Pokemon": "Poipole",
@@ -11533,7 +11533,7 @@
 		"Special_Atk": 73,
 		"Special_Def": 67,
 		"Speed": 73,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Grookey",
@@ -11547,7 +11547,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Thwackey",
@@ -11561,7 +11561,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 60,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Scorbunny",
@@ -11575,7 +11575,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 69,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Raboot",
@@ -11589,7 +11589,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 60,
 		"Speed": 94,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sobble",
@@ -11603,7 +11603,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 40,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Drizzile",
@@ -11617,7 +11617,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 55,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Corviknight",
@@ -11631,7 +11631,7 @@
 		"Special_Atk": 53,
 		"Special_Def": 85,
 		"Speed": 67,
-		"Monthly_Usage_(k)": 10
+		"Monthly_Usage": 10
 	},
 	{
 		"Pokemon": "Skwovet",
@@ -11645,7 +11645,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 35,
 		"Speed": 25,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Rookidee",
@@ -11659,7 +11659,7 @@
 		"Special_Atk": 33,
 		"Special_Def": 35,
 		"Speed": 57,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Stakataka",
@@ -11673,7 +11673,7 @@
 		"Special_Atk": 53,
 		"Special_Def": 101,
 		"Speed": 13,
-		"Monthly_Usage_(k)": 23
+		"Monthly_Usage": 23
 	},
 	{
 		"Pokemon": "Guzzlord",
@@ -11687,7 +11687,7 @@
 		"Special_Atk": 97,
 		"Special_Def": 53,
 		"Speed": 43,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ultra Necrozma",
@@ -11701,7 +11701,7 @@
 		"Special_Atk": 167,
 		"Special_Def": 97,
 		"Speed": 129,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Naganadel",
@@ -11715,7 +11715,7 @@
 		"Special_Atk": 127,
 		"Special_Def": 73,
 		"Speed": 121,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Dottler",
@@ -11729,7 +11729,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 90,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Orbeetle",
@@ -11743,7 +11743,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 120,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Boltund",
@@ -11757,7 +11757,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 60,
 		"Speed": 121,
-		"Monthly_Usage_(k)": 2
+		"Monthly_Usage": 2
 	},
 	{
 		"Pokemon": "Drednaw",
@@ -11771,7 +11771,7 @@
 		"Special_Atk": 48,
 		"Special_Def": 68,
 		"Speed": 74,
-		"Monthly_Usage_(k)": 4
+		"Monthly_Usage": 4
 	},
 	{
 		"Pokemon": "Gossifleur",
@@ -11785,7 +11785,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 60,
 		"Speed": 10,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Eldegoss",
@@ -11799,7 +11799,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 120,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Wooloo",
@@ -11813,7 +11813,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 45,
 		"Speed": 48,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Appletun",
@@ -11827,7 +11827,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 80,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 4
+		"Monthly_Usage": 4
 	},
 	{
 		"Pokemon": "Dubwool",
@@ -11841,7 +11841,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 90,
 		"Speed": 88,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Chewtle",
@@ -11855,7 +11855,7 @@
 		"Special_Atk": 38,
 		"Special_Def": 38,
 		"Speed": 44,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Yamper",
@@ -11869,7 +11869,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 50,
 		"Speed": 26,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Coalossal",
@@ -11883,7 +11883,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 90,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 40
+		"Monthly_Usage": 40
 	},
 	{
 		"Pokemon": "Carkol",
@@ -11897,7 +11897,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 70,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cramorant",
@@ -11911,7 +11911,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 95,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Centiskorch",
@@ -11925,7 +11925,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 90,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 12
+		"Monthly_Usage": 12
 	},
 	{
 		"Pokemon": "Hatterene",
@@ -11939,7 +11939,7 @@
 		"Special_Atk": 136,
 		"Special_Def": 103,
 		"Speed": 29,
-		"Monthly_Usage_(k)": 22
+		"Monthly_Usage": 22
 	},
 	{
 		"Pokemon": "Applin",
@@ -11953,7 +11953,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 40,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Flapple",
@@ -11967,7 +11967,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 60,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Toxel",
@@ -11981,7 +11981,7 @@
 		"Special_Atk": 54,
 		"Special_Def": 35,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Toxtricity Amped Form",
@@ -11995,7 +11995,7 @@
 		"Special_Atk": 114,
 		"Special_Def": 70,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Toxtricity Low Key Form",
@@ -12009,7 +12009,7 @@
 		"Special_Atk": 114,
 		"Special_Def": 70,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sizzlipede",
@@ -12023,7 +12023,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 50,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Impidimp",
@@ -12037,7 +12037,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 40,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Morgrem",
@@ -12051,7 +12051,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 55,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Alcremie",
@@ -12065,7 +12065,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 121,
 		"Speed": 64,
-		"Monthly_Usage_(k)": 18
+		"Monthly_Usage": 18
 	},
 	{
 		"Pokemon": "Grimmsnarl",
@@ -12079,7 +12079,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 75,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 577
+		"Monthly_Usage": 577
 	},
 	{
 		"Pokemon": "Obstagoon",
@@ -12093,7 +12093,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 81,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 6
+		"Monthly_Usage": 6
 	},
 	{
 		"Pokemon": "Perrserker",
@@ -12107,7 +12107,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 60,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Cursola",
@@ -12121,7 +12121,7 @@
 		"Special_Atk": 145,
 		"Special_Def": 130,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sirfetch'd",
@@ -12135,7 +12135,7 @@
 		"Special_Atk": 68,
 		"Special_Def": 82,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Milcery",
@@ -12149,7 +12149,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 61,
 		"Speed": 34,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Dragapult",
@@ -12163,7 +12163,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 75,
 		"Speed": 142,
-		"Monthly_Usage_(k)": 54
+		"Monthly_Usage": 54
 	},
 	{
 		"Pokemon": "Dreepy",
@@ -12177,7 +12177,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 30,
 		"Speed": 82,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Drakloak",
@@ -12191,7 +12191,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 50,
 		"Speed": 102,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Mr. Rime",
@@ -12205,7 +12205,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 100,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 2
+		"Monthly_Usage": 2
 	},
 	{
 		"Pokemon": "Indeedee Female",
@@ -12219,7 +12219,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 105,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 387
+		"Monthly_Usage": 387
 	},
 	{
 		"Pokemon": "Dracozolt",
@@ -12233,7 +12233,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 70,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 8
+		"Monthly_Usage": 8
 	},
 	{
 		"Pokemon": "Dracovish",
@@ -12247,7 +12247,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 80,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 32
+		"Monthly_Usage": 32
 	},
 	{
 		"Pokemon": "Duraludon",
@@ -12261,7 +12261,7 @@
 		"Special_Atk": 120,
 		"Special_Def": 50,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 8
+		"Monthly_Usage": 8
 	},
 	{
 		"Pokemon": "Indeedee Male",
@@ -12275,7 +12275,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 95,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 26
+		"Monthly_Usage": 26
 	},
 	{
 		"Pokemon": "Zacian Crowned Sword",
@@ -12289,7 +12289,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 115,
 		"Speed": 148,
-		"Monthly_Usage_(k)": 1088
+		"Monthly_Usage": 1088
 	},
 	{
 		"Pokemon": "Zamazenta Crowned Shield",
@@ -12303,7 +12303,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 145,
 		"Speed": 128,
-		"Monthly_Usage_(k)": 41
+		"Monthly_Usage": 41
 	},
 	{
 		"Pokemon": "Runerigus",
@@ -12317,7 +12317,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 105,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Snom",
@@ -12331,7 +12331,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 30,
 		"Speed": 20,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Frosmoth",
@@ -12345,7 +12345,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 90,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Morpeko Hangry Mode",
@@ -12359,7 +12359,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 58,
 		"Speed": 97,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Morpeko Full Belly Mode",
@@ -12373,7 +12373,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 58,
 		"Speed": 97,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Arctozolt",
@@ -12387,7 +12387,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 80,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Arctovish",
@@ -12401,7 +12401,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 90,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Regieleki",
@@ -12415,7 +12415,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 50,
 		"Speed": 200,
-		"Monthly_Usage_(k)": 603
+		"Monthly_Usage": 603
 	},
 	{
 		"Pokemon": "Eternatus",
@@ -12429,7 +12429,7 @@
 		"Special_Atk": 145,
 		"Special_Def": 95,
 		"Speed": 130,
-		"Monthly_Usage_(k)": 41
+		"Monthly_Usage": 41
 	},
 	{
 		"Pokemon": "Regidrago",
@@ -12443,7 +12443,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 50,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 12
+		"Monthly_Usage": 12
 	},
 	{
 		"Pokemon": "Glastrier",
@@ -12457,7 +12457,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 110,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 13
+		"Monthly_Usage": 13
 	},
 	{
 		"Pokemon": "Urshifu Single Strike Style",
@@ -12471,7 +12471,7 @@
 		"Special_Atk": 63,
 		"Special_Def": 60,
 		"Speed": 97,
-		"Monthly_Usage_(k)": 125
+		"Monthly_Usage": 125
 	},
 	{
 		"Pokemon": "Spectrier",
@@ -12485,7 +12485,7 @@
 		"Special_Atk": 145,
 		"Special_Def": 80,
 		"Speed": 130,
-		"Monthly_Usage_(k)": 19
+		"Monthly_Usage": 19
 	},
 	{
 		"Pokemon": "Kubfu",
@@ -12499,7 +12499,7 @@
 		"Special_Atk": 53,
 		"Special_Def": 50,
 		"Speed": 72,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Calyrex Shadow Rider",
@@ -12513,7 +12513,7 @@
 		"Special_Atk": 165,
 		"Special_Def": 100,
 		"Speed": 150,
-		"Monthly_Usage_(k)": 363
+		"Monthly_Usage": 363
 	},
 	{
 		"Pokemon": "Calyrex Ice Rider",
@@ -12527,7 +12527,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 130,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 294
+		"Monthly_Usage": 294
 	},
 	{
 		"Pokemon": "Urshifu Rapid Strike Style",
@@ -12541,7 +12541,7 @@
 		"Special_Atk": 63,
 		"Special_Def": 60,
 		"Speed": 97,
-		"Monthly_Usage_(k)": 58
+		"Monthly_Usage": 58
 	},
 	{
 		"Pokemon": "Clefairy",
@@ -12555,7 +12555,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 65,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 25
+		"Monthly_Usage": 25
 	},
 	{
 		"Pokemon": "Clefable",
@@ -12569,7 +12569,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 90,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 7
+		"Monthly_Usage": 7
 	},
 	{
 		"Pokemon": "Dugtrio",
@@ -12583,7 +12583,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 70,
 		"Speed": 120,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Alolan Persian",
@@ -12597,7 +12597,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 65,
 		"Speed": 115,
-		"Monthly_Usage_(k)": 19
+		"Monthly_Usage": 19
 	},
 	{
 		"Pokemon": "Machamp",
@@ -12611,7 +12611,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 85,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 4
+		"Monthly_Usage": 4
 	},
 	{
 		"Pokemon": "Kingler",
@@ -12625,7 +12625,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 50,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 9
+		"Monthly_Usage": 9
 	},
 	{
 		"Pokemon": "Weezing",
@@ -12639,7 +12639,7 @@
 		"Special_Atk": 85,
 		"Special_Def": 70,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 43
+		"Monthly_Usage": 43
 	},
 	{
 		"Pokemon": "Chansey",
@@ -12653,7 +12653,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 105,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 6
+		"Monthly_Usage": 6
 	},
 	{
 		"Pokemon": "Tauros",
@@ -12667,7 +12667,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 70,
 		"Speed": 110,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Ditto",
@@ -12681,7 +12681,7 @@
 		"Special_Atk": 48,
 		"Special_Def": 48,
 		"Speed": 48,
-		"Monthly_Usage_(k)": 74
+		"Monthly_Usage": 74
 	},
 	{
 		"Pokemon": "Snorlax",
@@ -12695,7 +12695,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 110,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 18
+		"Monthly_Usage": 18
 	},
 	{
 		"Pokemon": "Espeon",
@@ -12709,7 +12709,7 @@
 		"Special_Atk": 130,
 		"Special_Def": 95,
 		"Speed": 110,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Umbreon",
@@ -12723,7 +12723,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 130,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 35
+		"Monthly_Usage": 35
 	},
 	{
 		"Pokemon": "Porygon2",
@@ -12737,7 +12737,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 95,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 117
+		"Monthly_Usage": 117
 	},
 	{
 		"Pokemon": "Hitmontop",
@@ -12751,7 +12751,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 110,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 27
+		"Monthly_Usage": 27
 	},
 	{
 		"Pokemon": "Blissey",
@@ -12765,7 +12765,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 135,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Raikou",
@@ -12779,7 +12779,7 @@
 		"Special_Atk": 115,
 		"Special_Def": 100,
 		"Speed": 115,
-		"Monthly_Usage_(k)": 7
+		"Monthly_Usage": 7
 	},
 	{
 		"Pokemon": "Entei",
@@ -12793,7 +12793,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 75,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 50
+		"Monthly_Usage": 50
 	},
 	{
 		"Pokemon": "Suicune",
@@ -12807,7 +12807,7 @@
 		"Special_Atk": 90,
 		"Special_Def": 115,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 28
+		"Monthly_Usage": 28
 	},
 	{
 		"Pokemon": "Manectric",
@@ -12821,7 +12821,7 @@
 		"Special_Atk": 105,
 		"Special_Def": 60,
 		"Speed": 105,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Milotic",
@@ -12835,7 +12835,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 125,
 		"Speed": 81,
-		"Monthly_Usage_(k)": 30
+		"Monthly_Usage": 30
 	},
 	{
 		"Pokemon": "Dusclops",
@@ -12849,7 +12849,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 130,
 		"Speed": 25,
-		"Monthly_Usage_(k)": 88
+		"Monthly_Usage": 88
 	},
 	{
 		"Pokemon": "Luxray",
@@ -12863,7 +12863,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 79,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 2
+		"Monthly_Usage": 2
 	},
 	{
 		"Pokemon": "Cherrim",
@@ -12877,7 +12877,7 @@
 		"Special_Atk": 87,
 		"Special_Def": 78,
 		"Speed": 85,
-		"Monthly_Usage_(k)": 8
+		"Monthly_Usage": 8
 	},
 	{
 		"Pokemon": "Riolu",
@@ -12891,7 +12891,7 @@
 		"Special_Atk": 35,
 		"Special_Def": 40,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 13
+		"Monthly_Usage": 13
 	},
 	{
 		"Pokemon": "Porygon-Z",
@@ -12905,7 +12905,7 @@
 		"Special_Atk": 135,
 		"Special_Def": 75,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 7
+		"Monthly_Usage": 7
 	},
 	{
 		"Pokemon": "Regigigas",
@@ -12919,7 +12919,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 110,
 		"Speed": 100,
-		"Monthly_Usage_(k)": 37
+		"Monthly_Usage": 37
 	},
 	{
 		"Pokemon": "Liepard",
@@ -12933,7 +12933,7 @@
 		"Special_Atk": 88,
 		"Special_Def": 50,
 		"Speed": 106,
-		"Monthly_Usage_(k)": 16
+		"Monthly_Usage": 16
 	},
 	{
 		"Pokemon": "Gigalith",
@@ -12947,7 +12947,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 80,
 		"Speed": 25,
-		"Monthly_Usage_(k)": 4
+		"Monthly_Usage": 4
 	},
 	{
 		"Pokemon": "Conkeldurr",
@@ -12961,7 +12961,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 65,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 10
+		"Monthly_Usage": 10
 	},
 	{
 		"Pokemon": "Darmanitan Standard Mode",
@@ -12975,7 +12975,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 55,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Darmanitan Galarian Standard Mode",
@@ -12989,7 +12989,7 @@
 		"Special_Atk": 30,
 		"Special_Def": 55,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 15
+		"Monthly_Usage": 15
 	},
 	{
 		"Pokemon": "Garbodor",
@@ -13003,7 +13003,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 82,
 		"Speed": 75,
-		"Monthly_Usage_(k)": 1
+		"Monthly_Usage": 1
 	},
 	{
 		"Pokemon": "Cinccino",
@@ -13017,7 +13017,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 60,
 		"Speed": 115,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Gothitelle",
@@ -13031,7 +13031,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 110,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 20
+		"Monthly_Usage": 20
 	},
 	{
 		"Pokemon": "Klinklang",
@@ -13045,7 +13045,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 85,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 884
+		"Monthly_Usage": 884
 	},
 	{
 		"Pokemon": "Accelgor",
@@ -13059,7 +13059,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 60,
 		"Speed": 145,
-		"Monthly_Usage_(k)": 7
+		"Monthly_Usage": 7
 	},
 	{
 		"Pokemon": "Mienshao",
@@ -13073,7 +13073,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 60,
 		"Speed": 105,
-		"Monthly_Usage_(k)": 18
+		"Monthly_Usage": 18
 	},
 	{
 		"Pokemon": "Meowstic Male",
@@ -13087,7 +13087,7 @@
 		"Special_Atk": 83,
 		"Special_Def": 81,
 		"Speed": 104,
-		"Monthly_Usage_(k)": 15
+		"Monthly_Usage": 15
 	},
 	{
 		"Pokemon": "Wishiwashi Solo Form",
@@ -13101,7 +13101,7 @@
 		"Special_Atk": 25,
 		"Special_Def": 25,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 1
+		"Monthly_Usage": 1
 	},
 	{
 		"Pokemon": "Mudsdale",
@@ -13115,7 +13115,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 85,
 		"Speed": 35,
-		"Monthly_Usage_(k)": 6
+		"Monthly_Usage": 6
 	},
 	{
 		"Pokemon": "Lurantis",
@@ -13129,7 +13129,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 90,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 4
+		"Monthly_Usage": 4
 	},
 	{
 		"Pokemon": "Silvally",
@@ -13143,7 +13143,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 95,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 2
+		"Monthly_Usage": 2
 	},
 	{
 		"Pokemon": "Xurkitree",
@@ -13157,7 +13157,7 @@
 		"Special_Atk": 173,
 		"Special_Def": 71,
 		"Speed": 83,
-		"Monthly_Usage_(k)": 4
+		"Monthly_Usage": 4
 	},
 	{
 		"Pokemon": "Barraskewda",
@@ -13171,7 +13171,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 50,
 		"Speed": 136,
-		"Monthly_Usage_(k)": 37
+		"Monthly_Usage": 37
 	},
 	{
 		"Pokemon": "Pincurchin",
@@ -13185,7 +13185,7 @@
 		"Special_Atk": 91,
 		"Special_Def": 85,
 		"Speed": 15,
-		"Monthly_Usage_(k)": 9
+		"Monthly_Usage": 9
 	},
 	{
 		"Pokemon": "Stonjourner",
@@ -13199,7 +13199,7 @@
 		"Special_Atk": 20,
 		"Special_Def": 20,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 3
+		"Monthly_Usage": 3
 	},
 	{
 		"Pokemon": "Charmander",
@@ -13213,7 +13213,7 @@
 		"Special_Atk": 60,
 		"Special_Def": 50,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Charmeleon",
@@ -13227,7 +13227,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 65,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Squirtle",
@@ -13241,7 +13241,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 64,
 		"Speed": 43,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Wartortle",
@@ -13255,7 +13255,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 80,
 		"Speed": 58,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Caterpie",
@@ -13269,7 +13269,7 @@
 		"Special_Atk": 20,
 		"Special_Def": 20,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Metapod",
@@ -13283,7 +13283,7 @@
 		"Special_Atk": 25,
 		"Special_Def": 25,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Rattata",
@@ -13297,7 +13297,7 @@
 		"Special_Atk": 25,
 		"Special_Def": 35,
 		"Speed": 72,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Raticate",
@@ -13311,7 +13311,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 70,
 		"Speed": 97,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Ekans",
@@ -13325,7 +13325,7 @@
 		"Special_Atk": 40,
 		"Special_Def": 54,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Arbok",
@@ -13339,7 +13339,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 79,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Partner Pikachu",
@@ -13353,7 +13353,7 @@
 		"Special_Atk": 75,
 		"Special_Def": 60,
 		"Speed": 120,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Galarian Slowbro",
@@ -13367,7 +13367,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 70,
 		"Speed": 30,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Magnemite",
@@ -13381,7 +13381,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 55,
 		"Speed": 45,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Magneton",
@@ -13395,7 +13395,7 @@
 		"Special_Atk": 120,
 		"Special_Def": 70,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Farfetch'd",
@@ -13409,7 +13409,7 @@
 		"Special_Atk": 58,
 		"Special_Def": 62,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Zygarde 10% Forme",
@@ -13423,7 +13423,7 @@
 		"Special_Atk": 61,
 		"Special_Def": 85,
 		"Speed": 115,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Zygarde 50% Forme",
@@ -13437,7 +13437,7 @@
 		"Special_Atk": 81,
 		"Special_Def": 95,
 		"Speed": 95,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gourgeist Large Size",
@@ -13451,7 +13451,7 @@
 		"Special_Atk": 58,
 		"Special_Def": 75,
 		"Speed": 69,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gourgeist Small Size",
@@ -13465,7 +13465,7 @@
 		"Special_Atk": 58,
 		"Special_Def": 75,
 		"Speed": 99,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gourgeist Average Size",
@@ -13479,7 +13479,7 @@
 		"Special_Atk": 58,
 		"Special_Def": 75,
 		"Speed": 84,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hoopa Unbound",
@@ -13493,7 +13493,7 @@
 		"Special_Atk": 170,
 		"Special_Def": 130,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Kirlia",
@@ -13507,7 +13507,7 @@
 		"Special_Atk": 65,
 		"Special_Def": 55,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Gardevoir",
@@ -13521,7 +13521,7 @@
 		"Special_Atk": 125,
 		"Special_Def": 115,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Surskit",
@@ -13535,7 +13535,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 52,
 		"Speed": 65,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Masquerain",
@@ -13549,7 +13549,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 82,
 		"Speed": 80,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Fletchinder",
@@ -13563,7 +13563,7 @@
 		"Special_Atk": 56,
 		"Special_Def": 52,
 		"Speed": 84,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Carbink",
@@ -13577,7 +13577,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 150,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hisuian Avalugg",
@@ -13591,7 +13591,7 @@
 		"Special_Atk": 34,
 		"Special_Def": 36,
 		"Speed": 38,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Noibat",
@@ -13605,7 +13605,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 40,
 		"Speed": 55,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Noivern",
@@ -13619,7 +13619,7 @@
 		"Special_Atk": 97,
 		"Special_Def": 80,
 		"Speed": 123,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hoopa Confined",
@@ -13633,7 +13633,7 @@
 		"Special_Atk": 150,
 		"Special_Def": 130,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Rowlet",
@@ -13647,7 +13647,7 @@
 		"Special_Atk": 50,
 		"Special_Def": 50,
 		"Speed": 42,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Dartrix",
@@ -13661,7 +13661,7 @@
 		"Special_Atk": 70,
 		"Special_Def": 70,
 		"Speed": 52,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Hisuian Decidueye",
@@ -13675,7 +13675,7 @@
 		"Special_Atk": 95,
 		"Special_Def": 95,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Decidueye",
@@ -13689,7 +13689,7 @@
 		"Special_Atk": 100,
 		"Special_Def": 100,
 		"Speed": 70,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Stufful",
@@ -13703,7 +13703,7 @@
 		"Special_Atk": 45,
 		"Special_Def": 50,
 		"Speed": 50,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Bewear",
@@ -13717,7 +13717,7 @@
 		"Special_Atk": 55,
 		"Special_Def": 60,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Sylveon",
@@ -13731,7 +13731,7 @@
 		"Special_Atk": 110,
 		"Special_Def": 130,
 		"Speed": 60,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Torracat",
@@ -13745,7 +13745,7 @@
 		"Special_Atk": 80,
 		"Special_Def": 50,
 		"Speed": 90,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	},
 	{
 		"Pokemon": "Popplio",
@@ -13759,6 +13759,6 @@
 		"Special_Atk": 66,
 		"Special_Def": 56,
 		"Speed": 40,
-		"Monthly_Usage_(k)": 0
+		"Monthly_Usage": 0
 	}
 ]
