@@ -1,4 +1,4 @@
-const margin = { top: 0.028 * window.innerHeight, right: 0.019 * window.innerWidth, bottom: 0.056* window.innerHeight, left: 0.033 * window.innerWidth };
+const margin = { top: 0.028 * window.innerHeight, right: 0.019 * window.innerWidth, bottom: 0.056 * window.innerHeight, left: 0.033 * window.innerWidth };
 const width_left = 0.326 * window.innerWidth - margin.left - margin.right;
 const height_left_top = 0.563 * window.innerHeight - margin.top - margin.bottom;
 const height_left_bottom = 0.281 * window.innerHeight - margin.top - margin.bottom;
@@ -7,7 +7,7 @@ const width_right = 0.651 * window.innerWidth - margin.left - margin.right;
 const height_right = 0.478 * window.innerHeight - margin.top - margin.bottom;
 
 
-  function init() {
+function init() {
   createBarChart("#vi1");
   //createBarChart("#vi4");
   //createBarChart("#vi5");
@@ -23,7 +23,7 @@ function createBarChart(id) {
     .append("g")
     .attr("id", "gBarChart")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
-  
+
   d3.json("data.json").then(function (data) {
     const x = d3.scaleLinear().domain([0, 10]).range([0, width_left]);
     svg
@@ -50,52 +50,52 @@ function createBarChart(id) {
 function createParallelCoordinates(id) {
   const svg = d3
     .select(id)
-    .attr("width",  width_right + margin.left + margin.right)
+    .attr("width", width_right + margin.left + margin.right)
     .attr("height", height_right + margin.top + margin.bottom)
     .append("g")
     .attr("id", "gParallelCoordinates")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-  d3.json("json/df_pokemon.json").then(function(data) {
+  d3.json("json/df_pokemon.json").then(function (data) {
 
-          
+
     const stats = ["Total", "HP", "Attack", "Defense", "Special_Atk", "Special_Def", "Speed"];
 
-    const stats_double = ["Total", "HP", "Attack", "Defense", "Special_Atk", "Special_Def", "Speed", "Speed", "Special_Def",  "Special_Atk","Defense","Attack","HP","Total"];
+    const stats_double = ["Total", "HP", "Attack", "Defense", "Special_Atk", "Special_Def", "Speed", "Speed", "Special_Def", "Special_Atk", "Defense", "Attack", "HP", "Total"];
 
-    function value(key, d){
-      if(key == "Total" )
+    function value(key, d) {
+      if (key == "Total")
         return d.Total;
-      if(key == "HP")
+      if (key == "HP")
         return d.HP;
-      if(key == "Attack")
+      if (key == "Attack")
         return d.Attack;
-      if(key == "Defense")
+      if (key == "Defense")
         return d.Defense;
-      if(key == "Special_Atk")
+      if (key == "Special_Atk")
         return d.Special_Atk;
-      if(key == "Special_Def")
+      if (key == "Special_Def")
         return d.Special_Def;
-      if(key == "Speed")
+      if (key == "Speed")
         return d.Speed;
     }
 
-    
+
     const color = d3.scaleOrdinal(["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass",
-                                   "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy" ],
-                                   [ "#6D6D53", "#9A2620", "#270F70", "#803380", "#644F14", "#93802D", "#86931A", "#5A467A", "#313149", "#AC4F0C", 
-                                   "#0E3289", "#5F902D", "#826904", "#950631", "#256363", "#3506A9", "#5A463A", "#691125"])
+      "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy"],
+      ["#6D6D53", "#9A2620", "#270F70", "#803380", "#644F14", "#93802D", "#86931A", "#5A467A", "#313149", "#AC4F0C",
+        "#0E3289", "#5F902D", "#826904", "#950631", "#256363", "#3506A9", "#5A463A", "#691125"])
 
 
-    const x = d3.scalePoint(stats, [0, (6/7)* width_right]);
+    const x = d3.scalePoint(stats, [0, (6 / 7) * width_right]);
 
     const y = new Map(Array.from(stats, key => [key, d3.scaleLinear(d3.extent(data, d => value(key, d)), [10, height_right])]))
 
-    new_data = data.filter(function(d) { return d.Monthly_Usage > 0;});
+    new_data = data.filter(function (d) { return d.Monthly_Usage > 0; });
 
     line = d3.line()
-      .defined(([value, ]) => value != null)
-      .x(([,key]) => x(key))
+      .defined(([value,]) => value != null)
+      .x(([, key]) => x(key))
       .y(([value, key]) => y.get(key)(value))
 
 
@@ -110,14 +110,14 @@ function createParallelCoordinates(id) {
       .attr("stroke", d => color(d.Type1))
       .attr("d", d => line(d3.cross([d], stats, (element, key) => [value(key, element), key])))
       .append("title")
-        .text(d => d.Pokemon);
+      .text(d => d.Pokemon);
 
 
     svg.append("g")
-    .selectAll("g")
-    .data(stats)
-    .join("g")
-      .each(function(d) { d3.select(this).call(d3.axisLeft(y.get(d))); })
+      .selectAll("g")
+      .data(stats)
+      .join("g")
+      .each(function (d) { d3.select(this).call(d3.axisLeft(y.get(d))); })
       .attr("transform", d => `translate(${x(d)},0)`)
       .call(g => g.append("text")
         .attr("x", 0)
@@ -145,15 +145,68 @@ function createScatterPoltMoves(id) {
     .attr("id", "gLineChart")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
+  const bar = svg.append("g");
+
+  bar.append("rect")
+    .attr("x", 1000)
+    .attr("y", 10)
+    .attr("height", 60)
+    .attr("width", 10)
+    .attr("stroke", "black");
+
+
+  const gradient = bar.append("defs")
+    .append("linearGradient")
+    .attr("id", "mygrad")
+    .attr("x1", "0%")
+    .attr("x2", "0%")
+    .attr("y1", "0%")
+    .attr("y2", "100%");
+
+  gradient
+    .append("stop")
+    .attr("offset", "0%")
+    .style("stop-color", "#4b83b4");
+
+  gradient
+    .append("stop")
+    .attr("offset", "100%")
+    .style("stop-color", d3.interpolateBlues(0.1));
+
+  bar.attr("fill", "url(#mygrad)");
+
+  bar
+    .append("text")
+    .attr("fill", "currentColor")
+    .text(22)
+    .attr("x", 1015)
+    .attr("y", 20);
+
+  bar
+    .append("text")
+    .attr("fill", "currentColor")
+    .text(1)
+    .attr("x", 1015)
+    .attr("y", 70);
+
+  bar
+    .append("text")
+    .attr("fill", "currentColor")
+    .text("Estimate of number of moves")
+    .attr("x", 1000)
+    .attr("y", 90);
+
   d3.json("json/df_moves.json").then(function (data) {
     data = data.filter(function (d) {
       return d.Power != -1; //&& !(d.Accuracy == -1);
     });
 
+    const keys = ["Special", "Status", "Physical"];
+
     const shape = d3.scaleOrdinal()
-      .domain(["Special", "Status", "Physical" ])
-      .range([ d3.symbolCircle, d3.symbolTriangle, d3.symbolSquare]);
-    
+      .domain(keys)
+      .range([d3.symbolCircle, d3.symbolSquare, d3.symbolTriangle]);
+
     const x = d3
       .scaleLinear()
       .domain([0, 250])
@@ -167,7 +220,7 @@ function createScatterPoltMoves(id) {
       .append("text")
       .attr("class", "x label")
       .attr("text-anchor", "end")
-      .attr("y", height_right -10)
+      .attr("y", height_right - 10)
       .attr("x", width_right)
       .text("Power");
 
@@ -187,20 +240,20 @@ function createScatterPoltMoves(id) {
       .attr("x", 0)
       .attr("transform", `rotate(-90)`)
       .text("PP");
-    
+
     svg
-      .selectAll("dot")
+      .selectAll("dots")
       .data(data)
       .enter()
       .append("path")
-      .attr("class", "itemValue")
+      .attr("class", function (d) { return d.Damage_Class == "Special" ? "circleValue" : "triangleValue" })
       .attr("d", d3.symbol()
         .size(120)
-        .type(function(d) { return shape(d.Damage_Class)})
+        .type(function (d) { return shape(d.Damage_Class) })
       )
-      .attr("transform", function(d) { return "translate(" + x(d.Power) + "," + y(d.PP) + ")"; })
+      .attr("transform", function (d) { return "translate(" + x(d.Power) + "," + y(d.PP) + ")"; })
       .style("fill", "steelblue")
-      .style("opacity", 0.25)
+      .style("opacity", 0.15)
       /*
       .on("mouseover", (event, d) => handleMouseOver(d.country))
       .on("mouseleave", (event, d) => handleMouseLeave())
@@ -208,24 +261,21 @@ function createScatterPoltMoves(id) {
       .append("title")
       .text((d) => d.Move);
 
-    /*svg
-      .selectAll("circle.circleValues")
-      .data(data, (d) => d.title)
-      .join("circle")
-      .attr("class", "circleValues itemValue")
-      .attr("cx", (d) => x(d.oscar_year))
-      .attr("cy", (d) => y(d.budget))
-      .attr("r", 4)
-      .style("fill", function (d, i) {
-        if (d.budget == yMax) return "lightgreen";
-        else if (d.budget == yMin) return "yellow";
-        else return "steelblue";
-      })
-      .style("stroke", "black")
-      .on("mouseover", (event, d) => handleMouseOver(d))
-      .on("mouseleave", (event, d) => handleMouseLeave())
-      .append("title")
-      .text((d) => d.title);*/
+    const trianglesym = d3.symbol().type(d3.symbolTriangle).size(120);
+
+    svg.append("circle").attr("cx", 1000).attr("cy", 130).attr("r", 6).style("fill", "steelblue").style("opacity", 0.15);
+    svg.append("path").attr("d", trianglesym).attr("fill", "steelblue").attr("transform", "translate(1000, 160)").style("opacity", 0.15);
+
+    svg.append("text").attr("x", 1020).attr("y", 130).text("Special").style("font-size", "15px").attr("alignment-baseline", "middle")
+      .on("click", function (d) {
+        currentOpacity = d3.selectAll(".circleValue").style("opacity")
+        d3.selectAll(".circleValue").transition().style("opacity", currentOpacity == 0.15 ? 0 : 0.15)
+      });
+    svg.append("text").attr("x", 1020).attr("y", 160).text("Physical").style("font-size", "15px").attr("alignment-baseline", "middle")
+      .on("click", function (d) {
+        currentOpacity = d3.selectAll(".triangleValue").style("opacity")
+        d3.selectAll(".triangleValue").transition().style("opacity", currentOpacity == 0.15 ? 0 : 0.15)
+      });;
   });
 }
 
@@ -332,7 +382,7 @@ function updateScatterPlot(start, finish) {
             .attr("cx", (d) => x(d.budget))
             .attr("cy", (d) => y(0))
             .attr("r", (d) => radiusScale(d.title.length))
-            .style("fill", "steelblue")
+            .style("fill", "blue")
             .style("stroke", "black")
             .on("mouseover", (event, d) => handleMouseOver(d))
             .on("mouseleave", (event, d) => handleMouseLeave());
@@ -409,7 +459,7 @@ function updateLineChart(start, finish) {
             .style("fill", function (d, i) {
               if (d.budget == yMax) return "lightgreen";
               else if (d.budget == yMin) return "yellow";
-              else return "steelblue";
+              else return "blue";
             })
             .style("stroke", "black")
             .on("mouseover", (event, d) => handleMouseOver(d))
@@ -430,7 +480,7 @@ function updateLineChart(start, finish) {
             .style("fill", function (d, i) {
               if (d.budget == yMax) return "lightgreen";
               else if (d.budget == yMin) return "yellow";
-              else return "steelblue";
+              else return "blue";
             });
         },
         (exit) => {
