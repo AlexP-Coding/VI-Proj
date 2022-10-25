@@ -190,7 +190,7 @@ function createParallelCoordinates(id) {
         .attr("y", 0)
         .attr("text-anchor", "middle")
         .attr("fill", "currentColor")
-        .style("font-size", "1.5em")
+        .style("font-size", 0.018*width_right+"px")
         .text(d => d))
       .call(g => g.selectAll("text")
         .clone(true)
@@ -244,6 +244,7 @@ function createScatterPoltMoves(id) {
   bar
     .append("text")
     .attr("fill", "currentColor")
+    .style("font-size", 0.015*width_right+"px")
     .text(22)
     .attr("x", 0.9*width_right)
     .attr("y", 20);
@@ -251,6 +252,7 @@ function createScatterPoltMoves(id) {
   bar
     .append("text")
     .attr("fill", "currentColor")
+    .style("font-size", 0.015*width_right+"px")
     .text(1)
     .attr("x", 0.9*width_right)
     .attr("y", 70);
@@ -258,6 +260,7 @@ function createScatterPoltMoves(id) {
   bar
     .append("text")
     .attr("fill", "currentColor")
+    .style("font-size", 0.015*width_right+"px")
     .text("Estimate of number of moves")
     .attr("x", 0.88*width_right)
     .attr("y", 90);
@@ -288,6 +291,7 @@ function createScatterPoltMoves(id) {
       .attr("text-anchor", "end")
       .attr("y", height_right - 10)
       .attr("x", width_right)
+      .style("font-size", 0.018*width_right+"px")
       .text("Power");
 
     const y = d3
@@ -305,6 +309,7 @@ function createScatterPoltMoves(id) {
       .attr("y", -25)
       .attr("x", 0)
       .attr("transform", `rotate(-90)`)
+      .style("font-size", 0.018*width_right+"px")
       .text("PP");
 
     svg
@@ -329,15 +334,36 @@ function createScatterPoltMoves(id) {
 
     const trianglesym = d3.symbol().type(d3.symbolTriangle).size(120);
 
-    svg.append("circle").attr("cx",0.88*width_right).attr("cy",  0.465 * height_right).attr("r", 6).style("fill", "steelblue").style("opacity", 0.15);
-    svg.append("path").attr("d", trianglesym).attr("fill", "steelblue").attr("transform", "translate(" +0.88*width_right +", 158)").style("opacity", 0.15);
+    svg.append("circle")
+    .attr("cx",0.88*width_right)
+    .attr("cy",  0.465 * height_right)
+    .attr("r", 6)
+    .style("fill", "steelblue")
+    .style("opacity", 0.15);
 
-    svg.append("text").attr("x", 0.9*width_right).attr("y", 0.48 * height_right).text("Special").style("font-size", "15px").attr("alignment-baseline", "middle")
+    svg.append("path")
+    .attr("d", trianglesym)
+    .attr("fill", "steelblue")
+    .attr("transform", "translate(" +0.88*width_right +", 158)")
+    .style("opacity", 0.15);
+
+    svg.append("text")
+      .attr("x", 0.9*width_right)
+      .attr("y", 0.48 * height_right)
+      .text("Special")
+      .style("font-size", 0.015*width_right+"px")
+      .attr("alignment-baseline", "middle")
       .on("click", function (d) {
         currentOpacity = d3.selectAll(".circleValue").style("opacity")
         d3.selectAll(".circleValue").transition().style("opacity", currentOpacity == 0.15 ? 0 : 0.15)
       });
-    svg.append("text").attr("x", 0.9*width_right).attr("y", 160).text("Physical").style("font-size", "15px").attr("alignment-baseline", "middle")
+
+    svg.append("text")
+      .attr("x", 0.9*width_right)
+      .attr("y", 160)
+      .text("Physical")
+      .style("font-size", 0.015*width_right+"px")
+      .attr("alignment-baseline", "middle")
       .on("click", function (d) {
         currentOpacity = d3.selectAll(".triangleValue").style("opacity")
         d3.selectAll(".triangleValue").transition().style("opacity", currentOpacity == 0.15 ? 0 : 0.15)
