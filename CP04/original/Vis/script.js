@@ -300,7 +300,6 @@ function createScatterPoltMoves(id) {
       .call(d3.axisLeft(y));
     svg
       .append("text")
-      .style("font-family", "Saira Condensed")
       .attr("class", "y label")
       .attr("text-anchor", "end")
       .attr("y", -25)
