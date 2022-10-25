@@ -68,11 +68,11 @@ function createHeatmap(id) {
     svg
       .append("g")
       .attr("class", "gXAxis")
-      .attr("transform", `translate(0, ${height_left_top})`)
+      .attr("transform", "translate(0," + height_left_top+ ")")
       .call(d3.axisBottom(x).tickSize(0)) 
       .selectAll("text")
         .style("text-anchor", "end")
-        .style("font-size", "12px")
+        .style("font-size", 0.028*height_left_top + "px")
         .attr("dx", "-.8em")
         .attr("dy", ".15em")
         .attr("transform", "rotate(-65)")
@@ -85,7 +85,7 @@ function createHeatmap(id) {
       .call(d3.axisLeft(y).tickSize(0))
       .selectAll("text")
       .style("text-anchor", "end")
-      .style("font-size", "12px")
+      .style("font-size", 0.028*height_left_top + "px")
       .attr("dx", "-.8em")
       .attr("dy", ".15em")
       .select(".domain").remove()
@@ -214,7 +214,7 @@ function createScatterPoltMoves(id) {
   const bar = svg.append("g");
 
   bar.append("rect")
-    .attr("x", 1000)
+    .attr("x", 0.88*width_right)
     .attr("y", 10)
     .attr("height", 60)
     .attr("width", 10)
@@ -245,21 +245,21 @@ function createScatterPoltMoves(id) {
     .append("text")
     .attr("fill", "currentColor")
     .text(22)
-    .attr("x", 1015)
+    .attr("x", 0.9*width_right)
     .attr("y", 20);
 
   bar
     .append("text")
     .attr("fill", "currentColor")
     .text(1)
-    .attr("x", 1015)
+    .attr("x", 0.9*width_right)
     .attr("y", 70);
 
   bar
     .append("text")
     .attr("fill", "currentColor")
     .text("Estimate of number of moves")
-    .attr("x", 1000)
+    .attr("x", 0.88*width_right)
     .attr("y", 90);
 
   d3.json("json/df_moves.json").then(function (data) {
@@ -300,6 +300,7 @@ function createScatterPoltMoves(id) {
       .call(d3.axisLeft(y));
     svg
       .append("text")
+      .style("font-family", "Saira Condensed")
       .attr("class", "y label")
       .attr("text-anchor", "end")
       .attr("y", -25)
@@ -329,15 +330,15 @@ function createScatterPoltMoves(id) {
 
     const trianglesym = d3.symbol().type(d3.symbolTriangle).size(120);
 
-    svg.append("circle").attr("cx", 1000).attr("cy", 130).attr("r", 6).style("fill", "steelblue").style("opacity", 0.15);
-    svg.append("path").attr("d", trianglesym).attr("fill", "steelblue").attr("transform", "translate(1000, 160)").style("opacity", 0.15);
+    svg.append("circle").attr("cx",0.88*width_right).attr("cy",  0.465 * height_right).attr("r", 6).style("fill", "steelblue").style("opacity", 0.15);
+    svg.append("path").attr("d", trianglesym).attr("fill", "steelblue").attr("transform", "translate(" +0.88*width_right +", 158)").style("opacity", 0.15);
 
-    svg.append("text").attr("x", 1020).attr("y", 130).text("Special").style("font-size", "15px").attr("alignment-baseline", "middle")
+    svg.append("text").attr("x", 0.9*width_right).attr("y", 0.48 * height_right).text("Special").style("font-size", "15px").attr("alignment-baseline", "middle")
       .on("click", function (d) {
         currentOpacity = d3.selectAll(".circleValue").style("opacity")
         d3.selectAll(".circleValue").transition().style("opacity", currentOpacity == 0.15 ? 0 : 0.15)
       });
-    svg.append("text").attr("x", 1020).attr("y", 160).text("Physical").style("font-size", "15px").attr("alignment-baseline", "middle")
+    svg.append("text").attr("x", 0.9*width_right).attr("y", 160).text("Physical").style("font-size", "15px").attr("alignment-baseline", "middle")
       .on("click", function (d) {
         currentOpacity = d3.selectAll(".triangleValue").style("opacity")
         d3.selectAll(".triangleValue").transition().style("opacity", currentOpacity == 0.15 ? 0 : 0.15)
