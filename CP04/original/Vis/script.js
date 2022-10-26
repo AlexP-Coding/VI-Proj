@@ -1,10 +1,10 @@
 const margin = { top: 0.028 * window.innerHeight, right: 0.019 * window.innerWidth, bottom: 0.056 * window.innerHeight, left: 0.033 * window.innerWidth };
 const width_left = 0.326 * window.innerWidth - margin.left - margin.right;
-const height_left_top = 0.563 * window.innerHeight - margin.top - margin.bottom;
+const height = 0.478 * window.innerHeight - margin.top - margin.bottom;
 const height_left_bottom = 0.281 * window.innerHeight - margin.top - margin.bottom;
 
-const width_right = 0.610 * window.innerWidth - margin.left - margin.right;
-const height_right = 0.478 * window.innerHeight - margin.top - margin.bottom;
+const width_right = 0.6455 * window.innerWidth - margin.left - margin.right;
+const width_bottom = window.innerWidth - margin.left - margin.right;
 
 
 function init() {
@@ -19,22 +19,31 @@ function createHeatmap(id) {
   const svg = d3
     .select(id)
     .attr("width", width_left + margin.left + margin.right)
-    .attr("height", height_left_top + margin.top + margin.bottom)
+    .attr("height", height + margin.top + margin.bottom)
     .append("g")
     .attr("id", "gHeatmap")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
   
+  var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+
   d3.json("json/types_usage.json").then(function (data) {
 
     const types = ["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass",
     "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy" ];
+
+    const color = d3.scaleOrdinal(["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass",
+    "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy"],
+    ["#6D6D53", "#9A2620", "#270F70", "#803380", "#644F14", "#93802D", "#86931A", "#5A467A", "#313149", "#AC4F0C",
+      "#0E3289", "#5F902D", "#826904", "#950631", "#256363", "#3506A9", "#5A463A", "#691125"])
 
     const x = d3.scaleBand()
       .range([   0, width_left ])
       .domain(types)
     
     const y = d3.scaleBand()
-      .range([height_left_top , 0 ])
+      .range([height , 0 ])
       .domain(types)
 
     var myColor = d3.scaleSequential()
@@ -68,28 +77,57 @@ function createHeatmap(id) {
     svg
       .append("g")
       .attr("class", "gXAxis")
-      .attr("transform", "translate(0," + height_left_top+ ")")
+      .attr("transform", "translate(0," + height+ ")")
       .call(d3.axisBottom(x).tickSize(0)) 
       .selectAll("text")
         .style("text-anchor", "end")
-        .style("font-size", 0.028*height_left_top + "px")
+        .style("font-size", 0.028*height + "px")
         .attr("dx", "-.8em")
         .attr("dy", ".15em")
         .attr("transform", "rotate(-65)")
-        .select(".domain").remove()
-      
+        .select(".domain").remove();
+    
+    d3.selectAll(".gXAxis .tick").each(function(d) {
+          d3.select(this).select("text").style("fill", color(d))
+          });
+          
+
     svg
       .append("g")
-      .attr("id", "gYAxis")
+      .attr("class", "gYAxis")
       .attr("transform", `translate(0, 0)`)
       .call(d3.axisLeft(y).tickSize(0))
       .selectAll("text")
       .style("text-anchor", "end")
-      .style("font-size", 0.028*height_left_top + "px")
+      .style("font-size", 0.028*height + "px")
       .attr("dx", "-.8em")
       .attr("dy", ".15em")
-      .select(".domain").remove()
-      
+      .select(".domain").remove();
+
+    d3.selectAll(".gYAxis .tick").each(function(d) {
+      d3.select(this).select("text").style("fill", color(d))
+      });
+    
+    var clicked = 0;
+
+    for(let i = 0; i < types.length; i++){
+      for(let j = 0; j < types.length; j++){
+      svg
+      .append("rect")
+        .attr("x", function() { return x(types[i]) })
+        .attr("y", function(d) { return y(types[j]) })
+        .attr("rx", 4)
+        .attr("ry", 4)
+        .attr("width", x.bandwidth() )
+        .attr("height", y.bandwidth() )
+        .style("fill", function(){return "#DCDCDC"} )
+        .style("stroke-width", 4)
+        .style("stroke", "none")
+        .style("opacity", 0.8)
+      }
+    }
+
+
 
     svg.selectAll()
     .data(data)
@@ -105,20 +143,46 @@ function createHeatmap(id) {
       .style("stroke-width", 4)
       .style("stroke", "none")
       .style("opacity", 0.8)
-      .on("mouseover", mouseover)
-      .on("mouseleave", mouseleave)
-      .append("title")
-        .text((d) => "Monthly Usage of "+ d.Type1 + "-" + d.Type2 + " Pokemon: " + d.Monthly_Usage + "k")
-
-
+      .on("mouseover", function(event,d){
+        clicked = 0;
+        d3.select(this)
+        .style("stroke", "black")
+        .style("opacity", 1);
+        div.transition()
+        .duration(200)
+        .style("opacity", .9);
+        div.html("Monthly Usage of" + "<br/>" + d.Type1 + "-" + d.Type2 + "<br/>" + "Pokémon: " + d.Monthly_Usage + "k")
+          .style("left", (d3.pointer(event,this)[0] + 70) + "px")
+          .style("top", (d3.pointer(event,this)[1] - 32) + "px");
+      })
+      .on("mousemove", function(event,d){
+        div.style("left", (d3.pointer(event,this)[0] + 70) + "px")
+          .style("top", (d3.pointer(event,this)[1]- 12) + "px");
+      })
+      .on("mouseout", function(){
+        if (clicked == 0){
+          d3.select(this)
+            .style("stroke", "none")
+            .style("opacity", 0.8)
+        }
+        div.transition()
+        .duration(500)
+        .style("opacity", 0);
+      })
+      .on("click", function(){
+        d3.select(this)
+        .style("stroke", "red")
+        .style("opacity", 1);
+        clicked = 1;
+      });
   });
 }
 
 function createParallelCoordinates(id) {
   const svg = d3
     .select(id)
-    .attr("width", width_right + margin.left + margin.right)
-    .attr("height", height_right + margin.top + margin.bottom)
+    .attr("width", width_bottom + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
     .append("g")
     .attr("id", "gParallelCoordinates")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
@@ -152,10 +216,10 @@ function createParallelCoordinates(id) {
         "#0E3289", "#5F902D", "#826904", "#950631", "#256363", "#3506A9", "#5A463A", "#691125"])
 
 
-    const x = d3.scalePoint(stats, [0, (19/20)* width_right]);
+    const x = d3.scalePoint(stats, [0, (7/8)* width_bottom]);
 
 
-    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear(d3.extent(data, d => value(key, d)), [10, height_right])]))
+    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear(d3.extent(data, d => value(key, d)), [10, height])]))
 
     new_data = data.filter(function (d) { return d.Monthly_Usage > 0; });
 
@@ -175,6 +239,14 @@ function createParallelCoordinates(id) {
       .attr("stroke-width", 0.5)
       .attr("stroke", d => color(d.Type1))
       .attr("d", d => line(d3.cross([d], stats, (element, key) => [value(key, element), key])))
+      .on("mouseover", function(){
+        d3.select(this)
+          .attr("stroke-width", 1.5);
+      })
+      .on("mouseout", function(){
+        d3.select(this)
+          .attr("stroke-width", 0.5);
+      })
       .append("title")
         .text((d) => d.Pokemon);
 
@@ -205,16 +277,16 @@ function createParallelCoordinates(id) {
 function createScatterPoltMoves(id) {
   const svg = d3
     .select(id)
-    .attr("width", width_right + margin.left + margin.right + 100)
-    .attr("height", height_right + margin.top + margin.bottom)
+    .attr("width", width_right + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
     .append("g")
     .attr("id", "gLineChart")
-    .attr("transform", `translate(${margin.left}, ${margin.top})`);
+    .attr("transform", "translate(" + (margin.left) + ", " + margin.top +")");
 
   const bar = svg.append("g");
 
   bar.append("rect")
-    .attr("x", 0.88*width_right)
+    .attr("x", 0.78*width_right)
     .attr("y", 10)
     .attr("height", 60)
     .attr("width", 10)
@@ -246,7 +318,7 @@ function createScatterPoltMoves(id) {
     .attr("fill", "currentColor")
     .style("font-size", 0.015*width_right+"px")
     .text(22)
-    .attr("x", 0.9*width_right)
+    .attr("x", 0.8*width_right)
     .attr("y", 20);
 
   bar
@@ -254,7 +326,7 @@ function createScatterPoltMoves(id) {
     .attr("fill", "currentColor")
     .style("font-size", 0.015*width_right+"px")
     .text(1)
-    .attr("x", 0.9*width_right)
+    .attr("x", 0.8*width_right)
     .attr("y", 70);
 
   bar
@@ -262,7 +334,7 @@ function createScatterPoltMoves(id) {
     .attr("fill", "currentColor")
     .style("font-size", 0.015*width_right+"px")
     .text("Estimate of number of moves")
-    .attr("x", 0.88*width_right)
+    .attr("x", 0.78*width_right)
     .attr("y", 90);
 
   d3.json("json/df_moves.json").then(function (data) {
@@ -283,13 +355,13 @@ function createScatterPoltMoves(id) {
     svg
       .append("g")
       .attr("id", "gXAxis")
-      .attr("transform", `translate(0, ${height_right})`)
+      .attr("transform", `translate(0, ${height})`)
       .call(d3.axisBottom(x));
     svg
       .append("text")
       .attr("class", "x label")
       .attr("text-anchor", "end")
-      .attr("y", height_right - 10)
+      .attr("y", height - 10)
       .attr("x", width_right)
       .style("font-size", 0.018*width_right+"px")
       .text("Power");
@@ -297,7 +369,7 @@ function createScatterPoltMoves(id) {
     const y = d3
       .scaleLinear()
       .domain([0, 40])
-      .range([height_right, 0]);
+      .range([height, 0]);
     svg
       .append("g")
       .attr("id", "gYAxis")
@@ -335,21 +407,21 @@ function createScatterPoltMoves(id) {
     const trianglesym = d3.symbol().type(d3.symbolTriangle).size(120);
 
     svg.append("circle")
-    .attr("cx",0.88*width_right)
-    .attr("cy",  0.465 * height_right)
+    .attr("cx",0.78*width_right)
+    .attr("cy",  0.465 * height)
     .attr("r", 6)
     .style("fill", "steelblue")
-    .style("opacity", 0.15);
+    .style("opacity", 0.35);
 
     svg.append("path")
     .attr("d", trianglesym)
     .attr("fill", "steelblue")
-    .attr("transform", "translate(" +0.88*width_right +", 158)")
-    .style("opacity", 0.15);
+    .attr("transform", "translate(" +0.78*width_right +", 158)")
+    .style("opacity", 0.35);
 
     svg.append("text")
-      .attr("x", 0.9*width_right)
-      .attr("y", 0.48 * height_right)
+      .attr("x", 0.8*width_right)
+      .attr("y", 0.48 * height)
       .text("Special")
       .style("font-size", 0.015*width_right+"px")
       .attr("alignment-baseline", "middle")
@@ -359,7 +431,7 @@ function createScatterPoltMoves(id) {
       });
 
     svg.append("text")
-      .attr("x", 0.9*width_right)
+      .attr("x", 0.8*width_right)
       .attr("y", 160)
       .text("Physical")
       .style("font-size", 0.015*width_right+"px")

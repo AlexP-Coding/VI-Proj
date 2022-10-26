@@ -1,3 +1,16 @@
 text{
 	font-family: Helvetica, sans-serif;
 }
+
+div.tooltip {
+	position: absolute;
+	text-align: center;
+	width: 120px;
+	height: 42px;
+	padding: 2px;
+	font: 12px sans-serif;
+	background: rgb(182, 201, 224);
+	border: 2px;
+	border-radius: 8px;
+	pointer-events: none;
+  }
