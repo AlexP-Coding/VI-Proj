@@ -13,7 +13,16 @@ function init() {
   //createBarChart("#vi5");
   createParallelCoordinates("#vi2");
   createScatterPlotMoves("#vi3");
-  createSearchBar("#sb1");
+  //createSearchBar("#sb1");
+}
+
+function blendColors(colorA, colorB, amount) {
+  const [rA, gA, bA] = colorA.match(/\w\w/g).map((c) => parseInt(c, 16));
+  const [rB, gB, bB] = colorB.match(/\w\w/g).map((c) => parseInt(c, 16));
+  const r = Math.round(rA + (rB - rA) * amount).toString(16).padStart(2, '0');
+  const g = Math.round(gA + (gB - gA) * amount).toString(16).padStart(2, '0');
+  const b = Math.round(bA + (bB - bA) * amount).toString(16).padStart(2, '0');
+  return '#' + r + g + b;
 }
 
 function value(key, d){
@@ -41,8 +50,10 @@ const types = ["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug"
 const colors = ["#6D6D53", "#9A2620", "#270F70", "#803380", "#644F14", "#93802D", "#86931A", "#5A467A", "#313149", "#AC4F0C",
 "#0E3289", "#5F902D", "#826904", "#950631", "#256363", "#3506A9", "#5A463A", "#691125"];
 
+var clicked = 0;
+var highlight = 0;
+
 function createHeatmap(id) {
-  console.log(window.innerWidth)
   const svg = d3
     .select(id)
     .attr("width", width_left + margin.left + margin.right)
@@ -129,8 +140,7 @@ function createHeatmap(id) {
       }
     }
 
-    clicked = 0;
-
+  
     svg.selectAll()
     .data(data)
     .enter()
@@ -154,7 +164,7 @@ function createHeatmap(id) {
           .style("top", (d3.pointer(event,this)[1] - (0.045*window.innerHeight)) + "px");
 
         d3.select(this)
-        .style("stroke", this.style.stroke == "red" ? "red" : "black")
+        .style("stroke", this.style.stroke == "grey" ? "grey" : "black")
         .style("opacity", 1.0);
   
       })
@@ -164,7 +174,7 @@ function createHeatmap(id) {
       })
       .on("mouseout", function(){
         d3.select(this)
-        .style("stroke", this.style.stroke == "red" ? "red" : "none")
+        .style("stroke", this.style.stroke == "grey" ? "grey" : "none")
         .style("opacity", 0.8);
 
         div.transition()
@@ -172,21 +182,35 @@ function createHeatmap(id) {
         .style("opacity", 0);
       })
       .on("click", function(event, d){
-        if(this.style.stroke == "red"){
+        if(this.style.stroke == "grey"){
           clicked = 0;
           d3.select(this)
-          .style("stroke", this.style.stroke == "red" ? "black" : "red")
-          .style("opacity", 1);
+          .style("stroke", this.style.stroke == "grey" ? "black" : "grey")
+          .style("opacity", 1)
+          .style("stroke-width", "3px");
           resetParallelCoordinates();
+          d3.select("rect.highlight").remove();
         }
         else{
           if (clicked == 0){
             clicked = 1;
             d3.select(this)
-            .style("stroke", this.style.stroke == "red" ? "black" : "red")
-            .style("opacity", 1);
-            updateParallelCoordinatesTwoTypes(d.Type1, d.Type2)
+            .style("stroke", this.style.stroke == "grey" ? "black" : "grey")
+            .style("opacity", 1)
+            .style("stroke-width", "3px");
+            updateParallelCoordinatesTwoTypes(d.Type1, d.Type2);
+            d3.select("rect.highlight").remove();
           }
+          else if(highlight == 1 ){
+            d3.select(this)
+            .style("stroke",  "black")
+            .style("opacity", 1)
+            .style("stroke-width", "3px");
+            resetParallelCoordinates();
+            d3.select("rect.highlight").remove();
+            clicked = 0;
+            highlight = 0;
+          } 
         }
       });
   });
@@ -259,6 +283,7 @@ function createParallelCoordinates(id) {
       })
       .on("click", function(event,d){
         updateParallelCoordinatesOneType(d.Type1);
+        updateHeatMapSelectionOneType(this.textContent);
         div.transition()
         .duration(500)
         .style("opacity", 0);
@@ -278,7 +303,14 @@ function createParallelCoordinates(id) {
           .attr("text-anchor", "middle")
           .attr("fill", "currentColor")
           .style("font-size", 0.018*width_right+"px")
-          .text(stats[i]))
+          .text(function(){
+            if(stats[i] == "Special_Atk")
+              return "Special Attack";
+            else if(stats[i] == "Special_Def")
+              return "Special Defense";
+            else
+              return stats[i];
+            }))
         .call(g => g.selectAll("text")
           .clone(true)
           .lower()
@@ -306,6 +338,10 @@ function createParallelCoordinates(id) {
           d3.selectAll("." + this.textContent)
             .attr("stroke-width", 1.0)
             .style("opacity", .6);
+        })
+        .on("click", function(event,d){
+          updateParallelCoordinatesOneType(this.textContent);
+          updateHeatMapSelectionOneType(this.textContent);
         });
       svg.append("rect")
         .attr("y", height + 15)
@@ -506,7 +542,8 @@ function createSearchBar(id){
   .attr("ry", 4)
   .attr("height", 30)
   .attr("width", 500)
-  .attr("fill", "#cccccc")
+  .attr("stroke", "black")
+  .attr("fill", "#cccccc");
   
 }
 
@@ -574,6 +611,7 @@ function resetParallelCoordinates(){
       })
       .on("click", function(event,d){
         updateParallelCoordinatesOneType(d.Type1);
+        updateHeatMapSelectionOneType(d.Type1);
         div.transition()
         .duration(500)
         .style("opacity", 0);
@@ -589,6 +627,9 @@ function resetParallelCoordinates(){
         .call(d3.axisLeft(y.get(stats[i])));
     }
 
+    svg.selectAll("text.types_colors").remove();
+    svg.selectAll("rect").remove();
+
     for(i = 0; i < 18; i++){
       svg
         .append("text")
@@ -598,6 +639,8 @@ function resetParallelCoordinates(){
         .attr("x", x_types(types[i]) )
         .style("font-size", 0.014*width_right+"px")
         .text(types[i])
+        .style("font-weight", "none")
+        .style("opacity", 1.0)
         .on("mouseover", function(){
           d3.selectAll("." + this.textContent )
             .attr("stroke-width", 3.0)
@@ -607,6 +650,10 @@ function resetParallelCoordinates(){
           d3.selectAll("." + this.textContent)
             .attr("stroke-width", 1.0)
             .style("opacity", .6);
+        })
+        .on("click", function(event,d){
+          updateParallelCoordinatesOneType(this.textContent);
+          updateHeatMapSelectionOneType(this.textContent);
         });
       svg.append("rect")
         .attr("y", height + 15)
@@ -641,8 +688,6 @@ function updateParallelCoordinatesOneType(type1){
     
     const svg = d3.select("#gParallelCoordinates");
 
-
-
     line = d3.line()
       .defined(([value,]) => value != null)
       .x(([, key]) => x(key))
@@ -652,15 +697,21 @@ function updateParallelCoordinatesOneType(type1){
       .selectAll("path")
       .remove();
 
+    var available_types = []
+
     svg
       .selectAll("path")
       .data(data)
       .enter()
       .append("path")
-      .attr("class", d => d.Type2)
+      .attr("class", function(d){
+        available_types.push(d.Type2);
+        console.log(available_types);
+        return d.Type2;
+      } )
       .attr("fill", "none")
       .attr("stroke-width", 1.0)
-      .attr("stroke", d => color(d.Type2))
+      .attr("stroke", d =>color(d.Type2))
       .attr("d", d => line(d3.cross([d], stats, (element, key) => [value(key, element), key])))
       .style("opacity", .6)
       .on("mouseover", function(event, d){
@@ -686,6 +737,15 @@ function updateParallelCoordinatesOneType(type1){
         div.style("left", (d3.pointer(event,this)[0]) + "px")
           .style("top", (d3.pointer(event,this)[1]+ (0.476*window.innerHeight)) + "px");
       })
+      .on("click", function(event,d){
+        updateParallelCoordinatesTwoTypes(d.Type1, d.Type2);
+        updateHeatMapSelectionTwoTypes(d.Type1, d.Type2);
+        clicked = 1;
+        highlight = 1;
+        div.transition()
+        .duration(500)
+        .style("opacity", 0);
+      })
       .append("title")
         .text((d) => d.Type2);
 
@@ -697,6 +757,9 @@ function updateParallelCoordinatesOneType(type1){
         .call(d3.axisLeft(y.get(stats[i])));
     }
 
+    svg.selectAll("text.types_colors").remove();
+    svg.selectAll("rect").remove();
+
     for(i = 0; i < 18; i++){
       svg
         .append("text")
@@ -706,6 +769,19 @@ function updateParallelCoordinatesOneType(type1){
         .attr("x", x_types(types[i]) )
         .style("font-size", 0.014*width_right+"px")
         .text(types[i])
+        .style("font-weight", function(){
+          if(type1 == this.textContent)
+            return "bold";
+          else
+            return "none";
+        })
+        .style("opacity", function(){
+          if(!available_types.includes(this.textContent)){
+            return 0.5;
+          }
+          else
+            return 1.0;
+        })
         .on("mouseover", function(){
           d3.selectAll("." + this.textContent )
             .attr("stroke-width", 3.0)
@@ -715,11 +791,19 @@ function updateParallelCoordinatesOneType(type1){
           d3.selectAll("." + this.textContent)
             .attr("stroke-width", 1.0)
             .style("opacity", .6);
-        });
+        })
+        .on("click", function(event,d){
+          if(available_types.includes(this.textContent)){
+            updateParallelCoordinatesTwoTypes(type1, this.textContent);
+            updateHeatMapSelectionTwoTypes(type1, this.textContent);
+            clicked = 1;
+            highlight = 1;
+          }
+        })
       svg.append("rect")
         .attr("y", height + 15)
         .attr("x", function(){
-          return x_types(types[i]) - 15; //- (types[i].length * 5.8);
+          return x_types(types[i]) - 15; 
         } )
         .style("fill", color(types[i]))
         .attr("height", 10)
@@ -765,7 +849,7 @@ function updateParallelCoordinatesTwoTypes(type1, type2) {
       .attr("class", "pathValue")
       .attr("fill", "none")
       .attr("stroke-width", 1.0)
-      .attr("stroke", d => color(d.Type1))
+      .attr("stroke", d => blendColors(color(d.Type2), color(d.Type1), 0.5))
       .attr("d", d => line(d3.cross([d], stats, (element, key) => [value(key, element), key])))
       .style("opacity", .6)
       .on("mouseover", function(event, d){
@@ -804,7 +888,102 @@ function updateParallelCoordinatesTwoTypes(type1, type2) {
 
     svg.selectAll("text.types_colors").remove();
     svg.selectAll("rect").remove();
+
+    for(i = 0; i < 18; i++){
+      svg
+        .append("text")
+        .attr("class", "types_colors")
+        .attr("text-anchor", "left")
+        .attr("y", height + 25)
+        .attr("x", x_types(types[i]) )
+        .style("font-size", 0.014*width_right+"px")
+        .text(types[i])
+        .style("font-weight", function(){
+          if(type1 == this.textContent || type2 == this.textContent)
+            return "bold";
+          else
+            return "none";
+        })
+        .style("opacity", function(){
+          if(type1 == this.textContent || type2 == this.textContent){
+            return 1.0;
+          }
+          else
+            return 0.5;
+        })
+        .on("mouseover", function(){
+          d3.selectAll("." + this.textContent )
+            .attr("stroke-width", 3.0)
+            .style("opacity", 1.0);
+        })
+        .on("mouseout", function(){
+          d3.selectAll("." + this.textContent)
+            .attr("stroke-width", 1.0)
+            .style("opacity", .6);
+        })
+      svg.append("rect")
+        .attr("y", height + 15)
+        .attr("x", function(){
+          return x_types(types[i]) - 15; //- (types[i].length * 5.8);
+        } )
+        .style("fill", color(types[i]))
+        .attr("height", 10)
+        .attr("width", 10)
+        .style("opacity", 1.0);
+    }
   });
+}
+
+function updateHeatMapSelectionOneType(type1){
+  const svg = d3.select("#gHeatmap");
+
+  const x = d3.scaleBand()
+  .range([   0, width_left ])
+  .domain(types)
+
+  const y = d3.scaleBand()
+    .range([height , 0 ])
+    .domain(types)
+
+  svg
+  .append("rect")
+  .attr("class", "highlight")
+  .attr("x", x(type1))
+  .attr("y", 0)
+  .attr("rx", 4)
+  .attr("ry", 4)
+  .attr("height", height)
+  .attr("width", x.bandwidth())
+  .attr("stroke", "grey")
+  .attr("fill", "none")
+  .style("stroke-width", "3px");
+}
+
+function updateHeatMapSelectionTwoTypes(type1, type2){
+  const svg = d3.select("#gHeatmap");
+
+  svg.selectAll("rect.highlight").remove();
+
+  const x = d3.scaleBand()
+  .range([   0, width_left ])
+  .domain(types)
+
+  const y = d3.scaleBand()
+    .range([height , 0 ])
+    .domain(types)
+
+  svg
+  .append("rect")
+  .attr("class", "highlight")
+  .attr("x", x(type1))
+  .attr("y", y(type2))
+  .attr("rx", 4)
+  .attr("ry", 4)
+  .attr("height", y.bandwidth())
+  .attr("width", x.bandwidth())
+  .attr("stroke", "grey")
+  .attr("fill", "none")
+  .style("stroke-width", "3px");
 }
 
 function updateScatterPlot(start, finish) {
@@ -957,7 +1136,7 @@ function handleMouseOver(item) {
       return d.title == item.title;
     })
     .style("stroke-width", 5)
-    .style("stroke", "red");
+    .style("stroke", "grey");
 }
 
 function handleMouseLeave() {
