@@ -12,7 +12,8 @@ function init() {
   //createBarChart("#vi4");
   //createBarChart("#vi5");
   createParallelCoordinates("#vi2");
-  createScatterPoltMoves("#vi3");
+  createScatterPlotMoves("#vi3");
+  //createSearchBar("#sb1");
 }
 
 function createHeatmap(id) {
@@ -47,32 +48,9 @@ function createHeatmap(id) {
       .domain(types)
 
     var myColor = d3.scaleSequential()
-      .interpolator(d3.interpolateOranges)
+      .interpolator(d3.interpolateBlues)
       .domain(d3.extent(data, d => d.Monthly_Usage))
 
-    // create a tooltip
-    var mouseover = function(d) {
-      d3.select(this)
-        .style("stroke", "black")
-        .style("opacity", 1)
-    }
-
-    var mouseleave = function(d) {
-      d3.select(this)
-        .style("stroke", "none")
-        .style("opacity", 0.8)
-    }
-
-    var tooltip = d3.select("body")
-        .append("div")
-        .style("position", "absolute")
-        .style("z-index", "10")
-        .style("visibility", "hidden")
-        .style("background-color", "white")
-        .style("border", "solid")
-        .style("border-width", "2px")
-        .style("border-radius", "5px")
-        .style("padding", "5px")
 
     svg
       .append("g")
@@ -107,8 +85,6 @@ function createHeatmap(id) {
     d3.selectAll(".gYAxis .tick").each(function(d) {
       d3.select(this).select("text").style("fill", color(d))
       });
-    
-    var clicked = 0;
 
     for(let i = 0; i < types.length; i++){
       for(let j = 0; j < types.length; j++){
@@ -123,11 +99,11 @@ function createHeatmap(id) {
         .style("fill", function(){return "#DCDCDC"} )
         .style("stroke-width", 4)
         .style("stroke", "none")
-        .style("opacity", 0.8)
+        .style("opacity", 0.4)
       }
     }
 
-
+    clicked = 0;
 
     svg.selectAll()
     .data(data)
@@ -142,38 +118,50 @@ function createHeatmap(id) {
       .style("fill", function(d){return myColor(d.Monthly_Usage)} )
       .style("stroke-width", 4)
       .style("stroke", "none")
-      .style("opacity", 0.8)
+      .style("opacity", 0.9)
       .on("mouseover", function(event,d){
-        clicked = 0;
-        d3.select(this)
-        .style("stroke", "black")
-        .style("opacity", 1);
         div.transition()
         .duration(200)
         .style("opacity", .9);
         div.html("Monthly Usage of" + "<br/>" + d.Type1 + "-" + d.Type2 + "<br/>" + "Pokémon: " + d.Monthly_Usage + "k")
           .style("left", (d3.pointer(event,this)[0] + 70) + "px")
           .style("top", (d3.pointer(event,this)[1] - 32) + "px");
+
+        d3.select(this)
+        .style("stroke", this.style.stroke == "red" ? "red" : "black")
+        .style("opacity", 1.0);
+  
       })
       .on("mousemove", function(event,d){
         div.style("left", (d3.pointer(event,this)[0] + 70) + "px")
           .style("top", (d3.pointer(event,this)[1]- 12) + "px");
       })
       .on("mouseout", function(){
-        if (clicked == 0){
-          d3.select(this)
-            .style("stroke", "none")
-            .style("opacity", 0.8)
-        }
+        d3.select(this)
+        .style("stroke", this.style.stroke == "red" ? "red" : "none")
+        .style("opacity", 0.8);
+
         div.transition()
         .duration(500)
         .style("opacity", 0);
       })
-      .on("click", function(){
-        d3.select(this)
-        .style("stroke", "red")
-        .style("opacity", 1);
-        clicked = 1;
+      .on("click", function(event, d){
+        if(this.style.stroke == "red"){
+          clicked = 0;
+          d3.select(this)
+          .style("stroke", this.style.stroke == "red" ? "black" : "red")
+          .style("opacity", 1);
+          resetParallelCoordinates();
+        }
+        else{
+          if (clicked == 0){
+            clicked = 1;
+            d3.select(this)
+            .style("stroke", this.style.stroke == "red" ? "black" : "red")
+            .style("opacity", 1);
+            updateParallelCoordinatesTwoTypes(d.Type1, d.Type2)
+          }
+        }
       });
   });
 }
@@ -187,7 +175,11 @@ function createParallelCoordinates(id) {
     .attr("id", "gParallelCoordinates")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-  d3.json("json/df_pokemon.json").then(function (data) {
+  var div = d3.select("body").append("div")
+    .attr("class", "tooltip2")
+    .style("opacity", 0);
+
+  d3.json("json/average_values_types_one.json").then(function (data) {
 
 
     const stats = ["Total", "HP", "Attack", "Defense", "Special_Atk", "Special_Def", "Speed"];
@@ -209,19 +201,21 @@ function createParallelCoordinates(id) {
         return d.Speed;
     }
 
+    const types = ["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass",
+    "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy"];
 
-    const color = d3.scaleOrdinal(["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass",
-      "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy"],
-      ["#6D6D53", "#9A2620", "#270F70", "#803380", "#644F14", "#93802D", "#86931A", "#5A467A", "#313149", "#AC4F0C",
-        "#0E3289", "#5F902D", "#826904", "#950631", "#256363", "#3506A9", "#5A463A", "#691125"])
+    const colors = ["#6D6D53", "#9A2620", "#270F70", "#803380", "#644F14", "#93802D", "#86931A", "#5A467A", "#313149", "#AC4F0C",
+    "#0E3289", "#5F902D", "#826904", "#950631", "#256363", "#3506A9", "#5A463A", "#691125"];
+
+    const color = d3.scaleOrdinal(types,colors);
 
 
     const x = d3.scalePoint(stats, [0, (7/8)* width_bottom]);
 
+    const x_types = d3.scalePoint(types, [0, (19/20)* width_bottom]);
 
     const y = new Map(Array.from(stats, key => [key, d3.scaleLinear(d3.extent(data, d => value(key, d)), [10, height])]))
 
-    new_data = data.filter(function (d) { return d.Monthly_Usage > 0; });
 
     line = d3.line()
       .defined(([value,]) => value != null)
@@ -229,52 +223,99 @@ function createParallelCoordinates(id) {
       .y(([value, key]) => y.get(key)(value))
 
 
+
     svg
       .selectAll("path")
-      .data(new_data)
+      .data(data)
       .enter()
       .append("path")
-      .attr("class", "pathValue")
+      .attr("class", d => d.Type1)
       .attr("fill", "none")
-      .attr("stroke-width", 0.5)
+      .attr("stroke-width", 1.0)
       .attr("stroke", d => color(d.Type1))
       .attr("d", d => line(d3.cross([d], stats, (element, key) => [value(key, element), key])))
-      .on("mouseover", function(){
+      .style("opacity", .6)
+      .on("mouseover", function(event, d){
         d3.select(this)
-          .attr("stroke-width", 1.5);
+          .attr("stroke-width", 3.0)
+          .style("opacity", 1.0);
+        div.transition()
+        .duration(100)
+        .style("opacity", .9);
+        div.html("Type 1: " + d.Type1)
+          .style("left", (d3.pointer(event,this)[0]) + "px")
+          .style("top", (d3.pointer(event,this)[1] + 310) + "px")
       })
       .on("mouseout", function(){
         d3.select(this)
-          .attr("stroke-width", 0.5);
+          .attr("stroke-width", 1.0)
+          .style("opacity", .6);
+        div.transition()
+        .duration(500)
+        .style("opacity", 0);
+      })
+      .on("mousemove", function(event,d){
+        div.style("left", (d3.pointer(event,this)[0]) + "px")
+          .style("top", (d3.pointer(event,this)[1]+ 310) + "px");
       })
       .append("title")
-        .text((d) => d.Pokemon);
-
-
-    svg.append("g")
-      .selectAll("g")
-      .data(stats)
-      .join("g")
-      .each(function (d) { d3.select(this).call(d3.axisLeft(y.get(d))); })
-      .attr("transform", d => `translate(${x(d)},0)`)
-      .call(g => g.append("text")
-        .attr("x", 0)
-        .attr("y", 0)
-        .attr("text-anchor", "middle")
-        .attr("fill", "currentColor")
-        .style("font-size", 0.018*width_right+"px")
-        .text(d => d))
-      .call(g => g.selectAll("text")
-        .clone(true)
-        .lower()
-        .attr("fill", "none")
-        .attr("stroke-width", 5)
-        .attr("stroke-linejoin", "round")
-        .attr("stroke", "white"));
+        .text((d) => d.Type1);
+      
+    for(i = 0; i < 7; i++){
+      svg
+        .append("g")
+        .attr("id", stats[i] + "Axis")
+        .attr("transform", `translate(${x(stats[i])},0)`)
+        .call(d3.axisLeft(y.get(stats[i])))
+        .call(g => g.append("text")
+          .attr("x", 0)
+          .attr("y", 0)
+          .attr("text-anchor", "middle")
+          .attr("fill", "currentColor")
+          .style("font-size", 0.018*width_right+"px")
+          .text(stats[i]))
+        .call(g => g.selectAll("text")
+          .clone(true)
+          .lower()
+          .attr("fill", "none")
+          .attr("stroke-width", 5)
+          .attr("stroke-linejoin", "round")
+          .attr("stroke", "white"));
+    }
+    
+    for(i = 0; i < 18; i++){
+      svg
+        .append("text")
+        .attr("class", "types_colors")
+        .attr("text-anchor", "left")
+        .attr("y", height + 25)
+        .attr("x", x_types(types[i]) )
+        .style("font-size", 0.014*width_right+"px")
+        .text(types[i])
+        .on("mouseover", function(){
+          d3.selectAll("." + this.textContent )
+            .attr("stroke-width", 3.0)
+            .style("opacity", 1.0);
+        })
+        .on("mouseout", function(){
+          d3.selectAll("." + this.textContent)
+            .attr("stroke-width", 1.0)
+            .style("opacity", .6);
+        });
+      svg.append("rect")
+        .attr("y", height + 15)
+        .attr("x", function(){
+          return x_types(types[i]) - 15; //- (types[i].length * 5.8);
+        } )
+        .style("fill", color(types[i]))
+        .attr("height", 10)
+        .attr("width", 10)
+        .style("opacity", 1.0);
+    }
   })
 }
 
-function createScatterPoltMoves(id) {
+function createScatterPlotMoves(id) {
   const svg = d3
     .select(id)
     .attr("width", width_right + margin.left + margin.right)
@@ -443,70 +484,238 @@ function createScatterPoltMoves(id) {
   });
 }
 
-function updateBarChart(start, finish) {
-  d3.json("data.json").then(function (data) {
-    data = data.filter(function (elem) {
-      return start <= elem.oscar_year && elem.oscar_year <= finish;
-    });
+function resetParallelCoordinates(){
+  var div = d3.select("body").append("div")
+  .attr("class", "tooltip2")
+  .style("opacity", 0);
 
-    const svg = d3.select("#gBarChart");
+  d3.json("json/average_values_types_one.json").then(function (data) {
 
-    const x = d3.scaleLinear().domain([0, 10]).range([0, width]);
-    svg.select("#gXAxis").call(d3.axisBottom(x));
+    const stats = ["Total", "HP", "Attack", "Defense", "Special_Atk", "Special_Def", "Speed"];
 
-    const y = d3
-      .scaleBand()
-      .domain(data.map((d) => d.oscar_year))
-      .range([0, height])
-      .padding(0.2);
+    function value(key, d){
+      if(key == "Total" )
+        return d.Total;
+      if (key == "HP")
+        return d.HP;
+      if (key == "Attack")
+        return d.Attack;
+      if (key == "Defense")
+        return d.Defense;
+      if (key == "Special_Atk")
+        return d.Special_Atk;
+      if (key == "Special_Def")
+        return d.Special_Def;
+      if (key == "Speed")
+        return d.Speed;
+    }
 
-    const barFillConvertion = d3
-      .scaleLinear()
-      .domain([0, d3.max(data, (d) => d.budget)])
-      .range([0, 1]);
+    const types = ["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass",
+    "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy"];
 
-    svg.select("#gYAxis").call(d3.axisLeft(y));
+    const colors = ["#6D6D53", "#9A2620", "#270F70", "#803380", "#644F14", "#93802D", "#86931A", "#5A467A", "#313149", "#AC4F0C",
+    "#0E3289", "#5F902D", "#826904", "#950631", "#256363", "#3506A9", "#5A463A", "#691125"];
+
+    const color = d3.scaleOrdinal(types,colors);
+
+    const x = d3.scalePoint(stats, [0, (7/8)* width_bottom]);
+
+    const x_types = d3.scalePoint(types, [0, (19/20)* width_bottom]);
+
+    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear(d3.extent(data, d => value(key, d)), [10, height])]))
+    
+    const svg = d3.select("#gParallelCoordinates");
+
+
+
+    line = d3.line()
+      .defined(([value,]) => value != null)
+      .x(([, key]) => x(key))
+      .y(([value, key]) => y.get(key)(value));
 
     svg
-      .selectAll("rect.rectValue")
-      .data(data, (d) => d.title)
-      .join(
-        (enter) => {
-          rects = enter
-            .append("rect")
-            .attr("class", "rectValue itemValue")
-            .attr("x", x(0))
-            .attr("y", (d) => y(d.oscar_year))
-            .attr("width", (d) => x(0))
-            .attr("height", y.bandwidth())
-            .attr("fill", function (d, i) {
-              return d3.interpolateBlues(barFillConvertion(d.budget));
-            })
-            .style("stroke", "black")
-            .on("mouseover", (event, d) => handleMouseOver(d))
-            .on("mouseleave", (event, d) => handleMouseLeave());
-          rects
-            .transition()
-            .duration(1000)
-            .attr("width", (d) => x(d.rating));
-          rects.append("title").text((d) => d.title);
-        },
-        (update) => {
-          update
-            .transition()
-            .duration(1000)
-            .attr("x", x(0))
-            .attr("y", (d) => y(d.oscar_year))
-            .attr("width", (d) => x(d.rating))
-            .attr("height", y.bandwidth())
-            .attr("fill", function (d, i) {
-              return d3.interpolateBlues(barFillConvertion(d.budget));
-            });
-        },
-        (exit) => {
-          exit.remove();
-        }
-      );
+      .selectAll("path")
+      .remove();
+
+    svg
+      .selectAll("path")
+      .data(data)
+      .enter()
+      .append("path")
+      .attr("class", d => d.Type1)
+      .attr("fill", "none")
+      .attr("stroke-width", 1.0)
+      .attr("stroke", d => color(d.Type1))
+      .attr("d", d => line(d3.cross([d], stats, (element, key) => [value(key, element), key])))
+      .style("opacity", .6)
+      .on("mouseover", function(event, d){
+        d3.select(this)
+          .attr("stroke-width", 3.0)
+          .style("opacity", 1.0);
+        div.transition()
+        .duration(100)
+        .style("opacity", .9);
+        div.html("Type 1: " + d.Type1)
+          .style("left", (d3.pointer(event,this)[0]) + "px")
+          .style("top", (d3.pointer(event,this)[1] + 310) + "px")
+      })
+      .on("mouseout", function(){
+        d3.select(this)
+          .attr("stroke-width", 1.0)
+          .style("opacity", .6);
+        div.transition()
+        .duration(500)
+        .style("opacity", 0);
+      })
+      .on("mousemove", function(event,d){
+        div.style("left", (d3.pointer(event,this)[0]) + "px")
+          .style("top", (d3.pointer(event,this)[1]+ 310) + "px");
+      })
+      .append("title")
+        .text((d) => d.Pokemon);
+
+    for(i = 0; i < 7; i++){
+      svg
+        .select("#" + stats[i] + "Axis")
+        .transition()
+        .duration(1000)
+        .call(d3.axisLeft(y.get(stats[i])));
+    }
+
+    for(i = 0; i < 18; i++){
+      svg
+        .append("text")
+        .attr("class", "types_colors")
+        .attr("text-anchor", "left")
+        .attr("y", height + 25)
+        .attr("x", x_types(types[i]) )
+        .style("font-size", 0.014*width_right+"px")
+        .text(types[i])
+        .on("mouseover", function(){
+          d3.selectAll("." + this.textContent )
+            .attr("stroke-width", 3.0)
+            .style("opacity", 1.0);
+        })
+        .on("mouseout", function(){
+          d3.selectAll("." + this.textContent)
+            .attr("stroke-width", 1.0)
+            .style("opacity", .6);
+        });
+      svg.append("rect")
+        .attr("y", height + 15)
+        .attr("x", function(){
+          return x_types(types[i]) - 15; //- (types[i].length * 5.8);
+        } )
+        .style("fill", color(types[i]))
+        .attr("height", 10)
+        .attr("width", 10)
+        .style("opacity", 1.0);
+    }
+  });
+}
+
+function updateParallelCoordinatesTwoTypes(type1, type2) {
+  var div = d3.select("body").append("div")
+  .attr("class", "tooltip3")
+  .style("opacity", 0);
+
+  d3.json("json/df_pokemon.json").then(function (data) {
+    data = data.filter(function (elem) {
+      return type1 == elem.Type1 && elem.Type2 == type2;
+    });
+
+    const stats = ["Total", "HP", "Attack", "Defense", "Special_Atk", "Special_Def", "Speed"];
+
+    function value(key, d){
+      if(key == "Total" )
+        return d.Total;
+      if (key == "HP")
+        return d.HP;
+      if (key == "Attack")
+        return d.Attack;
+      if (key == "Defense")
+        return d.Defense;
+      if (key == "Special_Atk")
+        return d.Special_Atk;
+      if (key == "Special_Def")
+        return d.Special_Def;
+      if (key == "Speed")
+        return d.Speed;
+    }
+
+    const types = ["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass",
+    "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy"];
+
+    const colors = ["#6D6D53", "#9A2620", "#270F70", "#803380", "#644F14", "#93802D", "#86931A", "#5A467A", "#313149", "#AC4F0C",
+    "#0E3289", "#5F902D", "#826904", "#950631", "#256363", "#3506A9", "#5A463A", "#691125"];
+
+    const color = d3.scaleOrdinal(types,colors);
+
+    const x = d3.scalePoint(stats, [0, (7/8)* width_bottom]);
+
+    const x_types = d3.scalePoint(types, [0, (19/20)* width_bottom]);
+
+    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear(d3.extent(data, d => value(key, d)), [10, height])]))
+    const svg = d3.select("#gParallelCoordinates");
+
+
+
+    line = d3.line()
+      .defined(([value,]) => value != null)
+      .x(([, key]) => x(key))
+      .y(([value, key]) => y.get(key)(value));
+
+    svg
+      .selectAll("path")
+      .remove();
+
+      svg
+      .selectAll("path")
+      .data(data)
+      .enter()
+      .append("path")
+      .attr("class", "pathValue")
+      .attr("fill", "none")
+      .attr("stroke-width", 1.0)
+      .attr("stroke", d => color(d.Type1))
+      .attr("d", d => line(d3.cross([d], stats, (element, key) => [value(key, element), key])))
+      .style("opacity", .6)
+      .on("mouseover", function(event, d){
+        d3.select(this)
+          .attr("stroke-width", 3.0)
+          .style("opacity", 1.0);
+        div.transition()
+        .duration(100)
+        .style("opacity", .9);
+        div.html("Pokémon: " + d.Pokemon + "<br/>" + "Type 1: " + d.Type1 + "<br/>" + "Type 2: " + d.Type2)
+          .style("left", (d3.pointer(event,this)[0]) + "px")
+          .style("top", (d3.pointer(event,this)[1] + 310) + "px")
+      })
+      .on("mouseout", function(){
+        d3.select(this)
+          .attr("stroke-width", 1.0)
+          .style("opacity", .6);
+        div.transition()
+        .duration(500)
+        .style("opacity", 0);
+      })
+      .on("mousemove", function(event,d){
+        div.style("left", (d3.pointer(event,this)[0]) + "px")
+          .style("top", (d3.pointer(event,this)[1]+ 310) + "px");
+      })
+      .append("title")
+        .text((d) => d.Pokemon);
+
+    for(i = 0; i < 7; i++){
+      svg
+        .select("#" + stats[i] + "Axis")
+        .transition()
+        .duration(1000)
+        .call(d3.axisLeft(y.get(stats[i])));
+    }
+
+    svg.selectAll("text.types_colors").remove();
+    svg.selectAll("rect").remove();
   });
 }
 

@@ -1,0 +1,182 @@
+[
+  {
+    "Attack": 76,
+    "Defense": 73,
+    "HP": 66,
+    "Special_Atk": 71,
+    "Special_Def": 69,
+    "Speed": 59,
+    "Total": 414,
+    "Type1": "Grass"
+  },
+  {
+    "Attack": 74,
+    "Defense": 73,
+    "HP": 70,
+    "Special_Atk": 73,
+    "Special_Def": 68,
+    "Speed": 65,
+    "Total": 424,
+    "Type1": "Water"
+  },
+  {
+    "Attack": 72,
+    "Defense": 64,
+    "HP": 62,
+    "Special_Atk": 86,
+    "Special_Def": 70,
+    "Speed": 86,
+    "Total": 441,
+    "Type1": "Electric"
+  },
+  {
+    "Attack": 102,
+    "Defense": 75,
+    "HP": 73,
+    "Special_Atk": 54,
+    "Special_Def": 69,
+    "Speed": 68,
+    "Total": 441,
+    "Type1": "Fighting"
+  },
+  {
+    "Attack": 81,
+    "Defense": 67,
+    "HP": 69,
+    "Special_Atk": 84,
+    "Special_Def": 69,
+    "Speed": 73,
+    "Total": 443,
+    "Type1": "Fire"
+  },
+  {
+    "Attack": 93,
+    "Defense": 93,
+    "HP": 68,
+    "Special_Atk": 55,
+    "Special_Def": 71,
+    "Speed": 59,
+    "Total": 438,
+    "Type1": "Rock"
+  },
+  {
+    "Attack": 81,
+    "Defense": 64,
+    "HP": 72,
+    "Special_Atk": 67,
+    "Special_Def": 66,
+    "Speed": 76,
+    "Total": 425,
+    "Type1": "Dark"
+  },
+  {
+    "Attack": 64,
+    "Defense": 67,
+    "HP": 55,
+    "Special_Atk": 55,
+    "Special_Def": 61,
+    "Speed": 60,
+    "Total": 362,
+    "Type1": "Bug"
+  },
+  {
+    "Attack": 97,
+    "Defense": 74,
+    "HP": 77,
+    "Special_Atk": 74,
+    "Special_Def": 73,
+    "Speed": 67,
+    "Total": 462,
+    "Type1": "Dragon"
+  },
+  {
+    "Attack": 82,
+    "Defense": 78,
+    "HP": 74,
+    "Special_Atk": 64,
+    "Special_Def": 72,
+    "Speed": 65,
+    "Total": 434,
+    "Type1": "Ice"
+  },
+  {
+    "Attack": 74,
+    "Defense": 60,
+    "HP": 76,
+    "Special_Atk": 58,
+    "Special_Def": 64,
+    "Speed": 69,
+    "Total": 400,
+    "Type1": "Normal"
+  },
+  {
+    "Attack": 86,
+    "Defense": 81,
+    "HP": 76,
+    "Special_Atk": 78,
+    "Special_Def": 77,
+    "Speed": 84,
+    "Total": 481,
+    "Type1": "Flying"
+  },
+  {
+    "Attack": 89,
+    "Defense": 88,
+    "HP": 72,
+    "Special_Atk": 53,
+    "Special_Def": 63,
+    "Speed": 60,
+    "Total": 425,
+    "Type1": "Ground"
+  },
+  {
+    "Attack": 74,
+    "Defense": 71,
+    "HP": 68,
+    "Special_Atk": 69,
+    "Special_Def": 71,
+    "Speed": 67,
+    "Total": 421,
+    "Type1": "Poison"
+  },
+  {
+    "Attack": 87,
+    "Defense": 114,
+    "HP": 64,
+    "Special_Atk": 68,
+    "Special_Def": 84,
+    "Speed": 47,
+    "Total": 464,
+    "Type1": "Steel"
+  },
+  {
+    "Attack": 69,
+    "Defense": 70,
+    "HP": 68,
+    "Special_Atk": 92,
+    "Special_Def": 83,
+    "Speed": 74,
+    "Total": 455,
+    "Type1": "Psychic"
+  },
+  {
+    "Attack": 72,
+    "Defense": 73,
+    "HP": 66,
+    "Special_Atk": 87,
+    "Special_Def": 81,
+    "Speed": 71,
+    "Total": 449,
+    "Type1": "Ghost"
+  },
+  {
+    "Attack": 67,
+    "Defense": 71,
+    "HP": 69,
+    "Special_Atk": 76,
+    "Special_Def": 87,
+    "Speed": 58,
+    "Total": 428,
+    "Type1": "Fairy"
+  }
+]
