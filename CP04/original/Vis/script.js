@@ -13,10 +13,36 @@ function init() {
   //createBarChart("#vi5");
   createParallelCoordinates("#vi2");
   createScatterPlotMoves("#vi3");
-  //createSearchBar("#sb1");
+  createSearchBar("#sb1");
 }
 
+function value(key, d){
+  if(key == "Total" )
+    return d.Total;
+  if (key == "HP")
+    return d.HP;
+  if (key == "Attack")
+    return d.Attack;
+  if (key == "Defense")
+    return d.Defense;
+  if (key == "Special_Atk")
+    return d.Special_Atk;
+  if (key == "Special_Def")
+    return d.Special_Def;
+  if (key == "Speed")
+    return d.Speed;
+}
+
+const stats = ["Total", "HP", "Attack", "Defense", "Special_Atk", "Special_Def", "Speed"];
+
+const types = ["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass",
+"Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy"];
+
+const colors = ["#6D6D53", "#9A2620", "#270F70", "#803380", "#644F14", "#93802D", "#86931A", "#5A467A", "#313149", "#AC4F0C",
+"#0E3289", "#5F902D", "#826904", "#950631", "#256363", "#3506A9", "#5A463A", "#691125"];
+
 function createHeatmap(id) {
+  console.log(window.innerWidth)
   const svg = d3
     .select(id)
     .attr("width", width_left + margin.left + margin.right)
@@ -124,8 +150,8 @@ function createHeatmap(id) {
         .duration(200)
         .style("opacity", .9);
         div.html("Monthly Usage of" + "<br/>" + d.Type1 + "-" + d.Type2 + "<br/>" + "Pokémon: " + d.Monthly_Usage + "k")
-          .style("left", (d3.pointer(event,this)[0] + 70) + "px")
-          .style("top", (d3.pointer(event,this)[1] - 32) + "px");
+          .style("left", (d3.pointer(event,this)[0] + (0.045*window.innerWidth)) + "px")
+          .style("top", (d3.pointer(event,this)[1] - (0.045*window.innerHeight)) + "px");
 
         d3.select(this)
         .style("stroke", this.style.stroke == "red" ? "red" : "black")
@@ -133,8 +159,8 @@ function createHeatmap(id) {
   
       })
       .on("mousemove", function(event,d){
-        div.style("left", (d3.pointer(event,this)[0] + 70) + "px")
-          .style("top", (d3.pointer(event,this)[1]- 12) + "px");
+        div.style("left", (d3.pointer(event,this)[0] + (0.045*window.innerHeight)) + "px")
+          .style("top", (d3.pointer(event,this)[1]- (0.016*window.innerHeight)) + "px");
       })
       .on("mouseout", function(){
         d3.select(this)
@@ -181,40 +207,13 @@ function createParallelCoordinates(id) {
 
   d3.json("json/average_values_types_one.json").then(function (data) {
 
-
-    const stats = ["Total", "HP", "Attack", "Defense", "Special_Atk", "Special_Def", "Speed"];
-
-    function value(key, d){
-      if(key == "Total" )
-        return d.Total;
-      if (key == "HP")
-        return d.HP;
-      if (key == "Attack")
-        return d.Attack;
-      if (key == "Defense")
-        return d.Defense;
-      if (key == "Special_Atk")
-        return d.Special_Atk;
-      if (key == "Special_Def")
-        return d.Special_Def;
-      if (key == "Speed")
-        return d.Speed;
-    }
-
-    const types = ["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass",
-    "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy"];
-
-    const colors = ["#6D6D53", "#9A2620", "#270F70", "#803380", "#644F14", "#93802D", "#86931A", "#5A467A", "#313149", "#AC4F0C",
-    "#0E3289", "#5F902D", "#826904", "#950631", "#256363", "#3506A9", "#5A463A", "#691125"];
-
     const color = d3.scaleOrdinal(types,colors);
-
 
     const x = d3.scalePoint(stats, [0, (7/8)* width_bottom]);
 
     const x_types = d3.scalePoint(types, [0, (19/20)* width_bottom]);
 
-    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear(d3.extent(data, d => value(key, d)), [10, height])]))
+    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear([d3.min(data, d => value(key, d)) - 10, d3.max(data, d => value(key, d)) + 10], [10, height])]));
 
 
     line = d3.line()
@@ -244,7 +243,7 @@ function createParallelCoordinates(id) {
         .style("opacity", .9);
         div.html("Type 1: " + d.Type1)
           .style("left", (d3.pointer(event,this)[0]) + "px")
-          .style("top", (d3.pointer(event,this)[1] + 310) + "px")
+          .style("top", (d3.pointer(event,this)[1] + (0.476*window.innerHeight)) + "px")
       })
       .on("mouseout", function(){
         d3.select(this)
@@ -256,7 +255,13 @@ function createParallelCoordinates(id) {
       })
       .on("mousemove", function(event,d){
         div.style("left", (d3.pointer(event,this)[0]) + "px")
-          .style("top", (d3.pointer(event,this)[1]+ 310) + "px");
+          .style("top", (d3.pointer(event,this)[1]+ (0.476*window.innerHeight)) + "px");
+      })
+      .on("click", function(event,d){
+        updateParallelCoordinatesOneType(d.Type1);
+        div.transition()
+        .duration(500)
+        .style("opacity", 0);
       })
       .append("title")
         .text((d) => d.Type1);
@@ -484,6 +489,27 @@ function createScatterPlotMoves(id) {
   });
 }
 
+function createSearchBar(id){
+  const svg = d3
+  .select(id)
+  .attr("width", width_bottom + margin.right)
+  .attr("height", 30)
+  .append("g")
+  .attr("id", "gSearchBar")
+  .attr("transform", `translate(0, 0)`);
+
+  svg
+  .append("rect")
+  .attr("x", 742.656 - 250)
+  .attr("y", 0)
+  .attr("rx", 4)
+  .attr("ry", 4)
+  .attr("height", 30)
+  .attr("width", 500)
+  .attr("fill", "#cccccc")
+  
+}
+
 function resetParallelCoordinates(){
   var div = d3.select("body").append("div")
   .attr("class", "tooltip2")
@@ -491,38 +517,13 @@ function resetParallelCoordinates(){
 
   d3.json("json/average_values_types_one.json").then(function (data) {
 
-    const stats = ["Total", "HP", "Attack", "Defense", "Special_Atk", "Special_Def", "Speed"];
-
-    function value(key, d){
-      if(key == "Total" )
-        return d.Total;
-      if (key == "HP")
-        return d.HP;
-      if (key == "Attack")
-        return d.Attack;
-      if (key == "Defense")
-        return d.Defense;
-      if (key == "Special_Atk")
-        return d.Special_Atk;
-      if (key == "Special_Def")
-        return d.Special_Def;
-      if (key == "Speed")
-        return d.Speed;
-    }
-
-    const types = ["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass",
-    "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy"];
-
-    const colors = ["#6D6D53", "#9A2620", "#270F70", "#803380", "#644F14", "#93802D", "#86931A", "#5A467A", "#313149", "#AC4F0C",
-    "#0E3289", "#5F902D", "#826904", "#950631", "#256363", "#3506A9", "#5A463A", "#691125"];
-
     const color = d3.scaleOrdinal(types,colors);
 
     const x = d3.scalePoint(stats, [0, (7/8)* width_bottom]);
 
     const x_types = d3.scalePoint(types, [0, (19/20)* width_bottom]);
 
-    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear(d3.extent(data, d => value(key, d)), [10, height])]))
+    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear([d3.min(data, d => value(key, d)) - 10, d3.max(data, d => value(key, d)) + 10], [10, height])]));
     
     const svg = d3.select("#gParallelCoordinates");
 
@@ -557,7 +558,7 @@ function resetParallelCoordinates(){
         .style("opacity", .9);
         div.html("Type 1: " + d.Type1)
           .style("left", (d3.pointer(event,this)[0]) + "px")
-          .style("top", (d3.pointer(event,this)[1] + 310) + "px")
+          .style("top", (d3.pointer(event,this)[1] + (0.476*window.innerHeight)) + "px")
       })
       .on("mouseout", function(){
         d3.select(this)
@@ -569,10 +570,124 @@ function resetParallelCoordinates(){
       })
       .on("mousemove", function(event,d){
         div.style("left", (d3.pointer(event,this)[0]) + "px")
-          .style("top", (d3.pointer(event,this)[1]+ 310) + "px");
+          .style("top", (d3.pointer(event,this)[1]+ (0.476*window.innerHeight)) + "px");
+      })
+      .on("click", function(event,d){
+        updateParallelCoordinatesOneType(d.Type1);
+        div.transition()
+        .duration(500)
+        .style("opacity", 0);
       })
       .append("title")
-        .text((d) => d.Pokemon);
+        .text((d) => d.Type1);
+
+    for(i = 0; i < 7; i++){
+      svg
+        .select("#" + stats[i] + "Axis")
+        .transition()
+        .duration(1000)
+        .call(d3.axisLeft(y.get(stats[i])));
+    }
+
+    for(i = 0; i < 18; i++){
+      svg
+        .append("text")
+        .attr("class", "types_colors")
+        .attr("text-anchor", "left")
+        .attr("y", height + 25)
+        .attr("x", x_types(types[i]) )
+        .style("font-size", 0.014*width_right+"px")
+        .text(types[i])
+        .on("mouseover", function(){
+          d3.selectAll("." + this.textContent )
+            .attr("stroke-width", 3.0)
+            .style("opacity", 1.0);
+        })
+        .on("mouseout", function(){
+          d3.selectAll("." + this.textContent)
+            .attr("stroke-width", 1.0)
+            .style("opacity", .6);
+        });
+      svg.append("rect")
+        .attr("y", height + 15)
+        .attr("x", function(){
+          return x_types(types[i]) - 15; //- (types[i].length * 5.8);
+        } )
+        .style("fill", color(types[i]))
+        .attr("height", 10)
+        .attr("width", 10)
+        .style("opacity", 1.0);
+    }
+  });
+}
+
+function updateParallelCoordinatesOneType(type1){
+  var div = d3.select("body").append("div")
+  .attr("class", "tooltip3")
+  .style("opacity", 0);
+
+  d3.json("json/two_types_averages.json").then(function (data) {
+    data = data.filter(function (elem) {
+      return type1 == elem.Type1;
+    });
+
+    const color = d3.scaleOrdinal(types,colors);
+
+    const x = d3.scalePoint(stats, [0, (7/8)* width_bottom]);
+
+    const x_types = d3.scalePoint(types, [0, (19/20)* width_bottom]);
+
+    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear([d3.min(data, d => value(key, d)) - 10, d3.max(data, d => value(key, d)) + 10], [10, height])]));
+    
+    const svg = d3.select("#gParallelCoordinates");
+
+
+
+    line = d3.line()
+      .defined(([value,]) => value != null)
+      .x(([, key]) => x(key))
+      .y(([value, key]) => y.get(key)(value));
+
+    svg
+      .selectAll("path")
+      .remove();
+
+    svg
+      .selectAll("path")
+      .data(data)
+      .enter()
+      .append("path")
+      .attr("class", d => d.Type2)
+      .attr("fill", "none")
+      .attr("stroke-width", 1.0)
+      .attr("stroke", d => color(d.Type2))
+      .attr("d", d => line(d3.cross([d], stats, (element, key) => [value(key, element), key])))
+      .style("opacity", .6)
+      .on("mouseover", function(event, d){
+        d3.select(this)
+          .attr("stroke-width", 3.0)
+          .style("opacity", 1.0);
+        div.transition()
+        .duration(100)
+        .style("opacity", .9);
+        div.html("Type 1: " + d.Type1 + "<br/>" + "Type 2: " + d.Type2)
+          .style("left", (d3.pointer(event,this)[0]) + "px")
+          .style("top", (d3.pointer(event,this)[1] + (0.476*window.innerHeight)) + "px")
+      })
+      .on("mouseout", function(){
+        d3.select(this)
+          .attr("stroke-width", 1.0)
+          .style("opacity", .6);
+        div.transition()
+        .duration(500)
+        .style("opacity", 0);
+      })
+      .on("mousemove", function(event,d){
+        div.style("left", (d3.pointer(event,this)[0]) + "px")
+          .style("top", (d3.pointer(event,this)[1]+ (0.476*window.innerHeight)) + "px");
+      })
+      .append("title")
+        .text((d) => d.Type2);
 
     for(i = 0; i < 7; i++){
       svg
@@ -624,41 +739,14 @@ function updateParallelCoordinatesTwoTypes(type1, type2) {
       return type1 == elem.Type1 && elem.Type2 == type2;
     });
 
-    const stats = ["Total", "HP", "Attack", "Defense", "Special_Atk", "Special_Def", "Speed"];
-
-    function value(key, d){
-      if(key == "Total" )
-        return d.Total;
-      if (key == "HP")
-        return d.HP;
-      if (key == "Attack")
-        return d.Attack;
-      if (key == "Defense")
-        return d.Defense;
-      if (key == "Special_Atk")
-        return d.Special_Atk;
-      if (key == "Special_Def")
-        return d.Special_Def;
-      if (key == "Speed")
-        return d.Speed;
-    }
-
-    const types = ["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass",
-    "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy"];
-
-    const colors = ["#6D6D53", "#9A2620", "#270F70", "#803380", "#644F14", "#93802D", "#86931A", "#5A467A", "#313149", "#AC4F0C",
-    "#0E3289", "#5F902D", "#826904", "#950631", "#256363", "#3506A9", "#5A463A", "#691125"];
-
     const color = d3.scaleOrdinal(types,colors);
 
     const x = d3.scalePoint(stats, [0, (7/8)* width_bottom]);
 
     const x_types = d3.scalePoint(types, [0, (19/20)* width_bottom]);
 
-    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear(d3.extent(data, d => value(key, d)), [10, height])]))
+    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear([d3.min(data, d => value(key, d)) - 10, d3.max(data, d => value(key, d)) + 10], [10, height])]));
     const svg = d3.select("#gParallelCoordinates");
-
-
 
     line = d3.line()
       .defined(([value,]) => value != null)
@@ -689,7 +777,7 @@ function updateParallelCoordinatesTwoTypes(type1, type2) {
         .style("opacity", .9);
         div.html("Pokémon: " + d.Pokemon + "<br/>" + "Type 1: " + d.Type1 + "<br/>" + "Type 2: " + d.Type2)
           .style("left", (d3.pointer(event,this)[0]) + "px")
-          .style("top", (d3.pointer(event,this)[1] + 310) + "px")
+          .style("top", (d3.pointer(event,this)[1] + (0.476*window.innerHeight)) + "px")
       })
       .on("mouseout", function(){
         d3.select(this)
@@ -701,7 +789,7 @@ function updateParallelCoordinatesTwoTypes(type1, type2) {
       })
       .on("mousemove", function(event,d){
         div.style("left", (d3.pointer(event,this)[0]) + "px")
-          .style("top", (d3.pointer(event,this)[1]+ 310) + "px");
+          .style("top", (d3.pointer(event,this)[1]+ (0.476*window.innerHeight)) + "px");
       })
       .append("title")
         .text((d) => d.Pokemon);
