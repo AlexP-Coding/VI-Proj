@@ -56,6 +56,7 @@ var highlight = 0;
 
 var opacityTriangle = 0;
 var opacityCircle = 0;
+var opacitySquare = 0;
 
 function createHeatmap(id) {
   const svg = d3
@@ -364,6 +365,86 @@ function createParallelCoordinates(id) {
   })
 }
 
+function readMovesData(svg, types) {
+  d3.json("json/df_moves.json").then(function (data) {
+    if (types != null) {
+      data = data.filter(function (d) {
+        return types.includes(d.Type);
+      });
+    }
+
+    const keys = ["Special", "Status", "Physical"];
+
+    const shape = d3.scaleOrdinal()
+      .domain(keys)
+      .range([d3.symbolCircle, d3.symbolSquare, d3.symbolTriangle]);
+
+    const x = d3
+      .scaleLinear()
+      .domain([-5, 270])
+      .range([0, width_right]);
+    svg
+      .append("g")
+      .attr("id", "gXAxis")
+      .attr("transform", `translate(0, ${height})`)
+      .call(d3.axisBottom(x));
+    svg
+      .append("text")
+      .attr("class", "x label")
+      .attr("text-anchor", "end")
+      .attr("y", height - 10)
+      .attr("x", width_right)
+      .style("font-size", 0.018 * width_right + "px")
+      .text("Power");
+
+    const y = d3
+      .scaleLinear()
+      .domain([0, 40])
+      .range([height, 0]);
+
+    svg
+      .append("g")
+      .attr("id", "gYAxis")
+      .call(d3.axisLeft(y));
+
+    svg
+      .append("text")
+      .attr("class", "y label")
+      .attr("text-anchor", "end")
+      .attr("y", -25)
+      .attr("x", 0)
+      .attr("transform", `rotate(-90)`)
+      .style("font-size", 0.018 * width_right + "px")
+      .text("PP");
+
+    svg
+      .selectAll("dots")
+      .data(data)
+      .enter()
+      .append("path")
+      .attr("id", d => d.Move)
+      //.attr("class", function (d) { return d.Damage_Class == "Special" ? `dotValue circleValue ${d.Type}Dot` : `dotValue triangleValue ${d.Type}Dot` })
+      .attr("class", function (d) {
+        if (d.Damage_Class == "Special") return `dotValue circleValue ${d.Type}Dot`;
+        else if (d.Damage_Class == "Physical") return `dotValue triangleValue ${d.Type}Dot`
+        else return `dotValue squareValue ${d.Type}Dot`;
+      })
+      .attr("d", d3.symbol()
+        .size(120)
+        .type(function (d) { return shape(d.Damage_Class) })
+      )
+      .attr("transform", function (d) { return "translate(" + x(d.Power) + "," + y(d.PP) + ")"; })
+      .style("fill", "steelblue")
+      .style("opacity", function() {
+        if (d3.select(this).classed("circleValue")) return opacityCircle == 0.15 ? 0 : 0.15;
+        else if (d3.select(this).classed("squareValue")) return opacitySquare == 0.15 ? 0 : 0.15;
+        else return opacityTriangle == 0.15 ? 0 : 0.15;
+      })
+      .append("title")
+      .text((d) => d.Move);
+  });
+}
+
 function createScatterPlotMoves(id) {
   const svg = d3
     .select(id)
@@ -427,122 +508,75 @@ function createScatterPlotMoves(id) {
     .attr("x", 0.78 * width_right)
     .attr("y", 90);
 
-  d3.json("json/df_moves.json").then(function (data) {
-    data = data.filter(function (d) {
-      return d.Power != -1; //&& !(d.Accuracy == -1);
+  readMovesData(svg, null);
+
+  const trianglesym = d3.symbol().type(d3.symbolTriangle).size(120);
+  const squaresym = d3.symbol().type(d3.symbolSquare).size(120);
+
+  svg.append("circle")
+    .attr("cx", 0.78 * width_right)
+    .attr("cy", 0.465 * height)
+    .attr("r", 6)
+    .style("fill", "steelblue")
+    .style("opacity", 0.35);
+
+  svg.append("path")
+    .attr("d", trianglesym)
+    .attr("fill", "steelblue")
+    .attr("transform", "translate(" + 0.78 * width_right + "," + 0.405 * height + ")")
+    .style("opacity", 0.35);
+
+  svg.append("path")
+    .attr("d", squaresym)
+    .attr("fill", "steelblue")
+    .attr("transform", "translate(" + 0.78 * width_right + "," + 0.53 * height + ")")
+    .style("opacity", 0.35);
+
+  const label_special = svg.append("text");
+  const label_physical = svg.append("text");
+  const label_status = svg.append("text");
+
+  label_special
+    .attr("id", "special_label")
+    .attr("x", 0.8 * width_right)
+    .attr("y", 0.471 * height)
+    .text("Special")
+    .style("font-weight", "bold")
+    .style("font-size", 0.015 * width_right + "px")
+    .attr("alignment-baseline", "middle")
+    .on("click", function () {
+      opacityCircle = d3.selectAll(".circleValue").style("opacity");
+      d3.selectAll(".circleValue").transition().style("opacity", opacityCircle == 0.15 ? 0 : 0.15);
+      d3.select(this).style("font-weight", opacityCircle == 0.15 ? "normal" : "bold")
     });
 
-    const keys = ["Special", "Status", "Physical"];
+  label_physical
+    .attr("id", "physical_label")
+    .attr("x", 0.8 * width_right)
+    .attr("y", 0.405 * height)
+    .text("Physical")
+    .style("font-weight", "bold")
+    .style("font-size", 0.015 * width_right + "px")
+    .attr("alignment-baseline", "middle")
+    .on("click", function () {
+      opacityTriangle = d3.selectAll(".triangleValue").style("opacity");
+      d3.selectAll(".triangleValue").transition().style("opacity", opacityTriangle == 0.15 ? 0 : 0.15);
+      d3.select(this).style("font-weight", opacityTriangle == 0.15 ? "normal" : "bold")
+    });
 
-    const shape = d3.scaleOrdinal()
-      .domain(keys)
-      .range([d3.symbolCircle, d3.symbolSquare, d3.symbolTriangle]);
-
-    const x = d3
-      .scaleLinear()
-      .domain([0, 250])
-      .range([0, width_right]);
-    svg
-      .append("g")
-      .attr("id", "gXAxis")
-      .attr("transform", `translate(0, ${height})`)
-      .call(d3.axisBottom(x));
-    svg
-      .append("text")
-      .attr("class", "x label")
-      .attr("text-anchor", "end")
-      .attr("y", height - 10)
-      .attr("x", width_right)
-      .style("font-size", 0.018 * width_right + "px")
-      .text("Power");
-
-    const y = d3
-      .scaleLinear()
-      .domain([0, 40])
-      .range([height, 0]);
-
-    svg
-      .append("g")
-      .attr("id", "gYAxis")
-      .call(d3.axisLeft(y));
-
-    svg
-      .append("text")
-      .attr("class", "y label")
-      .attr("text-anchor", "end")
-      .attr("y", -25)
-      .attr("x", 0)
-      .attr("transform", `rotate(-90)`)
-      .style("font-size", 0.018 * width_right + "px")
-      .text("PP");
-
-    svg
-      .selectAll("dots")
-      .data(data)
-      .enter()
-      .append("path")
-      .attr("id", d => d.Move)
-      .attr("class", function (d) { return d.Damage_Class == "Special" ? `dotValue circleValue ${d.Type}Dot` : `dotValue triangleValue ${d.Type}Dot` })
-      .attr("d", d3.symbol()
-        .size(120)
-        .type(function (d) { return shape(d.Damage_Class) })
-      )
-      .attr("transform", function (d) { return "translate(" + x(d.Power) + "," + y(d.PP) + ")"; })
-      .style("fill", "steelblue")
-      .style("opacity", 0.15)
-      /*
-      .on("mouseover", (event, d) => handleMouseOver(d.country))
-      .on("mouseleave", (event, d) => handleMouseLeave())
-      */
-      .append("title")
-      .text((d) => d.Move);
-
-    const trianglesym = d3.symbol().type(d3.symbolTriangle).size(120);
-
-    svg.append("circle")
-      .attr("cx", 0.78 * width_right)
-      .attr("cy", 0.465 * height)
-      .attr("r", 6)
-      .style("fill", "steelblue")
-      .style("opacity", 0.35);
-
-    svg.append("path")
-      .attr("d", trianglesym)
-      .attr("fill", "steelblue")
-      .attr("transform", "translate(" + 0.78 * width_right + ", 158)")
-      .style("opacity", 0.35);
-
-    const label_special = svg.append("text");
-    const label_physical = svg.append("text");
-
-    label_special
-      .attr("id", "special_label")
-      .attr("x", 0.8 * width_right)
-      .attr("y", 0.48 * height)
-      .text("Special")
-      .style("font-weight","bold")
-      .style("font-size", 0.015 * width_right + "px")
-      .attr("alignment-baseline", "middle")
-      .on("click", function(event, d) {
-        opacityCircle = d3.selectAll(".circleValue").style("opacity");
-        d3.selectAll(".circleValue").transition().style("opacity", opacityCircle == 0.15 ? 0 : 0.15);
-        d3.select(this).style("font-weight", opacityCircle == 0.15 ? "normal" : "bold")
-      });
-
-    label_physical
-      .attr("id", "physical_label")
-      .attr("x", 0.8 * width_right)
-      .attr("y", 160)
-      .text("Physical")
-      .style("font-weight", "bold")
-      .style("font-size", 0.015 * width_right + "px")
-      .attr("alignment-baseline", "middle")
-      .on("click", function(event, d) {
-        opacityTriangle = d3.selectAll(".triangleValue").style("opacity");
-        d3.selectAll(".triangleValue").transition().style("opacity", opacityTriangle == 0.15 ? 0 : 0.15);
-        d3.select(this).style("font-weight", opacityTriangle == 0.15 ? "normal" : "bold")
-      });
-  });
+  label_status
+    .attr("id", "status_label")
+    .attr("x", 0.8 * width_right)
+    .attr("y", 0.537 * height)
+    .text("Status")
+    .style("font-weight", "bold")
+    .style("font-size", 0.015 * width_right + "px")
+    .attr("alignment-baseline", "middle")
+    .on("click", function () {
+      opacitySquare = d3.selectAll(".squareValue").style("opacity");
+      d3.selectAll(".squareValue").transition().style("opacity", opacitySquare == 0.15 ? 0 : 0.15);
+      d3.select(this).style("font-weight", opacitySquare == 0.15 ? "normal" : "bold")
+    });
 }
 
 function createSearchBar(id) {
@@ -1011,55 +1045,21 @@ function updateHeatMapSelectionTwoTypes(type1, type2) {
 function resetScatterPlot() {
   const svg = d3.select("#gScatterPlot");
 
-  const x = d3
-      .scaleLinear()
-      .domain([0, 250])
-      .range([0, width_right]);
-
-  const y = d3
-      .scaleLinear()
-      .domain([0, 40])
-      .range([height, 0]);
-  
   svg.selectAll("path")
     .filter(".dotValue")
     .remove();
 
-  d3.json("json/df_moves.json").then(function (data) {
-    data = data.filter(function (d) {
-      return d.Power != -1; //&& !(d.Accuracy == -1);
-    });
+  readMovesData(svg, null);
 
-    const keys = ["Special", "Status", "Physical"];
+  svg.selectAll(".circleValue")
+    .style("opacity", opacityCircle == 0.15 ? 0 : 0.15);
 
-    const shape = d3.scaleOrdinal()
-      .domain(keys)
-      .range([d3.symbolCircle, d3.symbolSquare, d3.symbolTriangle]);
+  svg.selectAll(".triangleValue")
+    .style("opacity", opacityTriangle == 0.15 ? 0 : 0.15);
 
-    svg
-      .selectAll("dots")
-      .data(data)
-      .enter()
-      .append("path")
-      .attr("id", d => d.Move)
-      .attr("class", function (d) { return d.Damage_Class == "Special" ? `dotValue circleValue ${d.Type}Dot` : `dotValue triangleValue ${d.Type}Dot` })
-      .attr("d", d3.symbol()
-        .size(120)
-        .type(function (d) { return shape(d.Damage_Class) })
-      )
-      .attr("transform", function (d) { return "translate(" + x(d.Power) + "," + y(d.PP) + ")"; })
-      .style("fill", "steelblue")
-      .append("title")
-      .text((d) => d.Move);
+  svg.selectAll(".squareValue")
+    .style("opacity", opacitySquare == 0.15 ? 0 : 0.15);
 
-      console.log(opacityCircle, opacityTriangle);
-
-      d3.selectAll(".circleValue")
-        .attr("opacity", opacityCircle == 0.15 ? 0 : 0.15);
-
-      d3.selectAll(".triangleValue")
-        .attr("opacity", opacityTriangle == 0.15 ? 0 : 0.15);
-    })  
 }
 
 function updateScatterPlotFilterOneType(type) {
@@ -1067,8 +1067,10 @@ function updateScatterPlotFilterOneType(type) {
 
   svg.selectAll("path")
     .filter(".dotValue")
-    .filter(`*:not(.${type}Dot)`)
+    //.filter(`*:not(.${type}Dot)`)
     .remove();
+
+  readMovesData(svg, [type]);
 }
 
 function updateScatterPlot(start, finish) {
