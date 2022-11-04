@@ -383,39 +383,11 @@ function readMovesData(svg, types) {
       .scaleLinear()
       .domain([-5, 270])
       .range([0, width_right]);
-    svg
-      .append("g")
-      .attr("id", "gXAxis")
-      .attr("transform", `translate(0, ${height})`)
-      .call(d3.axisBottom(x));
-    svg
-      .append("text")
-      .attr("class", "x label")
-      .attr("text-anchor", "end")
-      .attr("y", height - 10)
-      .attr("x", width_right)
-      .style("font-size", 0.018 * width_right + "px")
-      .text("Power");
 
     const y = d3
       .scaleLinear()
       .domain([0, 40])
       .range([height, 0]);
-
-    svg
-      .append("g")
-      .attr("id", "gYAxis")
-      .call(d3.axisLeft(y));
-
-    svg
-      .append("text")
-      .attr("class", "y label")
-      .attr("text-anchor", "end")
-      .attr("y", -25)
-      .attr("x", 0)
-      .attr("transform", `rotate(-90)`)
-      .style("font-size", 0.018 * width_right + "px")
-      .text("PP");
 
     svg
       .selectAll("dots")
@@ -454,6 +426,16 @@ function createScatterPlotMoves(id) {
     .attr("id", "gScatterPlot")
     .attr("transform", "translate(" + (margin.left) + ", " + margin.top + ")");
 
+  const x = d3
+    .scaleLinear()
+    .domain([-5, 270])
+    .range([0, width_right]);
+
+  const y = d3
+    .scaleLinear()
+    .domain([0, 40])
+    .range([height, 0]);
+
   const bar = svg.append("g");
 
   bar.append("rect")
@@ -471,7 +453,7 @@ function createScatterPlotMoves(id) {
     .attr("x2", "0%")
     .attr("y1", "0%")
     .attr("y2", "100%");
-
+ 
   gradient
     .append("stop")
     .attr("offset", "0%")
@@ -507,6 +489,35 @@ function createScatterPlotMoves(id) {
     .text("Estimate of number of moves")
     .attr("x", 0.78 * width_right)
     .attr("y", 90);
+
+  svg
+    .append("g")
+    .attr("id", "gXAxis")
+    .attr("transform", `translate(0, ${height})`)
+    .call(d3.axisBottom(x));
+  svg
+    .append("text")
+    .attr("class", "x label")
+    .attr("text-anchor", "end")
+    .attr("y", height - 10)
+    .attr("x", width_right)
+    .style("font-size", 0.018 * width_right + "px")
+    .text("Power");
+
+  svg
+    .append("g")
+    .attr("id", "gYAxis")
+    .call(d3.axisLeft(y));
+
+  svg
+    .append("text")
+    .attr("class", "y label")
+    .attr("text-anchor", "end")
+    .attr("y", -25)
+    .attr("x", 0)
+    .attr("transform", `rotate(-90)`)
+    .style("font-size", 0.018 * width_right + "px")
+    .text("PP");
 
   readMovesData(svg, null);
 
@@ -1068,6 +1079,9 @@ function updateScatterPlotFilterOneType(type) {
   svg.selectAll("path")
     .filter(".dotValue")
     //.filter(`*:not(.${type}Dot)`)
+    .transition()
+    .duration(1500)
+    .style("opacity", 0)
     .remove();
 
   readMovesData(svg, [type]);
