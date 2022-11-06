@@ -13,7 +13,7 @@ function init() {
   //createBarChart("#vi5");
   createParallelCoordinates("#vi2");
   createScatterPlotMoves("#vi3");
-  //createSearchBar("#sb1");
+  createSearchBar("#sb1");
 }
 
 function blendColors(colorA, colorB, amount) {
@@ -246,12 +246,13 @@ function createParallelCoordinates(id) {
 
     const y = new Map(Array.from(stats, key => [key, d3.scaleLinear([d3.min(data, d => value(key, d)) - 10, d3.max(data, d => value(key, d)) + 10], [10, height])]));
 
+    const dragging = {};
+
 
     line = d3.line()
       .defined(([value,]) => value != null)
       .x(([, key]) => x(key))
       .y(([value, key]) => y.get(key)(value))
-
 
 
     svg
@@ -299,6 +300,7 @@ function createParallelCoordinates(id) {
       .append("title")
       .text((d) => d.Type1);
 
+
     for (i = 0; i < 7; i++) {
       svg
         .append("g")
@@ -325,8 +327,43 @@ function createParallelCoordinates(id) {
           .attr("fill", "none")
           .attr("stroke-width", 5)
           .attr("stroke-linejoin", "round")
-          .attr("stroke", "white"));
+          .attr("stroke", "white"))
     }
+
+    svg.selectAll("g[id$='Axis']")
+      .call(d3.drag()
+      //.subject(function (d) { return { x: x(d) }; })
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended));
+
+
+
+    //Define the drag functions
+    function dragstarted(event, d) {
+      dragging[d] = x(d);
+      console.log(dragging[d]);
+    }
+    
+    function dragged(event, d) {
+      //Only drag the axis horizontally
+      dragging[d] = Math.min((7 / 8) * width_bottom, Math.max(0, event.x));
+      //Update the position of the selected axis
+      console.log(dragging[d]);
+      d3.select(this).attr("transform", function (d) { return "translate(" + dragging[d] + ")"; });
+      //Update the paths of the parallel coordinates
+      //svg.selectAll("path").attr("d", line(d3.cross([d], stats, (element, key) => [value(key, element), key]) ));
+    }
+
+    function dragended(event, d) {
+      delete dragging[d];
+    }
+
+    function position(d) {
+      const v = dragging[d];
+      return v == null ? x(d) : v;
+    }
+
 
     for (i = 0; i < 18; i++) {
       svg
@@ -460,7 +497,7 @@ function createScatterPlotMoves(id) {
     .attr("x2", "0%")
     .attr("y1", "0%")
     .attr("y2", "100%");
- 
+
   gradient
     .append("stop")
     .attr("offset", "0%")
@@ -617,7 +654,50 @@ function createSearchBar(id) {
     .attr("stroke", "black")
     .attr("fill", "#cccccc");
 
+  // Add the search icon
+  svg
+    .append("svg:image")
+    .attr("xlink:href", "https://img.icons8.com/ios/50/000000/search--v1.png")
+    .attr("x", 742.656 - 250 + 10)
+    .attr("y", 5)
+    .attr("width", 20)
+    .attr("height", 20);
+
+  // Add the search input
+  svg
+    .append("foreignObject")
+    .attr("x", 742.656 - 250 + 40)
+    .attr("y", 0)
+    .attr("width", 500 - 40)
+    .attr("height", 30)
+    .append("xhtml:input")
+    .attr("id", "searchInput")
+    .attr("type", "text")
+    .attr("placeholder", "Search for a pokemon")
+    .attr("style", "width: 100%; height: 100%; border: none; outline: none; font-size: 16px; padding-left: 5px;");
+
+  //When the user presses enter, search for the type
+  d3.select("#searchInput").on("keyup", function (event) {
+    if (event.keyCode === 13) {
+      event.preventDefault();
+      const search = document.getElementById("searchInput").value;
+      console.log("search: " + search);
+      readMovesData(d3.select("#gScatterPlot"), [search]);
+    }
+  });
+
+  //When the user clicks on the button, search for the type
+  svg
+    .on("click", function () {
+      const type = document.getElementById("searchInput").value;
+      if (type != "") {
+        updateScatterPlotFilterOneType(type);
+      }
+    });
 }
+
+
+// Add the clear icon   }
 
 function resetParallelCoordinates() {
   var div = d3.select("body").append("div")
