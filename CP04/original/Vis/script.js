@@ -389,13 +389,17 @@ function readMovesData(svg, types) {
       .domain([0, 40])
       .range([height, 0]);
 
+    const fillScale = d3
+      .scaleLinear()
+      .domain([0, 100])
+      .range([0, 1]);
+
     svg
       .selectAll("dots")
       .data(data)
       .enter()
       .append("path")
       .attr("id", d => d.Move)
-      //.attr("class", function (d) { return d.Damage_Class == "Special" ? `dotValue circleValue ${d.Type}Dot` : `dotValue triangleValue ${d.Type}Dot` })
       .attr("class", function (d) {
         if (d.Damage_Class == "Special") return `dotValue circleValue ${d.Type}Dot`;
         else if (d.Damage_Class == "Physical") return `dotValue triangleValue ${d.Type}Dot`
@@ -406,11 +410,14 @@ function readMovesData(svg, types) {
         .type(function (d) { return shape(d.Damage_Class) })
       )
       .attr("transform", function (d) { return "translate(" + x(d.Power) + "," + y(d.PP) + ")"; })
-      .style("fill", "steelblue")
+      .style("fill", function(d) {
+        if (d.Accuracy == -1) return "#DCDCDC";
+        else return d3.interpolateBlues(fillScale(d.Accuracy));
+      })
       .style("opacity", function() {
-        if (d3.select(this).classed("circleValue")) return opacityCircle == 0.15 ? 0 : 0.15;
-        else if (d3.select(this).classed("squareValue")) return opacitySquare == 0.15 ? 0 : 0.15;
-        else return opacityTriangle == 0.15 ? 0 : 0.15;
+        if (d3.select(this).classed("circleValue")) return opacityCircle == 1 ? 0 : 1;
+        else if (d3.select(this).classed("squareValue")) return opacitySquare == 1 ? 0 : 1;
+        else return opacityTriangle == 1 ? 0 : 1;
       })
       .append("title")
       .text((d) => d.Move);
@@ -457,12 +464,12 @@ function createScatterPlotMoves(id) {
   gradient
     .append("stop")
     .attr("offset", "0%")
-    .style("stop-color", "#4b83b4");
+    .style("stop-color", d3.interpolateBlues(1));
 
   gradient
     .append("stop")
     .attr("offset", "100%")
-    .style("stop-color", d3.interpolateBlues(0.1));
+    .style("stop-color", d3.interpolateBlues(0));
 
   bar.attr("fill", "url(#mygrad)");
 
@@ -470,7 +477,7 @@ function createScatterPlotMoves(id) {
     .append("text")
     .attr("fill", "currentColor")
     .style("font-size", 0.015 * width_right + "px")
-    .text(24)
+    .text("100%")
     .attr("x", 0.8 * width_right)
     .attr("y", 20);
 
@@ -478,7 +485,7 @@ function createScatterPlotMoves(id) {
     .append("text")
     .attr("fill", "currentColor")
     .style("font-size", 0.015 * width_right + "px")
-    .text(1)
+    .text("0%")
     .attr("x", 0.8 * width_right)
     .attr("y", 70);
 
@@ -486,7 +493,7 @@ function createScatterPlotMoves(id) {
     .append("text")
     .attr("fill", "currentColor")
     .style("font-size", 0.015 * width_right + "px")
-    .text("Estimate of number of moves")
+    .text("Accuracy")
     .attr("x", 0.78 * width_right)
     .attr("y", 90);
 
@@ -557,8 +564,8 @@ function createScatterPlotMoves(id) {
     .attr("alignment-baseline", "middle")
     .on("click", function () {
       opacityCircle = d3.selectAll(".circleValue").style("opacity");
-      d3.selectAll(".circleValue").transition().style("opacity", opacityCircle == 0.15 ? 0 : 0.15);
-      d3.select(this).style("font-weight", opacityCircle == 0.15 ? "normal" : "bold")
+      d3.selectAll(".circleValue").transition().style("opacity", opacityCircle == 1 ? 0 : 1);
+      d3.select(this).style("font-weight", opacityCircle == 1 ? "normal" : "bold")
     });
 
   label_physical
@@ -571,8 +578,8 @@ function createScatterPlotMoves(id) {
     .attr("alignment-baseline", "middle")
     .on("click", function () {
       opacityTriangle = d3.selectAll(".triangleValue").style("opacity");
-      d3.selectAll(".triangleValue").transition().style("opacity", opacityTriangle == 0.15 ? 0 : 0.15);
-      d3.select(this).style("font-weight", opacityTriangle == 0.15 ? "normal" : "bold")
+      d3.selectAll(".triangleValue").transition().style("opacity", opacityTriangle == 1 ? 0 : 1);
+      d3.select(this).style("font-weight", opacityTriangle == 1 ? "normal" : "bold")
     });
 
   label_status
@@ -585,8 +592,8 @@ function createScatterPlotMoves(id) {
     .attr("alignment-baseline", "middle")
     .on("click", function () {
       opacitySquare = d3.selectAll(".squareValue").style("opacity");
-      d3.selectAll(".squareValue").transition().style("opacity", opacitySquare == 0.15 ? 0 : 0.15);
-      d3.select(this).style("font-weight", opacitySquare == 0.15 ? "normal" : "bold")
+      d3.selectAll(".squareValue").transition().style("opacity", opacitySquare == 1 ? 0 : 1);
+      d3.select(this).style("font-weight", opacitySquare == 1 ? "normal" : "bold")
     });
 }
 
@@ -1063,13 +1070,13 @@ function resetScatterPlot() {
   readMovesData(svg, null);
 
   svg.selectAll(".circleValue")
-    .style("opacity", opacityCircle == 0.15 ? 0 : 0.15);
+    .style("opacity", opacityCircle == 1 ? 0 : 1);
 
   svg.selectAll(".triangleValue")
-    .style("opacity", opacityTriangle == 0.15 ? 0 : 0.15);
+    .style("opacity", opacityTriangle == 1 ? 0 : 1);
 
   svg.selectAll(".squareValue")
-    .style("opacity", opacitySquare == 0.15 ? 0 : 0.15);
+    .style("opacity", opacitySquare == 1 ? 0 : 1);
 
 }
 
