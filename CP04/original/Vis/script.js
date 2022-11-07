@@ -57,6 +57,7 @@ var highlight = 0;
 var opacityTriangle = 0;
 var opacityCircle = 0;
 var opacitySquare = 0;
+var parallel_data;
 
 function createHeatmap(id) {
   const svg = d3
@@ -205,6 +206,7 @@ function createHeatmap(id) {
               .style("opacity", 1)
               .style("stroke-width", "3px");
             updateParallelCoordinatesTwoTypes(d.Type1, d.Type2);
+            updateScatterPlotFilterTwoTypes(d.Type1, d.Type2);
             d3.select("rect.highlight").remove();
           }
           else if (highlight == 1) {
@@ -237,6 +239,8 @@ function createParallelCoordinates(id) {
     .style("opacity", 0);
 
   d3.json("json/average_values_types_one.json").then(function (data) {
+
+    parallel_data = data;
 
     const color = d3.scaleOrdinal(types, colors);
 
@@ -403,6 +407,12 @@ function createParallelCoordinates(id) {
 }
 
 function readMovesData(svg, types) {
+
+  var div = d3.select("body").append("div")
+    .attr("id", "tooltipMoves")
+    .attr("class", "tooltip4")
+    .style("opacity", 0);
+
   d3.json("json/df_moves.json").then(function (data) {
     if (types != null) {
       data = data.filter(function (d) {
@@ -456,8 +466,26 @@ function readMovesData(svg, types) {
         else if (d3.select(this).classed("squareValue")) return opacitySquare == 1 ? 0 : 1;
         else return opacityTriangle == 1 ? 0 : 1;
       })
-      .append("title")
-      .text((d) => d.Move);
+      .on("mouseover", function (event, d) {
+        d3.select(this).style("opacity") == 1 ?
+          div.transition()
+            .duration(100)
+            .style("opacity", .9) :
+          div.style("opacity", 0);
+        div.html(
+          (d.Accuracy == -1 ?
+            `<b>Move:</b> ${d.Move}<br><b>Type:</b> ${d.Type}<br><b>Power:</b> N/A<br><b>Damage Class:</b> ${d.Damage_Class}`
+            :
+            `<b>Move:</b> ${d.Move}<br><b>Type:</b> ${d.Type}<br><b>Power:</b> ${d.Accuracy}<br><b>Damage Class:</b> ${d.Damage_Class}`)
+        )
+        .style("left", (d3.pointer(event, this)[0] + (1.155 * window.innerHeight)) + "px")
+        .style("top", (d3.pointer(event, this)[1] + (0.055 * window.innerHeight)) + "px");
+      })
+      .on("mouseout", function (d) {
+        div.transition()
+          .duration(100)
+          .style("opacity", 0);
+      })
   });
 }
 
@@ -643,6 +671,37 @@ function createSearchBar(id) {
     .attr("id", "gSearchBar")
     .attr("transform", `translate(0, 0)`);
 
+  const resetButton = d3.select(id).append("g").attr("id", "gButtonReset");
+
+  resetButton
+    .append("rect")
+    .attr("x", width_left - 502.5)
+    .attr("y", 0)
+    .attr("width", 35)
+    .attr("height", 34)
+    .attr("fill", "white")
+    .attr("stroke", "black")
+    .attr("stroke-width", 1)
+
+  resetButton
+    .append("svg:image")
+    .attr("x", width_left - 500)
+    .attr("xlink:href", "symbol/reset1.png")
+    .attr("y", 0)
+    .attr("width", 30)
+    .attr("height", 30)
+    .attr("rx", 5)
+    .attr("ry", 5)
+    .style("stroke", "black")
+    .on("click", function () {
+      resetParallelCoordinates();
+      resetScatterPlot();
+      d3.select("rect.highlight").remove();
+      clicked = 0;
+      highlight = 0;
+    });
+  
+
   svg
     .append("rect")
     .attr("x", 742.656 - 250)
@@ -657,7 +716,7 @@ function createSearchBar(id) {
   // Add the search icon
   svg
     .append("svg:image")
-    .attr("xlink:href", "https://img.icons8.com/ios/50/000000/search--v1.png")
+    .attr("xlink:href", "symbol/search--v1.png")
     .attr("x", 742.656 - 250 + 10)
     .attr("y", 5)
     .attr("width", 20)
@@ -665,7 +724,7 @@ function createSearchBar(id) {
 
   // Add the search input
   svg
-    .append("foreignObject")
+    .append("foreignObject") 
     .attr("x", 742.656 - 250 + 40)
     .attr("y", 0)
     .attr("width", 500 - 40)
@@ -682,7 +741,7 @@ function createSearchBar(id) {
       event.preventDefault();
       const search = document.getElementById("searchInput").value;
       console.log("search: " + search);
-      readMovesData(d3.select("#gScatterPlot"), [search]);
+      searchPokemon(search);
     }
   });
 
@@ -691,13 +750,12 @@ function createSearchBar(id) {
     .on("click", function () {
       const type = document.getElementById("searchInput").value;
       if (type != "") {
-        updateScatterPlotFilterOneType(type);
+        console.log("type: " + type);
+        searchPokemon(type);
       }
     });
 }
 
-
-// Add the clear icon   }
 
 function resetParallelCoordinates() {
   var div = d3.select("body").append("div")
@@ -894,6 +952,7 @@ function updateParallelCoordinatesOneType(type1) {
       .on("click", function (event, d) {
         updateParallelCoordinatesTwoTypes(d.Type1, d.Type2);
         updateHeatMapSelectionTwoTypes(d.Type1, d.Type2);
+        updateScatterPlotFilterTwoTypes(d.Type1, d.Type2);
         clicked = 1;
         highlight = 1;
         div.transition()
@@ -950,6 +1009,7 @@ function updateParallelCoordinatesOneType(type1) {
           if (available_types.includes(this.textContent)) {
             updateParallelCoordinatesTwoTypes(type1, this.textContent);
             updateHeatMapSelectionTwoTypes(type1, this.textContent);
+            updateScatterPlotFilterTwoTypes(type1, this.textContent);
             clicked = 1;
             highlight = 1;
           }
@@ -977,6 +1037,129 @@ function updateParallelCoordinatesTwoTypes(type1, type2) {
       return type1 == elem.Type1 && elem.Type2 == type2;
     });
 
+    parallel_data = data;
+
+    const color = d3.scaleOrdinal(types, colors);
+
+    const x = d3.scalePoint(stats, [0, (7 / 8) * width_bottom]);
+
+    const x_types = d3.scalePoint(types, [0, (19 / 20) * width_bottom]);
+
+    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear([d3.min(data, d => value(key, d)) - 10, d3.max(data, d => value(key, d)) + 10], [10, height])]));
+    const svg = d3.select("#gParallelCoordinates");
+
+    line = d3.line()
+      .defined(([value,]) => value != null)
+      .x(([, key]) => x(key))
+      .y(([value, key]) => y.get(key)(value));
+
+    svg
+      .selectAll("path")
+      .remove();
+
+    svg
+      .selectAll("path")
+      .data(data)
+      .enter()
+      .append("path")
+      .attr("class", "pathValue")
+      .attr("fill", "none")
+      .attr("stroke-width", 1.0)
+      .attr("stroke", d => blendColors(color(d.Type2), color(d.Type1), 0.5))
+      .attr("d", d => line(d3.cross([d], stats, (element, key) => [value(key, element), key])))
+      .style("opacity", .6)
+      .on("mouseover", function (event, d) {
+        d3.select(this)
+          .attr("stroke-width", 3.0)
+          .style("opacity", 1.0);
+        div.transition()
+          .duration(100)
+          .style("opacity", .9);
+        div.html("Pokémon: " + d.Pokemon + "<br/>" + "Type 1: " + d.Type1 + "<br/>" + "Type 2: " + d.Type2)
+          .style("left", (d3.pointer(event, this)[0]) + "px")
+          .style("top", (d3.pointer(event, this)[1] + (0.476 * window.innerHeight)) + "px")
+      })
+      .on("mouseout", function () {
+        d3.select(this)
+          .attr("stroke-width", 1.0)
+          .style("opacity", .6);
+        div.transition()
+          .duration(500)
+          .style("opacity", 0);
+      })
+      .on("mousemove", function (event, d) {
+        div.style("left", (d3.pointer(event, this)[0]) + "px")
+          .style("top", (d3.pointer(event, this)[1] + (0.476 * window.innerHeight)) + "px");
+      })
+      .append("title")
+      .text((d) => d.Pokemon);
+
+    for (i = 0; i < 7; i++) {
+      svg
+        .select("#" + stats[i] + "Axis")
+        .transition()
+        .duration(1000)
+        .call(d3.axisLeft(y.get(stats[i])));
+    }
+
+    svg.selectAll("text.types_colors").remove();
+    svg.selectAll("rect").remove();
+
+    for (i = 0; i < 18; i++) {
+      svg
+        .append("text")
+        .attr("class", "types_colors")
+        .attr("text-anchor", "left")
+        .attr("y", height + 25)
+        .attr("x", x_types(types[i]))
+        .style("font-size", 0.014 * width_right + "px")
+        .text(types[i])
+        .style("font-weight", function () {
+          if (type1 == this.textContent || type2 == this.textContent)
+            return "bold";
+          else
+            return "none";
+        })
+        .style("opacity", function () {
+          if (type1 == this.textContent || type2 == this.textContent) {
+            return 1.0;
+          }
+          else
+            return 0.5;
+        })
+        .on("mouseover", function () {
+          d3.selectAll("." + this.textContent)
+            .attr("stroke-width", 3.0)
+            .style("opacity", 1.0);
+        })
+        .on("mouseout", function () {
+          d3.selectAll("." + this.textContent)
+            .attr("stroke-width", 1.0)
+            .style("opacity", .6);
+        })
+      svg.append("rect")
+        .attr("y", height + 15)
+        .attr("x", function () {
+          return x_types(types[i]) - 15; //- (types[i].length * 5.8);
+        })
+        .style("fill", color(types[i]))
+        .attr("height", 10)
+        .attr("width", 10)
+        .style("opacity", 1.0);
+    }
+  });
+}
+
+function searchPokemon(pokemon){
+  d3.json("json/df_pokemon.json").then(function (data) {
+    data = data.filter(function (elem) {
+      return pokemon == elem.Pokemon;
+    });
+    if (data.length == 0){
+      alert("Pokemon not found!");
+    }
+
+    data = parallel_data = data.concat(parallel_data);
     const color = d3.scaleOrdinal(types, colors);
 
     const x = d3.scalePoint(stats, [0, (7 / 8) * width_bottom]);
@@ -1165,7 +1348,6 @@ function updateScatterPlotFilterOneType(type) {
 
   svg.selectAll("path")
     .filter(".dotValue")
-    //.filter(`*:not(.${type}Dot)`)
     .transition()
     .duration(1500)
     .style("opacity", 0)
@@ -1174,165 +1356,15 @@ function updateScatterPlotFilterOneType(type) {
   readMovesData(svg, [type]);
 }
 
-function updateScatterPlot(start, finish) {
-  d3.json("data.json").then(function (data) {
-    data = data.filter(function (elem) {
-      return start <= elem.oscar_year && elem.oscar_year <= finish;
-    });
+function updateScatterPlotFilterTwoTypes(type1, type2) {
+  const svg = d3.select("#gScatterPlot");
 
-    const svg = d3.select("#gScatterPlot");
+  svg.selectAll("path")
+    .filter(".dotValue")
+    .transition()
+    .duration(1500)
+    .style("opacity", 0)
+    .remove();
 
-    const x = d3
-      .scaleLinear()
-      .domain([0, d3.max(data, (d) => d.budget)])
-      .range([0, width]);
-    svg
-      .select("#gXAxis")
-      .call(d3.axisBottom(x).tickFormat((x) => x / 1000000 + "M"));
-
-    const y = d3.scaleLinear().domain([0, 10]).range([height, 0]);
-
-    const radiusScale = d3
-      .scaleLinear()
-      .domain([0, d3.max(data, (d) => d.title.length)])
-      .range([4, 20]);
-
-    svg.select("gYAxis").call(d3.axisLeft(y));
-
-    svg
-      .selectAll("circle.circleValues")
-      .data(data, (d) => d.title)
-      .join(
-        (enter) => {
-          circles = enter
-            .append("circle")
-            .attr("class", "circleValues itemValue")
-            .attr("cx", (d) => x(d.budget))
-            .attr("cy", (d) => y(0))
-            .attr("r", (d) => radiusScale(d.title.length))
-            .style("fill", "blue")
-            .style("stroke", "black")
-            .on("mouseover", (event, d) => handleMouseOver(d))
-            .on("mouseleave", (event, d) => handleMouseLeave());
-          circles
-            .transition()
-            .duration(1000)
-            .attr("cy", (d) => y(d.rating));
-          circles.append("title").text((d) => d.title);
-        },
-        (update) => {
-          update
-            .transition()
-            .duration(1000)
-            .attr("cx", (d) => x(d.budget))
-            .attr("cy", (d) => y(d.rating))
-            .attr("r", (d) => radiusScale(d.title.length));
-        },
-        (exit) => {
-          exit.remove();
-        }
-      );
-  });
-}
-
-function updateLineChart(start, finish) {
-  d3.json("data.json").then(function (data) {
-    data = data.filter(function (elem) {
-      return start <= elem.oscar_year && elem.oscar_year <= finish;
-    });
-
-    const svg = d3.select("#gLineChart");
-
-    const x = d3
-      .scalePoint()
-      .domain(data.map((d) => d.oscar_year))
-      .range([width, 0]);
-    svg.select("#gXAxis").call(d3.axisBottom(x));
-
-    const y = d3
-      .scaleLinear()
-      .domain([0, d3.max(data, (d) => d.budget)])
-      .range([height, 0]);
-    svg
-      .select("#gYAxis")
-      .call(d3.axisLeft(y).tickFormat((x) => x / 1000000 + "M"));
-
-    svg
-      .select("path.pathValue")
-      .datum(data)
-      .transition()
-      .duration(1000)
-      .attr(
-        "d",
-        d3
-          .line()
-          .x((d) => x(d.oscar_year))
-          .y((d) => y(d.budget))
-      );
-
-    const yMax = d3.max(data, (d) => d.budget);
-    const yMin = d3.min(data, (d) => d.budget);
-
-    svg
-      .selectAll("circle.circleValues")
-      .data(data, (d) => d.title)
-      .join(
-        (enter) => {
-          circles = enter
-            .append("circle")
-            .attr("class", "circleValues itemValue")
-            .attr("cx", (d) => x(d.oscar_year))
-            .attr("cy", (d) => y(0))
-            .attr("r", 4)
-            .style("fill", function (d, i) {
-              if (d.budget == yMax) return "lightgreen";
-              else if (d.budget == yMin) return "yellow";
-              else return "blue";
-            })
-            .style("stroke", "black")
-            .on("mouseover", (event, d) => handleMouseOver(d))
-            .on("mouseleave", (event, d) => handleMouseLeave());
-          circles
-            .transition()
-            .duration(1000)
-            .attr("cy", (d) => y(d.budget));
-          circles.append("title").text((d) => d.title);
-        },
-        (update) => {
-          update
-            .transition()
-            .duration(1000)
-            .attr("cx", (d) => x(d.oscar_year))
-            .attr("cy", (d) => y(d.budget))
-            .attr("r", 4)
-            .style("fill", function (d, i) {
-              if (d.budget == yMax) return "lightgreen";
-              else if (d.budget == yMin) return "yellow";
-              else return "blue";
-            });
-        },
-        (exit) => {
-          exit.remove();
-        }
-      );
-  });
-}
-
-function handleMouseOver(item) {
-  d3.selectAll(".itemValue")
-    .filter(function (d, i) {
-      return d.title == item.title;
-    })
-    .style("stroke-width", 5)
-    .style("stroke", "grey");
-}
-
-function handleMouseLeave() {
-  d3.selectAll("rect.itemValue")
-    .style("stroke-width", 1)
-    .style("stroke", "black");
-
-  d3.selectAll("circle.itemValue")
-    .style("stroke-width", 1)
-    .style("stroke", "black");
+  readMovesData(svg, [type1, type2]);
 }
