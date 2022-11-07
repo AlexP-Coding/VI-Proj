@@ -1081,7 +1081,10 @@ function updateParallelCoordinatesTwoTypes(type1, type2) {
         div.transition()
           .duration(100)
           .style("opacity", .9);
-        div.html("Pokémon: " + d.Pokemon + "<br/>" + "Type 1: " + d.Type1 + "<br/>" + "Type 2: " + d.Type2)
+        div.html("Pokémon: "+ d.Pokemon + "<br/>" + "Type 1: " + d.Type1 + "<br/>" + "Type 2: " + d.Type2 +"<br/>" +
+        "<img src= types/" + d.Type1 +".png width=22 height=22 opacity=1/>"+ 
+        "<img src= types/" + d.Type2 +".png width=22 height=22 opacity=1/>" + 
+        "<img src= images/" + d.ID +".png width=22 height=22 opacity=1/>" )
           .style("left", (d3.pointer(event, this)[0]) + "px")
           .style("top", (d3.pointer(event, this)[1] + (0.476 * window.innerHeight)) + "px")
       })
