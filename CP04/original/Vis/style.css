@@ -6,7 +6,7 @@ div.tooltip {
 	position: absolute;
 	text-align: center;
 	width: 120px;
-	height: 42px;
+	height: 65px;
 	padding: 2px;
 	font: 12px sans-serif;
 	color: #ffffff;
@@ -20,7 +20,7 @@ div.tooltip2 {
 	position: absolute;
 	text-align: center;
 	width: 90px;
-	height: 15px;
+	height: 37px;
 	padding: 2px;
 	font: 12px sans-serif;
 	color: #ffffff;
@@ -35,6 +35,20 @@ div.tooltip3 {
 	text-align: center;
 	width: 170px;
 	height: 55px;
+	padding: 2px;
+	font: 12px sans-serif;
+	color: #ffffff;
+	background: rgb(58, 60, 61);
+	border: 2px solid black;
+	border-radius: 8px;
+	pointer-events: none;
+}
+
+div.tooltip4 {
+	position: absolute;
+	text-align: center;
+	width: 170px;
+	height: 75px;
 	padding: 2px;
 	font: 12px sans-serif;
 	color: #ffffff;

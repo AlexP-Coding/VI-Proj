@@ -164,7 +164,9 @@ function createHeatmap(id) {
         div.transition()
           .duration(200)
           .style("opacity", .9);
-        div.html("Monthly Usage of" + "<br/>" + d.Type1 + "-" + d.Type2 + "<br/>" + "Pokémon: " + d.Monthly_Usage + "k")
+        div.html("Monthly Usage of" + "<br/>" + d.Type1 + "-" + d.Type2 + "<br/>" + "Pokémon: " + d.Monthly_Usage + "k" + "<br/>" +
+        "<img src= types/" + d.Type1 +".png width=22 height=22 opacity=1/>"+ 
+        "<img src= types/" + d.Type2 +".png width=22 height=22 opacity=1/>")
           .style("left", (d3.pointer(event, this)[0] + (0.045 * window.innerWidth)) + "px")
           .style("top", (d3.pointer(event, this)[1] - (0.045 * window.innerHeight)) + "px");
 
@@ -273,7 +275,8 @@ function createParallelCoordinates(id) {
         div.transition()
           .duration(100)
           .style("opacity", .9);
-        div.html("Type 1: " + d.Type1)
+        div.html("Type 1: " + d.Type1 + "<br/>" +
+        "<img src= types/" + d.Type1 +".png width=22 height=22 opacity=1/>")
           .style("left", (d3.pointer(event, this)[0]) + "px")
           .style("top", (d3.pointer(event, this)[1] + (0.476 * window.innerHeight)) + "px")
       })
@@ -745,7 +748,8 @@ function resetParallelCoordinates() {
         div.transition()
           .duration(100)
           .style("opacity", .9);
-        div.html("Type 1: " + d.Type1)
+        div.html("Type 1: " + d.Type1 + "<br/>" +
+        "<img src= types/" + d.Type1 +".png width=22 height=22 opacity=1/>")
           .style("left", (d3.pointer(event, this)[0]) + "px")
           .style("top", (d3.pointer(event, this)[1] + (0.476 * window.innerHeight)) + "px")
       })
@@ -875,7 +879,9 @@ function updateParallelCoordinatesOneType(type1) {
         div.transition()
           .duration(100)
           .style("opacity", .9);
-        div.html("Type 1: " + d.Type1 + "<br/>" + "Type 2: " + d.Type2)
+        div.html("Type 1: " + d.Type1 + "<br/>" + "Type 2: " + d.Type2 +"<br/>" +
+        "<img src= types/" + d.Type1 +".png width=22 height=22 opacity=1/>"+ 
+        "<img src= types/" + d.Type2 +".png width=22 height=22 opacity=1/>")
           .style("left", (d3.pointer(event, this)[0]) + "px")
           .style("top", (d3.pointer(event, this)[1] + (0.476 * window.innerHeight)) + "px")
       })
@@ -969,7 +975,7 @@ function updateParallelCoordinatesOneType(type1) {
 
 function updateParallelCoordinatesTwoTypes(type1, type2) {
   var div = d3.select("body").append("div")
-    .attr("class", "tooltip3")
+    .attr("class", "tooltip4")
     .style("opacity", 0);
 
   d3.json("json/df_pokemon.json").then(function (data) {
@@ -1013,9 +1019,13 @@ function updateParallelCoordinatesTwoTypes(type1, type2) {
         div.transition()
           .duration(100)
           .style("opacity", .9);
-        div.html("Pokémon: " + d.Pokemon + "<br/>" + "Type 1: " + d.Type1 + "<br/>" + "Type 2: " + d.Type2)
+        div.html("Pokémon: " + d.Pokemon + "<br/>" + "Type 1: " + d.Type1 + "<br/>" + "Type 2: " + d.Type2 + "<br/>" +
+                "<img src= types/" + d.Type1 +".png width=22 height=22 opacity=1/>"+ 
+                "<img src= types/" + d.Type2 +".png width=22 height=22 opacity=1/>"+ 
+                "<img src= images/" + d.ID +".png width=22 height=22 opacity=1/>")
           .style("left", (d3.pointer(event, this)[0]) + "px")
-          .style("top", (d3.pointer(event, this)[1] + (0.476 * window.innerHeight)) + "px")
+          .style("top", (d3.pointer(event, this)[1] + (0.476 * window.innerHeight)) + "px");
+          
       })
       .on("mouseout", function () {
         d3.select(this)
