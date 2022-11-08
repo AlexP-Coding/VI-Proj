@@ -71,3 +71,17 @@ div.tooltip5 {
 	border-radius: 8px;
 	pointer-events: none;
 }
+
+div.tooltip6 {
+	position: absolute;
+	text-align: center;
+	width: 170px;
+	height: 90px;
+	padding: 2px;
+	font: 12px sans-serif;
+	color: #ffffff;
+	background: rgb(58, 60, 61);
+	border: 2px solid black;
+	border-radius: 8px;
+	pointer-events: none;
+}

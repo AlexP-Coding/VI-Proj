@@ -8,9 +8,8 @@ const width_bottom = window.innerWidth - margin.left - margin.right;
 
 
 function init() {
+  readAllPokemon();
   createHeatmap("#vi1");
-  //createBarChart("#vi4");
-  //createBarChart("#vi5");
   createParallelCoordinates("#vi2");
   createScatterPlotMoves("#vi3");
   createSearchBar("#sb1");
@@ -54,10 +53,20 @@ const colors = ["#6D6D53", "#9A2620", "#270F70", "#803380", "#644F14", "#93802D"
 var clicked = 0;
 var highlight = 0;
 
+var allPokemon = new Array();	
+var allMoves = {};
 var opacityTriangle = 0;
 var opacityCircle = 0;
 var opacitySquare = 0;
-var parallel_data;
+var parallel_data, initial_parallel_data;
+
+function readAllPokemon() {
+  d3.json("json/df_pokemon.json").then(function (data) {
+    for (let i = 0; i < data.length; i++) {
+      allPokemon.push(data[i].Pokemon);
+    }
+  });
+}
 
 function createHeatmap(id) {
   const svg = d3
@@ -242,7 +251,13 @@ function createParallelCoordinates(id) {
 
   d3.json("json/average_values_types_one.json").then(function (data) {
 
-    parallel_data = data;
+    data.forEach(function (d) {
+      d["Dtype"] = "AvgOneType";
+    });
+
+    parallel_data = initial_parallel_data = data;
+
+    console.log(data);
 
     const color = d3.scaleOrdinal(types, colors);
 
@@ -266,7 +281,7 @@ function createParallelCoordinates(id) {
       .data(data)
       .enter()
       .append("path")
-      .attr("class", d => d.Type1)
+      .attr("class", d => `avgOneType ${d.Type1}`)
       .attr("fill", "none")
       .attr("stroke-width", 1.0)
       .attr("stroke", d => color(d.Type1))
@@ -409,6 +424,88 @@ function createParallelCoordinates(id) {
   })
 }
 
+function readPokemonMovesData(svg, pokemon) {
+  var div = d3.select("body").append("div")
+    .attr("id", "tooltipMovesPokemon")
+    .attr("class", "tooltip6")
+    .style("opacity", 0);
+
+  d3.json("json/df_used_with_move1.json").then(function (data) {
+    data = data.filter(function (d) {
+      return d.Pokemon == pokemon;
+    });
+
+    const keys = ["Special", "Status", "Physical"];
+
+    const shape = d3.scaleOrdinal()
+      .domain(keys)
+      .range([d3.symbolCircle, d3.symbolSquare, d3.symbolTriangle]);
+
+    const x = d3
+      .scaleLinear()
+      .domain([-5, 270])
+      .range([0, width_right]);
+
+    const y = d3
+      .scaleLinear()
+      .domain([0, 40])
+      .range([height, 0]);
+
+    const fillScale = d3
+      .scaleLinear()
+      .domain([0, 100])
+      .range([0, 1]);
+
+    svg
+      .selectAll("dots")
+      .data(data)
+      .enter()
+      .append("path")
+      .attr("id", d => d.Move)
+      .attr("class", function (d) {
+        if (d.Damage_Class == "Special") return `dotValue circleValue ${d.Type}Dot`;
+        else if (d.Damage_Class == "Physical") return `dotValue triangleValue ${d.Type}Dot`
+        else return `dotValue squareValue ${d.Type}Dot`;
+      })
+      .attr("d", d3.symbol()
+        .size(120)
+        .type(function (d) { return shape(d.Damage_Class) })
+      )
+      .attr("transform", function (d) { return "translate(" + x(allMoves[d.Move].Power) + "," + y(allMoves[d.Move].PP) + ")"; })
+      .style("fill", function(d) {
+        if (allMoves[d.Move].Accuracy == -1) return "#DCDCDC";
+        else return d3.interpolateBlues(fillScale(allMoves[d.Move].Accuracy));
+      })
+      .style("opacity", function() {
+        if (d3.select(this).classed("circleValue")) return opacityCircle == 1 ? 0 : 1;
+        else if (d3.select(this).classed("squareValue")) return opacitySquare == 1 ? 0 : 1;
+        else return opacityTriangle == 1 ? 0 : 1;
+      })
+      .on("mouseover", function (event, d) {
+        d3.select(this).style("opacity") == 1 ?
+          div.transition()
+            .duration(100)
+            .style("opacity", .9) :
+          div.style("opacity", 0);
+        div.html(
+          (d.Accuracy == -1 ?
+            `<b>Move:</b> ${d.Move}<br><b>Type:</b> ${allMoves[d.Move].Type}<br><b>Power:</b> N/A<br><b>Damage Class:</b> ${d.Damage_Class}
+             <b>Monthly Move Use:</b> ${d.Monthly_Move_Use}<br><b>Use Percentage:</b> ${d.Use_Percentage}`
+             :
+            `<b>Move:</b> ${d.Move}<br><b>Type:</b> ${allMoves[d.Move].Type}<br><b>Power:</b> ${allMoves[d.Move].Accuracy}<br><b>Damage Class:</b> ${d.Damage_Class}
+             <b>Monthly Move Use:</b> ${d.Monthly_Move_Use}<br><b>Use Percentage:</b> ${d.Use_Percentage}`)
+        )
+        .style("left", (d3.pointer(event, this)[0] + (1.155 * window.innerHeight)) + "px")
+        .style("top", (d3.pointer(event, this)[1] + (0.055 * window.innerHeight)) + "px");
+      })
+      .on("mouseout", function (d) {
+        div.transition()
+          .duration(100)
+          .style("opacity", 0);
+      })
+  });
+}
+
 function readMovesData(svg, types) {
 
   var div = d3.select("body").append("div")
@@ -417,12 +514,17 @@ function readMovesData(svg, types) {
     .style("opacity", 0);
 
   d3.json("json/df_moves.json").then(function (data) {
-    if (types != null) {
+    if (types == "first"){
+      for (let i = 0; i < data.length; i++) {
+        allMoves[data[i].Move] = data[i];
+      }
+    }
+    else if (types != null) {
       data = data.filter(function (d) {
         return types.includes(d.Type);
       });
     }
-
+    console.log(allMoves);
     const keys = ["Special", "Status", "Physical"];
 
     const shape = d3.scaleOrdinal()
@@ -594,7 +696,7 @@ function createScatterPlotMoves(id) {
     .style("font-size", 0.018 * width_right + "px")
     .text("PP");
 
-  readMovesData(svg, null);
+  readMovesData(svg, "first");
 
   const trianglesym = d3.symbol().type(d3.symbolTriangle).size(120);
   const squaresym = d3.symbol().type(d3.symbolSquare).size(120);
@@ -702,6 +804,10 @@ function createSearchBar(id) {
       d3.select("rect.highlight").remove();
       clicked = 0;
       highlight = 0;
+      d3.select("#gHeatmap")
+        .selectAll("rect")
+        .style("stroke", "none");
+      parallel_data = initial_parallel_data;
     });
   
 
@@ -743,7 +849,6 @@ function createSearchBar(id) {
     if (event.keyCode === 13) {
       event.preventDefault();
       const search = document.getElementById("searchInput").value;
-      console.log("search: " + search);
       searchPokemon(search);
     }
   });
@@ -751,13 +856,88 @@ function createSearchBar(id) {
   //When the user clicks on the button, search for the type
   svg
     .on("click", function () {
-      const type = document.getElementById("searchInput").value;
+      const search = document.getElementById("searchInput").value;
       if (type != "") {
-        console.log("type: " + type);
         searchPokemon(type);
+        d3.select("#gScatterPlot")
+        .selectAll("path")
+        .filter(".dotValue")
+        .remove();
+        readPokemonMovesData(d3.select("#gScatterPlot"), type);
       }
     });
+
+  const autocomplete = document.getElementById("searchInput");
+  const resultsHTML = svg.append("ul").attr("id", "results");
+
+  autocomplete.oninput = function () {
+    let results = [];
+    const userInput = this.value;
+    resultsHTML.innerHTML = "";
+    if (userInput.length > 0) {
+      results = getResults(userInput);
+      resultsHTML.style.display = "block";
+      for (i = 0; i < results.length; i++) {
+        resultsHTML.innerHTML += "<li>" + results[i] + "</li>";
+      }
+    }
+  };
+
+  function getResults(input) {
+    const results = [];
+    for (i = 0; i < allPokemon.length; i++) {
+      if (input === allPokemon[i].slice(0, input.length)) {
+        results.push(allPokemon[i]);
+      }
+    }
+    return results;
+  }
 }
+
+function autoCompleteSearch() {
+  const searchInput = document.getElementById("searchInput");
+  const autoComplete = new autoComplete({
+    data: {
+      src: allPokemon,
+      key: ["name"],
+      cache: false,
+    },
+    selector: "#searchInput",
+    threshold: 0,
+    debounce: 0,
+    searchEngine: "loose",
+    highlight: true,
+    maxResults: 5,
+    resultsList: {
+      render: true,
+      container: (source) => {
+        source.setAttribute("id", "autoComplete_list");
+      },
+      destination: searchInput,
+      position: "afterend",
+      element: "ul",
+    },
+    resultItem: {
+      content: (data, source) => {
+        source.innerHTML = data.match;
+      },
+      element: "li",
+    },
+    noResults: () => {
+      const result = document.createElement("li");
+      result.setAttribute("class", "no_result");
+      result.setAttribute("tabindex", "1");
+      result.innerHTML = "No Results";
+      document.querySelector("#autoComplete_list").appendChild(result);
+    },
+    onSelection: (feedback) => {
+      searchInput.value = feedback.selection.value.name;
+      searchPokemon(feedback.selection.value.name);
+    },
+  });
+}
+
+
 
 
 function resetParallelCoordinates() {
@@ -777,7 +957,11 @@ function resetParallelCoordinates() {
 
     const svg = d3.select("#gParallelCoordinates");
 
-
+    data.forEach(function (d) {
+      d["Dtype"] = "AvgOneType";
+    });
+    
+    console.log(data);
 
     line = d3.line()
       .defined(([value,]) => value != null)
@@ -793,7 +977,7 @@ function resetParallelCoordinates() {
       .data(data)
       .enter()
       .append("path")
-      .attr("class", d => d.Type1)
+      .attr("class", d => `avgOneType ${d.Type1}`)
       .attr("fill", "none")
       .attr("stroke-width", 1.0)
       .attr("stroke", d => color(d.Type1))
@@ -894,6 +1078,12 @@ function updateParallelCoordinatesOneType(type1) {
       return type1 == elem.Type1;
     });
 
+    data.forEach(function (d) {
+      d["Dtype"] = "AvgTwoTypes";
+    });
+
+    parallel_data = data;
+
     const color = d3.scaleOrdinal(types, colors);
 
     const x = d3.scalePoint(stats, [0, (7 / 8) * width_bottom]);
@@ -923,7 +1113,7 @@ function updateParallelCoordinatesOneType(type1) {
       .attr("class", function (d) {
         available_types.push(d.Type2);
         console.log(available_types);
-        return d.Type2;
+        return `avgTwoTypes ${d.Type2}`;
       })
       .attr("fill", "none")
       .attr("stroke-width", 1.0)
@@ -1043,7 +1233,13 @@ function updateParallelCoordinatesTwoTypes(type1, type2) {
       return type1 == elem.Type1 && elem.Type2 == type2;
     });
 
+    data.forEach(function (d) {
+      d["Dtype"] = "Pokemon";
+    });
+
     parallel_data = data;
+    console.log(parallel_data);
+    console.log(data);
 
     const color = d3.scaleOrdinal(types, colors);
 
@@ -1068,7 +1264,8 @@ function updateParallelCoordinatesTwoTypes(type1, type2) {
       .data(data)
       .enter()
       .append("path")
-      .attr("class", "pathValue")
+      .attr("id", d => d.Pokemon)
+      .attr("class", "pathValuePokemon")
       .attr("fill", "none")
       .attr("stroke-width", 1.0)
       .attr("stroke", d => blendColors(color(d.Type2), color(d.Type1), 0.5))
@@ -1100,6 +1297,13 @@ function updateParallelCoordinatesTwoTypes(type1, type2) {
         div.style("left", (d3.pointer(event, this)[0]) + "px")
           .style("top", (d3.pointer(event, this)[1] + (0.476 * window.innerHeight)) + "px");
       })
+      .on("click", function (event, d) {
+        d3.select("#gScatterPlot")
+        .selectAll("path")
+        .filter(".dotValue")
+        .remove();
+        readPokemonMovesData(d3.select("#gScatterPlot"), d.Pokemon);
+      })
       .append("title")
       .text((d) => d.Pokemon);
 
@@ -1156,10 +1360,31 @@ function updateParallelCoordinatesTwoTypes(type1, type2) {
         .attr("width", 10)
         .style("opacity", 1.0);
     }
+
+    for (i = 0; i < 7; i++) {
+      svg
+        .select("#" + stats[i] + "Axis")
+        .transition()
+        .duration(1000)
+        .call(d3.axisLeft(y.get(stats[i])));
+    }
   });
 }
 
 function searchPokemon(pokemon){
+
+  var divPokemon = d3.select("body").append("div")
+    .attr("class", "tooltip5")
+    .style("opacity", 0);
+
+  var divAvgOneType = d3.select("body").append("div")
+    .attr("class", "tooltip2")
+    .style("opacity", 0);
+
+  var divAvgTwoTypes = d3.select("body").append("div")
+    .attr("class", "tooltip3")
+    .style("opacity", 0);
+
   d3.json("json/df_pokemon.json").then(function (data) {
     data = data.filter(function (elem) {
       return pokemon == elem.Pokemon;
@@ -1168,7 +1393,19 @@ function searchPokemon(pokemon){
       alert("Pokemon not found!");
     }
 
+    data.forEach(function (d) {
+      d["Dtype"] = "Pokemon";
+    });    
+
     data = parallel_data = data.concat(parallel_data);
+
+    console.log(data);
+
+    selectionDiv = {"AvgOneType": [divAvgOneType, divAvgOneTypeFunc],
+     "AvgTwoTypes": [divAvgTwoTypes, divAvgTwoTypesFunc],
+      "Pokemon": [divPokemon, divPokemonFunc]
+    };
+
     const color = d3.scaleOrdinal(types, colors);
 
     const x = d3.scalePoint(stats, [0, (7 / 8) * width_bottom]);
@@ -1192,7 +1429,8 @@ function searchPokemon(pokemon){
       .data(data)
       .enter()
       .append("path")
-      .attr("class", "pathValue")
+      .attr("id", d => d.Pokemon)
+      .attr("class", "pathValuePokemon")
       .attr("fill", "none")
       .attr("stroke-width", 1.0)
       .attr("stroke", d => blendColors(color(d.Type2), color(d.Type1), 0.5))
@@ -1202,31 +1440,27 @@ function searchPokemon(pokemon){
         d3.select(this)
           .attr("stroke-width", 3.0)
           .style("opacity", 1.0);
-        div.transition()
+        selectionDiv[d["Dtype"]][0].transition()
           .duration(100)
           .style("opacity", .9);
-        div.html("Pokémon: " + d.Pokemon + "<br/>" + "Type 1: " + d.Type1 + "<br/>" + "Type 2: " + d.Type2 + "<br/>" +
-                "<img src= types/" + d.Type1 +".png width=22 height=22 opacity=1/>"+ 
-                "<img src= types/" + d.Type2 +".png width=22 height=22 opacity=1/>"+ 
-                "<img src= images/" + d.ID +".png width=22 height=22 opacity=1/>")
+        selectionDiv[d["Dtype"]][0].html(selectionDiv[d["Dtype"]][1](d))
           .style("left", (d3.pointer(event, this)[0]) + "px")
-          .style("top", (d3.pointer(event, this)[1] + (0.476 * window.innerHeight)) + "px");
-          
+          .style("top", (d3.pointer(event, this)[1] + (0.476 * window.innerHeight)) + "px")
       })
-      .on("mouseout", function () {
+      .on("mouseout", function (event, d) {
         d3.select(this)
           .attr("stroke-width", 1.0)
           .style("opacity", .6);
-        div.transition()
+          selectionDiv[d["Dtype"]][0].transition()
           .duration(500)
           .style("opacity", 0);
       })
       .on("mousemove", function (event, d) {
-        div.style("left", (d3.pointer(event, this)[0]) + "px")
+        selectionDiv[d["Dtype"]][0].style("left", (d3.pointer(event, this)[0]) + "px")
           .style("top", (d3.pointer(event, this)[1] + (0.476 * window.innerHeight)) + "px");
       })
-      .append("title")
-      .text((d) => d.Pokemon);
+      /*.append("title")
+      .text((d) => d.Pokemon);*/
 
     for (i = 0; i < 7; i++) {
       svg
@@ -1236,50 +1470,22 @@ function searchPokemon(pokemon){
         .call(d3.axisLeft(y.get(stats[i])));
     }
 
-    svg.selectAll("text.types_colors").remove();
-    svg.selectAll("rect").remove();
+    function divPokemonFunc(d){
+      return "Pokémon: "+ d.Pokemon + "<br/>" + "Type 1: " + d.Type1 + "<br/>" + "Type 2: " + d.Type2 +"<br/>" +
+        "<img src= types/" + d.Type1 +".png width=22 height=22 opacity=1/>"+ 
+        "<img src= types/" + d.Type2 +".png width=22 height=22 opacity=1/>" + 
+        "<img src= images/" + d.ID +".png width=22 height=22 opacity=1/>" 
+    }
 
-    for (i = 0; i < 18; i++) {
-      svg
-        .append("text")
-        .attr("class", "types_colors")
-        .attr("text-anchor", "left")
-        .attr("y", height + 25)
-        .attr("x", x_types(types[i]))
-        .style("font-size", 0.014 * width_right + "px")
-        .text(types[i])
-        .style("font-weight", function () {
-          if (type1 == this.textContent || type2 == this.textContent)
-            return "bold";
-          else
-            return "none";
-        })
-        .style("opacity", function () {
-          if (type1 == this.textContent || type2 == this.textContent) {
-            return 1.0;
-          }
-          else
-            return 0.5;
-        })
-        .on("mouseover", function () {
-          d3.selectAll("." + this.textContent)
-            .attr("stroke-width", 3.0)
-            .style("opacity", 1.0);
-        })
-        .on("mouseout", function () {
-          d3.selectAll("." + this.textContent)
-            .attr("stroke-width", 1.0)
-            .style("opacity", .6);
-        })
-      svg.append("rect")
-        .attr("y", height + 15)
-        .attr("x", function () {
-          return x_types(types[i]) - 15; //- (types[i].length * 5.8);
-        })
-        .style("fill", color(types[i]))
-        .attr("height", 10)
-        .attr("width", 10)
-        .style("opacity", 1.0);
+    function divAvgOneTypeFunc(d){
+      return "Type 1: " + d.Type1 + "<br/>" +
+        "<img src= types/" + d.Type1 +".png width=22 height=22 opacity=1/>"
+    }
+
+    function divAvgTwoTypesFunc(d){
+      return "Type 1: " + d.Type1 + "<br/>" + "Type 2: " + d.Type2 +"<br/>" +
+        "<img src= types/" + d.Type1 +".png width=22 height=22 opacity=1/>"+ 
+        "<img src= types/" + d.Type2 +".png width=22 height=22 opacity=1/>"
     }
   });
 }
