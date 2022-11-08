@@ -857,13 +857,13 @@ function createSearchBar(id) {
   svg
     .on("click", function () {
       const search = document.getElementById("searchInput").value;
-      if (type != "") {
-        searchPokemon(type);
+      if (search != "") {
+        searchPokemon(search);
         d3.select("#gScatterPlot")
         .selectAll("path")
         .filter(".dotValue")
         .remove();
-        readPokemonMovesData(d3.select("#gScatterPlot"), type);
+        readPokemonMovesData(d3.select("#gScatterPlot"), search);
       }
     });
 
