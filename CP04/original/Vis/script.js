@@ -250,7 +250,7 @@ function createParallelCoordinates(id) {
 
     const x_types = d3.scalePoint(types, [0, (19 / 20) * width_bottom]);
 
-    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear([d3.min(data, d => value(key, d)) - 10, d3.max(data, d => value(key, d)) + 10], [10, height])]));
+    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear([d3.max(data, d => value(key, d)) + 10, d3.min(data, d => value(key, d)) - 10], [10, height])]));
 
     const dragging = {};
 
@@ -477,9 +477,9 @@ function readMovesData(svg, types) {
           div.style("opacity", 0);
         div.html(
           (d.Accuracy == -1 ?
-            `<b>Move:</b> ${d.Move}<br><b>Type:</b> ${d.Type}<br><b>Power:</b> N/A<br><b>Damage Class:</b> ${d.Damage_Class}`
+            `<b>Move:</b> ${d.Move}<br><b>Type:</b> ${d.Type}<br><b>Accuracy</b> N/A<br><b>Damage Class:</b> ${d.Damage_Class}`
             :
-            `<b>Move:</b> ${d.Move}<br><b>Type:</b> ${d.Type}<br><b>Power:</b> ${d.Accuracy}<br><b>Damage Class:</b> ${d.Damage_Class}`)
+            `<b>Move:</b> ${d.Move}<br><b>Type:</b> ${d.Type}<br><b>Accuracy</b> ${d.Accuracy}<br><b>Damage Class:</b> ${d.Damage_Class}`)
         )
         .style("left", (d3.pointer(event, this)[0] + (1.155 * window.innerHeight)) + "px")
         .style("top", (d3.pointer(event, this)[1] + (0.055 * window.innerHeight)) + "px");
@@ -773,7 +773,7 @@ function resetParallelCoordinates() {
 
     const x_types = d3.scalePoint(types, [0, (19 / 20) * width_bottom]);
 
-    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear([d3.min(data, d => value(key, d)) - 10, d3.max(data, d => value(key, d)) + 10], [10, height])]));
+    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear([d3.max(data, d => value(key, d)) + 10, d3.min(data, d => value(key, d)) - 10], [10, height])]));
 
     const svg = d3.select("#gParallelCoordinates");
 
@@ -900,7 +900,7 @@ function updateParallelCoordinatesOneType(type1) {
 
     const x_types = d3.scalePoint(types, [0, (19 / 20) * width_bottom]);
 
-    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear([d3.min(data, d => value(key, d)) - 10, d3.max(data, d => value(key, d)) + 10], [10, height])]));
+    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear([d3.max(data, d => value(key, d)) + 10, d3.min(data, d => value(key, d)) - 10], [10, height])]));
 
     const svg = d3.select("#gParallelCoordinates");
 
@@ -1051,7 +1051,7 @@ function updateParallelCoordinatesTwoTypes(type1, type2) {
 
     const x_types = d3.scalePoint(types, [0, (19 / 20) * width_bottom]);
 
-    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear([d3.min(data, d => value(key, d)) - 10, d3.max(data, d => value(key, d)) + 10], [10, height])]));
+    const y = new Map(Array.from(stats, key => [key, d3.scaleLinear([d3.max(data, d => value(key, d)) + 10, d3.min(data, d => value(key, d)) - 10], [10, height])]));
     const svg = d3.select("#gParallelCoordinates");
 
     line = d3.line()
