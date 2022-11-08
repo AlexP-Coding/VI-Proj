@@ -270,6 +270,53 @@ function createParallelCoordinates(id) {
     const dragging = {};
 
 
+    for(j = 0; j < stats.length; j++){
+      max = d3.max(data, d => value(stats[j], d));
+      console.log(max + "\n");
+      min = d3.min(data, d => value(stats[j], d));
+      console.log(min + "\n");
+      jump = (max-min)/5
+      console.log( jump + "\n");
+      var quarts= new Array(5);
+      var quarts_number= new Array(5);
+      for(i = 0; i < 5; i ++){
+        quarts[i] = min + (i*jump)
+        quarts_number[i] = 0;
+      }
+      console.log( quarts+ "\n");
+      data.forEach(function (d) {
+        for(i = 0; i < 5; i ++){
+          if (i == 4){
+            if(quarts[i] <= d[stats[j]] && d[stats[j]] <= (quarts[i]+ jump) )
+              quarts_number[i]++;
+          }
+          else{
+            console.log("i = " + i +"\n");
+            if(quarts[i] <= d[stats[j]] && d[stats[j]] < (quarts[i]+ jump) ){
+                console.log("Now\n");
+                quarts_number[i]++;
+            }
+          }
+        }
+      });
+      console.log( quarts_number+ "\n");
+      console.log(d3.max(quarts_number)+ "\n");
+      x_stats = d3.scaleLinear([0,d3.max(quarts_number)], [0, (1 / 8) * width_bottom]);
+      distance = y.get(stats[j])(quarts[0]) -  y.get(stats[j])(quarts[1]);
+      for(i = 0; i < 5; i ++){
+        svg.append("rect")
+        .attr("class", "rectValue itemValue")
+        .attr("x", x(stats[j]))
+        .attr("y", y.get(stats[j])(quarts[i]) - distance)
+        .attr("width", x_stats(quarts_number[i]))
+        .attr("height", distance)
+        .attr("fill", "#ededed")
+        .attr("stroke", "black")
+        .attr("opacity", 0.5);
+      }
+    }
+
+
     line = d3.line()
       .defined(([value,]) => value != null)
       .x(([, key]) => x(key))
@@ -286,7 +333,7 @@ function createParallelCoordinates(id) {
       .attr("stroke-width", 1.0)
       .attr("stroke", d => color(d.Type1))
       .attr("d", d => line(d3.cross([d], stats, (element, key) => [value(key, element), key])))
-      .style("opacity", .6)
+      .style("opacity", .8)
       .on("mouseover", function (event, d) {
         d3.select(this)
           .attr("stroke-width", 3.0)
@@ -352,7 +399,7 @@ function createParallelCoordinates(id) {
           .attr("stroke", "white"))
     }
 
-    svg.selectAll("g[id$='Axis']")
+    /*svg.selectAll("g[id$='Axis']")
       .call(d3.drag()
       //.subject(function (d) { return { x: x(d) }; })
         .on("start", dragstarted)
@@ -384,7 +431,7 @@ function createParallelCoordinates(id) {
     function position(d) {
       const v = dragging[d];
       return v == null ? x(d) : v;
-    }
+    }*/
 
 
     for (i = 0; i < 18; i++) {
@@ -421,6 +468,23 @@ function createParallelCoordinates(id) {
         .attr("width", 10)
         .style("opacity", 1.0);
     }
+
+   
+
+
+    /*svg
+    .append("g")
+    .attr("id", "gXAxis")
+    .attr("transform", `translate(0, ${height})`)
+    .call(d3.axisBottom(x_stats));
+    svg
+      .append("text")
+      .attr("class", "x label")
+      .attr("text-anchor", "end")
+      .attr("y", height - 10)
+      .attr("x", width_right)
+      .style("font-size", 0.018 * width_right + "px")
+      .text("Power");*/
   })
 }
 
@@ -963,6 +1027,8 @@ function resetParallelCoordinates() {
     
     console.log(data);
 
+
+
     line = d3.line()
       .defined(([value,]) => value != null)
       .x(([, key]) => x(key))
@@ -971,6 +1037,48 @@ function resetParallelCoordinates() {
     svg
       .selectAll("path")
       .remove();
+
+      svg.selectAll("rect").remove();
+
+    for(j = 0; j < stats.length; j++){
+      max = d3.max(data, d => value(stats[j], d));
+      min = d3.min(data, d => value(stats[j], d));
+      jump = (max-min)/5
+      var quarts= new Array(5);
+      var quarts_number= new Array(5);
+      for(i = 0; i < 5; i ++){
+        quarts[i] = min + (i*jump)
+        quarts_number[i] = 0;
+      }
+      data.forEach(function (d) {
+        for(i = 0; i < 5; i ++){
+          if (i == 4){
+            if(quarts[i] <= d[stats[j]] && d[stats[j]] <= (quarts[i]+ jump) )
+              quarts_number[i]++;
+          }
+          else{
+            console.log("i = " + i +"\n");
+            if(quarts[i] <= d[stats[j]] && d[stats[j]] < (quarts[i]+ jump) ){
+                console.log("Now\n");
+                quarts_number[i]++;
+            }
+          }
+        }
+      });
+      x_stats = d3.scaleLinear([0,d3.max(quarts_number)], [0, (1 / 8) * width_bottom]);
+      distance = y.get(stats[j])(quarts[0]) -  y.get(stats[j])(quarts[1]);
+      for(i = 0; i < 5; i ++){
+        svg.append("rect")
+        .attr("class", "rectValue itemValue")
+        .attr("x", x(stats[j]))
+        .attr("y", y.get(stats[j])(quarts[i]) - distance)
+        .attr("width", x_stats(quarts_number[i]))
+        .attr("height", distance)
+        .attr("fill", "#ededed")
+        .attr("stroke", "black")
+        .attr("opacity", 0.5);
+      }
+    }
 
     svg
       .selectAll("path")
@@ -1027,7 +1135,7 @@ function resetParallelCoordinates() {
     }
 
     svg.selectAll("text.types_colors").remove();
-    svg.selectAll("rect").remove();
+    
 
     for (i = 0; i < 18; i++) {
       svg
@@ -1093,6 +1201,54 @@ function updateParallelCoordinatesOneType(type1) {
     const y = new Map(Array.from(stats, key => [key, d3.scaleLinear([d3.max(data, d => value(key, d)) + 10, d3.min(data, d => value(key, d)) - 10], [10, height])]));
 
     const svg = d3.select("#gParallelCoordinates");
+
+    svg.selectAll("rect").remove();
+
+    for(j = 0; j < stats.length; j++){
+      max = d3.max(data, d => value(stats[j], d));
+      console.log(max + "\n");
+      min = d3.min(data, d => value(stats[j], d));
+      console.log(min + "\n");
+      jump = (max-min)/5
+      console.log( jump + "\n");
+      var quarts= new Array(5);
+      var quarts_number= new Array(5);
+      for(i = 0; i < 5; i ++){
+        quarts[i] = min + (i*jump)
+        quarts_number[i] = 0;
+      }
+      console.log( quarts+ "\n");
+      data.forEach(function (d) {
+        for(i = 0; i < 5; i ++){
+          if (i == 4){
+            if(quarts[i] <= d[stats[j]] && d[stats[j]] <= (quarts[i]+ jump) )
+              quarts_number[i]++;
+          }
+          else{
+            console.log("i = " + i +"\n");
+            if(quarts[i] <= d[stats[j]] && d[stats[j]] < (quarts[i]+ jump) ){
+                console.log("Now\n");
+                quarts_number[i]++;
+            }
+          }
+        }
+      });
+      console.log( quarts_number+ "\n");
+      console.log(d3.max(quarts_number)+ "\n");
+      x_stats = d3.scaleLinear([0,d3.max(quarts_number)], [0, (1 / 8) * width_bottom]);
+      distance = y.get(stats[j])(quarts[0]) -  y.get(stats[j])(quarts[1]);
+      for(i = 0; i < 5; i ++){
+        svg.append("rect")
+        .attr("class", "rectValue itemValue")
+        .attr("x", x(stats[j]))
+        .attr("y", y.get(stats[j])(quarts[i]) - distance)
+        .attr("width", x_stats(quarts_number[i]))
+        .attr("height", distance)
+        .attr("fill", "#ededed")
+        .attr("stroke", "black")
+        .attr("opacity", 0.5);
+      }
+    }
 
     line = d3.line()
       .defined(([value,]) => value != null)
@@ -1167,7 +1323,7 @@ function updateParallelCoordinatesOneType(type1) {
     }
 
     svg.selectAll("text.types_colors").remove();
-    svg.selectAll("rect").remove();
+    
 
     for (i = 0; i < 18; i++) {
       svg
@@ -1241,6 +1397,7 @@ function updateParallelCoordinatesTwoTypes(type1, type2) {
     console.log(parallel_data);
     console.log(data);
 
+
     const color = d3.scaleOrdinal(types, colors);
 
     const x = d3.scalePoint(stats, [0, (7 / 8) * width_bottom]);
@@ -1249,6 +1406,51 @@ function updateParallelCoordinatesTwoTypes(type1, type2) {
 
     const y = new Map(Array.from(stats, key => [key, d3.scaleLinear([d3.max(data, d => value(key, d)) + 10, d3.min(data, d => value(key, d)) - 10], [10, height])]));
     const svg = d3.select("#gParallelCoordinates");
+
+    svg.selectAll("rect").remove();
+
+    for(j = 0; j < stats.length; j++){
+      max = d3.max(data, d => value(stats[j], d));
+      min = d3.min(data, d => value(stats[j], d));
+      jump = (max-min)/5
+      var quarts= new Array(5);
+      var quarts_number= new Array(5);
+      for(i = 0; i < 5; i ++){
+        quarts[i] = min + (i*jump)
+        quarts_number[i] = 0;
+      }
+      console.log(quarts + "\n");
+      console.log(jump + "\n");
+      data.forEach(function (d) {
+        for(i = 0; i < 5; i ++){
+          if (i == 4){
+            if(quarts[i] <= d[stats[j]] && d[stats[j]] <= (quarts[i]+ jump) )
+              quarts_number[i]++;
+          }
+          else{
+            console.log("i = " + i +"\n");
+            if(quarts[i] <= d[stats[j]] && d[stats[j]] < (quarts[i]+ jump) ){
+                console.log("Now\n");
+                quarts_number[i]++;
+            }
+          }
+        }
+      });
+      console.log( quarts_number+ "\n");
+      x_stats = d3.scaleLinear([0,d3.max(quarts_number)], [0, (1 / 8) * width_bottom]);
+      distance = y.get(stats[j])(quarts[0]) -  y.get(stats[j])(quarts[1]);
+      for(i = 0; i < 5; i ++){
+        svg.append("rect")
+        .attr("class", "rectValue itemValue")
+        .attr("x", x(stats[j]))
+        .attr("y", y.get(stats[j])(quarts[i]) - distance)
+        .attr("width", x_stats(quarts_number[i]))
+        .attr("height", distance)
+        .attr("fill", "#ededed")
+        .attr("stroke", "black")
+        .attr("opacity", 0.5);
+      }
+    }
 
     line = d3.line()
       .defined(([value,]) => value != null)
@@ -1316,7 +1518,6 @@ function updateParallelCoordinatesTwoTypes(type1, type2) {
     }
 
     svg.selectAll("text.types_colors").remove();
-    svg.selectAll("rect").remove();
 
     for (i = 0; i < 18; i++) {
       svg
